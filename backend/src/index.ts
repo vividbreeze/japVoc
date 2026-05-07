@@ -8,6 +8,7 @@ import collectionsRouter from './routes/collections';
 import reviewRouter from './routes/review';
 import statsRouter from './routes/stats';
 import settingsRouter from './routes/settings';
+import { seedIfEmpty } from '../prisma/seed';
 
 const app = express();
 const PORT = process.env.PORT ? parseInt(process.env.PORT) : 3000;
@@ -34,8 +35,13 @@ app.get('*', (_req, res) => {
   res.sendFile(path.join(frontendDist, 'index.html'));
 });
 
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`🚀 Server running on http://0.0.0.0:${PORT}`);
-});
+// Seed vocabulary on first run if DB is empty, then start server
+seedIfEmpty()
+  .catch((e) => console.error('Seed error:', e))
+  .finally(() => {
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`🚀 Server running on http://0.0.0.0:${PORT}`);
+    });
+  });
 
 export default app;

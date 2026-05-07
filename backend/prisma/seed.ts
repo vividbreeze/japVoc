@@ -15,24 +15,20 @@ interface SeedWord {
   wortart: string;
 }
 
-async function main() {
-  console.log('🌱 Starting database seed...');
+export async function seedIfEmpty() {
+  const wordCount = await prisma.word.count();
+  if (wordCount > 0) {
+    console.log(`ℹ️  Database already has ${wordCount} words — skipping seed.`);
+    return;
+  }
 
-  const vocabPath = path.join(__dirname, 'seed', 'n5-vocabulary.json');
+  console.log('🌱 Empty database detected, seeding N5 vocabulary...');
+
+  // Works both in dev (tsx prisma/seed.ts, cwd=backend/) and
+  // production (node dist/src/index.js, cwd=/app)
+  const vocabPath = path.join(process.cwd(), 'prisma', 'seed', 'n5-vocabulary.json');
   const vocab: SeedWord[] = JSON.parse(fs.readFileSync(vocabPath, 'utf-8'));
 
-  // Clear existing data in order
-  await prisma.review.deleteMany();
-  await prisma.wordProgress.deleteMany();
-  await prisma.collectionWord.deleteMany();
-  await prisma.collection.deleteMany();
-  await prisma.word.deleteMany();
-  await prisma.settings.deleteMany();
-  await prisma.learningDay.deleteMany();
-
-  console.log(`📚 Inserting ${vocab.length} words...`);
-
-  // Insert words in batches
   const batchSize = 100;
   const wordIds: string[] = [];
   for (let i = 0; i < vocab.length; i += batchSize) {
@@ -57,7 +53,6 @@ async function main() {
     console.log(`  Inserted ${Math.min(i + batchSize, vocab.length)}/${vocab.length}`);
   }
 
-  // Create default collection containing all words
   const defaultCollection = await prisma.collection.create({
     data: {
       id: randomUUID(),
@@ -67,27 +62,45 @@ async function main() {
     },
   });
 
-  // Add all words to default collection
   for (const wordId of wordIds) {
     await prisma.collectionWord.create({
-      data: {
-        collectionId: defaultCollection.id,
-        wordId,
-      },
+      data: { collectionId: defaultCollection.id, wordId },
     });
   }
 
-  // Default settings
-  await prisma.settings.create({
-    data: { id: 'default' },
-  });
+  const existingSettings = await prisma.settings.findUnique({ where: { id: 'default' } });
+  if (!existingSettings) {
+    await prisma.settings.create({ data: { id: 'default' } });
+  }
 
   console.log(`✅ Seed complete. ${vocab.length} words, 1 default collection.`);
 }
 
-main()
-  .catch((e) => {
-    console.error('❌ Seed failed:', e);
-    process.exit(1);
-  })
-  .finally(() => prisma.$disconnect());
+// Allow running directly: tsx prisma/seed.ts
+// Pass --force to wipe and re-seed (for development resets only)
+async function main() {
+  const force = process.argv.includes('--force');
+
+  if (force) {
+    console.log('⚠️  --force: wiping all data and re-seeding...');
+    await prisma.review.deleteMany();
+    await prisma.wordProgress.deleteMany();
+    await prisma.collectionWord.deleteMany();
+    await prisma.collection.deleteMany();
+    await prisma.word.deleteMany();
+    await prisma.settings.deleteMany();
+    await prisma.learningDay.deleteMany();
+  }
+
+  await seedIfEmpty();
+}
+
+// Only run when executed directly (tsx prisma/seed.ts), not when imported
+if (require.main === module) {
+  main()
+    .catch((e) => {
+      console.error('❌ Seed failed:', e);
+      process.exit(1);
+    })
+    .finally(() => prisma.$disconnect());
+}
