@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+*.db
+*.db-journal
+data/
+frontend/dist/
+.claude/
+"JLPTN5Voc_komplett V4.csv"

@@ -1,0 +1,6706 @@
+[
+  {
+    "hiragana": "あ",
+    "kanji": null,
+    "deutsch": "Ah",
+    "beispielsatz_jp": "あ、そうですか。",
+    "beispielsatz_de": "Ach so.",
+    "wortart": "Interjektion"
+  },
+  {
+    "hiragana": "あう",
+    "kanji": "会う",
+    "deutsch": "sich versammeln , treffen",
+    "beispielsatz_jp": "ともだちとこうえんであいました。",
+    "beispielsatz_de": "Ich habe mich mit einem Freund im Park getroffen.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "あお",
+    "kanji": "青",
+    "deutsch": "Farbe Blau",
+    "beispielsatz_jp": "そらはあおです。",
+    "beispielsatz_de": "Der Himmel ist blau.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あおい",
+    "kanji": "青い",
+    "deutsch": "blau",
+    "beispielsatz_jp": "このかばんはあおいです。",
+    "beispielsatz_de": "Diese Tasche ist blau.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "あか",
+    "kanji": "赤",
+    "deutsch": "Farbe Rot",
+    "beispielsatz_jp": "あかはすきなかいろです。",
+    "beispielsatz_de": "Rot ist meine Lieblingsfarbe.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あかい",
+    "kanji": "赤い",
+    "deutsch": "rot",
+    "beispielsatz_jp": "このりんごはあかいです。",
+    "beispielsatz_de": "Dieser Apfel ist rot.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "あがる",
+    "kanji": "上がる",
+    "deutsch": "hochsteigen",
+    "beispielsatz_jp": "かいだんをあがります。",
+    "beispielsatz_de": "Ich steige die Treppe hoch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "あかるい",
+    "kanji": "明るい",
+    "deutsch": "hell",
+    "beispielsatz_jp": "このへやはあかるいです。",
+    "beispielsatz_de": "Dieses Zimmer ist hell.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "あき",
+    "kanji": "秋",
+    "deutsch": "Herbst",
+    "beispielsatz_jp": "あきはすずしいです。",
+    "beispielsatz_de": "Der Herbst ist kühl.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あく",
+    "kanji": "開く",
+    "deutsch": "sich öffnen",
+    "beispielsatz_jp": "まどがあきます。",
+    "beispielsatz_de": "Das Fenster öffnet sich.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "あげる",
+    "kanji": "上げる",
+    "deutsch": "hochheben, geben",
+    "beispielsatz_jp": "ともだちにほんをあげました。",
+    "beispielsatz_de": "Ich habe dem Freund ein Buch gegeben.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "あける",
+    "kanji": "開ける",
+    "deutsch": "öffnen",
+    "beispielsatz_jp": "まどをあけてください。",
+    "beispielsatz_de": "Bitte öffnen Sie das Fenster.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "あさ",
+    "kanji": "朝",
+    "deutsch": "Morgen",
+    "beispielsatz_jp": "まいあさろくじにおきます。",
+    "beispielsatz_de": "Jeden Morgen stehe ich um 6 Uhr auf.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あさごはん",
+    "kanji": "朝ご飯",
+    "deutsch": "Frühstück",
+    "beispielsatz_jp": "まいあさあさごはんをたべます。",
+    "beispielsatz_de": "Ich esse jeden Morgen Frühstück.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あさって",
+    "kanji": null,
+    "deutsch": "übermorgen",
+    "beispielsatz_jp": "あさってともだちとあいます。",
+    "beispielsatz_de": "Übermorgen treffe ich mich mit einem Freund.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "あし",
+    "kanji": "足",
+    "deutsch": "Bein",
+    "beispielsatz_jp": "あしがいたいです。",
+    "beispielsatz_de": "Mein Bein tut weh.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あした",
+    "kanji": "明日",
+    "deutsch": "morgen",
+    "beispielsatz_jp": "あしたがっこうにいきます。",
+    "beispielsatz_de": "Morgen gehe ich zur Schule.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "あそこ",
+    "kanji": null,
+    "deutsch": "dort (entfernt)",
+    "beispielsatz_jp": "えきはあそこです。",
+    "beispielsatz_de": "Der Bahnhof ist dort drüben.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "あそぶ",
+    "kanji": "遊ぶ",
+    "deutsch": "spielen",
+    "beispielsatz_jp": "こどもたちはこうえんであそびます。",
+    "beispielsatz_de": "Die Kinder spielen im Park.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "あたたかい",
+    "kanji": null,
+    "deutsch": "warm",
+    "beispielsatz_jp": "はるはあたたかいです。",
+    "beispielsatz_de": "Der Frühling ist warm.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "あたま",
+    "kanji": "頭",
+    "deutsch": "Kopf",
+    "beispielsatz_jp": "あたまがいたいです。",
+    "beispielsatz_de": "Ich habe Kopfschmerzen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あたらしい",
+    "kanji": "新しい",
+    "deutsch": "neu",
+    "beispielsatz_jp": "これはあたらしいくつです。",
+    "beispielsatz_de": "Das sind neue Schuhe.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "あちら",
+    "kanji": null,
+    "deutsch": "dort (hin) (entfernt)",
+    "beispielsatz_jp": "ぎんこうはあちらです。",
+    "beispielsatz_de": "Die Bank ist dort.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "あつい",
+    "kanji": null,
+    "deutsch": "dick",
+    "beispielsatz_jp": "このほんはあついです。",
+    "beispielsatz_de": "Dieses Buch ist dick.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "あつい",
+    "kanji": "暑い",
+    "deutsch": "heiß",
+    "beispielsatz_jp": "なつはあついです。",
+    "beispielsatz_de": "Der Sommer ist heiß.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "あつい",
+    "kanji": "熱い",
+    "deutsch": "heiß",
+    "beispielsatz_jp": "このおちゃはあついです。",
+    "beispielsatz_de": "Dieser Tee ist heiß.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "あっち",
+    "kanji": null,
+    "deutsch": "dort (hin) (entfernt)",
+    "beispielsatz_jp": "えきはあっちです。",
+    "beispielsatz_de": "Der Bahnhof ist da drüben.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "あと",
+    "kanji": "後",
+    "deutsch": "hinter / später",
+    "beispielsatz_jp": "しごとのあとでともだちにあいます。",
+    "beispielsatz_de": "Nach der Arbeit treffe ich einen Freund.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あなた",
+    "kanji": null,
+    "deutsch": "Du, Sie",
+    "beispielsatz_jp": "あなたのなまえはなんですか。",
+    "beispielsatz_de": "Wie heißen Sie?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "あに",
+    "kanji": "兄",
+    "deutsch": "(mein) älterer Bruder",
+    "beispielsatz_jp": "あにはかいしゃではたらいています。",
+    "beispielsatz_de": "Mein älterer Bruder arbeitet in einer Firma.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あね",
+    "kanji": "姉",
+    "deutsch": "(meine) ältere Schwester",
+    "beispielsatz_jp": "あねはがくせいです。",
+    "beispielsatz_de": "Meine ältere Schwester ist Studentin.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あの",
+    "kanji": null,
+    "deutsch": "dieses dort, ehm",
+    "beispielsatz_jp": "あのたてものはなんですか。",
+    "beispielsatz_de": "Was ist das Gebäude dort?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "アパート",
+    "kanji": null,
+    "deutsch": "Mietwohnung",
+    "beispielsatz_jp": "わたしはアパートにすんでいます。",
+    "beispielsatz_de": "Ich wohne in einer Mietwohnung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あぶない",
+    "kanji": "危ない",
+    "deutsch": "gefährlich",
+    "beispielsatz_jp": "あぶないですよ！",
+    "beispielsatz_de": "Das ist gefährlich!",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "あまい",
+    "kanji": "甘い",
+    "deutsch": "süß (Essen)",
+    "beispielsatz_jp": "このケーキはあまいです。",
+    "beispielsatz_de": "Dieser Kuchen ist süß.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "あまり",
+    "kanji": null,
+    "deutsch": "weniger",
+    "beispielsatz_jp": "にほんごはあまりむずかしくないです。",
+    "beispielsatz_de": "Japanisch ist nicht sehr schwierig.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "あめ",
+    "kanji": null,
+    "deutsch": "Bonbon",
+    "beispielsatz_jp": "こどもはあめがすきです。",
+    "beispielsatz_de": "Kinder mögen Bonbons.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あめ",
+    "kanji": "雨",
+    "deutsch": "Regen",
+    "beispielsatz_jp": "きょうはあめがふっています。",
+    "beispielsatz_de": "Heute regnet es.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "あらう",
+    "kanji": "洗う",
+    "deutsch": "waschen",
+    "beispielsatz_jp": "てをあらってください。",
+    "beispielsatz_de": "Bitte waschen Sie die Hände.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ありがとう",
+    "kanji": null,
+    "deutsch": "Danke",
+    "beispielsatz_jp": "ありがとう！",
+    "beispielsatz_de": "Danke!",
+    "wortart": "Interjektion"
+  },
+  {
+    "hiragana": "ありがとうございます",
+    "kanji": null,
+    "deutsch": "Dankeschön (höfl.)",
+    "beispielsatz_jp": "ありがとうございます。",
+    "beispielsatz_de": "Vielen Dank.",
+    "wortart": "Interjektion"
+  },
+  {
+    "hiragana": "ある",
+    "kanji": null,
+    "deutsch": "haben / existieren",
+    "beispielsatz_jp": "つくえのうえにほんがあります。",
+    "beispielsatz_de": "Auf dem Schreibtisch liegt ein Buch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "あるく",
+    "kanji": "歩く",
+    "deutsch": "zu Fuß gehen",
+    "beispielsatz_jp": "えきまであるきます。",
+    "beispielsatz_de": "Ich gehe zum Bahnhof zu Fuß.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "あれ",
+    "kanji": null,
+    "deutsch": "das dort",
+    "beispielsatz_jp": "あれはなんですか。",
+    "beispielsatz_de": "Was ist das dort?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "いい",
+    "kanji": null,
+    "deutsch": "gut",
+    "beispielsatz_jp": "このえいがはいいです。",
+    "beispielsatz_de": "Dieser Film ist gut.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "いいえ",
+    "kanji": null,
+    "deutsch": "Nein",
+    "beispielsatz_jp": "「すきですか。」「いいえ、すきじゃないです。」",
+    "beispielsatz_de": "\"Mögen Sie es?\" \"Nein, ich mag es nicht.\"",
+    "wortart": "Interjektion"
+  },
+  {
+    "hiragana": "いう",
+    "kanji": "言う",
+    "deutsch": "sagen",
+    "beispielsatz_jp": "せんせいはなんといいましたか。",
+    "beispielsatz_de": "Was hat der Lehrer gesagt?",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "いえ",
+    "kanji": "家",
+    "deutsch": "Haus",
+    "beispielsatz_jp": "わたしのいえはちいさいです。",
+    "beispielsatz_de": "Mein Haus ist klein.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いかが",
+    "kanji": null,
+    "deutsch": "wie",
+    "beispielsatz_jp": "おちゃはいかがですか。",
+    "beispielsatz_de": "Möchten Sie Tee?",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "いく",
+    "kanji": "行く",
+    "deutsch": "gehen",
+    "beispielsatz_jp": "がっこうにいきます。",
+    "beispielsatz_de": "Ich gehe zur Schule.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "いくつ",
+    "kanji": null,
+    "deutsch": "wie viel, einige",
+    "beispielsatz_jp": "りんごはいくつありますか。",
+    "beispielsatz_de": "Wie viele Äpfel gibt es?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "いくら",
+    "kanji": null,
+    "deutsch": "wie viel, einige",
+    "beispielsatz_jp": "このくつはいくらですか。",
+    "beispielsatz_de": "Wie viel kosten diese Schuhe?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "いけ",
+    "kanji": "池",
+    "deutsch": "Teich",
+    "beispielsatz_jp": "こうえんにきれいないけがあります。",
+    "beispielsatz_de": "Im Park gibt es einen schönen Teich.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いしゃ",
+    "kanji": "医者",
+    "deutsch": "Arzt",
+    "beispielsatz_jp": "いしゃにいきました。",
+    "beispielsatz_de": "Ich bin zum Arzt gegangen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いす",
+    "kanji": null,
+    "deutsch": "Stuhl",
+    "beispielsatz_jp": "このいすにすわってください。",
+    "beispielsatz_de": "Bitte setzen Sie sich auf diesen Stuhl.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いそがしい",
+    "kanji": "忙しい",
+    "deutsch": "beschäftigt",
+    "beispielsatz_jp": "ちちはいつもいそがしいです。",
+    "beispielsatz_de": "Mein Vater ist immer beschäftigt.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "いたい",
+    "kanji": "痛い",
+    "deutsch": "schmerzen",
+    "beispielsatz_jp": "あしがいたいです。",
+    "beispielsatz_de": "Mein Bein tut weh.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "いただきます",
+    "kanji": null,
+    "deutsch": "Danke für das Essen. (vorher)",
+    "beispielsatz_jp": "たべるまえにいただきます。",
+    "beispielsatz_de": "Vor dem Essen sage ich itadakimasu.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "いち",
+    "kanji": "一",
+    "deutsch": "eins",
+    "beispielsatz_jp": "いちはひとつです。",
+    "beispielsatz_de": "Eins ist eines.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "いちがつ",
+    "kanji": "一月",
+    "deutsch": "Januar",
+    "beispielsatz_jp": "いちがつはふゆです。",
+    "beispielsatz_de": "Januar ist Winter.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いちじ",
+    "kanji": "一時",
+    "deutsch": "1 Uhr",
+    "beispielsatz_jp": "いちじにあいましょう。",
+    "beispielsatz_de": "Treffen wir uns um 1 Uhr.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いちにち",
+    "kanji": "一日",
+    "deutsch": "1 Tag, den ganzen Tag",
+    "beispielsatz_jp": "いちにちじゅうべんきょうしました。",
+    "beispielsatz_de": "Ich habe den ganzen Tag gelernt.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いちばん",
+    "kanji": "一番",
+    "deutsch": "Erster",
+    "beispielsatz_jp": "にほんごがいちばんすきです。",
+    "beispielsatz_de": "Japanisch mag ich am liebsten.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "いつ",
+    "kanji": null,
+    "deutsch": "wann",
+    "beispielsatz_jp": "しけんはいつですか。",
+    "beispielsatz_de": "Wann ist die Prüfung?",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "いつか",
+    "kanji": "五日",
+    "deutsch": "5. Tag eines Monats",
+    "beispielsatz_jp": "いつかにともだちとあいます。",
+    "beispielsatz_de": "Am 5. treffe ich einen Freund.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いつかかん",
+    "kanji": "五日間",
+    "deutsch": "5 Tage",
+    "beispielsatz_jp": "りょこうはいつかかんです。",
+    "beispielsatz_de": "Die Reise dauert 5 Tage.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いっしょ",
+    "kanji": "一緒",
+    "deutsch": "zusammen, gleich",
+    "beispielsatz_jp": "いっしょにたべましょう。",
+    "beispielsatz_de": "Essen wir zusammen.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "いつつ",
+    "kanji": "五つ",
+    "deutsch": "fünf (Stück)",
+    "beispielsatz_jp": "りんごがいつつあります。",
+    "beispielsatz_de": "Es gibt fünf Äpfel.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "いってきます",
+    "kanji": null,
+    "deutsch": "Verabschiedung beim Zuhause Losgehen",
+    "beispielsatz_jp": "いってきます！",
+    "beispielsatz_de": "Ich gehe jetzt!",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "いっぴき",
+    "kanji": "一匹",
+    "deutsch": "1 Tier",
+    "beispielsatz_jp": "ねこがいっぴきいます。",
+    "beispielsatz_de": "Es gibt eine Katze.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "いっぷん",
+    "kanji": "一分",
+    "deutsch": "1 Minute",
+    "beispielsatz_jp": "いっぷんまってください。",
+    "beispielsatz_de": "Bitte warten Sie eine Minute.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いっぽん",
+    "kanji": "一本",
+    "deutsch": "1 (Flasche, …)",
+    "beispielsatz_jp": "ジュースがいっぽんあります。",
+    "beispielsatz_de": "Es gibt eine Flasche Saft.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "いつも",
+    "kanji": null,
+    "deutsch": "immer",
+    "beispielsatz_jp": "わたしはいつもあさごはんをたべます。",
+    "beispielsatz_de": "Ich esse immer Frühstück.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "いぬ",
+    "kanji": "犬",
+    "deutsch": "Hund",
+    "beispielsatz_jp": "うちにいぬがいます。",
+    "beispielsatz_de": "Zuhause habe ich einen Hund.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いま",
+    "kanji": "今",
+    "deutsch": "jetzt",
+    "beispielsatz_jp": "いまなんじですか。",
+    "beispielsatz_de": "Wie spät ist es jetzt?",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "いみ",
+    "kanji": "意味",
+    "deutsch": "Bedeutung",
+    "beispielsatz_jp": "このことばのいみはなんですか。",
+    "beispielsatz_de": "Was bedeutet dieses Wort?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いもうと",
+    "kanji": "妹",
+    "deutsch": "jüngere Schwester",
+    "beispielsatz_jp": "いもうとはちゅうがくせいです。",
+    "beispielsatz_de": "Meine jüngere Schwester ist Mittelschülerin.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いや",
+    "kanji": null,
+    "deutsch": "unangenehm",
+    "beispielsatz_jp": "そのえいがはいやでした。",
+    "beispielsatz_de": "Dieser Film war unangenehm.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "いらっしゃいませ",
+    "kanji": null,
+    "deutsch": "Willkommen. (im Geschäft)",
+    "beispielsatz_jp": "おみせにはいるといらっしゃいませといいます。",
+    "beispielsatz_de": "Wenn man einen Laden betritt, sagt man willkommen.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "いりぐち",
+    "kanji": "入口",
+    "deutsch": "Eingang",
+    "beispielsatz_jp": "いりぐちはどこですか。",
+    "beispielsatz_de": "Wo ist der Eingang?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いる",
+    "kanji": null,
+    "deutsch": "sein",
+    "beispielsatz_jp": "ねこがへやにいます。",
+    "beispielsatz_de": "Die Katze ist im Zimmer.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "いれる",
+    "kanji": "入れる",
+    "deutsch": "hineintun",
+    "beispielsatz_jp": "バッグにほんをいれます。",
+    "beispielsatz_de": "Ich tue das Buch in die Tasche.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "いろ",
+    "kanji": "色",
+    "deutsch": "Farbe",
+    "beispielsatz_jp": "あなたのすきないろはなんですか。",
+    "beispielsatz_de": "Welche Farbe magst du?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "いろいろ",
+    "kanji": null,
+    "deutsch": "unterschiedliches",
+    "beispielsatz_jp": "このみせにはいろいろなものがあります。",
+    "beispielsatz_de": "In diesem Laden gibt es verschiedene Dinge.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "うえ",
+    "kanji": "上",
+    "deutsch": "oben",
+    "beispielsatz_jp": "ほんはつくえのうえにあります。",
+    "beispielsatz_de": "Das Buch liegt auf dem Schreibtisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "うしろ",
+    "kanji": "後ろ",
+    "deutsch": "Rückseite",
+    "beispielsatz_jp": "いぬはいすのうしろにいます。",
+    "beispielsatz_de": "Der Hund ist hinter dem Stuhl.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "うすい",
+    "kanji": null,
+    "deutsch": "dünn",
+    "beispielsatz_jp": "このかみはうすいです。",
+    "beispielsatz_de": "Dieses Papier ist dünn.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "うた",
+    "kanji": "歌",
+    "deutsch": "Lied",
+    "beispielsatz_jp": "きれいなうたですね。",
+    "beispielsatz_de": "Das ist ein schönes Lied.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "うたう",
+    "kanji": "歌う",
+    "deutsch": "singen",
+    "beispielsatz_jp": "まいにちうたをうたいます。",
+    "beispielsatz_de": "Ich singe jeden Tag ein Lied.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "うまれる",
+    "kanji": "生まれる",
+    "deutsch": "geboren werden",
+    "beispielsatz_jp": "にほんでうまれました。",
+    "beispielsatz_de": "Ich wurde in Japan geboren.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "うみ",
+    "kanji": "海",
+    "deutsch": "Meer",
+    "beispielsatz_jp": "うみにいきたいです。",
+    "beispielsatz_de": "Ich möchte ans Meer gehen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "うる",
+    "kanji": "売る",
+    "deutsch": "verkaufen",
+    "beispielsatz_jp": "みせでくつをうります。",
+    "beispielsatz_de": "Im Laden werden Schuhe verkauft.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "うるさい",
+    "kanji": null,
+    "deutsch": "laut",
+    "beispielsatz_jp": "となりのへやがうるさいです。",
+    "beispielsatz_de": "Das Nebenzimmer ist laut.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "うれしい",
+    "kanji": null,
+    "deutsch": "sich freuen",
+    "beispielsatz_jp": "プレゼントをもらってうれしいです。",
+    "beispielsatz_de": "Ich freue mich, ein Geschenk bekommen zu haben.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "うわぎ",
+    "kanji": "上着",
+    "deutsch": "Sakko, Jacke",
+    "beispielsatz_jp": "さむいのでうわぎをきます。",
+    "beispielsatz_de": "Weil es kalt ist, ziehe ich eine Jacke an.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "え",
+    "kanji": "絵",
+    "deutsch": "Bild",
+    "beispielsatz_jp": "かべにきれいなえがあります。",
+    "beispielsatz_de": "An der Wand hängt ein schönes Bild.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "エアコン",
+    "kanji": null,
+    "deutsch": "Klimaanlage",
+    "beispielsatz_jp": "なつはエアコンをつけます。",
+    "beispielsatz_de": "Im Sommer schalte ich die Klimaanlage ein.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "えいが",
+    "kanji": "映画",
+    "deutsch": "Film",
+    "beispielsatz_jp": "きのうえいがをみました。",
+    "beispielsatz_de": "Gestern habe ich einen Film gesehen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "えいがかん",
+    "kanji": "映画館",
+    "deutsch": "Kino",
+    "beispielsatz_jp": "えいがかんにいきたいです。",
+    "beispielsatz_de": "Ich möchte ins Kino gehen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "えいご",
+    "kanji": "英語",
+    "deutsch": "Englisch",
+    "beispielsatz_jp": "えいごをべんきょうしています。",
+    "beispielsatz_de": "Ich lerne Englisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ええ",
+    "kanji": null,
+    "deutsch": "ja",
+    "beispielsatz_jp": "「おちゃはいかがですか。」「ええ、ありがとう。」",
+    "beispielsatz_de": "\"Möchten Sie Tee?\" \"Ja, danke.\"",
+    "wortart": "Interjektion"
+  },
+  {
+    "hiragana": "えき",
+    "kanji": "駅",
+    "deutsch": "Bahnhof",
+    "beispielsatz_jp": "えきはどこですか。",
+    "beispielsatz_de": "Wo ist der Bahnhof?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "えっ",
+    "kanji": null,
+    "deutsch": "hä?, wie bitte?",
+    "beispielsatz_jp": "えっ、ほんとうですか。",
+    "beispielsatz_de": "Wie bitte, ist das wahr?",
+    "wortart": "Interjektion"
+  },
+  {
+    "hiragana": "えらぶ",
+    "kanji": "選ぶ",
+    "deutsch": "auswählen",
+    "beispielsatz_jp": "どのくつをえらびますか。",
+    "beispielsatz_de": "Welche Schuhe wählen Sie?",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "エレベーター",
+    "kanji": null,
+    "deutsch": "Fahrstuhl",
+    "beispielsatz_jp": "エレベーターでいきます。",
+    "beispielsatz_de": "Ich fahre mit dem Fahrstuhl.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜えん",
+    "kanji": "〜円",
+    "deutsch": "〜 Yen",
+    "beispielsatz_jp": "このほんは1000えんです。",
+    "beispielsatz_de": "Dieses Buch kostet 1000 Yen.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "えんぴつ",
+    "kanji": null,
+    "deutsch": "Bleistift",
+    "beispielsatz_jp": "えんぴつでかきます。",
+    "beispielsatz_de": "Ich schreibe mit dem Bleistift.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おいしい",
+    "kanji": null,
+    "deutsch": "lecker",
+    "beispielsatz_jp": "このりょうりはおいしいです。",
+    "beispielsatz_de": "Dieses Gericht ist lecker.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "おおい",
+    "kanji": "多い",
+    "deutsch": "viel",
+    "beispielsatz_jp": "このこうえんにはひとがおおいです。",
+    "beispielsatz_de": "Im Park gibt es viele Menschen.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "おおきい",
+    "kanji": "大きい",
+    "deutsch": "groß",
+    "beispielsatz_jp": "このいえはおおきいです。",
+    "beispielsatz_de": "Dieses Haus ist groß.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "おおきな",
+    "kanji": "大きな",
+    "deutsch": "groß",
+    "beispielsatz_jp": "おおきなきがあります。",
+    "beispielsatz_de": "Es gibt einen großen Baum.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "おおぜい",
+    "kanji": "大勢",
+    "deutsch": "große Anzahl von Menschen",
+    "beispielsatz_jp": "えきにおおぜいひとがいます。",
+    "beispielsatz_de": "Am Bahnhof sind viele Menschen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おかあさん",
+    "kanji": "お母さん",
+    "deutsch": "Mutter (anderer Leute)",
+    "beispielsatz_jp": "おかあさんはりょうりがじょうずです。",
+    "beispielsatz_de": "Die Mutter kocht gut.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おかし",
+    "kanji": null,
+    "deutsch": "Süßigkeiten",
+    "beispielsatz_jp": "こどもはおかしがすきです。",
+    "beispielsatz_de": "Kinder mögen Süßigkeiten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おかね",
+    "kanji": "お金",
+    "deutsch": "Geld",
+    "beispielsatz_jp": "おかねがありません。",
+    "beispielsatz_de": "Ich habe kein Geld.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おきる",
+    "kanji": "起きる",
+    "deutsch": "aufstehen",
+    "beispielsatz_jp": "まいあさはやくおきます。",
+    "beispielsatz_de": "Jeden Morgen stehe ich früh auf.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "おく",
+    "kanji": "置く",
+    "deutsch": "hinstellen, hinlegen",
+    "beispielsatz_jp": "つくえのうえにほんをおきます。",
+    "beispielsatz_de": "Ich lege das Buch auf den Schreibtisch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "おくさん",
+    "kanji": null,
+    "deutsch": "jmds. anderen Ehefrau",
+    "beispielsatz_jp": "やまださんのおくさんはきれいです。",
+    "beispielsatz_de": "Frau Yamadas Ehefrau ist schön.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おくに",
+    "kanji": "お国",
+    "deutsch": "Heimatland",
+    "beispielsatz_jp": "おくにはどこですか。",
+    "beispielsatz_de": "Woher kommen Sie?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おさけ",
+    "kanji": "お酒",
+    "deutsch": "Sake",
+    "beispielsatz_jp": "おさけをのみます。",
+    "beispielsatz_de": "Ich trinke Sake.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おさら",
+    "kanji": "お皿",
+    "deutsch": "Teller",
+    "beispielsatz_jp": "おさらにりょうりをいれます。",
+    "beispielsatz_de": "Ich lege das Essen auf den Teller.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おじいさん",
+    "kanji": null,
+    "deutsch": "Großvater",
+    "beispielsatz_jp": "おじいさんはとしょかんにいます。",
+    "beispielsatz_de": "Der Großvater ist in der Bibliothek.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おしえる",
+    "kanji": "教える",
+    "deutsch": "lehren",
+    "beispielsatz_jp": "せんせいがにほんごをおしえます。",
+    "beispielsatz_de": "Der Lehrer unterrichtet Japanisch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "おじさん",
+    "kanji": null,
+    "deutsch": "Onkel",
+    "beispielsatz_jp": "おじさんはいしゃです。",
+    "beispielsatz_de": "Mein Onkel ist Arzt.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おす",
+    "kanji": "押す",
+    "deutsch": "drücken",
+    "beispielsatz_jp": "このボタンをおしてください。",
+    "beispielsatz_de": "Bitte drücken Sie diesen Knopf.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "おそい",
+    "kanji": "遅い",
+    "deutsch": "spät",
+    "beispielsatz_jp": "バスがおそいです。",
+    "beispielsatz_de": "Der Bus ist spät.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "おちゃ",
+    "kanji": "お茶",
+    "deutsch": "Tee",
+    "beispielsatz_jp": "おちゃをのみます。",
+    "beispielsatz_de": "Ich trinke Tee.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おてあらい",
+    "kanji": "お手洗い",
+    "deutsch": "Toilette",
+    "beispielsatz_jp": "おてあらいはどこですか。",
+    "beispielsatz_de": "Wo ist die Toilette?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おとうさん",
+    "kanji": "お父さん",
+    "deutsch": "Vater (anderer Leute)",
+    "beispielsatz_jp": "おとうさんはかいしゃにいます。",
+    "beispielsatz_de": "Der Vater ist in der Firma.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おとうと",
+    "kanji": "弟",
+    "deutsch": "jüngerer Bruder",
+    "beispielsatz_jp": "おとうとといっしょにあそびます。",
+    "beispielsatz_de": "Ich spiele mit meinem jüngeren Bruder.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おとこ",
+    "kanji": "男",
+    "deutsch": "Mann",
+    "beispielsatz_jp": "あのおとこはだれですか。",
+    "beispielsatz_de": "Wer ist dieser Mann?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おとこのこ",
+    "kanji": "男の子",
+    "deutsch": "Junge",
+    "beispielsatz_jp": "おとこのこがにわであそんでいます。",
+    "beispielsatz_de": "Der Junge spielt im Garten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おとこのひと",
+    "kanji": "男の人",
+    "deutsch": "Mann",
+    "beispielsatz_jp": "あのおとこのひとはせんせいです。",
+    "beispielsatz_de": "Dieser Mann ist Lehrer.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おととい",
+    "kanji": null,
+    "deutsch": "vorgestern",
+    "beispielsatz_jp": "おとといえいがをみました。",
+    "beispielsatz_de": "Vorgestern habe ich einen Film gesehen.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "おととし",
+    "kanji": null,
+    "deutsch": "vorletztes Jahr",
+    "beispielsatz_jp": "おとといよりおととしのほうがさむかったです。",
+    "beispielsatz_de": "Das vorletzte Jahr war kälter.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "おとな",
+    "kanji": "大人",
+    "deutsch": "Erwachsener",
+    "beispielsatz_jp": "このえいがはおとなだけです。",
+    "beispielsatz_de": "Dieser Film ist nur für Erwachsene.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おなか",
+    "kanji": null,
+    "deutsch": "Bauch",
+    "beispielsatz_jp": "おなかがすきました。",
+    "beispielsatz_de": "Ich habe Hunger.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おなじ",
+    "kanji": "同じ",
+    "deutsch": "gleich",
+    "beispielsatz_jp": "このふたつはおなじです。",
+    "beispielsatz_de": "Diese zwei sind gleich.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "おにいさん",
+    "kanji": "お兄さん",
+    "deutsch": "älterer Bruder",
+    "beispielsatz_jp": "おにいさんはだいがくせいです。",
+    "beispielsatz_de": "Mein älterer Bruder ist Student.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おにぎり",
+    "kanji": null,
+    "deutsch": "Onigiri, Reisball",
+    "beispielsatz_jp": "おにぎりをたべます。",
+    "beispielsatz_de": "Ich esse einen Onigiri.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おねえさん",
+    "kanji": "お姉さん",
+    "deutsch": "ältere Schwester",
+    "beispielsatz_jp": "おねえさんはかわいいです。",
+    "beispielsatz_de": "Meine ältere Schwester ist niedlich.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おねがいします",
+    "kanji": null,
+    "deutsch": "Ich bitte Sie, dich.",
+    "beispielsatz_jp": "みずをおねがいします。",
+    "beispielsatz_de": "Wasser bitte.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "おばあさん",
+    "kanji": null,
+    "deutsch": "Großmutter",
+    "beispielsatz_jp": "おばあさんはげんきです。",
+    "beispielsatz_de": "Meine Großmutter ist munter.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おばさん",
+    "kanji": null,
+    "deutsch": "Tante, Frau mittleren Alters",
+    "beispielsatz_jp": "おばさんからプレゼントをもらいました。",
+    "beispielsatz_de": "Ich habe ein Geschenk von meiner Tante bekommen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おふろ",
+    "kanji": null,
+    "deutsch": "Bad",
+    "beispielsatz_jp": "おふろにはいります。",
+    "beispielsatz_de": "Ich nehme ein Bad.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おべんとう",
+    "kanji": null,
+    "deutsch": "Bentō",
+    "beispielsatz_jp": "おべんとうをたべます。",
+    "beispielsatz_de": "Ich esse ein Bentō.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おぼえる",
+    "kanji": "覚える",
+    "deutsch": "lernen",
+    "beispielsatz_jp": "たんごをおぼえます。",
+    "beispielsatz_de": "Ich lerne Vokabeln.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "おまわりさん",
+    "kanji": null,
+    "deutsch": "Polizist",
+    "beispielsatz_jp": "おまわりさんにきいてください。",
+    "beispielsatz_de": "Fragen Sie bitte den Polizisten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おもい",
+    "kanji": "重い",
+    "deutsch": "schwer",
+    "beispielsatz_jp": "このかばんはおもいです。",
+    "beispielsatz_de": "Diese Tasche ist schwer.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "おもしろい",
+    "kanji": null,
+    "deutsch": "lustig, interessant",
+    "beispielsatz_jp": "このえいがはおもしろいです。",
+    "beispielsatz_de": "Dieser Film ist interessant.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "およぐ",
+    "kanji": "泳ぐ",
+    "deutsch": "schwimmen",
+    "beispielsatz_jp": "うみでおよぎます。",
+    "beispielsatz_de": "Ich schwimme im Meer.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "おりる",
+    "kanji": "降りる",
+    "deutsch": "herabsteigen",
+    "beispielsatz_jp": "バスをおります。",
+    "beispielsatz_de": "Ich steige aus dem Bus.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "おわる",
+    "kanji": "終わる",
+    "deutsch": "aufhören",
+    "beispielsatz_jp": "しごとがおわりました。",
+    "beispielsatz_de": "Die Arbeit ist fertig.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "おんがく",
+    "kanji": "音楽",
+    "deutsch": "Musik",
+    "beispielsatz_jp": "おんがくをきくのがすきです。",
+    "beispielsatz_de": "Ich höre gerne Musik.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おんな",
+    "kanji": "女",
+    "deutsch": "Frau (urspr. junge Frau)",
+    "beispielsatz_jp": "あのおんなはだれですか。",
+    "beispielsatz_de": "Wer ist diese Frau?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おんなのこ",
+    "kanji": "女の子",
+    "deutsch": "Mädchen",
+    "beispielsatz_jp": "おんなのこがうたをうたっています。",
+    "beispielsatz_de": "Das Mädchen singt ein Lied.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "おんなのひと",
+    "kanji": "女の人",
+    "deutsch": "Frau",
+    "beispielsatz_jp": "あのおんなのひとはせんせいです。",
+    "beispielsatz_de": "Diese Frau ist Lehrerin.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "か",
+    "kanji": "火",
+    "deutsch": "Dienstag (Abkürzung)",
+    "beispielsatz_jp": "かはかようびのりゃくです。",
+    "beispielsatz_de": "Ka ist die Abkürzung für Dienstag.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜かい",
+    "kanji": "〜階",
+    "deutsch": "～ter Stock (Erdgeschoss = １かい)",
+    "beispielsatz_jp": "このたてものはなんかいですか。",
+    "beispielsatz_de": "Wie viele Stockwerke hat dieses Gebäude?",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "〜かい",
+    "kanji": "〜回",
+    "deutsch": "～mal",
+    "beispielsatz_jp": "にほんにはにかいいきました。",
+    "beispielsatz_de": "Ich war zweimal in Japan.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "がいこく",
+    "kanji": "外国",
+    "deutsch": "Ausland",
+    "beispielsatz_jp": "がいこくにいきたいです。",
+    "beispielsatz_de": "Ich möchte ins Ausland gehen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "がいこくじん",
+    "kanji": "外国人",
+    "deutsch": "Ausländer",
+    "beispielsatz_jp": "このまちにはがいこくじんがおおいです。",
+    "beispielsatz_de": "In dieser Stadt gibt es viele Ausländer.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かいしゃ",
+    "kanji": "会社",
+    "deutsch": "Firma",
+    "beispielsatz_jp": "ちちはかいしゃではたらいています。",
+    "beispielsatz_de": "Mein Vater arbeitet in einer Firma.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜かいたて",
+    "kanji": "〜階建て",
+    "deutsch": "～stöckiges Gebäude",
+    "beispielsatz_jp": "あれはさんかいたてのたてものです。",
+    "beispielsatz_de": "Das ist ein dreistöckiges Gebäude.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "かいだん",
+    "kanji": "階段",
+    "deutsch": "Treppe",
+    "beispielsatz_jp": "かいだんをのぼります。",
+    "beispielsatz_de": "Ich gehe die Treppe hoch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かいもの",
+    "kanji": "買い物",
+    "deutsch": "Einkauf",
+    "beispielsatz_jp": "かいものにいきます。",
+    "beispielsatz_de": "Ich gehe einkaufen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かう",
+    "kanji": "買う",
+    "deutsch": "kaufen",
+    "beispielsatz_jp": "スーパーでやさいをかいます。",
+    "beispielsatz_de": "Ich kaufe Gemüse im Supermarkt.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "かえす",
+    "kanji": "返す",
+    "deutsch": "zurückgeben",
+    "beispielsatz_jp": "ともだちにほんをかえします。",
+    "beispielsatz_de": "Ich gebe dem Freund das Buch zurück.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "かえる",
+    "kanji": "帰る",
+    "deutsch": "zurückgehen",
+    "beispielsatz_jp": "うちにかえります。",
+    "beispielsatz_de": "Ich gehe nach Hause.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "かかる",
+    "kanji": null,
+    "deutsch": "kosten (Zeit, Geld)",
+    "beispielsatz_jp": "えきまでじかんがかかります。",
+    "beispielsatz_de": "Es dauert Zeit bis zum Bahnhof.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "かぎ",
+    "kanji": null,
+    "deutsch": "Schlüssel",
+    "beispielsatz_jp": "かぎをわすれました。",
+    "beispielsatz_de": "Ich habe den Schlüssel vergessen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かく",
+    "kanji": "書く",
+    "deutsch": "schreiben",
+    "beispielsatz_jp": "てがみをかきます。",
+    "beispielsatz_de": "Ich schreibe einen Brief.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "がくせい",
+    "kanji": "学生",
+    "deutsch": "Student",
+    "beispielsatz_jp": "わたしはだいがくのがくせいです。",
+    "beispielsatz_de": "Ich bin Universitätsstudent.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かける",
+    "kanji": null,
+    "deutsch": "aufwenden (Zeit, Geld) , aufhängen",
+    "beispielsatz_jp": "でんわをかけます。",
+    "beispielsatz_de": "Ich rufe an.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "かさ",
+    "kanji": null,
+    "deutsch": "Schirm",
+    "beispielsatz_jp": "あめのひにはかさをもちます。",
+    "beispielsatz_de": "An Regentagen nehme ich einen Schirm mit.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かす",
+    "kanji": "貸す",
+    "deutsch": "verleihen",
+    "beispielsatz_jp": "ともだちにじてんしゃをかします。",
+    "beispielsatz_de": "Ich verleihe dem Freund mein Fahrrad.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "かぜ",
+    "kanji": null,
+    "deutsch": "Erkältung",
+    "beispielsatz_jp": "かぜをひきました。",
+    "beispielsatz_de": "Ich habe mich erkältet.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かぜ",
+    "kanji": "風",
+    "deutsch": "Wind",
+    "beispielsatz_jp": "きょうはかぜがつよいです。",
+    "beispielsatz_de": "Heute ist der Wind stark.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かぞく",
+    "kanji": "家族",
+    "deutsch": "Familie",
+    "beispielsatz_jp": "わたしのかぞくはよにんです。",
+    "beispielsatz_de": "Meine Familie besteht aus vier Personen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かた",
+    "kanji": "方",
+    "deutsch": "Person, Art und Weise",
+    "beispielsatz_jp": "あのかたはだれですか。",
+    "beispielsatz_de": "Wer ist diese Person?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "カタカナ",
+    "kanji": null,
+    "deutsch": "Katakana",
+    "beispielsatz_jp": "カタカナでかきます。",
+    "beispielsatz_de": "Ich schreibe in Katakana.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "がっこう",
+    "kanji": "学校",
+    "deutsch": "Schule",
+    "beispielsatz_jp": "まいにちがっこうにいきます。",
+    "beispielsatz_de": "Ich gehe jeden Tag zur Schule.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "カップ",
+    "kanji": null,
+    "deutsch": "Tasse",
+    "beispielsatz_jp": "カップにこーひーをいれます。",
+    "beispielsatz_de": "Ich gieße Kaffee in die Tasse.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かてい",
+    "kanji": "家庭",
+    "deutsch": "Familie",
+    "beispielsatz_jp": "かていでにほんごをはなします。",
+    "beispielsatz_de": "Zu Hause spreche ich Japanisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かど",
+    "kanji": null,
+    "deutsch": "Ecke",
+    "beispielsatz_jp": "かどをみぎにまがってください。",
+    "beispielsatz_de": "Bitte biegen Sie an der Ecke rechts ab.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かばん",
+    "kanji": null,
+    "deutsch": "Koffer",
+    "beispielsatz_jp": "かばんにほんをいれます。",
+    "beispielsatz_de": "Ich tue das Buch in die Tasche.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かびん",
+    "kanji": null,
+    "deutsch": "Vase",
+    "beispielsatz_jp": "テーブルのうえにかびんがあります。",
+    "beispielsatz_de": "Auf dem Tisch steht eine Vase.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かみ",
+    "kanji": "紙",
+    "deutsch": "Papier",
+    "beispielsatz_jp": "かみにじをかきます。",
+    "beispielsatz_de": "Ich schreibe Zeichen auf Papier.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "カメラ",
+    "kanji": null,
+    "deutsch": "Kamera",
+    "beispielsatz_jp": "カメラでしゃしんをとります。",
+    "beispielsatz_de": "Ich mache mit der Kamera ein Foto.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かようび",
+    "kanji": "火曜日",
+    "deutsch": "Dienstag",
+    "beispielsatz_jp": "かようびにえいごのじゅぎょうがあります。",
+    "beispielsatz_de": "Am Dienstag gibt es Englischunterricht.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "からい",
+    "kanji": null,
+    "deutsch": "scharf",
+    "beispielsatz_jp": "このカレーはからいです。",
+    "beispielsatz_de": "Dieses Curry ist scharf.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "からだ",
+    "kanji": "体",
+    "deutsch": "Körper",
+    "beispielsatz_jp": "からだにいいものをたべます。",
+    "beispielsatz_de": "Ich esse Dinge, die gut für den Körper sind.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かりる",
+    "kanji": "借りる",
+    "deutsch": "ausleihen",
+    "beispielsatz_jp": "としょかんでほんをかります。",
+    "beispielsatz_de": "Ich leihe in der Bibliothek ein Buch aus.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "かるい",
+    "kanji": null,
+    "deutsch": "leicht",
+    "beispielsatz_jp": "このかばんはかるいです。",
+    "beispielsatz_de": "Diese Tasche ist leicht.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "カレー",
+    "kanji": null,
+    "deutsch": "Curry",
+    "beispielsatz_jp": "カレーをたべます。",
+    "beispielsatz_de": "Ich esse Curry.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "カレンダー",
+    "kanji": null,
+    "deutsch": "Kalender",
+    "beispielsatz_jp": "かべにカレンダーをかけます。",
+    "beispielsatz_de": "Ich hänge den Kalender an die Wand.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かわ",
+    "kanji": "川",
+    "deutsch": "Fluss",
+    "beispielsatz_jp": "えきのちかくにかわがあります。",
+    "beispielsatz_de": "In der Nähe des Bahnhofs gibt es einen Fluss.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かわいい",
+    "kanji": null,
+    "deutsch": "niedlich",
+    "beispielsatz_jp": "あのねこはかわいいですね。",
+    "beispielsatz_de": "Diese Katze ist niedlich, oder?",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "かんがえる",
+    "kanji": "考える",
+    "deutsch": "nachdenken",
+    "beispielsatz_jp": "すこしかんがえてください。",
+    "beispielsatz_de": "Denken Sie bitte kurz nach.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "かんじ",
+    "kanji": "漢字",
+    "deutsch": "Kanji",
+    "beispielsatz_jp": "かんじはむずかしいです。",
+    "beispielsatz_de": "Kanji ist schwierig.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "かんたん",
+    "kanji": null,
+    "deutsch": "leicht",
+    "beispielsatz_jp": "このもんだいはかんたんです。",
+    "beispielsatz_de": "Diese Aufgabe ist einfach.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "き",
+    "kanji": "木",
+    "deutsch": "Baum",
+    "beispielsatz_jp": "にわにおおきなきがあります。",
+    "beispielsatz_de": "Im Garten steht ein großer Baum.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きいろ",
+    "kanji": "黄色",
+    "deutsch": "Gelb",
+    "beispielsatz_jp": "きいろはきれいないろです。",
+    "beispielsatz_de": "Gelb ist eine schöne Farbe.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きいろい",
+    "kanji": "黄色い",
+    "deutsch": "gelb",
+    "beispielsatz_jp": "このはなはきいろいです。",
+    "beispielsatz_de": "Diese Blume ist gelb.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "きえる",
+    "kanji": "消える",
+    "deutsch": "verschwinden, ausgehen",
+    "beispielsatz_jp": "でんきがきえました。",
+    "beispielsatz_de": "Das Licht ist ausgegangen.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "きく",
+    "kanji": "聞く",
+    "deutsch": "hören",
+    "beispielsatz_jp": "おんがくをきいています。",
+    "beispielsatz_de": "Ich höre Musik.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "きた",
+    "kanji": "北",
+    "deutsch": "Norden",
+    "beispielsatz_jp": "きたにえきがあります。",
+    "beispielsatz_de": "Im Norden ist der Bahnhof.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ギター",
+    "kanji": null,
+    "deutsch": "Gitarre",
+    "beispielsatz_jp": "ギターをひきます。",
+    "beispielsatz_de": "Ich spiele Gitarre.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きたない",
+    "kanji": null,
+    "deutsch": "schmutzig",
+    "beispielsatz_jp": "このへやはきたないです。",
+    "beispielsatz_de": "Dieses Zimmer ist schmutzig.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "きっさてん",
+    "kanji": null,
+    "deutsch": "Teehaus",
+    "beispielsatz_jp": "きっさてんでコーヒーをのみます。",
+    "beispielsatz_de": "Ich trinke Kaffee im Teehaus.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きって",
+    "kanji": "切手",
+    "deutsch": "Briefmarke",
+    "beispielsatz_jp": "てがみにきってをはります。",
+    "beispielsatz_de": "Ich klebe eine Briefmarke auf den Brief.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きっぷ",
+    "kanji": null,
+    "deutsch": "Ticket",
+    "beispielsatz_jp": "えきできっぷをかいます。",
+    "beispielsatz_de": "Ich kaufe am Bahnhof ein Ticket.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きのう",
+    "kanji": "昨日",
+    "deutsch": "gestern",
+    "beispielsatz_jp": "きのうがっこうをやすみました。",
+    "beispielsatz_de": "Gestern habe ich die Schule versäumt.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "きゅう",
+    "kanji": "九",
+    "deutsch": "neun",
+    "beispielsatz_jp": "きゅうはここのつです。",
+    "beispielsatz_de": "Neun ist die Zahl 9.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "ぎゅうにく",
+    "kanji": "牛肉",
+    "deutsch": "Rindfleisch",
+    "beispielsatz_jp": "ぎゅうにくをたべます。",
+    "beispielsatz_de": "Ich esse Rindfleisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ぎゅうにゅう",
+    "kanji": "牛乳",
+    "deutsch": "Milch",
+    "beispielsatz_jp": "まいあさぎゅうにゅうをのみます。",
+    "beispielsatz_de": "Jeden Morgen trinke ich Milch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きゅうひき",
+    "kanji": "九匹",
+    "deutsch": "9 Tiere",
+    "beispielsatz_jp": "どうぶつえんにきゅうひきいます。",
+    "beispielsatz_de": "Im Zoo gibt es 9 Tiere.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "きゅうふん",
+    "kanji": "九分",
+    "deutsch": "9 Minuten",
+    "beispielsatz_jp": "バスできゅうふんかかります。",
+    "beispielsatz_de": "Mit dem Bus dauert es 9 Minuten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きゅうほん",
+    "kanji": "九本",
+    "deutsch": "9 (Flaschen, …)",
+    "beispielsatz_jp": "ジュースがきゅうほんあります。",
+    "beispielsatz_de": "Es gibt 9 Flaschen Saft.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "きょう",
+    "kanji": "今日",
+    "deutsch": "heute",
+    "beispielsatz_jp": "きょうはいいてんきです。",
+    "beispielsatz_de": "Heute ist gutes Wetter.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "きょうしつ",
+    "kanji": "教室",
+    "deutsch": "Klassenzimmer",
+    "beispielsatz_jp": "きょうしつにがくせいがいます。",
+    "beispielsatz_de": "Im Klassenzimmer sind Schüler.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きょうだい",
+    "kanji": "兄弟",
+    "deutsch": "Brüder",
+    "beispielsatz_jp": "わたしにはきょうだいがふたりいます。",
+    "beispielsatz_de": "Ich habe zwei Geschwister.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きょうと",
+    "kanji": "京都",
+    "deutsch": "Kioto",
+    "beispielsatz_jp": "きょうとはきれいなまちです。",
+    "beispielsatz_de": "Kioto ist eine schöne Stadt.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きょねん",
+    "kanji": "去年",
+    "deutsch": "letztes Jahr",
+    "beispielsatz_jp": "きょねんにほんにいきました。",
+    "beispielsatz_de": "Letztes Jahr bin ich nach Japan gereist.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "きらい",
+    "kanji": null,
+    "deutsch": "nicht gemocht sei, gehasst sein",
+    "beispielsatz_jp": "からいたべものはきらいです。",
+    "beispielsatz_de": "Ich mag keine scharfen Speisen.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "きる",
+    "kanji": "切る",
+    "deutsch": "schneiden",
+    "beispielsatz_jp": "やさいをきります。",
+    "beispielsatz_de": "Ich schneide Gemüse.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "きる",
+    "kanji": "着る",
+    "deutsch": "anziehen",
+    "beispielsatz_jp": "うわぎをきます。",
+    "beispielsatz_de": "Ich ziehe eine Jacke an.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "キレイ",
+    "kanji": "きれい",
+    "deutsch": "sauber, schön",
+    "beispielsatz_jp": "このこうえんはキレイです。",
+    "beispielsatz_de": "Dieser Park ist schön.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "〜キロ",
+    "kanji": null,
+    "deutsch": "〜 km (Kilometer) / 〜 kg (Kilogramm)",
+    "beispielsatz_jp": "えきまでにキロぐらいです。",
+    "beispielsatz_de": "Es sind etwa 2 km bis zum Bahnhof.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "〜キログラム",
+    "kanji": null,
+    "deutsch": "〜 kg (Kilogramm)",
+    "beispielsatz_jp": "このにもつはにキログラムです。",
+    "beispielsatz_de": "Dieses Gepäck wiegt 2 Kilogramm.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "〜キロメートル",
+    "kanji": null,
+    "deutsch": "〜 km (Kilometer)",
+    "beispielsatz_jp": "がっこうまでさんキロメートルです。",
+    "beispielsatz_de": "Es sind 3 Kilometer bis zur Schule.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "きん",
+    "kanji": "金",
+    "deutsch": "Freitag (Abkürzung)",
+    "beispielsatz_jp": "きんはきんようびのりゃくです。",
+    "beispielsatz_de": "Kin ist die Abkürzung für Freitag.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ぎんこう",
+    "kanji": "銀行",
+    "deutsch": "Bank",
+    "beispielsatz_jp": "ぎんこうでおかねをおろします。",
+    "beispielsatz_de": "Ich hebe Geld von der Bank ab.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "きんようび",
+    "kanji": "金曜日",
+    "deutsch": "Freitag",
+    "beispielsatz_jp": "きんようびにえいがをみます。",
+    "beispielsatz_de": "Am Freitag sehe ich einen Film.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "く",
+    "kanji": "九",
+    "deutsch": "neun",
+    "beispielsatz_jp": "くはここのつともいいます。",
+    "beispielsatz_de": "Ku ist auch eine Aussprache für neun.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "くがつ",
+    "kanji": "九月",
+    "deutsch": "September",
+    "beispielsatz_jp": "くがつはあきです。",
+    "beispielsatz_de": "September ist Herbst.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "くじ",
+    "kanji": "九時",
+    "deutsch": "9 Uhr",
+    "beispielsatz_jp": "くじにあいましょう。",
+    "beispielsatz_de": "Treffen wir uns um 9 Uhr.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "くすり",
+    "kanji": "薬",
+    "deutsch": "Arznei",
+    "beispielsatz_jp": "かぜをひいたのでくすりをのみます。",
+    "beispielsatz_de": "Weil ich erkältet bin, nehme ich Medizin.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ください",
+    "kanji": null,
+    "deutsch": "bitte",
+    "beispielsatz_jp": "みずをください。",
+    "beispielsatz_de": "Wasser bitte.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "くだもの",
+    "kanji": "果物",
+    "deutsch": "Obst",
+    "beispielsatz_jp": "くだものをたべます。",
+    "beispielsatz_de": "Ich esse Obst.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "くち",
+    "kanji": "口",
+    "deutsch": "Mund",
+    "beispielsatz_jp": "くちをあけてください。",
+    "beispielsatz_de": "Bitte öffnen Sie den Mund.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "くつ",
+    "kanji": null,
+    "deutsch": "Schuh",
+    "beispielsatz_jp": "あたらしいくつをかいました。",
+    "beispielsatz_de": "Ich habe neue Schuhe gekauft.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "くつした",
+    "kanji": null,
+    "deutsch": "Socken",
+    "beispielsatz_jp": "くつしたをはきます。",
+    "beispielsatz_de": "Ich ziehe Socken an.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "くに",
+    "kanji": "国",
+    "deutsch": "Land",
+    "beispielsatz_jp": "にほんはきれいなくにです。",
+    "beispielsatz_de": "Japan ist ein schönes Land.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "くもり",
+    "kanji": null,
+    "deutsch": "Bewölkung",
+    "beispielsatz_jp": "きょうのてんきはくもりです。",
+    "beispielsatz_de": "Das heutige Wetter ist bewölkt.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "くもる",
+    "kanji": null,
+    "deutsch": "sich bewölken",
+    "beispielsatz_jp": "そらがくもっています。",
+    "beispielsatz_de": "Der Himmel ist bewölkt.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "〜くらい",
+    "kanji": null,
+    "deutsch": "ungefähr",
+    "beispielsatz_jp": "にじかんくらいかかります。",
+    "beispielsatz_de": "Es dauert etwa 2 Stunden.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "〜ぐらい",
+    "kanji": null,
+    "deutsch": "ungefähr",
+    "beispielsatz_jp": "さんじかんぐらいかかります。",
+    "beispielsatz_de": "Es dauert ungefähr 3 Stunden.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "くらい",
+    "kanji": "暗い",
+    "deutsch": "dunkel",
+    "beispielsatz_jp": "このへやはくらいです。",
+    "beispielsatz_de": "Dieses Zimmer ist dunkel.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "クラス",
+    "kanji": null,
+    "deutsch": "Klasse",
+    "beispielsatz_jp": "わたしのクラスにはさんじゅうにんいます。",
+    "beispielsatz_de": "In meiner Klasse sind dreißig Schüler.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜グラム",
+    "kanji": null,
+    "deutsch": "〜 Gramm",
+    "beispielsatz_jp": "このにくはひゃくグラムいくらですか。",
+    "beispielsatz_de": "Was kostet dieses Fleisch pro 100 Gramm?",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "くる",
+    "kanji": "来る",
+    "deutsch": "kommen",
+    "beispielsatz_jp": "ともだちがきます。",
+    "beispielsatz_de": "Ein Freund kommt.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "くるま",
+    "kanji": "車",
+    "deutsch": "Auto",
+    "beispielsatz_jp": "まいにちくるまでがっこうにいきます。",
+    "beispielsatz_de": "Jeden Tag fahre ich mit dem Auto zur Schule.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "くろ",
+    "kanji": "黒",
+    "deutsch": "Schwarz",
+    "beispielsatz_jp": "くろはすきなかいろです。",
+    "beispielsatz_de": "Schwarz ist meine Lieblingsfarbe.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "くろい",
+    "kanji": "黒い",
+    "deutsch": "schwarz",
+    "beispielsatz_jp": "このくつはくろいです。",
+    "beispielsatz_de": "Diese Schuhe sind schwarz.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "ケーキ",
+    "kanji": null,
+    "deutsch": "Kuchen",
+    "beispielsatz_jp": "たんじょうびにケーキをたべます。",
+    "beispielsatz_de": "Zum Geburtstag esse ich Kuchen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "けいかん",
+    "kanji": "警官",
+    "deutsch": "Polizeibeamter",
+    "beispielsatz_jp": "けいかんがみちをおしえてくれました。",
+    "beispielsatz_de": "Der Polizist hat mir den Weg erklärt.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "けさ",
+    "kanji": "今朝",
+    "deutsch": "heute Morgen",
+    "beispielsatz_jp": "けさはやくおきました。",
+    "beispielsatz_de": "Heute Morgen bin ich früh aufgestanden.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "けしごむ",
+    "kanji": null,
+    "deutsch": "Radiergummi",
+    "beispielsatz_jp": "けしごむをかしてください。",
+    "beispielsatz_de": "Bitte leihen Sie mir den Radiergummi.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "けす",
+    "kanji": "消す",
+    "deutsch": "löschen",
+    "beispielsatz_jp": "でんきをけします。",
+    "beispielsatz_de": "Ich lösche das Licht.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "げつ",
+    "kanji": "月",
+    "deutsch": "Montag (Abkürzung)",
+    "beispielsatz_jp": "げつはげつようびのりゃくです。",
+    "beispielsatz_de": "Getsu ist die Abkürzung für Montag.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "けっこう",
+    "kanji": null,
+    "deutsch": "ziemlich",
+    "beispielsatz_jp": "このまちはけっこうにぎやかです。",
+    "beispielsatz_de": "Diese Stadt ist ziemlich lebhaft.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "けっこん",
+    "kanji": "結婚",
+    "deutsch": "Heirat",
+    "beispielsatz_jp": "らいねんけっこんします。",
+    "beispielsatz_de": "Nächstes Jahr heirate ich.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "げつようび",
+    "kanji": "月曜日",
+    "deutsch": "Montag",
+    "beispielsatz_jp": "げつようびからべんきょうします。",
+    "beispielsatz_de": "Ab Montag lerne ich.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "げんかん",
+    "kanji": null,
+    "deutsch": "Eingang",
+    "beispielsatz_jp": "げんかんでくつをぬぎます。",
+    "beispielsatz_de": "Im Eingang ziehe ich die Schuhe aus.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "げんき",
+    "kanji": "元気",
+    "deutsch": "Munter, Wohlfühlen",
+    "beispielsatz_jp": "げんきですか。",
+    "beispielsatz_de": "Wie geht es Ihnen?",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "げんご",
+    "kanji": "言語",
+    "deutsch": "Sprache",
+    "beispielsatz_jp": "にほんごはわたしのすきなげんごです。",
+    "beispielsatz_de": "Japanisch ist meine Lieblingssprache.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ご",
+    "kanji": "五",
+    "deutsch": "fünf",
+    "beispielsatz_jp": "ごにごをたすとじゅうです。",
+    "beispielsatz_de": "Fünf plus fünf ist zehn.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "コート",
+    "kanji": null,
+    "deutsch": "Mantel",
+    "beispielsatz_jp": "さむいのでコートをきます。",
+    "beispielsatz_de": "Weil es kalt ist, ziehe ich einen Mantel an.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "コーヒー",
+    "kanji": null,
+    "deutsch": "Kaffee",
+    "beispielsatz_jp": "まいあさコーヒーをのみます。",
+    "beispielsatz_de": "Jeden Morgen trinke ich Kaffee.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ごい",
+    "kanji": "語彙",
+    "deutsch": "Wortschatz",
+    "beispielsatz_jp": "ごいをおぼえます。",
+    "beispielsatz_de": "Ich lerne Vokabeln.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "こうえん",
+    "kanji": "公園",
+    "deutsch": "öffentlicher Park",
+    "beispielsatz_jp": "こうえんでさんぽします。",
+    "beispielsatz_de": "Ich spaziere im Park.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "こうさてん",
+    "kanji": "交差点",
+    "deutsch": "Kreuzung",
+    "beispielsatz_jp": "こうさてんをわたります。",
+    "beispielsatz_de": "Ich überquere die Kreuzung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "こうちゃ",
+    "kanji": null,
+    "deutsch": "schwarzer Tee",
+    "beispielsatz_jp": "こうちゃをのみます。",
+    "beispielsatz_de": "Ich trinke schwarzen Tee.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "こうばん",
+    "kanji": "交番",
+    "deutsch": "Polizeiwache",
+    "beispielsatz_jp": "こうばんはどこですか。",
+    "beispielsatz_de": "Wo ist die Polizeiwache?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "こえ",
+    "kanji": "声",
+    "deutsch": "Stimme",
+    "beispielsatz_jp": "あのひとのこえはおおきいです。",
+    "beispielsatz_de": "Die Stimme dieser Person ist laut.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ごがつ",
+    "kanji": "五月",
+    "deutsch": "Mai",
+    "beispielsatz_jp": "ごがつにはなみにいきます。",
+    "beispielsatz_de": "Im Mai gehe ich zur Kirschblütenbesichtigung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ここ",
+    "kanji": null,
+    "deutsch": "hier",
+    "beispielsatz_jp": "ここにすわってください。",
+    "beispielsatz_de": "Bitte setzen Sie sich hier hin.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "ごご",
+    "kanji": "午後",
+    "deutsch": "Nachmittag",
+    "beispielsatz_jp": "ごごさんじにあいましょう。",
+    "beispielsatz_de": "Treffen wir uns um 15 Uhr.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ここのか",
+    "kanji": "九日",
+    "deutsch": "9. Tag eines Monats",
+    "beispielsatz_jp": "ここのかはくがつのここのかです。",
+    "beispielsatz_de": "Der 9. ist der neunte September.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ここのかかん",
+    "kanji": "九日間",
+    "deutsch": "9 Tage",
+    "beispielsatz_jp": "りょこうはここのかかんです。",
+    "beispielsatz_de": "Die Reise dauert 9 Tage.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ここのつ",
+    "kanji": "九つ",
+    "deutsch": "neun (Stück)",
+    "beispielsatz_jp": "りんごがここのつあります。",
+    "beispielsatz_de": "Es gibt neun Äpfel.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "ごじ",
+    "kanji": "五時",
+    "deutsch": "5 Uhr",
+    "beispielsatz_jp": "ごじにうちにかえります。",
+    "beispielsatz_de": "Um 5 Uhr gehe ich nach Hause.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ごぜん",
+    "kanji": "午前",
+    "deutsch": "Vormittag",
+    "beispielsatz_jp": "ごぜんじゅうじにかいぎがあります。",
+    "beispielsatz_de": "Vormittags um 10 Uhr gibt es eine Besprechung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "こたえる",
+    "kanji": "答える",
+    "deutsch": "antworten",
+    "beispielsatz_jp": "せんせいのしつもんにこたえます。",
+    "beispielsatz_de": "Ich beantworte die Frage des Lehrers.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ごちそうさまでした",
+    "kanji": null,
+    "deutsch": "Danke für das Essen. (hinterher)",
+    "beispielsatz_jp": "ごちそうさまでした。",
+    "beispielsatz_de": "Danke für das Essen.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "こちら",
+    "kanji": null,
+    "deutsch": "hier (her)",
+    "beispielsatz_jp": "トイレはこちらです。",
+    "beispielsatz_de": "Die Toilette ist hier.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "こっち",
+    "kanji": null,
+    "deutsch": "hier (her)",
+    "beispielsatz_jp": "えきはこっちです。",
+    "beispielsatz_de": "Der Bahnhof ist hier drüben.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "コップ",
+    "kanji": null,
+    "deutsch": "Tasse",
+    "beispielsatz_jp": "コップにみずをいれます。",
+    "beispielsatz_de": "Ich gieße Wasser in das Glas.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "こと",
+    "kanji": null,
+    "deutsch": "Ding, Sache",
+    "beispielsatz_jp": "たいせつなことをおしえてください。",
+    "beispielsatz_de": "Bitte erklären Sie mir etwas Wichtiges.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ことし",
+    "kanji": "今年",
+    "deutsch": "dieses Jahr",
+    "beispielsatz_jp": "ことしにほんにいきます。",
+    "beispielsatz_de": "Dieses Jahr fahre ich nach Japan.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "ことば",
+    "kanji": "言葉",
+    "deutsch": "das Wort",
+    "beispielsatz_jp": "このことばのいみはなんですか。",
+    "beispielsatz_de": "Was bedeutet dieses Wort?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "こども",
+    "kanji": "子供",
+    "deutsch": "Kind",
+    "beispielsatz_jp": "このこどもはなんさいですか。",
+    "beispielsatz_de": "Wie alt ist dieses Kind?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "この",
+    "kanji": null,
+    "deutsch": "dieses (hier)",
+    "beispielsatz_jp": "このほんはおもしろいです。",
+    "beispielsatz_de": "Dieses Buch hier ist interessant.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "ごはん",
+    "kanji": "ご飯",
+    "deutsch": "Essen, Reis",
+    "beispielsatz_jp": "まいにちごはんをたべます。",
+    "beispielsatz_de": "Ich esse jeden Tag Reis.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "コピーする",
+    "kanji": null,
+    "deutsch": "kopieren",
+    "beispielsatz_jp": "このぶんしょうをコピーします。",
+    "beispielsatz_de": "Ich kopiere dieses Dokument.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ごひき",
+    "kanji": "五匹",
+    "deutsch": "5 Tiere",
+    "beispielsatz_jp": "どうぶつえんにごひきいます。",
+    "beispielsatz_de": "Im Zoo gibt es 5 Tiere.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "ごふん",
+    "kanji": "五分",
+    "deutsch": "5 Minuten",
+    "beispielsatz_jp": "バスでごふんかかります。",
+    "beispielsatz_de": "Mit dem Bus dauert es 5 Minuten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ごほん",
+    "kanji": "五本",
+    "deutsch": "5 (Flaschen, ..)",
+    "beispielsatz_jp": "コーラがごほんあります。",
+    "beispielsatz_de": "Es gibt 5 Flaschen Cola.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "こまる",
+    "kanji": "困る",
+    "deutsch": "in Schwierigkeiten sein",
+    "beispielsatz_jp": "おかねがなくてこまりました。",
+    "beispielsatz_de": "Ich bin in Schwierigkeiten, weil ich kein Geld habe.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "これ",
+    "kanji": null,
+    "deutsch": "das hier",
+    "beispielsatz_jp": "これはわたしのほんです。",
+    "beispielsatz_de": "Das hier ist mein Buch.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "〜ごろ",
+    "kanji": null,
+    "deutsch": "ungefähr 〜 (nach Zeitangaben)",
+    "beispielsatz_jp": "さんじごろいえにかえります。",
+    "beispielsatz_de": "Gegen 3 Uhr komme ich nach Hause.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "こんげつ",
+    "kanji": "今月",
+    "deutsch": "dieser Monat",
+    "beispielsatz_jp": "こんげつはいそがしいです。",
+    "beispielsatz_de": "Diesen Monat bin ich beschaeftigt.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "こんしゅう",
+    "kanji": "今週",
+    "deutsch": "diese Woche",
+    "beispielsatz_jp": "こんしゅうにほんごのしけんがあります。",
+    "beispielsatz_de": "Diese Woche gibt es eine Japanischpruefung.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "こんな",
+    "kanji": null,
+    "deutsch": "so ein",
+    "beispielsatz_jp": "こんなにおいしいりょうりははじめてです。",
+    "beispielsatz_de": "So ein leckeres Essen habe ich noch nie gegessen.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "こんばん",
+    "kanji": "今晩",
+    "deutsch": "heute Abend",
+    "beispielsatz_jp": "こんばんえいがをみます。",
+    "beispielsatz_de": "Heute Abend sehe ich einen Film.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "さあ",
+    "kanji": null,
+    "deutsch": "Nun … (Satzanfang)",
+    "beispielsatz_jp": "さあ、いきましょう。",
+    "beispielsatz_de": "Nun, lasst uns gehen.",
+    "wortart": "Interjektion"
+  },
+  {
+    "hiragana": "〜さい",
+    "kanji": "〜歳",
+    "deutsch": "～ Jahre (Alter)",
+    "beispielsatz_jp": "わたしはにじゅうごさいです。",
+    "beispielsatz_de": "Ich bin 25 Jahre alt.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "さいご",
+    "kanji": "最後",
+    "deutsch": "letzte",
+    "beispielsatz_jp": "さいごのでんしゃはなんじですか。",
+    "beispielsatz_de": "Wann faehrt der letzte Zug?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "さいふ",
+    "kanji": null,
+    "deutsch": "Portemonnaie",
+    "beispielsatz_jp": "さいふをわすれました。",
+    "beispielsatz_de": "Ich habe mein Portemonnaie vergessen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "さかな",
+    "kanji": "魚",
+    "deutsch": "Fisch",
+    "beispielsatz_jp": "さかなをたべます。",
+    "beispielsatz_de": "Ich esse Fisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "さき",
+    "kanji": "先",
+    "deutsch": "vorher, Zukunft, Spitze",
+    "beispielsatz_jp": "さきにいってください。",
+    "beispielsatz_de": "Bitte gehen Sie vor.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "さく",
+    "kanji": "咲く",
+    "deutsch": "blühen",
+    "beispielsatz_jp": "にわにはながさいています。",
+    "beispielsatz_de": "Im Garten bluehen Blumen.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "さくぶん",
+    "kanji": "作文",
+    "deutsch": "Aufsatz",
+    "beispielsatz_jp": "にほんごのさくぶんをかきます。",
+    "beispielsatz_de": "Ich schreibe einen japanischen Aufsatz.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "さす",
+    "kanji": "差す",
+    "deutsch": "zeigen, (Schirm) hochhalten",
+    "beispielsatz_jp": "みぎにゆびをさします。",
+    "beispielsatz_de": "Ich zeige mit dem Finger nach rechts.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "サッカー",
+    "kanji": null,
+    "deutsch": "Fußball",
+    "beispielsatz_jp": "まいしゅうサッカーをします。",
+    "beispielsatz_de": "Jede Woche spiele ich Fussball.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ざっし",
+    "kanji": "雑誌",
+    "deutsch": "Zeitschrift",
+    "beispielsatz_jp": "このざっしはおもしろいです。",
+    "beispielsatz_de": "Diese Zeitschrift ist interessant.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "さとう",
+    "kanji": "砂糖",
+    "deutsch": "Zucker",
+    "beispielsatz_jp": "コーヒーにさとうをいれます。",
+    "beispielsatz_de": "Ich tue Zucker in den Kaffee.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "さむい",
+    "kanji": "寒い",
+    "deutsch": "kalt",
+    "beispielsatz_jp": "ふゆはさむいです。",
+    "beispielsatz_de": "Der Winter ist kalt.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "さようなら",
+    "kanji": null,
+    "deutsch": "Auf Wiedersehen",
+    "beispielsatz_jp": "さようなら、またあした。",
+    "beispielsatz_de": "Auf Wiedersehen, bis morgen.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "さらいねん",
+    "kanji": null,
+    "deutsch": "übernächstes Jahr",
+    "beispielsatz_jp": "さらいねんにほんにいきます。",
+    "beispielsatz_de": "Uebernaechstes Jahr fahre ich nach Japan.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "さん",
+    "kanji": "三",
+    "deutsch": "drei",
+    "beispielsatz_jp": "さんたすさんはろくです。",
+    "beispielsatz_de": "Drei plus drei ist sechs.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "さんがつ",
+    "kanji": "三月",
+    "deutsch": "März",
+    "beispielsatz_jp": "さんがつはさくらのきせつです。",
+    "beispielsatz_de": "Maerz ist die Kirschbluetezeit.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "さんじ",
+    "kanji": "三時",
+    "deutsch": "3 Uhr",
+    "beispielsatz_jp": "さんじにともだちとあいます。",
+    "beispielsatz_de": "Um 3 Uhr treffe ich mich mit einem Freund.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "さんにん",
+    "kanji": "三人",
+    "deutsch": "3 Personen",
+    "beispielsatz_jp": "さんにんでたべました。",
+    "beispielsatz_de": "Wir haben zu dritt gegessen.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "さんびき",
+    "kanji": "三匹",
+    "deutsch": "3 Tiere",
+    "beispielsatz_jp": "どうぶつえんにさんびきいます。",
+    "beispielsatz_de": "Im Zoo gibt es 3 Tiere.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "さんぷん",
+    "kanji": "三分",
+    "deutsch": "3 Minuten",
+    "beispielsatz_jp": "えきまでさんぷんかかります。",
+    "beispielsatz_de": "Bis zum Bahnhof dauert es 3 Minuten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "さんぽする",
+    "kanji": "散歩する",
+    "deutsch": "spazieren gehen",
+    "beispielsatz_jp": "こうえんでさんぽします。",
+    "beispielsatz_de": "Ich gehe im Park spazieren.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "さんぼん",
+    "kanji": "三本",
+    "deutsch": "3 (Flaschen, …)",
+    "beispielsatz_jp": "ジュースがさんぼんあります。",
+    "beispielsatz_de": "Es gibt 3 Flaschen Saft.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "〜じ",
+    "kanji": "〜時",
+    "deutsch": "～ Uhr",
+    "beispielsatz_jp": "さんじにあいましょう。",
+    "beispielsatz_de": "Treffen wir uns um 3 Uhr.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "し",
+    "kanji": "四",
+    "deutsch": "vier",
+    "beispielsatz_jp": "しはよんともいいます。",
+    "beispielsatz_de": "Shi wird auch yon ausgesprochen.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "しお",
+    "kanji": "塩",
+    "deutsch": "Salz",
+    "beispielsatz_jp": "りょうりにしおをいれます。",
+    "beispielsatz_de": "Ich gebe Salz in das Essen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しかし",
+    "kanji": null,
+    "deutsch": "aber",
+    "beispielsatz_jp": "あめでした、しかしかえりました。",
+    "beispielsatz_de": "Es regnete, aber ich bin nach Hause gegangen.",
+    "wortart": "Konjunktion"
+  },
+  {
+    "hiragana": "しがつ",
+    "kanji": "四月",
+    "deutsch": "April",
+    "beispielsatz_jp": "しがつはあたたかいです。",
+    "beispielsatz_de": "April ist warm.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜じかん",
+    "kanji": "〜時間",
+    "deutsch": "Stunden (Anzahl)",
+    "beispielsatz_jp": "にじかんべんきょうしました。",
+    "beispielsatz_de": "Ich habe 2 Stunden gelernt.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "じかん",
+    "kanji": "時間",
+    "deutsch": "Zeit",
+    "beispielsatz_jp": "じかんがありません。",
+    "beispielsatz_de": "Ich habe keine Zeit.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しけん",
+    "kanji": "試験",
+    "deutsch": "Test",
+    "beispielsatz_jp": "にほんごのしけんをうけます。",
+    "beispielsatz_de": "Ich mache die Japanischpruefung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しごと",
+    "kanji": "仕事",
+    "deutsch": "Arbeit",
+    "beispielsatz_jp": "しごとをしています。",
+    "beispielsatz_de": "Ich arbeite.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じしょ",
+    "kanji": "辞書",
+    "deutsch": "Wörterbuch",
+    "beispielsatz_jp": "じしょでことばをしらべます。",
+    "beispielsatz_de": "Ich schaue das Wort im Woerterbuch nach.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しずか",
+    "kanji": "静か",
+    "deutsch": "still",
+    "beispielsatz_jp": "このとしょかんはしずかです。",
+    "beispielsatz_de": "Diese Bibliothek ist still.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "した",
+    "kanji": "下",
+    "deutsch": "unten",
+    "beispielsatz_jp": "ほんはつくえのしたにあります。",
+    "beispielsatz_de": "Das Buch liegt unter dem Schreibtisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しち",
+    "kanji": "七",
+    "deutsch": "sieben",
+    "beispielsatz_jp": "しちたすさんはじゅうです。",
+    "beispielsatz_de": "Sieben plus drei ist zehn.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "しちがつ",
+    "kanji": "七月",
+    "deutsch": "Juli",
+    "beispielsatz_jp": "しちがつはなつです。",
+    "beispielsatz_de": "Juli ist Sommer.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しちじ",
+    "kanji": "七時",
+    "deutsch": "7 Uhr",
+    "beispielsatz_jp": "しちじにおきます。",
+    "beispielsatz_de": "Ich stehe um 7 Uhr auf.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しつもん",
+    "kanji": "質問",
+    "deutsch": "Frage",
+    "beispielsatz_jp": "せんせいにしつもんします。",
+    "beispielsatz_de": "Ich stelle dem Lehrer eine Frage.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しつれいしました",
+    "kanji": null,
+    "deutsch": "Entschuldigung. (hinterher)",
+    "beispielsatz_jp": "おそくなってしつれいしました。",
+    "beispielsatz_de": "Entschuldigung, dass ich zu spaet kam.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "じてんしゃ",
+    "kanji": "自転車",
+    "deutsch": "Fahrrad",
+    "beispielsatz_jp": "まいにちじてんしゃでがっこうにいきます。",
+    "beispielsatz_de": "Jeden Tag fahre ich mit dem Fahrrad zur Schule.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じどうしゃ",
+    "kanji": "自動車",
+    "deutsch": "Auto",
+    "beispielsatz_jp": "ちちはじどうしゃをもっています。",
+    "beispielsatz_de": "Mein Vater hat ein Auto.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しぬ",
+    "kanji": "死ぬ",
+    "deutsch": "sterben",
+    "beispielsatz_jp": "おじいさんがしにました。",
+    "beispielsatz_de": "Mein Grossvater ist gestorben.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "じびき",
+    "kanji": "字引",
+    "deutsch": "Kanjilexikon",
+    "beispielsatz_jp": "じびきでかんじをしらべます。",
+    "beispielsatz_de": "Ich schaue Kanji im Lexikon nach.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じぶん",
+    "kanji": "自分",
+    "deutsch": "selbst",
+    "beispielsatz_jp": "じぶんでつくります。",
+    "beispielsatz_de": "Ich mache es selbst.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "しまる",
+    "kanji": "閉まる",
+    "deutsch": "sich schließen",
+    "beispielsatz_jp": "みせがしまります。",
+    "beispielsatz_de": "Das Geschaeft schliesst.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "しめる",
+    "kanji": null,
+    "deutsch": "zubinden",
+    "beispielsatz_jp": "ネクタイをしめます。",
+    "beispielsatz_de": "Ich binde die Krawatte.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "しめる",
+    "kanji": "閉める",
+    "deutsch": "schließen",
+    "beispielsatz_jp": "まどをしめてください。",
+    "beispielsatz_de": "Bitte schliessen Sie das Fenster.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "じゃ",
+    "kanji": null,
+    "deutsch": "also dann",
+    "beispielsatz_jp": "じゃ、またあした。",
+    "beispielsatz_de": "Also dann, bis morgen.",
+    "wortart": "Konjunktion"
+  },
+  {
+    "hiragana": "じゃ、また",
+    "kanji": null,
+    "deutsch": "Verabschiedung",
+    "beispielsatz_jp": "じゃ、またらいしゅう。",
+    "beispielsatz_de": "Also dann, bis naechste Woche.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "じゃあ",
+    "kanji": null,
+    "deutsch": "also dann",
+    "beispielsatz_jp": "じゃあ、いきましょう。",
+    "beispielsatz_de": "Also dann, lass uns gehen.",
+    "wortart": "Konjunktion"
+  },
+  {
+    "hiragana": "しゃしん",
+    "kanji": "写真",
+    "deutsch": "Fotografie",
+    "beispielsatz_jp": "しゃしんをとってもいいですか。",
+    "beispielsatz_de": "Darf ich ein Foto machen?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "シャツ",
+    "kanji": null,
+    "deutsch": "Hemd, Unterhemd",
+    "beispielsatz_jp": "あたらしいシャツをきます。",
+    "beispielsatz_de": "Ich ziehe ein neues Hemd an.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "シャワー",
+    "kanji": null,
+    "deutsch": "Dusche",
+    "beispielsatz_jp": "まいあさシャワーをあびます。",
+    "beispielsatz_de": "Jeden Morgen dusche ich.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "シャワーをあびる",
+    "kanji": null,
+    "deutsch": "duschen",
+    "beispielsatz_jp": "あさシャワーをあびます。",
+    "beispielsatz_de": "Morgens dusche ich.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "ジュース",
+    "kanji": null,
+    "deutsch": "Saft",
+    "beispielsatz_jp": "ジュースをのみます。",
+    "beispielsatz_de": "Ich trinke Saft.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じゅう",
+    "kanji": "十",
+    "deutsch": "10",
+    "beispielsatz_jp": "じゅうはとおともいいます。",
+    "beispielsatz_de": "Zehn wird auch too ausgesprochen.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "じゅういちがつ",
+    "kanji": "十一月",
+    "deutsch": "November",
+    "beispielsatz_jp": "じゅういちがつはあきです。",
+    "beispielsatz_de": "November ist Herbst.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じゅういちじ",
+    "kanji": "十一時",
+    "deutsch": "11 Uhr",
+    "beispielsatz_jp": "じゅういちじにねます。",
+    "beispielsatz_de": "Ich gehe um 23 Uhr schlafen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じゅういちにち",
+    "kanji": "十一日",
+    "deutsch": "11. Tag eines Monats",
+    "beispielsatz_jp": "じゅういちにちにしけんがあります。",
+    "beispielsatz_de": "Am 11. gibt es eine Pruefung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じゅうがつ",
+    "kanji": "十月",
+    "deutsch": "Oktober",
+    "beispielsatz_jp": "じゅうがつはあきです。",
+    "beispielsatz_de": "Oktober ist Herbst.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じゅうじ",
+    "kanji": "十時",
+    "deutsch": "10 Uhr",
+    "beispielsatz_jp": "じゅうじにはじまります。",
+    "beispielsatz_de": "Es beginnt um 10 Uhr.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じゅうにがつ",
+    "kanji": "十二月",
+    "deutsch": "Dezember",
+    "beispielsatz_jp": "じゅうにがつはふゆです。",
+    "beispielsatz_de": "Dezember ist Winter.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じゅうにじ",
+    "kanji": "十二時",
+    "deutsch": "12 Uhr",
+    "beispielsatz_jp": "じゅうにじにひるごはんをたべます。",
+    "beispielsatz_de": "Um 12 Uhr esse ich zu Mittag.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じゅうににち",
+    "kanji": "十二日",
+    "deutsch": "12. Tag eines Monats",
+    "beispielsatz_jp": "じゅうににちはやすみです。",
+    "beispielsatz_de": "Am 12. ist frei.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じゅぎょう",
+    "kanji": "授業",
+    "deutsch": "Unterricht",
+    "beispielsatz_jp": "きょうじゅぎょうがさんこまあります。",
+    "beispielsatz_de": "Heute gibt es 3 Unterrichtsstunden.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しゅくだい",
+    "kanji": "宿題",
+    "deutsch": "Hausaufgaben",
+    "beispielsatz_jp": "しゅくだいをします。",
+    "beispielsatz_de": "Ich mache Hausaufgaben.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じゅっぴき",
+    "kanji": "十匹",
+    "deutsch": "10 Tiere",
+    "beispielsatz_jp": "どうぶつえんにじゅっぴきいます。",
+    "beispielsatz_de": "Im Zoo gibt es 10 Tiere.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "じゅっぷん",
+    "kanji": "十分",
+    "deutsch": "10 Minuten",
+    "beispielsatz_jp": "じゅっぷんまってください。",
+    "beispielsatz_de": "Bitte warten Sie 10 Minuten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "じゅっぽん",
+    "kanji": "十本",
+    "deutsch": "10 (Flaschen, ..)",
+    "beispielsatz_jp": "ビールがじゅっぽんあります。",
+    "beispielsatz_de": "Es gibt 10 Flaschen Bier.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "じょうず",
+    "kanji": "上手",
+    "deutsch": "geschickt",
+    "beispielsatz_jp": "ピアノがじょうずです。",
+    "beispielsatz_de": "Ich bin gut im Klavierspielen.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "じょうぶ",
+    "kanji": null,
+    "deutsch": "robust",
+    "beispielsatz_jp": "このいすはじょうぶです。",
+    "beispielsatz_de": "Dieser Stuhl ist robust.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "しょうゆ",
+    "kanji": null,
+    "deutsch": "Shoyu-Sauce",
+    "beispielsatz_jp": "りょうりにしょうゆをいれます。",
+    "beispielsatz_de": "Ich gebe Sojasosse in das Essen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しょくどう",
+    "kanji": "食堂",
+    "deutsch": "Speisezimmer",
+    "beispielsatz_jp": "しょくどうでひるごはんをたべます。",
+    "beispielsatz_de": "Ich esse im Speisezimmer zu Mittag.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しる",
+    "kanji": "知る",
+    "deutsch": "wissen",
+    "beispielsatz_jp": "そのことはしっています。",
+    "beispielsatz_de": "Das weiss ich.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "しろ",
+    "kanji": "白",
+    "deutsch": "Weiß",
+    "beispielsatz_jp": "しろはきれいないろです。",
+    "beispielsatz_de": "Weiss ist eine schoene Farbe.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "しろい",
+    "kanji": "白い",
+    "deutsch": "weiß",
+    "beispielsatz_jp": "このかみはしろいです。",
+    "beispielsatz_de": "Dieses Papier ist weiss.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "しんぶん",
+    "kanji": "新聞",
+    "deutsch": "Zeitung",
+    "beispielsatz_jp": "まいにちしんぶんをよみます。",
+    "beispielsatz_de": "Jeden Tag lese ich die Zeitung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "スーツ",
+    "kanji": null,
+    "deutsch": "Anzug",
+    "beispielsatz_jp": "スーツをきてかいしゃにいきます。",
+    "beispielsatz_de": "Ich ziehe einen Anzug an und gehe zur Arbeit.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "すい",
+    "kanji": "水",
+    "deutsch": "Mittwoch (Abkürzung)",
+    "beispielsatz_jp": "すいはすいようびのりゃくです。",
+    "beispielsatz_de": "Sui ist die Abkuerzung fuer Mittwoch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "すいようび",
+    "kanji": "水曜日",
+    "deutsch": "Mittwoch",
+    "beispielsatz_jp": "すいようびにえいごをならいます。",
+    "beispielsatz_de": "Mittwochs lerne ich Englisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "すう",
+    "kanji": "吸う",
+    "deutsch": "einatmen",
+    "beispielsatz_jp": "タバコをすいます。",
+    "beispielsatz_de": "Ich rauche eine Zigarette.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "スカート",
+    "kanji": null,
+    "deutsch": "Rock",
+    "beispielsatz_jp": "あたらしいスカートをはきます。",
+    "beispielsatz_de": "Ich ziehe einen neuen Rock an.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "すき",
+    "kanji": "好き",
+    "deutsch": "mögen, lieben",
+    "beispielsatz_jp": "やさいがすきです。",
+    "beispielsatz_de": "Ich mag Gemuese.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "すくない",
+    "kanji": "少ない",
+    "deutsch": "wenig",
+    "beispielsatz_jp": "このまちにはひとがすくないです。",
+    "beispielsatz_de": "In dieser Stadt gibt es wenige Menschen.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "すぐに",
+    "kanji": null,
+    "deutsch": "sofort",
+    "beispielsatz_jp": "すぐにきます。",
+    "beispielsatz_de": "Ich komme sofort.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "すこし",
+    "kanji": "少し",
+    "deutsch": "etwas",
+    "beispielsatz_jp": "にほんごがすこしわかります。",
+    "beispielsatz_de": "Ich verstehe ein bisschen Japanisch.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "すし",
+    "kanji": null,
+    "deutsch": "Sushi",
+    "beispielsatz_jp": "すしをたべます。",
+    "beispielsatz_de": "Ich esse Sushi.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "すしや",
+    "kanji": "すし屋",
+    "deutsch": "Sushibar",
+    "beispielsatz_jp": "すしやにいきます。",
+    "beispielsatz_de": "Ich gehe in die Sushibar.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "すずしい",
+    "kanji": null,
+    "deutsch": "kühl",
+    "beispielsatz_jp": "あきはすずしいです。",
+    "beispielsatz_de": "Der Herbst ist kuehl.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "ストーブ",
+    "kanji": null,
+    "deutsch": "Ofen",
+    "beispielsatz_jp": "ふゆにストーブをつけます。",
+    "beispielsatz_de": "Im Winter schalte ich den Ofen ein.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "スプーン",
+    "kanji": null,
+    "deutsch": "Löffel",
+    "beispielsatz_jp": "スプーンでたべます。",
+    "beispielsatz_de": "Ich esse mit dem Loeffel.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "スポーツ",
+    "kanji": null,
+    "deutsch": "Sport",
+    "beispielsatz_jp": "スポーツがすきです。",
+    "beispielsatz_de": "Ich mag Sport.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ズボン",
+    "kanji": null,
+    "deutsch": "Hose",
+    "beispielsatz_jp": "ズボンをはきます。",
+    "beispielsatz_de": "Ich ziehe eine Hose an.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "すみません",
+    "kanji": null,
+    "deutsch": "Entschuldigung",
+    "beispielsatz_jp": "すみません、えきはどこですか。",
+    "beispielsatz_de": "Entschuldigung, wo ist der Bahnhof?",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "すむ",
+    "kanji": "住む",
+    "deutsch": "wohnen",
+    "beispielsatz_jp": "とうきょうにすんでいます。",
+    "beispielsatz_de": "Ich wohne in Tokio.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "スリッパ",
+    "kanji": null,
+    "deutsch": "Pantoffeln",
+    "beispielsatz_jp": "うちでスリッパをはきます。",
+    "beispielsatz_de": "Zuhause trage ich Pantoffeln.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "する",
+    "kanji": null,
+    "deutsch": "machen",
+    "beispielsatz_jp": "まいにちうんどうをします。",
+    "beispielsatz_de": "Jeden Tag mache ich Sport.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "すわる",
+    "kanji": "座る",
+    "deutsch": "sitzen",
+    "beispielsatz_jp": "ここにすわってください。",
+    "beispielsatz_de": "Bitte setzen Sie sich hier hin.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "せ",
+    "kanji": "背",
+    "deutsch": "Rücken",
+    "beispielsatz_jp": "せがたかいです。",
+    "beispielsatz_de": "Ich bin gross (Koerpergroesse).",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "セーター",
+    "kanji": null,
+    "deutsch": "Pullover",
+    "beispielsatz_jp": "さむいのでセーターをきます。",
+    "beispielsatz_de": "Weil es kalt ist, ziehe ich einen Pullover an.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "せいと",
+    "kanji": "生徒",
+    "deutsch": "Schüler",
+    "beispielsatz_jp": "わたしはせいとです。",
+    "beispielsatz_de": "Ich bin Schueler.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "せっけん",
+    "kanji": null,
+    "deutsch": "Seife",
+    "beispielsatz_jp": "てをせっけんであらいます。",
+    "beispielsatz_de": "Ich wasche meine Haende mit Seife.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "せまい",
+    "kanji": null,
+    "deutsch": "eng",
+    "beispielsatz_jp": "このへやはせまいです。",
+    "beispielsatz_de": "Dieses Zimmer ist eng.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "ゼロ",
+    "kanji": null,
+    "deutsch": "Null",
+    "beispielsatz_jp": "ゼロはれいともいいます。",
+    "beispielsatz_de": "Zero wird auch rei ausgesprochen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "せん",
+    "kanji": "千",
+    "deutsch": "tausend",
+    "beispielsatz_jp": "せんえんさつをもっています。",
+    "beispielsatz_de": "Ich habe einen Tausend-Yen-Schein.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "せんげつ",
+    "kanji": "先月",
+    "deutsch": "voriger Monat",
+    "beispielsatz_jp": "せんげつにほんにいきました。",
+    "beispielsatz_de": "Letzten Monat bin ich nach Japan gefahren.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "せんしゅう",
+    "kanji": "先週",
+    "deutsch": "letzte Woche",
+    "beispielsatz_jp": "せんしゅうのきんようびにえいがをみました。",
+    "beispielsatz_de": "Letzte Woche am Freitag habe ich einen Film gesehen.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "せんせい",
+    "kanji": "先生",
+    "deutsch": "Lehrer",
+    "beispielsatz_jp": "せんせいにしつもんします。",
+    "beispielsatz_de": "Ich stelle dem Lehrer eine Frage.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "せんたく",
+    "kanji": "洗濯",
+    "deutsch": "Wäsche",
+    "beispielsatz_jp": "せんたくをします。",
+    "beispielsatz_de": "Ich wasche Waesche.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ぜんぶ",
+    "kanji": "全部",
+    "deutsch": "alle",
+    "beispielsatz_jp": "ぜんぶたべてください。",
+    "beispielsatz_de": "Bitte essen Sie alles auf.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "そうじ",
+    "kanji": null,
+    "deutsch": "Saubermachen",
+    "beispielsatz_jp": "まいしゅうそうじをします。",
+    "beispielsatz_de": "Jede Woche mache ich sauber.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "そうじする",
+    "kanji": null,
+    "deutsch": "sauber machen",
+    "beispielsatz_jp": "へやをそうじします。",
+    "beispielsatz_de": "Ich putze das Zimmer.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "そこ",
+    "kanji": null,
+    "deutsch": "dort",
+    "beispielsatz_jp": "えきはそこです。",
+    "beispielsatz_de": "Der Bahnhof ist dort.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "そして",
+    "kanji": null,
+    "deutsch": "danach",
+    "beispielsatz_jp": "ごはんをたべて、そしてさんぽしました。",
+    "beispielsatz_de": "Ich ass und ging danach spazieren.",
+    "wortart": "Konjunktion"
+  },
+  {
+    "hiragana": "そちら",
+    "kanji": null,
+    "deutsch": "dort (hin)",
+    "beispielsatz_jp": "トイレはそちらです。",
+    "beispielsatz_de": "Die Toilette ist dort.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "そっち",
+    "kanji": null,
+    "deutsch": "dort (hin)",
+    "beispielsatz_jp": "えきはそっちです。",
+    "beispielsatz_de": "Der Bahnhof ist da drueben.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "そと",
+    "kanji": "外",
+    "deutsch": "außen",
+    "beispielsatz_jp": "そとはさむいです。",
+    "beispielsatz_de": "Draussen ist es kalt.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "その",
+    "kanji": null,
+    "deutsch": "dieses dort",
+    "beispielsatz_jp": "そのほんをかしてください。",
+    "beispielsatz_de": "Bitte leihen Sie mir das Buch dort.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "そば",
+    "kanji": null,
+    "deutsch": "daneben",
+    "beispielsatz_jp": "びょういんのそばにやっきょくがあります。",
+    "beispielsatz_de": "Neben dem Krankenhaus ist eine Apotheke.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "そら",
+    "kanji": "空",
+    "deutsch": "Himmel",
+    "beispielsatz_jp": "きょうはそらがあおいです。",
+    "beispielsatz_de": "Heute ist der Himmel blau.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "それ",
+    "kanji": null,
+    "deutsch": "das dort",
+    "beispielsatz_jp": "それはなんですか。",
+    "beispielsatz_de": "Was ist das dort?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "それから",
+    "kanji": null,
+    "deutsch": "danach",
+    "beispielsatz_jp": "ひるごはんをたべて、それからさんぽします。",
+    "beispielsatz_de": "Ich esse Mittagessen, danach gehe ich spazieren.",
+    "wortart": "Konjunktion"
+  },
+  {
+    "hiragana": "それでは",
+    "kanji": null,
+    "deutsch": "dann (auch als Verabschiedung)",
+    "beispielsatz_jp": "それではまた。",
+    "beispielsatz_de": "Dann bis dann.",
+    "wortart": "Konjunktion"
+  },
+  {
+    "hiragana": "だいがく",
+    "kanji": "大学",
+    "deutsch": "Universität",
+    "beispielsatz_jp": "だいがくでにほんごをべんきょうしています。",
+    "beispielsatz_de": "An der Universitaet lerne ich Japanisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "たいしかん",
+    "kanji": "大使館",
+    "deutsch": "Botschaft",
+    "beispielsatz_jp": "たいしかんはどこですか。",
+    "beispielsatz_de": "Wo ist die Botschaft?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "だいじょうぶ",
+    "kanji": "大丈夫",
+    "deutsch": "alles in Ordnung",
+    "beispielsatz_jp": "だいじょうぶですか。",
+    "beispielsatz_de": "Ist alles in Ordnung?",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "だいすき",
+    "kanji": "大好き",
+    "deutsch": "sehr mögen, lieben",
+    "beispielsatz_jp": "にほんりょうりがだいすきです。",
+    "beispielsatz_de": "Ich liebe japanisches Essen.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "たいせつ",
+    "kanji": "大切",
+    "deutsch": "wichtig",
+    "beispielsatz_jp": "けんこうはたいせつです。",
+    "beispielsatz_de": "Gesundheit ist wichtig.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "だいたい",
+    "kanji": null,
+    "deutsch": "größtenteils",
+    "beispielsatz_jp": "だいたいわかりました。",
+    "beispielsatz_de": "Ich habe es groesstenteils verstanden.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "だいどころ",
+    "kanji": "台所",
+    "deutsch": "Küche",
+    "beispielsatz_jp": "だいどころでりょうりをします。",
+    "beispielsatz_de": "Ich koche in der Kueche.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "たいへん",
+    "kanji": "大変",
+    "deutsch": "sehr, schwierig",
+    "beispielsatz_jp": "にほんごはたいへんむずかしいです。",
+    "beispielsatz_de": "Japanisch ist sehr schwierig.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "たかい",
+    "kanji": "高い",
+    "deutsch": "hoch",
+    "beispielsatz_jp": "このビルはたかいです。",
+    "beispielsatz_de": "Dieses Gebaeude ist hoch.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "だから",
+    "kanji": null,
+    "deutsch": "deswegen",
+    "beispielsatz_jp": "あめでした、だからいえにいました。",
+    "beispielsatz_de": "Es regnete, deshalb blieb ich zu Hause.",
+    "wortart": "Konjunktion"
+  },
+  {
+    "hiragana": "たくさん",
+    "kanji": null,
+    "deutsch": "viel",
+    "beispielsatz_jp": "たくさんたべました。",
+    "beispielsatz_de": "Ich habe viel gegessen.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "タクシー",
+    "kanji": null,
+    "deutsch": "Taxi",
+    "beispielsatz_jp": "タクシーでいきます。",
+    "beispielsatz_de": "Ich fahre mit dem Taxi.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "だす",
+    "kanji": "出す",
+    "deutsch": "herausholen",
+    "beispielsatz_jp": "バッグからほんをだします。",
+    "beispielsatz_de": "Ich hole das Buch aus der Tasche.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ただいま",
+    "kanji": null,
+    "deutsch": "Begrüßung beim Zuhause Ankommen",
+    "beispielsatz_jp": "ただいま！",
+    "beispielsatz_de": "Ich bin zu Hause!",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "ただしい",
+    "kanji": "正しい",
+    "deutsch": "richtig",
+    "beispielsatz_jp": "このこたえはただしいですか。",
+    "beispielsatz_de": "Ist diese Antwort richtig?",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "たつ",
+    "kanji": "立つ",
+    "deutsch": "aufstehen",
+    "beispielsatz_jp": "どうぞたってください。",
+    "beispielsatz_de": "Bitte stehen Sie auf.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "たてもの",
+    "kanji": "建物",
+    "deutsch": "Gebäude",
+    "beispielsatz_jp": "このたてものはおおきいです。",
+    "beispielsatz_de": "Dieses Gebaeude ist gross.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "たのしい",
+    "kanji": "楽しい",
+    "deutsch": "angenehm",
+    "beispielsatz_jp": "りょこうはたのしかったです。",
+    "beispielsatz_de": "Die Reise war angenehm.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "たのむ",
+    "kanji": "頼む",
+    "deutsch": "bitten",
+    "beispielsatz_jp": "てつだってくれるようにたのみました。",
+    "beispielsatz_de": "Ich bat, mir zu helfen.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "たばこ",
+    "kanji": null,
+    "deutsch": "Zigaretten",
+    "beispielsatz_jp": "そこでたばこをすわないでください。",
+    "beispielsatz_de": "Bitte rauchen Sie dort nicht.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "たぶん",
+    "kanji": null,
+    "deutsch": "vielleicht",
+    "beispielsatz_jp": "たぶんあしたあめがふります。",
+    "beispielsatz_de": "Vielleicht regnet es morgen.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "たべもの",
+    "kanji": "食べ物",
+    "deutsch": "Essen",
+    "beispielsatz_jp": "どんなたべものがすきですか。",
+    "beispielsatz_de": "Welches Essen moegen Sie?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "たべる",
+    "kanji": "食べる",
+    "deutsch": "essen",
+    "beispielsatz_jp": "まいにちやさいをたべます。",
+    "beispielsatz_de": "Ich esse jeden Tag Gemuese.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "たまご",
+    "kanji": "卵",
+    "deutsch": "Ei",
+    "beispielsatz_jp": "たまごりょうりがすきです。",
+    "beispielsatz_de": "Ich mag Eiergerichte.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "だれ",
+    "kanji": null,
+    "deutsch": "wer",
+    "beispielsatz_jp": "だれがきましたか。",
+    "beispielsatz_de": "Wer ist gekommen?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "だれか",
+    "kanji": null,
+    "deutsch": "jemand",
+    "beispielsatz_jp": "だれかがドアをたたいています。",
+    "beispielsatz_de": "Jemand klopft an die Tuer.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "たんじょうび",
+    "kanji": "誕生日",
+    "deutsch": "Geburtstag",
+    "beispielsatz_jp": "たんじょうびはいつですか。",
+    "beispielsatz_de": "Wann ist Ihr Geburtstag?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "だんだん",
+    "kanji": null,
+    "deutsch": "nach und nach",
+    "beispielsatz_jp": "だんだんにほんごがじょうずになります。",
+    "beispielsatz_de": "Nach und nach wird mein Japanisch besser.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "ちいさい",
+    "kanji": "小さい",
+    "deutsch": "klein",
+    "beispielsatz_jp": "このこねこはちいさいです。",
+    "beispielsatz_de": "Dieses Kaetzchen ist klein.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "ちいさな",
+    "kanji": "小さな",
+    "deutsch": "klein",
+    "beispielsatz_jp": "ちいさなかびんです。",
+    "beispielsatz_de": "Es ist eine kleine Vase.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "ちかい",
+    "kanji": "近い",
+    "deutsch": "nahe",
+    "beispielsatz_jp": "えきはちかいです。",
+    "beispielsatz_de": "Der Bahnhof ist nah.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "ちがう",
+    "kanji": "違う",
+    "deutsch": "anders sein",
+    "beispielsatz_jp": "このふたつのいろはちがいます。",
+    "beispielsatz_de": "Diese zwei Farben sind unterschiedlich.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ちかく",
+    "kanji": "近く",
+    "deutsch": "in der Nähe",
+    "beispielsatz_jp": "えきのちかくにスーパーがあります。",
+    "beispielsatz_de": "In der Naehe des Bahnhofs ist ein Supermarkt.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ちかてつ",
+    "kanji": "地下鉄",
+    "deutsch": "U-Bahn",
+    "beispielsatz_jp": "ちかてつでいきます。",
+    "beispielsatz_de": "Ich fahre mit der U-Bahn.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ちず",
+    "kanji": "地図",
+    "deutsch": "Karte",
+    "beispielsatz_jp": "ちずをみてください。",
+    "beispielsatz_de": "Schauen Sie bitte auf die Karte.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ちち",
+    "kanji": "父",
+    "deutsch": "(mein) Vater",
+    "beispielsatz_jp": "ちちはかいしゃいんです。",
+    "beispielsatz_de": "Mein Vater ist Bueroangestellter.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ちゃいろ",
+    "kanji": "茶色",
+    "deutsch": "Braun",
+    "beispielsatz_jp": "このくつはちゃいろです。",
+    "beispielsatz_de": "Diese Schuhe sind braun.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ちゃわん",
+    "kanji": null,
+    "deutsch": "Schüssel",
+    "beispielsatz_jp": "ちゃわんにごはんをいれます。",
+    "beispielsatz_de": "Ich tue Reis in die Schuessel.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ちょうど",
+    "kanji": null,
+    "deutsch": "genau",
+    "beispielsatz_jp": "ちょうどいちじです。",
+    "beispielsatz_de": "Es ist genau 1 Uhr.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "ちょっと",
+    "kanji": null,
+    "deutsch": "etwas",
+    "beispielsatz_jp": "ちょっとまってください。",
+    "beispielsatz_de": "Warten Sie bitte kurz.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "ついたち",
+    "kanji": "一日",
+    "deutsch": "1. Tag eines Monats",
+    "beispielsatz_jp": "ついたちにしけんがあります。",
+    "beispielsatz_de": "Am 1. gibt es eine Pruefung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "つかう",
+    "kanji": "使う",
+    "deutsch": "benutzen",
+    "beispielsatz_jp": "まいにちパソコンをつかいます。",
+    "beispielsatz_de": "Jeden Tag benutze ich den Computer.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "つかれる",
+    "kanji": "疲れる",
+    "deutsch": "müde werden",
+    "beispielsatz_jp": "しごとでつかれました。",
+    "beispielsatz_de": "Ich bin von der Arbeit muede.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "つぎ",
+    "kanji": "次",
+    "deutsch": "der Nächste",
+    "beispielsatz_jp": "つぎのえきはどこですか。",
+    "beispielsatz_de": "Wo ist der naechste Bahnhof?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "つく",
+    "kanji": "着く",
+    "deutsch": "ankommen",
+    "beispielsatz_jp": "えきにつきました。",
+    "beispielsatz_de": "Ich bin am Bahnhof angekommen.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "つくえ",
+    "kanji": "机",
+    "deutsch": "Schreibtisch",
+    "beispielsatz_jp": "つくえのうえにほんがあります。",
+    "beispielsatz_de": "Auf dem Schreibtisch liegt ein Buch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "つくりかた",
+    "kanji": "作り方",
+    "deutsch": "wie es hergestellt wird",
+    "beispielsatz_jp": "ケーキのつくりかたをおしえてください。",
+    "beispielsatz_de": "Bitte erklaeren Sie mir, wie man Kuchen macht.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "つくる",
+    "kanji": "作る",
+    "deutsch": "herstellen",
+    "beispielsatz_jp": "りょうりをつくります。",
+    "beispielsatz_de": "Ich koche.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "つける",
+    "kanji": null,
+    "deutsch": "einschalten, anbringen",
+    "beispielsatz_jp": "テレビをつけます。",
+    "beispielsatz_de": "Ich schalte den Fernseher ein.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "つとめる",
+    "kanji": "勤める",
+    "deutsch": "arbeiten",
+    "beispielsatz_jp": "ぎんこうにつとめています。",
+    "beispielsatz_de": "Ich arbeite bei einer Bank.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "つまらない",
+    "kanji": null,
+    "deutsch": "langweilig",
+    "beispielsatz_jp": "このえいがはつまらないです。",
+    "beispielsatz_de": "Dieser Film ist langweilig.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "つめたい",
+    "kanji": "冷たい",
+    "deutsch": "kalt",
+    "beispielsatz_jp": "このみずはつめたいです。",
+    "beispielsatz_de": "Dieses Wasser ist kalt.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "つよい",
+    "kanji": "強い",
+    "deutsch": "stark",
+    "beispielsatz_jp": "このいぬはつよいです。",
+    "beispielsatz_de": "Dieser Hund ist stark.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "て",
+    "kanji": "手",
+    "deutsch": "Hand",
+    "beispielsatz_jp": "てをあらってください。",
+    "beispielsatz_de": "Bitte waschen Sie die Haende.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "テープ",
+    "kanji": null,
+    "deutsch": "Band, Klebestreifen",
+    "beispielsatz_jp": "はこをテープでとめます。",
+    "beispielsatz_de": "Ich befestige die Box mit Klebeband.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "テーブル",
+    "kanji": null,
+    "deutsch": "Tisch",
+    "beispielsatz_jp": "テーブルのうえにほんがあります。",
+    "beispielsatz_de": "Auf dem Tisch liegt ein Buch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "でかける",
+    "kanji": "出かける",
+    "deutsch": "ausgehen",
+    "beispielsatz_jp": "ともだちといっしょにでかけます。",
+    "beispielsatz_de": "Ich gehe mit einem Freund aus.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "てがみ",
+    "kanji": "手紙",
+    "deutsch": "Brief",
+    "beispielsatz_jp": "てがみをかきます。",
+    "beispielsatz_de": "Ich schreibe einen Brief.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "できる",
+    "kanji": null,
+    "deutsch": "können",
+    "beispielsatz_jp": "にほんごがすこしできます。",
+    "beispielsatz_de": "Ich kann ein bisschen Japanisch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "でぐち",
+    "kanji": "出口",
+    "deutsch": "Ausgang",
+    "beispielsatz_jp": "でぐちはどこですか。",
+    "beispielsatz_de": "Wo ist der Ausgang?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "テスト",
+    "kanji": null,
+    "deutsch": "Test",
+    "beispielsatz_jp": "テストでいいてんをとりました。",
+    "beispielsatz_de": "Beim Test habe ich eine gute Note bekommen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "では",
+    "kanji": null,
+    "deutsch": "dann (auch als Verabschiedung)",
+    "beispielsatz_jp": "では、またらいしゅう。",
+    "beispielsatz_de": "Dann, bis naechste Woche.",
+    "wortart": "Konjunktion"
+  },
+  {
+    "hiragana": "デパート",
+    "kanji": null,
+    "deutsch": "Kaufhaus",
+    "beispielsatz_jp": "デパートでかいものをします。",
+    "beispielsatz_de": "Ich kaufe im Kaufhaus ein.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "でも",
+    "kanji": null,
+    "deutsch": "aber",
+    "beispielsatz_jp": "たかいです、でもかいます。",
+    "beispielsatz_de": "Es ist teuer, aber ich kaufe es.",
+    "wortart": "Konjunktion"
+  },
+  {
+    "hiragana": "でる",
+    "kanji": "出る",
+    "deutsch": "hinausgehen",
+    "beispielsatz_jp": "そとにでます。",
+    "beispielsatz_de": "Ich gehe nach draussen.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "テレビ",
+    "kanji": null,
+    "deutsch": "TV",
+    "beispielsatz_jp": "まいばんテレビをみます。",
+    "beispielsatz_de": "Jeden Abend sehe ich Fernsehen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "てんき",
+    "kanji": "天気",
+    "deutsch": "Wetter",
+    "beispielsatz_jp": "きょうのてんきはいいです。",
+    "beispielsatz_de": "Das heutige Wetter ist gut.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "でんき",
+    "kanji": "電気",
+    "deutsch": "elektrisches Licht",
+    "beispielsatz_jp": "へやのでんきをつけます。",
+    "beispielsatz_de": "Ich schalte das Licht im Zimmer ein.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "でんしゃ",
+    "kanji": "電車",
+    "deutsch": "(elektrische) Bahn",
+    "beispielsatz_jp": "まいにちでんしゃでかいしゃにいきます。",
+    "beispielsatz_de": "Jeden Tag fahre ich mit der Bahn zur Arbeit.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "でんわ",
+    "kanji": "電話",
+    "deutsch": "Telefon",
+    "beispielsatz_jp": "でんわをかけます。",
+    "beispielsatz_de": "Ich rufe an.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "でんわばんごう",
+    "kanji": "電話番号",
+    "deutsch": "Telefonnummer",
+    "beispielsatz_jp": "でんわばんごうをおしえてください。",
+    "beispielsatz_de": "Bitte geben Sie mir Ihre Telefonnummer.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜ど",
+    "kanji": "〜度",
+    "deutsch": "〜°C",
+    "beispielsatz_jp": "きょうはにじゅうごどです。",
+    "beispielsatz_de": "Heute sind es 25 Grad.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "ど",
+    "kanji": "土",
+    "deutsch": "Samstag (Abkürzung)",
+    "beispielsatz_jp": "どはどようびのりゃくです。",
+    "beispielsatz_de": "Do ist die Abkuerzung fuer Samstag.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ドア",
+    "kanji": null,
+    "deutsch": "Tür",
+    "beispielsatz_jp": "ドアをあけてください。",
+    "beispielsatz_de": "Bitte oeffnen Sie die Tuer.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ドイツ",
+    "kanji": null,
+    "deutsch": "Deutschland",
+    "beispielsatz_jp": "ドイツにすんでいます。",
+    "beispielsatz_de": "Ich wohne in Deutschland.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "どいつご",
+    "kanji": "ドイツ語",
+    "deutsch": "Deutsch (Sprache)",
+    "beispielsatz_jp": "どいつごをべんきょうしています。",
+    "beispielsatz_de": "Ich lerne Deutsch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "トイレ",
+    "kanji": null,
+    "deutsch": "Toilette",
+    "beispielsatz_jp": "トイレはどこですか。",
+    "beispielsatz_de": "Wo ist die Toilette?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "トイレットペーパー",
+    "kanji": null,
+    "deutsch": "Toilettenpapier",
+    "beispielsatz_jp": "トイレットペーパーがありません。",
+    "beispielsatz_de": "Es gibt kein Toilettenpapier.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "どう",
+    "kanji": null,
+    "deutsch": "wie",
+    "beispielsatz_jp": "にほんごはどうですか。",
+    "beispielsatz_de": "Wie ist Japanisch fuer Sie?",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "どういたしまして",
+    "kanji": null,
+    "deutsch": "Gern geschehen.",
+    "beispielsatz_jp": "どういたしまして。",
+    "beispielsatz_de": "Gern geschehen.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "とうきょう",
+    "kanji": "東京",
+    "deutsch": "Tokio",
+    "beispielsatz_jp": "とうきょうにすんでいます。",
+    "beispielsatz_de": "Ich wohne in Tokio.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "どうして",
+    "kanji": null,
+    "deutsch": "wie, warum",
+    "beispielsatz_jp": "どうしてがっこうをやすみましたか。",
+    "beispielsatz_de": "Warum haben Sie die Schule verpasst?",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "どうぞ",
+    "kanji": null,
+    "deutsch": "bitte sehr",
+    "beispielsatz_jp": "どうぞすわってください。",
+    "beispielsatz_de": "Bitte setzen Sie sich.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "とうふ",
+    "kanji": "豆腐",
+    "deutsch": "Tofu",
+    "beispielsatz_jp": "とうふをたべます。",
+    "beispielsatz_de": "Ich esse Tofu.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "どうぶつ",
+    "kanji": "動物",
+    "deutsch": "Tier",
+    "beispielsatz_jp": "どうぶつがすきです。",
+    "beispielsatz_de": "Ich mag Tiere.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "どうも",
+    "kanji": null,
+    "deutsch": "sehr",
+    "beispielsatz_jp": "どうもありがとうございます。",
+    "beispielsatz_de": "Vielen herzlichen Dank.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "とお",
+    "kanji": "十",
+    "deutsch": "10",
+    "beispielsatz_jp": "とおはじゅうともいいます。",
+    "beispielsatz_de": "Too wird auch juu ausgesprochen.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "とおい",
+    "kanji": "遠い",
+    "deutsch": "weit entfernt",
+    "beispielsatz_jp": "えきはとおいです。",
+    "beispielsatz_de": "Der Bahnhof ist weit entfernt.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "とおか",
+    "kanji": "十日",
+    "deutsch": "10. Tag eines Monats",
+    "beispielsatz_jp": "とおかにかいぎがあります。",
+    "beispielsatz_de": "Am 10. gibt es eine Besprechung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "とおかかん",
+    "kanji": "十日間",
+    "deutsch": "10 Tage",
+    "beispielsatz_jp": "りょこうはとおかかんです。",
+    "beispielsatz_de": "Die Reise dauert 10 Tage.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ときどき",
+    "kanji": "時々",
+    "deutsch": "manchmal",
+    "beispielsatz_jp": "ときどきえいがをみます。",
+    "beispielsatz_de": "Manchmal sehe ich Filme.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "とけい",
+    "kanji": "時計",
+    "deutsch": "Uhr",
+    "beispielsatz_jp": "とけいをみます。",
+    "beispielsatz_de": "Ich schaue auf die Uhr.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "どこ",
+    "kanji": null,
+    "deutsch": "wo",
+    "beispielsatz_jp": "えきはどこですか。",
+    "beispielsatz_de": "Wo ist der Bahnhof?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "どこか",
+    "kanji": null,
+    "deutsch": "irgendwo",
+    "beispielsatz_jp": "どこかにいきたいです。",
+    "beispielsatz_de": "Ich moechte irgendwo hingehen.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "ところ",
+    "kanji": "所",
+    "deutsch": "Ort",
+    "beispielsatz_jp": "すきなところはどこですか。",
+    "beispielsatz_de": "Welcher Ort gefaellt Ihnen?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "とし",
+    "kanji": "年",
+    "deutsch": "Jahr",
+    "beispielsatz_jp": "ことしはとしがあがりました。",
+    "beispielsatz_de": "Dieses Jahr bin ich aelter geworden.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "としょかん",
+    "kanji": "図書館",
+    "deutsch": "Bibliothek",
+    "beispielsatz_jp": "としょかんでほんをかります。",
+    "beispielsatz_de": "Ich leihe in der Bibliothek ein Buch aus.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "どちら",
+    "kanji": null,
+    "deutsch": "woher, welches",
+    "beispielsatz_jp": "どちらのほうがすきですか。",
+    "beispielsatz_de": "Welches moegen Sie lieber?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "どっかい",
+    "kanji": "読解",
+    "deutsch": "Leseverständnis",
+    "beispielsatz_jp": "どっかいのれんしゅうをします。",
+    "beispielsatz_de": "Ich uebe das Leseverstaendnis.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "どっち",
+    "kanji": null,
+    "deutsch": "woher, welches",
+    "beispielsatz_jp": "どっちのほうがすきですか。",
+    "beispielsatz_de": "Welches moegen Sie lieber?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "とても",
+    "kanji": null,
+    "deutsch": "sehr",
+    "beispielsatz_jp": "このりょうりはとてもおいしいです。",
+    "beispielsatz_de": "Dieses Gericht ist sehr lecker.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "どなた",
+    "kanji": null,
+    "deutsch": "wer",
+    "beispielsatz_jp": "どなたですか。",
+    "beispielsatz_de": "Wer sind Sie?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "となり",
+    "kanji": null,
+    "deutsch": "Nachbarschaft",
+    "beispielsatz_jp": "となりのへやはしずかです。",
+    "beispielsatz_de": "Das Nachbarzimmer ist ruhig.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "どの",
+    "kanji": null,
+    "deutsch": "welches",
+    "beispielsatz_jp": "どのほんがすきですか。",
+    "beispielsatz_de": "Welches Buch moegen Sie?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "とぶ",
+    "kanji": "飛ぶ",
+    "deutsch": "springen",
+    "beispielsatz_jp": "とりがそらをとんでいます。",
+    "beispielsatz_de": "Der Vogel fliegt am Himmel.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "とまる",
+    "kanji": "止まる",
+    "deutsch": "halten",
+    "beispielsatz_jp": "バスがとまります。",
+    "beispielsatz_de": "Der Bus haelt an.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ともだち",
+    "kanji": "友達",
+    "deutsch": "Freund",
+    "beispielsatz_jp": "ともだちにてがみをかきます。",
+    "beispielsatz_de": "Ich schreibe einem Freund einen Brief.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "どようび",
+    "kanji": "土曜日",
+    "deutsch": "Samstag",
+    "beispielsatz_jp": "どようびにえいがをみます。",
+    "beispielsatz_de": "Am Samstag sehe ich einen Film.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "とり",
+    "kanji": "鳥",
+    "deutsch": "Vogel",
+    "beispielsatz_jp": "にわにとりがいます。",
+    "beispielsatz_de": "Im Garten ist ein Vogel.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "とりにく",
+    "kanji": "鳥肉",
+    "deutsch": "Vogelfleisch",
+    "beispielsatz_jp": "とりにくをたべます。",
+    "beispielsatz_de": "Ich esse Huehner.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "とる",
+    "kanji": "取る",
+    "deutsch": "aufnehmen",
+    "beispielsatz_jp": "でんわをとります。",
+    "beispielsatz_de": "Ich nehme das Telefon ab.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "とる",
+    "kanji": "取る",
+    "deutsch": "nehmen",
+    "beispielsatz_jp": "テーブルのうえのほんをとってください。",
+    "beispielsatz_de": "Bitte nehmen Sie das Buch vom Tisch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "どれ",
+    "kanji": null,
+    "deutsch": "welches",
+    "beispielsatz_jp": "どれがすきですか。",
+    "beispielsatz_de": "Welches moegen Sie?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "ドレス",
+    "kanji": null,
+    "deutsch": "Kleid",
+    "beispielsatz_jp": "きれいなドレスをきています。",
+    "beispielsatz_de": "Sie traegt ein schoenes Kleid.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "どんな",
+    "kanji": null,
+    "deutsch": "welche Art",
+    "beispielsatz_jp": "どんなりょうりがすきですか。",
+    "beispielsatz_de": "Welche Art von Essen moegen Sie?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "ない",
+    "kanji": null,
+    "deutsch": "nicht existieren",
+    "beispielsatz_jp": "きょうはじかんがないです。",
+    "beispielsatz_de": "Heute habe ich keine Zeit.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "ナイフ",
+    "kanji": null,
+    "deutsch": "Messer",
+    "beispielsatz_jp": "ナイフとフォークをつかいます。",
+    "beispielsatz_de": "Ich benutze Messer und Gabel.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "なか",
+    "kanji": "中",
+    "deutsch": "innen",
+    "beispielsatz_jp": "はこのなかにほんがあります。",
+    "beispielsatz_de": "Im Kasten ist ein Buch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ながい",
+    "kanji": "長い",
+    "deutsch": "lang",
+    "beispielsatz_jp": "このなわはながいです。",
+    "beispielsatz_de": "Dieses Seil ist lang.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "なかから",
+    "kanji": "中から",
+    "deutsch": "aus",
+    "beispielsatz_jp": "はこのなかからほんをだします。",
+    "beispielsatz_de": "Ich nehme das Buch aus dem Kasten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "なく",
+    "kanji": "泣く",
+    "deutsch": "weinen",
+    "beispielsatz_jp": "かなしくてなきました。",
+    "beispielsatz_de": "Ich weinte, weil ich traurig war.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "なくす",
+    "kanji": null,
+    "deutsch": "etwas verlieren, verschwinden lassen",
+    "beispielsatz_jp": "さいふをなくしました。",
+    "beispielsatz_de": "Ich habe mein Portemonnaie verloren.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "なぜ",
+    "kanji": null,
+    "deutsch": "warum",
+    "beispielsatz_jp": "なぜがっこうをやすみましたか。",
+    "beispielsatz_de": "Warum haben Sie die Schule verpasst?",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "なつ",
+    "kanji": "夏",
+    "deutsch": "Sommer",
+    "beispielsatz_jp": "なつはあついです。",
+    "beispielsatz_de": "Der Sommer ist heiss.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "なつやすみ",
+    "kanji": "夏休み",
+    "deutsch": "Sommerferien",
+    "beispielsatz_jp": "なつやすみにうみにいきます。",
+    "beispielsatz_de": "In den Sommerferien gehe ich ans Meer.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "など",
+    "kanji": null,
+    "deutsch": "usw.",
+    "beispielsatz_jp": "やさいやくだものなどをたべます。",
+    "beispielsatz_de": "Ich esse Gemuese, Obst usw.",
+    "wortart": "Partikel"
+  },
+  {
+    "hiragana": "なな",
+    "kanji": "七",
+    "deutsch": "sieben",
+    "beispielsatz_jp": "ななたすさんはじゅうです。",
+    "beispielsatz_de": "Sieben plus drei ist zehn.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "ななつ",
+    "kanji": "七つ",
+    "deutsch": "sieben Stück",
+    "beispielsatz_jp": "りんごがななつあります。",
+    "beispielsatz_de": "Es gibt sieben Aepfel.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "ななひき",
+    "kanji": "七匹",
+    "deutsch": "7 Tiere",
+    "beispielsatz_jp": "どうぶつえんにななひきいます。",
+    "beispielsatz_de": "Im Zoo gibt es 7 Tiere.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "ななふん",
+    "kanji": "七分",
+    "deutsch": "7 Minuten",
+    "beispielsatz_jp": "バスでななふんかかります。",
+    "beispielsatz_de": "Mit dem Bus dauert es 7 Minuten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ななほん",
+    "kanji": "七本",
+    "deutsch": "7 (Flaschen, ..)",
+    "beispielsatz_jp": "ジュースがななほんあります。",
+    "beispielsatz_de": "Es gibt 7 Flaschen Saft.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "なに",
+    "kanji": "何",
+    "deutsch": "was, etwas",
+    "beispielsatz_jp": "なにをたべますか。",
+    "beispielsatz_de": "Was essen Sie?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "なのか",
+    "kanji": "七日",
+    "deutsch": "7. Tag eines Monats",
+    "beispielsatz_jp": "なのかにしけんがあります。",
+    "beispielsatz_de": "Am 7. gibt es eine Pruefung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "なのかかん",
+    "kanji": "七日間",
+    "deutsch": "7 Tage",
+    "beispielsatz_jp": "りょこうはなのかかんです。",
+    "beispielsatz_de": "Die Reise dauert 7 Tage.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "なまえ",
+    "kanji": "名前",
+    "deutsch": "Name",
+    "beispielsatz_jp": "おなまえはなんですか。",
+    "beispielsatz_de": "Wie ist Ihr Name?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ならう",
+    "kanji": "習う",
+    "deutsch": "lernen",
+    "beispielsatz_jp": "にほんごをならっています。",
+    "beispielsatz_de": "Ich lerne Japanisch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ならぶ",
+    "kanji": null,
+    "deutsch": "nebeneinander stehen",
+    "beispielsatz_jp": "みんながならんでいます。",
+    "beispielsatz_de": "Alle stehen in einer Reihe.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ならべる",
+    "kanji": null,
+    "deutsch": "aufreihen",
+    "beispielsatz_jp": "ほんをならべます。",
+    "beispielsatz_de": "Ich reihe die Buecher auf.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "なる",
+    "kanji": null,
+    "deutsch": "werden",
+    "beispielsatz_jp": "せんせいになりたいです。",
+    "beispielsatz_de": "Ich moechte Lehrer werden.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "なん",
+    "kanji": "何",
+    "deutsch": "was, etwas",
+    "beispielsatz_jp": "なんをたべましたか。",
+    "beispielsatz_de": "Was haben Sie gegessen?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "なんかい",
+    "kanji": "何回",
+    "deutsch": "wievielmal?",
+    "beispielsatz_jp": "なんかいにほんにいきましたか。",
+    "beispielsatz_de": "Wie oft sind Sie nach Japan gefahren?",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "なんじかん",
+    "kanji": "何時間",
+    "deutsch": "wie viel Stunden",
+    "beispielsatz_jp": "なんじかんべんきょうしましたか。",
+    "beispielsatz_de": "Wie viele Stunden haben Sie gelernt?",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "なんばん",
+    "kanji": "何番",
+    "deutsch": "welche Nummer",
+    "beispielsatz_jp": "でんわのなんばんですか。",
+    "beispielsatz_de": "Was ist die Telefonnummer?",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "に",
+    "kanji": "二",
+    "deutsch": "zwei",
+    "beispielsatz_jp": "にたすにはよんです。",
+    "beispielsatz_de": "Zwei plus zwei ist vier.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "にがつ",
+    "kanji": "二月",
+    "deutsch": "Februar",
+    "beispielsatz_jp": "にがつはさむいです。",
+    "beispielsatz_de": "Februar ist kalt.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "にぎやか",
+    "kanji": null,
+    "deutsch": "lebhaft",
+    "beispielsatz_jp": "とうきょうはにぎやかなまちです。",
+    "beispielsatz_de": "Tokio ist eine lebhafte Stadt.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "にく",
+    "kanji": "肉",
+    "deutsch": "Fleisch",
+    "beispielsatz_jp": "にくをたべます。",
+    "beispielsatz_de": "Ich esse Fleisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "にじ",
+    "kanji": "二時",
+    "deutsch": "2 Uhr",
+    "beispielsatz_jp": "にじにあいましょう。",
+    "beispielsatz_de": "Treffen wir uns um 2 Uhr.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "にし",
+    "kanji": "西",
+    "deutsch": "Westen",
+    "beispielsatz_jp": "にしにえきがあります。",
+    "beispielsatz_de": "Im Westen ist der Bahnhof.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜にち",
+    "kanji": "〜日",
+    "deutsch": "～. Tag eines Monats",
+    "beispielsatz_jp": "じゅうにちはじゅうのひです。",
+    "beispielsatz_de": "Der 10. ist der zehnte Tag.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "にち",
+    "kanji": "日",
+    "deutsch": "Sonntag (Abkürzung)",
+    "beispielsatz_jp": "にちはにちようびのりゃくです。",
+    "beispielsatz_de": "Nichi ist die Abkuerzung fuer Sonntag.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜にちかん",
+    "kanji": "〜日間",
+    "deutsch": "～ Tage (Anzahl ab 3)",
+    "beispielsatz_jp": "さんにちかんにほんにいます。",
+    "beispielsatz_de": "Ich bin 3 Tage in Japan.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "にちようび",
+    "kanji": "日曜日",
+    "deutsch": "Sonntag",
+    "beispielsatz_jp": "にちようびはやすみです。",
+    "beispielsatz_de": "Sonntag ist frei.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "にひき",
+    "kanji": "二匹",
+    "deutsch": "2 Tiere",
+    "beispielsatz_jp": "どうぶつえんにはにひきいます。",
+    "beispielsatz_de": "Im Zoo gibt es 2 Tiere.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "にふん",
+    "kanji": "二分",
+    "deutsch": "2 Minuten",
+    "beispielsatz_jp": "バスでにふんかかります。",
+    "beispielsatz_de": "Mit dem Bus dauert es 2 Minuten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "にほん",
+    "kanji": "二本",
+    "deutsch": "2 (Flaschen, ..)",
+    "beispielsatz_jp": "ビールがにほんあります。",
+    "beispielsatz_de": "Es gibt 2 Flaschen Bier.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "にほん",
+    "kanji": "日本",
+    "deutsch": "Japan",
+    "beispielsatz_jp": "にほんにいきたいです。",
+    "beispielsatz_de": "Ich moechte nach Japan fahren.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "にほんご",
+    "kanji": "日本語",
+    "deutsch": "Japanisch",
+    "beispielsatz_jp": "にほんごをべんきょうしています。",
+    "beispielsatz_de": "Ich lerne Japanisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "にもつ",
+    "kanji": "荷物",
+    "deutsch": "Gepäck",
+    "beispielsatz_jp": "にもつをもってください。",
+    "beispielsatz_de": "Bitte tragen Sie das Gepaeck.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ニュース",
+    "kanji": null,
+    "deutsch": "Nachrichten",
+    "beispielsatz_jp": "まいにちニュースをみます。",
+    "beispielsatz_de": "Jeden Tag schaue ich Nachrichten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "にわ",
+    "kanji": "庭",
+    "deutsch": "Garten",
+    "beispielsatz_jp": "にわでさんぽします。",
+    "beispielsatz_de": "Ich spaziere im Garten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜にん",
+    "kanji": "〜人",
+    "deutsch": "Personen (Anzahl ab 3)",
+    "beispielsatz_jp": "さんにんでたべます。",
+    "beispielsatz_de": "Wir essen zu dritt.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "ぬぐ",
+    "kanji": "脱ぐ",
+    "deutsch": "ausziehen",
+    "beispielsatz_jp": "くつをぬいでください。",
+    "beispielsatz_de": "Bitte ziehen Sie die Schuhe aus.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ぬる",
+    "kanji": "塗る",
+    "deutsch": "malen, schmieren",
+    "beispielsatz_jp": "かべをぬります。",
+    "beispielsatz_de": "Ich streiche die Wand.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ぬるい",
+    "kanji": null,
+    "deutsch": "lauwarm",
+    "beispielsatz_jp": "このスープはぬるいです。",
+    "beispielsatz_de": "Diese Suppe ist lauwarm.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "ねこ",
+    "kanji": "猫",
+    "deutsch": "Katze",
+    "beispielsatz_jp": "うちにねこがいます。",
+    "beispielsatz_de": "Zuhause habe ich eine Katze.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ねる",
+    "kanji": "寝る",
+    "deutsch": "schlafen",
+    "beispielsatz_jp": "まいにちはやくねます。",
+    "beispielsatz_de": "Jeden Tag gehe ich frueh schlafen.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "〜ねん",
+    "kanji": "〜年",
+    "deutsch": "Jahr 〜 (Datum)",
+    "beispielsatz_jp": "にせんにじゅうごねんにほんにいきました。",
+    "beispielsatz_de": "Im Jahr 2025 bin ich nach Japan gefahren.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "ノート",
+    "kanji": null,
+    "deutsch": "Notiz, Notizbuch",
+    "beispielsatz_jp": "ノートにかきます。",
+    "beispielsatz_de": "Ich schreibe ins Notizbuch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "のぼる",
+    "kanji": "登る",
+    "deutsch": "aufgehen",
+    "beispielsatz_jp": "やまにのぼります。",
+    "beispielsatz_de": "Ich steige auf den Berg.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "のみもの",
+    "kanji": "飲み物",
+    "deutsch": "Getränk",
+    "beispielsatz_jp": "なにかのみものはいかがですか。",
+    "beispielsatz_de": "Moechten Sie etwas trinken?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "のむ",
+    "kanji": "飲む",
+    "deutsch": "trinken",
+    "beispielsatz_jp": "まいにちみずをのみます。",
+    "beispielsatz_de": "Jeden Tag trinke ich Wasser.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "のる",
+    "kanji": "乗る",
+    "deutsch": "einsteigen, aufsteigen",
+    "beispielsatz_jp": "でんしゃにのります。",
+    "beispielsatz_de": "Ich steige in den Zug.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "は",
+    "kanji": "歯",
+    "deutsch": "Zahn",
+    "beispielsatz_jp": "はをみがきます。",
+    "beispielsatz_de": "Ich putze die Zaehne.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "パーティー",
+    "kanji": null,
+    "deutsch": "Party",
+    "beispielsatz_jp": "パーティーにいきます。",
+    "beispielsatz_de": "Ich gehe zur Party.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はい",
+    "kanji": null,
+    "deutsch": "ja",
+    "beispielsatz_jp": "はい、そうです。",
+    "beispielsatz_de": "Ja, das stimmt.",
+    "wortart": "Interjektion"
+  },
+  {
+    "hiragana": "はいざら",
+    "kanji": null,
+    "deutsch": "Aschenbecher",
+    "beispielsatz_jp": "はいざらはテーブルのうえにあります。",
+    "beispielsatz_de": "Der Aschenbecher ist auf dem Tisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はいる",
+    "kanji": "入る",
+    "deutsch": "hineingehen",
+    "beispielsatz_jp": "このたてものにはいります。",
+    "beispielsatz_de": "Ich betrete dieses Gebaeude.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "はがき",
+    "kanji": "葉書",
+    "deutsch": "Postkarte",
+    "beispielsatz_jp": "ともだちにはがきをおくります。",
+    "beispielsatz_de": "Ich schicke einem Freund eine Postkarte.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はく",
+    "kanji": null,
+    "deutsch": "(Hose) anziehen",
+    "beispielsatz_jp": "ズボンをはきます。",
+    "beispielsatz_de": "Ich ziehe eine Hose an.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "はこ",
+    "kanji": "箱",
+    "deutsch": "Kasten",
+    "beispielsatz_jp": "はこのなかにほんがあります。",
+    "beispielsatz_de": "Im Kasten ist ein Buch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はし",
+    "kanji": "橋",
+    "deutsch": "Brücke",
+    "beispielsatz_jp": "かわにはしがあります。",
+    "beispielsatz_de": "Am Fluss gibt es eine Bruecke.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はし",
+    "kanji": "箸",
+    "deutsch": "Stäbchen",
+    "beispielsatz_jp": "はしでたべます。",
+    "beispielsatz_de": "Ich esse mit Staebchen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はじまる",
+    "kanji": "始まる",
+    "deutsch": "anfangen",
+    "beispielsatz_jp": "じゅぎょうがはじまります。",
+    "beispielsatz_de": "Der Unterricht faengt an.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "はじめ",
+    "kanji": "始め",
+    "deutsch": "Anfang",
+    "beispielsatz_jp": "はじめにじこしょうかいをします。",
+    "beispielsatz_de": "Zuerst stelle ich mich vor.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はじめて",
+    "kanji": "初めて",
+    "deutsch": "zum ersten Mal",
+    "beispielsatz_jp": "はじめてにほんにいきました。",
+    "beispielsatz_de": "Zum ersten Mal bin ich nach Japan gefahren.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "はじめに",
+    "kanji": "初めに",
+    "deutsch": "zuerst",
+    "beispielsatz_jp": "はじめにてをあらいます。",
+    "beispielsatz_de": "Zuerst wasche ich die Haende.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "はじめまして",
+    "kanji": null,
+    "deutsch": "Begrüßung bei erster Begegnung",
+    "beispielsatz_jp": "はじめまして、やまだです。",
+    "beispielsatz_de": "Guten Tag, ich bin Yamada.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "はしる",
+    "kanji": "走る",
+    "deutsch": "laufen",
+    "beispielsatz_jp": "こうえんをはしります。",
+    "beispielsatz_de": "Ich laufe im Park.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "バス",
+    "kanji": null,
+    "deutsch": "Bus",
+    "beispielsatz_jp": "バスでいきます。",
+    "beispielsatz_de": "Ich fahre mit dem Bus.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "バスてい",
+    "kanji": "バス停",
+    "deutsch": "Bushaltestelle",
+    "beispielsatz_jp": "バスていでまちます。",
+    "beispielsatz_de": "Ich warte an der Bushaltestelle.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "バター",
+    "kanji": null,
+    "deutsch": "Butter",
+    "beispielsatz_jp": "パンにバターをぬります。",
+    "beispielsatz_de": "Ich streiche Butter auf das Brot.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はたらく",
+    "kanji": "働く",
+    "deutsch": "arbeiten",
+    "beispielsatz_jp": "かいしゃではたらいています。",
+    "beispielsatz_de": "Ich arbeite in der Firma.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "はち",
+    "kanji": "八",
+    "deutsch": "acht",
+    "beispielsatz_jp": "はちはようかともいいます。",
+    "beispielsatz_de": "Hachi ist auch eine Aussprache fuer acht.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "はちがつ",
+    "kanji": "八月",
+    "deutsch": "August",
+    "beispielsatz_jp": "はちがつはなつです。",
+    "beispielsatz_de": "August ist Sommer.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はちじ",
+    "kanji": "八時",
+    "deutsch": "8 Uhr",
+    "beispielsatz_jp": "はちじにおきます。",
+    "beispielsatz_de": "Ich stehe um 8 Uhr auf.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はっぴき",
+    "kanji": "八匹",
+    "deutsch": "8 Tiere",
+    "beispielsatz_jp": "どうぶつえんにはっぴきいます。",
+    "beispielsatz_de": "Im Zoo gibt es 8 Tiere.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "はっぷん",
+    "kanji": "八分",
+    "deutsch": "8 Minuten",
+    "beispielsatz_jp": "バスではっぷんかかります。",
+    "beispielsatz_de": "Mit dem Bus dauert es 8 Minuten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はっぽん",
+    "kanji": "八本",
+    "deutsch": "8 (Flaschen, ..)",
+    "beispielsatz_jp": "ジュースがはっぽんあります。",
+    "beispielsatz_de": "Es gibt 8 Flaschen Saft.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "はな",
+    "kanji": "鼻",
+    "deutsch": "Nase",
+    "beispielsatz_jp": "はながいたいです。",
+    "beispielsatz_de": "Meine Nase tut weh.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はな",
+    "kanji": "花",
+    "deutsch": "Blume",
+    "beispielsatz_jp": "にわにきれいなはながさいています。",
+    "beispielsatz_de": "Im Garten blueht eine schoene Blume.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はなし",
+    "kanji": "話",
+    "deutsch": "Geschichte, Gespräch",
+    "beispielsatz_jp": "おもしろいはなしをきいてください。",
+    "beispielsatz_de": "Hoeren Sie sich bitte diese interessante Geschichte an.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はなす",
+    "kanji": "話す",
+    "deutsch": "sagen",
+    "beispielsatz_jp": "にほんごではなします。",
+    "beispielsatz_de": "Ich spreche Japanisch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "はは",
+    "kanji": "母",
+    "deutsch": "(meine) Mutter",
+    "beispielsatz_jp": "はははかいしゃにはたらいています。",
+    "beispielsatz_de": "Meine Mutter arbeitet in einer Firma.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はやい",
+    "kanji": "早い",
+    "deutsch": "früh",
+    "beispielsatz_jp": "はやくおきます。",
+    "beispielsatz_de": "Ich stehe frueh auf.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "はやい",
+    "kanji": "速い",
+    "deutsch": "schnell",
+    "beispielsatz_jp": "このでんしゃははやいです。",
+    "beispielsatz_de": "Dieser Zug ist schnell.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "はる",
+    "kanji": "貼る",
+    "deutsch": "aufkleben, aufhängen",
+    "beispielsatz_jp": "かべにポスターをはります。",
+    "beispielsatz_de": "Ich klebe ein Poster an die Wand.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "はる",
+    "kanji": "春",
+    "deutsch": "Frühling",
+    "beispielsatz_jp": "はるはあたたかいです。",
+    "beispielsatz_de": "Der Fruehling ist warm.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はれ",
+    "kanji": "晴れ",
+    "deutsch": "heiteres Wetter",
+    "beispielsatz_jp": "きょうははれです。",
+    "beispielsatz_de": "Heute ist es sonnig.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はれる",
+    "kanji": "晴れる",
+    "deutsch": "aufklaren",
+    "beispielsatz_jp": "あしたははれるとおもいます。",
+    "beispielsatz_de": "Ich glaube, morgen wird es aufklaren.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "パン",
+    "kanji": null,
+    "deutsch": "Brot",
+    "beispielsatz_jp": "まいあさパンをたべます。",
+    "beispielsatz_de": "Jeden Morgen esse ich Brot.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜はん",
+    "kanji": "〜半",
+    "deutsch": "halb (z.B. １時半 = 1 Uhr 30)",
+    "beispielsatz_jp": "いちじはんにかえります。",
+    "beispielsatz_de": "Um halb zwei komme ich zurueck.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "〜ばん",
+    "kanji": "〜番",
+    "deutsch": "Nummer ～",
+    "beispielsatz_jp": "このでんしゃはなんばんせんですか。",
+    "beispielsatz_de": "Auf welchem Gleis faehrt dieser Zug?",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "ばん",
+    "kanji": "晩",
+    "deutsch": "Abend",
+    "beispielsatz_jp": "ばんはすずしいです。",
+    "beispielsatz_de": "Der Abend ist kuehl.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はん〜",
+    "kanji": "半〜",
+    "deutsch": "halb, fast",
+    "beispielsatz_jp": "はんぶんすんだところです。",
+    "beispielsatz_de": "Ich bin zur Haelfte fertig.",
+    "wortart": "Präfix"
+  },
+  {
+    "hiragana": "ハンカチ",
+    "kanji": null,
+    "deutsch": "Taschentuch",
+    "beispielsatz_jp": "ハンカチをもっていますか。",
+    "beispielsatz_de": "Haben Sie ein Taschentuch?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ばんごう",
+    "kanji": "番号",
+    "deutsch": "Nummer",
+    "beispielsatz_jp": "でんわのばんごうをおしえてください。",
+    "beispielsatz_de": "Bitte geben Sie mir Ihre Telefonnummer.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ばんごはん",
+    "kanji": "晩ご飯",
+    "deutsch": "Abendessen",
+    "beispielsatz_jp": "まいにちばんごはんをたべます。",
+    "beispielsatz_de": "Jeden Abend esse ich Abendessen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "はんぶん",
+    "kanji": "半分",
+    "deutsch": "Hälfte",
+    "beispielsatz_jp": "ケーキのはんぶんをたべました。",
+    "beispielsatz_de": "Ich habe die Haelfte des Kuchens gegessen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ぱんや",
+    "kanji": "パン屋",
+    "deutsch": "Bäckerei",
+    "beispielsatz_jp": "ぱんやでパンをかいます。",
+    "beispielsatz_de": "Ich kaufe Brot in der Baeckerei.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ひ",
+    "kanji": "日",
+    "deutsch": "Tag",
+    "beispielsatz_jp": "きょうはいいひです。",
+    "beispielsatz_de": "Heute ist ein schöner Tag.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ひがし",
+    "kanji": "東",
+    "deutsch": "Osten",
+    "beispielsatz_jp": "ひがしにえきがあります。",
+    "beispielsatz_de": "Im Osten ist der Bahnhof.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜ひき",
+    "kanji": "〜匹",
+    "deutsch": "～ Tiere (Anzahl)",
+    "beispielsatz_jp": "いぬがにひきいます。",
+    "beispielsatz_de": "Es gibt 2 Hunde.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "ひく",
+    "kanji": "弾く",
+    "deutsch": "(Instrument) spielen",
+    "beispielsatz_jp": "ギターをひきます。",
+    "beispielsatz_de": "Ich spiele Gitarre.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ひく",
+    "kanji": "引く",
+    "deutsch": "ziehen",
+    "beispielsatz_jp": "ドアをひいてください。",
+    "beispielsatz_de": "Bitte ziehen Sie die Tuer.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ひくい",
+    "kanji": "低い",
+    "deutsch": "niedrig",
+    "beispielsatz_jp": "このたなはひくいです。",
+    "beispielsatz_de": "Dieses Regal ist niedrig.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "ひこうき",
+    "kanji": "飛行機",
+    "deutsch": "Flugzeug",
+    "beispielsatz_jp": "ひこうきでとうきょうにいきます。",
+    "beispielsatz_de": "Ich fliege nach Tokio.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ひだり",
+    "kanji": "左",
+    "deutsch": "links",
+    "beispielsatz_jp": "ひだりにまがってください。",
+    "beispielsatz_de": "Bitte biegen Sie links ab.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ひと",
+    "kanji": "人",
+    "deutsch": "Mensch",
+    "beispielsatz_jp": "あのひとはだれですか。",
+    "beispielsatz_de": "Wer ist diese Person?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ひとつ",
+    "kanji": "一つ",
+    "deutsch": "ein",
+    "beispielsatz_jp": "りんごがひとつあります。",
+    "beispielsatz_de": "Es gibt einen Apfel.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "ひとつき",
+    "kanji": "一月",
+    "deutsch": "ein Monat",
+    "beispielsatz_jp": "ひとつきにほんにいます。",
+    "beispielsatz_de": "Ich bin einen Monat in Japan.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ひとり",
+    "kanji": "一人",
+    "deutsch": "eine Person",
+    "beispielsatz_jp": "ひとりでいきます。",
+    "beispielsatz_de": "Ich gehe alleine.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ひま",
+    "kanji": null,
+    "deutsch": "unbeschäftigt",
+    "beispielsatz_jp": "きょうはひまです。",
+    "beispielsatz_de": "Heute bin ich frei.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "ひゃく",
+    "kanji": "百",
+    "deutsch": "hundert",
+    "beispielsatz_jp": "ひゃくえんです。",
+    "beispielsatz_de": "Es kostet hundert Yen.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "びょういん",
+    "kanji": "病院",
+    "deutsch": "Krankenhaus",
+    "beispielsatz_jp": "びょういんにいきます。",
+    "beispielsatz_de": "Ich gehe ins Krankenhaus.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "びょうき",
+    "kanji": "病気",
+    "deutsch": "Krankheit",
+    "beispielsatz_jp": "びょうきでがっこうをやすみました。",
+    "beispielsatz_de": "Wegen Krankheit habe ich die Schule verpasst.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ひらがな",
+    "kanji": null,
+    "deutsch": "Hiragana",
+    "beispielsatz_jp": "ひらがなをれんしゅうします。",
+    "beispielsatz_de": "Ich uebe Hiragana.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ビル",
+    "kanji": null,
+    "deutsch": "Hochhaus, Gebäude",
+    "beispielsatz_jp": "このビルはたかいです。",
+    "beispielsatz_de": "Dieses Hochhaus ist hoch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ひる",
+    "kanji": "昼",
+    "deutsch": "Mittag",
+    "beispielsatz_jp": "ひるごはんをたべます。",
+    "beispielsatz_de": "Ich esse Mittagessen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ひるごはん",
+    "kanji": "昼ご飯",
+    "deutsch": "Mittagessen",
+    "beispielsatz_jp": "ひるごはんにすしをたべます。",
+    "beispielsatz_de": "Zum Mittagessen esse ich Sushi.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ひろい",
+    "kanji": "広い",
+    "deutsch": "weit",
+    "beispielsatz_jp": "このへやはひろいです。",
+    "beispielsatz_de": "Dieses Zimmer ist gross.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "プール",
+    "kanji": null,
+    "deutsch": "Pool",
+    "beispielsatz_jp": "プールでおよぎます。",
+    "beispielsatz_de": "Ich schwimme im Pool.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ふうとう",
+    "kanji": "封筒",
+    "deutsch": "Umschlag",
+    "beispielsatz_jp": "てがみをふうとうにいれます。",
+    "beispielsatz_de": "Ich stecke den Brief in den Umschlag.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "フォーク",
+    "kanji": null,
+    "deutsch": "Gabel",
+    "beispielsatz_jp": "フォークとナイフをつかいます。",
+    "beispielsatz_de": "Ich benutze Gabel und Messer.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ふく",
+    "kanji": "吹く",
+    "deutsch": "blasen",
+    "beispielsatz_jp": "かぜがふいています。",
+    "beispielsatz_de": "Der Wind blaest.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ふく",
+    "kanji": "服",
+    "deutsch": "Kleidung",
+    "beispielsatz_jp": "あたらしいふくをかいました。",
+    "beispielsatz_de": "Ich habe neue Kleidung gekauft.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ふたつ",
+    "kanji": "二つ",
+    "deutsch": "zwei",
+    "beispielsatz_jp": "りんごがふたつあります。",
+    "beispielsatz_de": "Es gibt zwei Aepfel.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "ぶたにく",
+    "kanji": "豚肉",
+    "deutsch": "Schweinefleisch",
+    "beispielsatz_jp": "ぶたにくをたべます。",
+    "beispielsatz_de": "Ich esse Schweinefleisch.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ふたり",
+    "kanji": "二人",
+    "deutsch": "zwei (Personen)",
+    "beispielsatz_jp": "ふたりでいきます。",
+    "beispielsatz_de": "Wir gehen zu zweit.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ふつか",
+    "kanji": "二日",
+    "deutsch": "2. Tag eines Monats",
+    "beispielsatz_jp": "ふつかはにがつのふつかです。",
+    "beispielsatz_de": "Der 2. ist der zweite Februar.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ふつかかん",
+    "kanji": "二日間",
+    "deutsch": "2 Tage",
+    "beispielsatz_jp": "りょこうはふつかかんです。",
+    "beispielsatz_de": "Die Reise dauert 2 Tage.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ふとい",
+    "kanji": "太い",
+    "deutsch": "dick",
+    "beispielsatz_jp": "このほんはふといです。",
+    "beispielsatz_de": "Dieses Buch ist dick.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "ふゆ",
+    "kanji": "冬",
+    "deutsch": "Winter",
+    "beispielsatz_jp": "ふゆはさむいです。",
+    "beispielsatz_de": "Der Winter ist kalt.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ふる",
+    "kanji": "降る",
+    "deutsch": "regnen",
+    "beispielsatz_jp": "きょうはあめがふっています。",
+    "beispielsatz_de": "Heute regnet es.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ふるい",
+    "kanji": "古い",
+    "deutsch": "alt",
+    "beispielsatz_jp": "このいすはふるいです。",
+    "beispielsatz_de": "Dieser Stuhl ist alt.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "〜ふん",
+    "kanji": "〜分",
+    "deutsch": "～ Minuten",
+    "beispielsatz_jp": "えきまでごふんかかります。",
+    "beispielsatz_de": "Bis zum Bahnhof dauert es 5 Minuten.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "ぶん",
+    "kanji": "文",
+    "deutsch": "Satz",
+    "beispielsatz_jp": "みじかいぶんをかきます。",
+    "beispielsatz_de": "Ich schreibe einen kurzen Satz.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ぶんしょう",
+    "kanji": "文章",
+    "deutsch": "Aufsatz",
+    "beispielsatz_jp": "ながいぶんしょうをかきました。",
+    "beispielsatz_de": "Ich habe einen langen Aufsatz geschrieben.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ぶんぽう",
+    "kanji": "文法",
+    "deutsch": "Grammatik",
+    "beispielsatz_jp": "ぶんぽうをべんきょうします。",
+    "beispielsatz_de": "Ich lerne Grammatik.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ページ",
+    "kanji": null,
+    "deutsch": "Seite",
+    "beispielsatz_jp": "なんページですか。",
+    "beispielsatz_de": "Welche Seite ist das?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "へた",
+    "kanji": "下手",
+    "deutsch": "ungeschickt",
+    "beispielsatz_jp": "りょうりがへたです。",
+    "beispielsatz_de": "Ich bin schlecht im Kochen.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "ベッド",
+    "kanji": null,
+    "deutsch": "Bett",
+    "beispielsatz_jp": "ベッドでねます。",
+    "beispielsatz_de": "Ich schlafe im Bett.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ペット",
+    "kanji": null,
+    "deutsch": "Haustier",
+    "beispielsatz_jp": "うちにペットがいます。",
+    "beispielsatz_de": "Zuhause habe ich ein Haustier.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "へや",
+    "kanji": "部屋",
+    "deutsch": "Zimmer",
+    "beispielsatz_jp": "このへやはせまいです。",
+    "beispielsatz_de": "Dieses Zimmer ist eng.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "へん",
+    "kanji": null,
+    "deutsch": "Gegend",
+    "beispielsatz_jp": "このへんにはなにがありますか。",
+    "beispielsatz_de": "Was gibt es in dieser Gegend?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ペン",
+    "kanji": null,
+    "deutsch": "Stift",
+    "beispielsatz_jp": "ペンでかきます。",
+    "beispielsatz_de": "Ich schreibe mit dem Stift.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "べんきょうする",
+    "kanji": "勉強する",
+    "deutsch": "lernen, studieren",
+    "beispielsatz_jp": "まいにちにほんごをべんきょうします。",
+    "beispielsatz_de": "Jeden Tag lerne ich Japanisch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "べんり",
+    "kanji": "便利",
+    "deutsch": "Bequemlichkeit",
+    "beispielsatz_jp": "このまちはべんりです。",
+    "beispielsatz_de": "Diese Stadt ist bequem.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "ボールペン",
+    "kanji": null,
+    "deutsch": "Kugelschreiber",
+    "beispielsatz_jp": "ボールペンをかしてください。",
+    "beispielsatz_de": "Bitte leihen Sie mir den Kugelschreiber.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ぼうし",
+    "kanji": "帽子",
+    "deutsch": "Hut",
+    "beispielsatz_jp": "あたまにぼうしをかぶります。",
+    "beispielsatz_de": "Ich setze einen Hut auf.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ほか",
+    "kanji": null,
+    "deutsch": "anderes",
+    "beispielsatz_jp": "ほかのたべものをたべます。",
+    "beispielsatz_de": "Ich esse etwas anderes.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ぼく",
+    "kanji": null,
+    "deutsch": "ich",
+    "beispielsatz_jp": "ぼくはがくせいです。",
+    "beispielsatz_de": "Ich bin Student.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "ポケット",
+    "kanji": null,
+    "deutsch": "(Hosen)tasche",
+    "beispielsatz_jp": "ポケットにかぎをいれます。",
+    "beispielsatz_de": "Ich stecke den Schluessel in die Tasche.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ほしい",
+    "kanji": "欲しい",
+    "deutsch": "wünschen",
+    "beispielsatz_jp": "あたらしいじてんしゃがほしいです。",
+    "beispielsatz_de": "Ich wuensche mir ein neues Fahrrad.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "ポスト",
+    "kanji": null,
+    "deutsch": "Briefkasten",
+    "beispielsatz_jp": "てがみをポストにいれます。",
+    "beispielsatz_de": "Ich werfe den Brief in den Briefkasten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ほそい",
+    "kanji": "細い",
+    "deutsch": "dünn",
+    "beispielsatz_jp": "このほんはほそいです。",
+    "beispielsatz_de": "Dieses Buch ist duenn.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "ボタン",
+    "kanji": null,
+    "deutsch": "Knopf",
+    "beispielsatz_jp": "シャツのボタンをとめます。",
+    "beispielsatz_de": "Ich schliesse die Knopfe des Hemdes.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ホテル",
+    "kanji": null,
+    "deutsch": "Hotel (im westlichen Stil)",
+    "beispielsatz_jp": "ホテルにとまります。",
+    "beispielsatz_de": "Ich uebernachte im Hotel.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜ほん",
+    "kanji": "〜本",
+    "deutsch": "～ Stück (Anzahl für längliche Sachen wie Flaschen)",
+    "beispielsatz_jp": "ビールがさんぼんあります。",
+    "beispielsatz_de": "Es gibt drei Flaschen Bier.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "ほん",
+    "kanji": "本",
+    "deutsch": "Buch",
+    "beispielsatz_jp": "としょかんでほんをかります。",
+    "beispielsatz_de": "Ich leihe in der Bibliothek ein Buch aus.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ほんだな",
+    "kanji": "本棚",
+    "deutsch": "Bücherregal",
+    "beispielsatz_jp": "ほんをほんだなにならべます。",
+    "beispielsatz_de": "Ich stelle die Buecher ins Regal.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ほんとう",
+    "kanji": "本当",
+    "deutsch": "wirklich",
+    "beispielsatz_jp": "それはほんとうですか。",
+    "beispielsatz_de": "Ist das wirklich wahr?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ほんや",
+    "kanji": "本屋",
+    "deutsch": "Bücherladen",
+    "beispielsatz_jp": "ほんやでまんがをかいます。",
+    "beispielsatz_de": "Ich kaufe im Buecher laden Manga.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "マーク",
+    "kanji": null,
+    "deutsch": "Markierung",
+    "beispielsatz_jp": "このマークはなんですか。",
+    "beispielsatz_de": "Was bedeutet diese Markierung?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜まい",
+    "kanji": "〜枚",
+    "deutsch": "～ Blatt, Stück (Anzahl für flache Sachen wie Kleidung, Papier, Brotscheiben)",
+    "beispielsatz_jp": "かみがさんまいあります。",
+    "beispielsatz_de": "Es gibt drei Blaetter Papier.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "まいあさ",
+    "kanji": "毎朝",
+    "deutsch": "jeden Morgen",
+    "beispielsatz_jp": "まいあさにほんごをべんきょうします。",
+    "beispielsatz_de": "Jeden Morgen lerne ich Japanisch.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "まいしゅう",
+    "kanji": "毎週",
+    "deutsch": "jede Woche",
+    "beispielsatz_jp": "まいしゅうえいごをならいます。",
+    "beispielsatz_de": "Jede Woche lerne ich Englisch.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "まいつき",
+    "kanji": "毎月",
+    "deutsch": "jeden Monat",
+    "beispielsatz_jp": "まいつきにほんにてがみをおくります。",
+    "beispielsatz_de": "Jeden Monat schicke ich einen Brief nach Japan.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "まいとし",
+    "kanji": "毎年",
+    "deutsch": "jedes Jahr",
+    "beispielsatz_jp": "まいとしにほんにいきます。",
+    "beispielsatz_de": "Jedes Jahr fahre ich nach Japan.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "まいにち",
+    "kanji": "毎日",
+    "deutsch": "jeden Tag",
+    "beispielsatz_jp": "まいにちにほんごをべんきょうします。",
+    "beispielsatz_de": "Jeden Tag lerne ich Japanisch.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "まいばん",
+    "kanji": "毎晩",
+    "deutsch": "jeder Abend",
+    "beispielsatz_jp": "まいばんほんをよみます。",
+    "beispielsatz_de": "Jeden Abend lese ich ein Buch.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "まえ",
+    "kanji": "前",
+    "deutsch": "vor, vorn",
+    "beispielsatz_jp": "えきのまえでまちます。",
+    "beispielsatz_de": "Ich warte vor dem Bahnhof.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "まえに",
+    "kanji": "前に",
+    "deutsch": "vor, früher",
+    "beispielsatz_jp": "たべるまえにてをあらいます。",
+    "beispielsatz_de": "Vor dem Essen wasche ich die Haende.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "まがる",
+    "kanji": "曲がる",
+    "deutsch": "sich biegen, abbiegen",
+    "beispielsatz_jp": "こうさてんをみぎにまがります。",
+    "beispielsatz_de": "An der Kreuzung biege ich rechts ab.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "まずい",
+    "kanji": null,
+    "deutsch": "schlecht (schmecken)",
+    "beispielsatz_jp": "このりょうりはまずいです。",
+    "beispielsatz_de": "Dieses Gericht schmeckt schlecht.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "まだ",
+    "kanji": null,
+    "deutsch": "noch",
+    "beispielsatz_jp": "まだしゅくだいがあります。",
+    "beispielsatz_de": "Ich habe noch Hausaufgaben.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "また",
+    "kanji": null,
+    "deutsch": "wieder",
+    "beispielsatz_jp": "またきてください。",
+    "beispielsatz_de": "Bitte kommen Sie wieder.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "まち",
+    "kanji": "町",
+    "deutsch": "Ortschaft",
+    "beispielsatz_jp": "このまちはしずかです。",
+    "beispielsatz_de": "Diese Stadt ist ruhig.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "まつ",
+    "kanji": "待つ",
+    "deutsch": "warten",
+    "beispielsatz_jp": "バスをまちます。",
+    "beispielsatz_de": "Ich warte auf den Bus.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "まっすぐ",
+    "kanji": null,
+    "deutsch": "gerade aus",
+    "beispielsatz_jp": "まっすぐいってください。",
+    "beispielsatz_de": "Bitte gehen Sie geradeaus.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "まど",
+    "kanji": "窓",
+    "deutsch": "Fenster",
+    "beispielsatz_jp": "まどをあけます。",
+    "beispielsatz_de": "Ich oeffne das Fenster.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "まるい",
+    "kanji": "丸い",
+    "deutsch": "rund",
+    "beispielsatz_jp": "このテーブルはまるいです。",
+    "beispielsatz_de": "Dieser Tisch ist rund.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "まるい",
+    "kanji": "円い",
+    "deutsch": "rund",
+    "beispielsatz_jp": "このおさらはまるいです。",
+    "beispielsatz_de": "Dieser Teller ist rund.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "まん",
+    "kanji": "万",
+    "deutsch": "zehntausend",
+    "beispielsatz_jp": "いちまんえんあります。",
+    "beispielsatz_de": "Ich habe 10.000 Yen.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "みがく",
+    "kanji": "磨く",
+    "deutsch": "polieren",
+    "beispielsatz_jp": "まいにちはをみがきます。",
+    "beispielsatz_de": "Jeden Tag putze ich die Zaehne.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "みぎ",
+    "kanji": "右",
+    "deutsch": "rechts",
+    "beispielsatz_jp": "みぎにまがってください。",
+    "beispielsatz_de": "Bitte biegen Sie rechts ab.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "みじかい",
+    "kanji": "短い",
+    "deutsch": "kurz",
+    "beispielsatz_jp": "このなわはみじかいです。",
+    "beispielsatz_de": "Dieses Seil ist kurz.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "みず",
+    "kanji": "水",
+    "deutsch": "Wasser",
+    "beispielsatz_jp": "まいにちみずをのみます。",
+    "beispielsatz_de": "Jeden Tag trinke ich Wasser.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "みせ",
+    "kanji": "店",
+    "deutsch": "Geschäft",
+    "beispielsatz_jp": "このみせではなんをうっていますか。",
+    "beispielsatz_de": "Was wird in diesem Laden verkauft?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "みせる",
+    "kanji": "見せる",
+    "deutsch": "zeigen",
+    "beispielsatz_jp": "ともだちにしゃしんをみせます。",
+    "beispielsatz_de": "Ich zeige dem Freund ein Foto.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "みち",
+    "kanji": "道",
+    "deutsch": "Straße",
+    "beispielsatz_jp": "このみちをまっすぐいきます。",
+    "beispielsatz_de": "Ich gehe diese Strasse geradeaus.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "みっか",
+    "kanji": "三日",
+    "deutsch": "3. Tag eines Monats",
+    "beispielsatz_jp": "みっかにかいぎがあります。",
+    "beispielsatz_de": "Am 3. gibt es eine Besprechung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "みっかかん",
+    "kanji": "三日間",
+    "deutsch": "3 Tage",
+    "beispielsatz_jp": "りょこうはみっかかんです。",
+    "beispielsatz_de": "Die Reise dauert 3 Tage.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "みっつ",
+    "kanji": "三つ",
+    "deutsch": "drei (Stück)",
+    "beispielsatz_jp": "りんごがみっつあります。",
+    "beispielsatz_de": "Es gibt drei Aepfel.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "みどり",
+    "kanji": "緑",
+    "deutsch": "Grün",
+    "beispielsatz_jp": "みどりはきれいないろです。",
+    "beispielsatz_de": "Gruen ist eine schoene Farbe.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "みなさん",
+    "kanji": "皆さん",
+    "deutsch": "meine Damen und Herren",
+    "beispielsatz_jp": "みなさん、おはようございます。",
+    "beispielsatz_de": "Guten Morgen, meine Damen und Herren.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "みなみ",
+    "kanji": "南",
+    "deutsch": "Süden",
+    "beispielsatz_jp": "みなみにえきがあります。",
+    "beispielsatz_de": "Im Sueden ist der Bahnhof.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "みにいく",
+    "kanji": "見に行く",
+    "deutsch": "besuchen",
+    "beispielsatz_jp": "えいがをみにいきます。",
+    "beispielsatz_de": "Ich gehe einen Film anschauen.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "みみ",
+    "kanji": "耳",
+    "deutsch": "Ohr",
+    "beispielsatz_jp": "みみがいたいです。",
+    "beispielsatz_de": "Mein Ohr tut weh.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "みる",
+    "kanji": "見る",
+    "deutsch": "sehen, schauen",
+    "beispielsatz_jp": "テレビをみます。",
+    "beispielsatz_de": "Ich schaue Fernsehen.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "みんな",
+    "kanji": null,
+    "deutsch": "alle Personen",
+    "beispielsatz_jp": "みんなでいきましょう。",
+    "beispielsatz_de": "Lasst uns alle zusammen gehen.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "むいか",
+    "kanji": "六日",
+    "deutsch": "6. Tag eines Monats",
+    "beispielsatz_jp": "むいかにしけんがあります。",
+    "beispielsatz_de": "Am 6. gibt es eine Pruefung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "むいかかん",
+    "kanji": "六日間",
+    "deutsch": "6 Tage",
+    "beispielsatz_jp": "りょこうはむいかかんです。",
+    "beispielsatz_de": "Die Reise dauert 6 Tage.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "むこう",
+    "kanji": "向こう",
+    "deutsch": "entgegengesetzte Seite",
+    "beispielsatz_jp": "えきはむこうにあります。",
+    "beispielsatz_de": "Der Bahnhof ist auf der anderen Seite.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "むずかしい",
+    "kanji": "難しい",
+    "deutsch": "schwierig",
+    "beispielsatz_jp": "このもんだいはむずかしいです。",
+    "beispielsatz_de": "Diese Aufgabe ist schwierig.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "むっつ",
+    "kanji": "六つ",
+    "deutsch": "sechs",
+    "beispielsatz_jp": "りんごがむっつあります。",
+    "beispielsatz_de": "Es gibt sechs Aepfel.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "むら",
+    "kanji": "村",
+    "deutsch": "Dorf",
+    "beispielsatz_jp": "ちいさなむらにすんでいます。",
+    "beispielsatz_de": "Ich wohne in einem kleinen Dorf.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "め",
+    "kanji": "目",
+    "deutsch": "Auge",
+    "beispielsatz_jp": "めがいたいです。",
+    "beispielsatz_de": "Mein Auge tut weh.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "〜メートル",
+    "kanji": null,
+    "deutsch": "～m (Meter)",
+    "beispielsatz_jp": "えきまでごメートルです。",
+    "beispielsatz_de": "Es sind 5 Meter bis zum Bahnhof.",
+    "wortart": "Suffix"
+  },
+  {
+    "hiragana": "めがね",
+    "kanji": null,
+    "deutsch": "Brille",
+    "beispielsatz_jp": "めがねをかけています。",
+    "beispielsatz_de": "Ich trage eine Brille.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "メモ",
+    "kanji": null,
+    "deutsch": "Notiz",
+    "beispielsatz_jp": "メモをとります。",
+    "beispielsatz_de": "Ich mache eine Notiz.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "もう",
+    "kanji": null,
+    "deutsch": "schon",
+    "beispielsatz_jp": "もうじゅうじです。",
+    "beispielsatz_de": "Es ist schon 10 Uhr.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "もういちど",
+    "kanji": "もう一度",
+    "deutsch": "noch einmal",
+    "beispielsatz_jp": "もういちどいってください。",
+    "beispielsatz_de": "Bitte sagen Sie es noch einmal.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "もうすこし",
+    "kanji": "もう少し",
+    "deutsch": "noch etwas",
+    "beispielsatz_jp": "もうすこしゆっくりはなしてください。",
+    "beispielsatz_de": "Bitte sprechen Sie noch etwas langsamer.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "もく",
+    "kanji": "木",
+    "deutsch": "Donnerstag (Abkürzung)",
+    "beispielsatz_jp": "もくはもくようびのりゃくです。",
+    "beispielsatz_de": "Moku ist die Abkuerzung fuer Donnerstag.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "もくようび",
+    "kanji": "木曜日",
+    "deutsch": "Donnerstag",
+    "beispielsatz_jp": "もくようびにえいがをみます。",
+    "beispielsatz_de": "Donnerstags sehe ich einen Film.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "もじ",
+    "kanji": "文字",
+    "deutsch": "Schriftzeichen",
+    "beispielsatz_jp": "このもじはよめますか。",
+    "beispielsatz_de": "Koennen Sie dieses Schriftzeichen lesen?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "もつ",
+    "kanji": "持つ",
+    "deutsch": "haben",
+    "beispielsatz_jp": "おもいにもつをもっています。",
+    "beispielsatz_de": "Ich trage schweres Gepaeck.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "もってかえる",
+    "kanji": "持って帰る",
+    "deutsch": "mit nach Hause nehmen",
+    "beispielsatz_jp": "りんごをもっていえにかえります。",
+    "beispielsatz_de": "Ich nehme den Apfel mit nach Hause.",
+    "wortart": "Ausdruck"
+  },
+  {
+    "hiragana": "もっと",
+    "kanji": null,
+    "deutsch": "mehr",
+    "beispielsatz_jp": "もっとゆっくりはなしてください。",
+    "beispielsatz_de": "Bitte sprechen Sie langsamer.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "もの",
+    "kanji": "物",
+    "deutsch": "Ding",
+    "beispielsatz_jp": "このものはなんですか。",
+    "beispielsatz_de": "Was ist dieses Ding?",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "もらう",
+    "kanji": null,
+    "deutsch": "bekommen",
+    "beispielsatz_jp": "ともだちからプレゼントをもらいました。",
+    "beispielsatz_de": "Ich habe ein Geschenk von einem Freund bekommen.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "もん",
+    "kanji": "門",
+    "deutsch": "Tor",
+    "beispielsatz_jp": "こうえんにおおきなもんがあります。",
+    "beispielsatz_de": "Im Park gibt es ein grosses Tor.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "もんだい",
+    "kanji": "問題",
+    "deutsch": "Frage",
+    "beispielsatz_jp": "もんだいがわかりません。",
+    "beispielsatz_de": "Ich verstehe die Frage nicht.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "やさい",
+    "kanji": "野菜",
+    "deutsch": "Gemüse",
+    "beispielsatz_jp": "やさいをたべます。",
+    "beispielsatz_de": "Ich esse Gemuese.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "やさしい",
+    "kanji": "易しい",
+    "deutsch": "leicht",
+    "beispielsatz_jp": "このもんだいはやさしいです。",
+    "beispielsatz_de": "Diese Aufgabe ist leicht.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "やじるし",
+    "kanji": "矢印",
+    "deutsch": "Pfeil",
+    "beispielsatz_jp": "やじるしのほうこうにいきます。",
+    "beispielsatz_de": "Ich gehe in die Richtung des Pfeils.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "やすい",
+    "kanji": "安い",
+    "deutsch": "billig",
+    "beispielsatz_jp": "このみせはやすいです。",
+    "beispielsatz_de": "Dieser Laden ist billig.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "やすみ",
+    "kanji": "休み",
+    "deutsch": "Pause",
+    "beispielsatz_jp": "きょうはやすみです。",
+    "beispielsatz_de": "Heute ist frei.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "やすむ",
+    "kanji": "休む",
+    "deutsch": "ausruhen",
+    "beispielsatz_jp": "にちようびはいえでやすみます。",
+    "beispielsatz_de": "Sonntags ruhe ich zu Hause aus.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "やっつ",
+    "kanji": "八つ",
+    "deutsch": "acht",
+    "beispielsatz_jp": "りんごがやっつあります。",
+    "beispielsatz_de": "Es gibt acht Aepfel.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "やま",
+    "kanji": "山",
+    "deutsch": "Berg",
+    "beispielsatz_jp": "やまにのぼります。",
+    "beispielsatz_de": "Ich steige auf den Berg.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "やる",
+    "kanji": null,
+    "deutsch": "machen, geben",
+    "beispielsatz_jp": "まいにちうんどうをやります。",
+    "beispielsatz_de": "Jeden Tag mache ich Sport.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ゆうがた",
+    "kanji": "夕方",
+    "deutsch": "Abend",
+    "beispielsatz_jp": "ゆうがたにかえります。",
+    "beispielsatz_de": "Am Abend komme ich zurueck.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ゆうはん",
+    "kanji": "夕飯",
+    "deutsch": "Abendessen",
+    "beispielsatz_jp": "ゆうはんをたべます。",
+    "beispielsatz_de": "Ich esse Abendessen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ゆうびんきょく",
+    "kanji": "郵便局",
+    "deutsch": "Postamt",
+    "beispielsatz_jp": "ゆうびんきょくでてがみをおくります。",
+    "beispielsatz_de": "Ich schicke am Postamt einen Brief.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ゆうべ",
+    "kanji": "夕べ",
+    "deutsch": "letzte Nacht",
+    "beispielsatz_jp": "ゆうべえいがをみました。",
+    "beispielsatz_de": "Letzte Nacht habe ich einen Film gesehen.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "ゆうめい",
+    "kanji": "有名",
+    "deutsch": "Berühmtheit",
+    "beispielsatz_jp": "このはいゆうはゆうめいです。",
+    "beispielsatz_de": "Dieser Schauspieler ist berühmt.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "ゆき",
+    "kanji": "雪",
+    "deutsch": "Schnee",
+    "beispielsatz_jp": "ふゆにゆきがふります。",
+    "beispielsatz_de": "Im Winter schneit es.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ゆっくりと",
+    "kanji": null,
+    "deutsch": "langsam",
+    "beispielsatz_jp": "ゆっくりとはなしてください。",
+    "beispielsatz_de": "Bitte sprechen Sie langsam.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "ようか",
+    "kanji": "八日",
+    "deutsch": "8. Tag eines Monats",
+    "beispielsatz_jp": "ようかにかいぎがあります。",
+    "beispielsatz_de": "Am 8. gibt es eine Besprechung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ようかかん",
+    "kanji": "八日間",
+    "deutsch": "8 Tage",
+    "beispielsatz_jp": "りょこうはようかかんです。",
+    "beispielsatz_de": "Die Reise dauert 8 Tage.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ようふく",
+    "kanji": "洋服",
+    "deutsch": "(westliche) Kleidung",
+    "beispielsatz_jp": "ようふくをかいます。",
+    "beispielsatz_de": "Ich kaufe westliche Kleidung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "よく",
+    "kanji": null,
+    "deutsch": "oft, gut, gründlich",
+    "beispielsatz_jp": "よくがっこうにいきます。",
+    "beispielsatz_de": "Ich gehe oft zur Schule.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "よこ",
+    "kanji": "横",
+    "deutsch": "Seite",
+    "beispielsatz_jp": "となりのひとのよこにすわります。",
+    "beispielsatz_de": "Ich setze mich neben die Person nebenan.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "よじ",
+    "kanji": "四時",
+    "deutsch": "4 Uhr",
+    "beispielsatz_jp": "よじにおきます。",
+    "beispielsatz_de": "Ich stehe um 4 Uhr auf.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "よっか",
+    "kanji": "四日",
+    "deutsch": "4. Tag eines Monats",
+    "beispielsatz_jp": "よっかにしけんがあります。",
+    "beispielsatz_de": "Am 4. gibt es eine Pruefung.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "よっかかん",
+    "kanji": "四日間",
+    "deutsch": "4 Tage",
+    "beispielsatz_jp": "りょこうはよっかかんです。",
+    "beispielsatz_de": "Die Reise dauert 4 Tage.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "よっつ",
+    "kanji": "四つ",
+    "deutsch": "4 (Anzahl)",
+    "beispielsatz_jp": "りんごがよっつあります。",
+    "beispielsatz_de": "Es gibt vier Aepfel.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "よにん",
+    "kanji": "四人",
+    "deutsch": "4 Personen",
+    "beispielsatz_jp": "よにんでたべます。",
+    "beispielsatz_de": "Wir essen zu viert.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "よぶ",
+    "kanji": "呼ぶ",
+    "deutsch": "rufen",
+    "beispielsatz_jp": "いぬをよびます。",
+    "beispielsatz_de": "Ich rufe den Hund.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "よむ",
+    "kanji": "読む",
+    "deutsch": "lesen",
+    "beispielsatz_jp": "まいにちほんをよみます。",
+    "beispielsatz_de": "Jeden Tag lese ich ein Buch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "よる",
+    "kanji": "夜",
+    "deutsch": "Nacht",
+    "beispielsatz_jp": "よるはすずしいです。",
+    "beispielsatz_de": "Nachts ist es kuehl.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "よわい",
+    "kanji": "弱い",
+    "deutsch": "schwach",
+    "beispielsatz_jp": "このいぬはよわいです。",
+    "beispielsatz_de": "Dieser Hund ist schwach.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "よん",
+    "kanji": "四",
+    "deutsch": "vier",
+    "beispielsatz_jp": "よんたすよんははちです。",
+    "beispielsatz_de": "Vier plus vier ist acht.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "よんひき",
+    "kanji": "四匹",
+    "deutsch": "4 Tiere",
+    "beispielsatz_jp": "どうぶつえんによんひきいます。",
+    "beispielsatz_de": "Im Zoo gibt es 4 Tiere.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "よんぷん",
+    "kanji": "四分",
+    "deutsch": "4 Minuten",
+    "beispielsatz_jp": "バスでよんぷんかかります。",
+    "beispielsatz_de": "Mit dem Bus dauert es 4 Minuten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "よんほん",
+    "kanji": "四本",
+    "deutsch": "4 (Flaschen, …)",
+    "beispielsatz_jp": "ジュースがよんほんあります。",
+    "beispielsatz_de": "Es gibt 4 Flaschen Saft.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "ラーメン",
+    "kanji": null,
+    "deutsch": "Ramen-Nudeln",
+    "beispielsatz_jp": "ラーメンをたべます。",
+    "beispielsatz_de": "Ich esse Ramen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "らいげつ",
+    "kanji": "来月",
+    "deutsch": "nächsten Monat",
+    "beispielsatz_jp": "らいげつにほんにいきます。",
+    "beispielsatz_de": "Naechsten Monat fahre ich nach Japan.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "らいしゅう",
+    "kanji": "来週",
+    "deutsch": "nächste Woche",
+    "beispielsatz_jp": "らいしゅうしけんがあります。",
+    "beispielsatz_de": "Naechste Woche gibt es eine Pruefung.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "らいねん",
+    "kanji": "来年",
+    "deutsch": "kommendes Jahr",
+    "beispielsatz_jp": "らいねんにほんにいきたいです。",
+    "beispielsatz_de": "Naechstes Jahr moechte ich nach Japan fahren.",
+    "wortart": "Adverb"
+  },
+  {
+    "hiragana": "ラジオ",
+    "kanji": null,
+    "deutsch": "Radio",
+    "beispielsatz_jp": "まいあさラジオをききます。",
+    "beispielsatz_de": "Jeden Morgen hoere ich Radio.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "りっぱ",
+    "kanji": "立派",
+    "deutsch": "herrlich, schön",
+    "beispielsatz_jp": "このたてものはりっぱです。",
+    "beispielsatz_de": "Dieses Gebaeude ist herrlich.",
+    "wortart": "Adjektiv (na)"
+  },
+  {
+    "hiragana": "りゅうがくせい",
+    "kanji": "留学生",
+    "deutsch": "im Ausland Studierender",
+    "beispielsatz_jp": "わたしはりゅうがくせいです。",
+    "beispielsatz_de": "Ich bin ein Austauschstudent.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "りょうしん",
+    "kanji": "両親",
+    "deutsch": "Eltern",
+    "beispielsatz_jp": "りょうしんはにほんにいます。",
+    "beispielsatz_de": "Meine Eltern sind in Japan.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "りょうり",
+    "kanji": "料理",
+    "deutsch": "Kochen",
+    "beispielsatz_jp": "まいにちりょうりをします。",
+    "beispielsatz_de": "Jeden Tag koche ich.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "りょこう",
+    "kanji": "旅行",
+    "deutsch": "Reise",
+    "beispielsatz_jp": "らいねんりょこうにいきます。",
+    "beispielsatz_de": "Naechstes Jahr gehe ich auf Reisen.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "りんご",
+    "kanji": null,
+    "deutsch": "Apfel",
+    "beispielsatz_jp": "りんごをたべます。",
+    "beispielsatz_de": "Ich esse einen Apfel.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "れい",
+    "kanji": "零",
+    "deutsch": "Null",
+    "beispielsatz_jp": "れいはぜろともいいます。",
+    "beispielsatz_de": "Rei wird auch zero ausgesprochen.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "れいぞうこ",
+    "kanji": "冷蔵庫",
+    "deutsch": "Kühlschrank",
+    "beispielsatz_jp": "れいぞうこにのみものがあります。",
+    "beispielsatz_de": "Im Kuehlschrank sind Getraenke.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "レストラン",
+    "kanji": null,
+    "deutsch": "Restaurant",
+    "beispielsatz_jp": "レストランでたべます。",
+    "beispielsatz_de": "Ich esse im Restaurant.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "れんしゅうする",
+    "kanji": "練習する",
+    "deutsch": "üben",
+    "beispielsatz_jp": "まいにちにほんごをれんしゅうします。",
+    "beispielsatz_de": "Jeden Tag uebe ich Japanisch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "ろうか",
+    "kanji": "廊下",
+    "deutsch": "Korridor",
+    "beispielsatz_jp": "ろうかをあるきます。",
+    "beispielsatz_de": "Ich gehe durch den Korridor.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ろく",
+    "kanji": "六",
+    "deutsch": "sechs",
+    "beispielsatz_jp": "ろくたすよんはじゅうです。",
+    "beispielsatz_de": "Sechs plus vier ist zehn.",
+    "wortart": "Zahl"
+  },
+  {
+    "hiragana": "ろくがつ",
+    "kanji": "六月",
+    "deutsch": "Juni",
+    "beispielsatz_jp": "ろくがつはあめがおおいです。",
+    "beispielsatz_de": "Im Juni regnet es viel.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ろくじ",
+    "kanji": "六時",
+    "deutsch": "6 Uhr",
+    "beispielsatz_jp": "ろくじにおきます。",
+    "beispielsatz_de": "Ich stehe um 6 Uhr auf.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ろっぴき",
+    "kanji": "六匹",
+    "deutsch": "6 Tiere",
+    "beispielsatz_jp": "どうぶつえんにろっぴきいます。",
+    "beispielsatz_de": "Im Zoo gibt es 6 Tiere.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "ろっぷん",
+    "kanji": "六分",
+    "deutsch": "6 Minuten",
+    "beispielsatz_jp": "バスでろっぷんかかります。",
+    "beispielsatz_de": "Mit dem Bus dauert es 6 Minuten.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "ろっぽん",
+    "kanji": "六本",
+    "deutsch": "6 (Flaschen, …)",
+    "beispielsatz_jp": "ジュースがろっぽんあります。",
+    "beispielsatz_de": "Es gibt 6 Flaschen Saft.",
+    "wortart": "Zählwort"
+  },
+  {
+    "hiragana": "ワイシャツ",
+    "kanji": null,
+    "deutsch": "Hemd",
+    "beispielsatz_jp": "ワイシャツをきます。",
+    "beispielsatz_de": "Ich ziehe ein Hemd an.",
+    "wortart": "Substantiv"
+  },
+  {
+    "hiragana": "わかい",
+    "kanji": "若い",
+    "deutsch": "jung",
+    "beispielsatz_jp": "わかいひとがおおいです。",
+    "beispielsatz_de": "Es gibt viele junge Menschen.",
+    "wortart": "Adjektiv (i)"
+  },
+  {
+    "hiragana": "わかる",
+    "kanji": "分かる",
+    "deutsch": "verstehen",
+    "beispielsatz_jp": "にほんごがわかります。",
+    "beispielsatz_de": "Ich verstehe Japanisch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "わすれる",
+    "kanji": "忘れる",
+    "deutsch": "vergessen",
+    "beispielsatz_jp": "かぎをわすれました。",
+    "beispielsatz_de": "Ich habe den Schluessel vergessen.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "わたし",
+    "kanji": "私",
+    "deutsch": "ich",
+    "beispielsatz_jp": "わたしはにほんごをべんきょうしています。",
+    "beispielsatz_de": "Ich lerne Japanisch.",
+    "wortart": "Pronomen"
+  },
+  {
+    "hiragana": "わたす",
+    "kanji": "渡す",
+    "deutsch": "geben, überreichen",
+    "beispielsatz_jp": "ともだちにほんをわたします。",
+    "beispielsatz_de": "Ich gebe dem Freund das Buch.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "わたる",
+    "kanji": "渡る",
+    "deutsch": "sich erstrecken, überqueren",
+    "beispielsatz_jp": "はしをわたります。",
+    "beispielsatz_de": "Ich ueberquere die Bruecke.",
+    "wortart": "Verb"
+  },
+  {
+    "hiragana": "わるい",
+    "kanji": "悪い",
+    "deutsch": "schlecht",
+    "beispielsatz_jp": "このりょうりはわるいです。",
+    "beispielsatz_de": "Dieses Gericht ist schlecht.",
+    "wortart": "Adjektiv (i)"
+  }
+]

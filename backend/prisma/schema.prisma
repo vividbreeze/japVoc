@@ -1,0 +1,87 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Word {
+  id              String   @id @default(uuid())
+  hiragana        String
+  katakana        String?
+  kanji           String?
+  deutsch         String
+  beispielsatz_jp String?
+  beispielsatz_de String?
+  wortart         String
+  jlpt_level      String   @default("N5")
+  createdAt       DateTime @default(now())
+
+  collections CollectionWord[]
+  reviews     Review[]
+  progress    WordProgress?
+}
+
+model Collection {
+  id           String   @id @default(uuid())
+  name         String
+  beschreibung String?
+  isDefault    Boolean  @default(false)
+  createdAt    DateTime @default(now())
+
+  words CollectionWord[]
+}
+
+model CollectionWord {
+  collectionId String
+  wordId       String
+  addedAt      DateTime @default(now())
+
+  collection Collection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  word       Word       @relation(fields: [wordId], references: [id], onDelete: Cascade)
+
+  @@id([collectionId, wordId])
+}
+
+model Review {
+  id             String   @id @default(uuid())
+  wordId         String
+  reviewedAt     DateTime @default(now())
+  rating         Int
+  repetitions    Int
+  easinessFactor Float
+  intervalDays   Int
+  nextReviewDate DateTime
+
+  word Word @relation(fields: [wordId], references: [id], onDelete: Cascade)
+}
+
+model WordProgress {
+  id             String   @id @default(uuid())
+  wordId         String   @unique
+  repetitions    Int      @default(0)
+  easinessFactor Float    @default(2.5)
+  intervalDays   Int      @default(0)
+  nextReviewDate DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  word Word @relation(fields: [wordId], references: [id], onDelete: Cascade)
+}
+
+model Settings {
+  id                  String  @id @default("default")
+  frontSide           String  @default("hiragana")
+  showHiragana        Boolean @default(true)
+  showKanji           Boolean @default(true)
+  showExampleSentence Boolean @default(true)
+  newWordsPerDay      Int     @default(20)
+}
+
+model LearningDay {
+  id        String   @id @default(uuid())
+  date      String   @unique
+  cardsStudied Int   @default(0)
+  createdAt DateTime @default(now())
+}
