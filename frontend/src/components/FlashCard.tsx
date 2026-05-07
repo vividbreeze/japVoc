@@ -58,12 +58,17 @@ function GermanSide({ word, dim = false }: { word: Word; dim?: boolean }) {
   );
 }
 
-// ─── German example sentence (back side) ─────────────────────────────────────
+// ─── Example sentence block (back side) ──────────────────────────────────────
 function ExampleBlock({ word }: { word: Word }) {
-  if (!word.beispielsatz_de) return null;
+  if (!word.beispielsatz_jp && !word.beispielsatz_de) return null;
   return (
     <div className="mt-3 w-full bg-white rounded-xl p-4 border border-indigo-100">
-      <p className="text-sm text-gray-500 italic">{word.beispielsatz_de}</p>
+      {word.beispielsatz_jp && (
+        <p className="text-base font-japanese text-gray-700 mb-1">{word.beispielsatz_jp}</p>
+      )}
+      {word.beispielsatz_de && (
+        <p className="text-sm text-gray-500 italic">{word.beispielsatz_de}</p>
+      )}
     </div>
   );
 }
