@@ -142,7 +142,14 @@ export default function FlashCard({ word, settings, onRate, cardIndex, total }: 
               {jpFirst ? (
                 <JapaneseSide word={word} settings={settings} showExample={settings.frontShowExampleJp} />
               ) : (
-                <GermanSide word={word} />
+                <>
+                  <GermanSide word={word} />
+                  {settings.showExampleSentence && word.beispielsatz_de && (
+                    <div className="mt-2 w-full bg-gray-50 rounded-xl p-3 border border-gray-100">
+                      <p className="text-sm text-gray-500 italic text-center">{word.beispielsatz_de}</p>
+                    </div>
+                  )}
+                </>
               )}
 
               <p className="mt-4 text-sm text-gray-400">Leertaste oder klicken zum Umdrehen</p>
