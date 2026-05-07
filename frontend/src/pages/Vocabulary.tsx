@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react';
-import { fetchWords, fetchCollections, fetchWortarten, addWordToCollection } from '../api/client';
-import type { Word, Collection } from '../types';
+import { fetchWords, fetchWortarten } from '../api/client';
+import type { Word } from '../types';
 import { getWordStatus } from '../types';
 
 const STATUS_COLOR: Record<string, string> = {
@@ -24,8 +24,6 @@ export default function Vocabulary() {
   const [search, setSearch] = useState('');
   const [wortart, setWortart] = useState('');
   const [wortarten, setWortarten] = useState<string[]>([]);
-  const [collections, setCollections] = useState<Collection[]>([]);
-  const [addingTo, setAddingTo] = useState<{ wordId: string; collections: Collection[] } | null>(null);
   const [page, setPage] = useState(1);
   const LIMIT = 50;
 
@@ -41,7 +39,6 @@ export default function Vocabulary() {
 
   useEffect(() => { load(); }, [load]);
   useEffect(() => { fetchWortarten().then(setWortarten); }, []);
-  useEffect(() => { fetchCollections().then(setCollections); }, []);
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
@@ -102,7 +99,6 @@ export default function Vocabulary() {
                   <th className="text-left px-4 py-3 hidden sm:table-cell">Wortart</th>
                   <th className="text-left px-4 py-3 hidden md:table-cell">Status</th>
                   <th className="text-left px-4 py-3 hidden md:table-cell">Nächste WH</th>
-                  <th className="px-4 py-3"></th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-50">
@@ -128,15 +124,6 @@ export default function Vocabulary() {
                         ) : (
                           <span className="text-gray-300">—</span>
                         )}
-                      </td>
-                      <td className="px-4 py-3">
-                        <button
-                          onClick={() => setAddingTo({ wordId: w.id, collections: collections.filter((c) => !c.isDefault) })}
-                          className="text-indigo-400 hover:text-indigo-600 text-xs font-medium transition-colors"
-                          title="Zur Sammlung hinzufügen"
-                        >
-                          + Sammlung
-                        </button>
                       </td>
                     </tr>
                   );
@@ -170,38 +157,6 @@ export default function Vocabulary() {
         </div>
       )}
 
-      {/* Add to collection modal */}
-      {addingTo && (
-        <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-2xl shadow-xl p-6 w-full max-w-sm">
-            <h3 className="font-semibold text-gray-800 mb-4">Zur Sammlung hinzufügen</h3>
-            {addingTo.collections.length === 0 ? (
-              <p className="text-gray-400 text-sm">Noch keine eigenen Sammlungen vorhanden.</p>
-            ) : (
-              <div className="space-y-2">
-                {addingTo.collections.map((c) => (
-                  <button
-                    key={c.id}
-                    onClick={async () => {
-                      await addWordToCollection(c.id, addingTo.wordId);
-                      setAddingTo(null);
-                    }}
-                    className="w-full text-left px-4 py-3 rounded-xl border border-gray-200 hover:bg-indigo-50 hover:border-indigo-300 transition-colors text-sm"
-                  >
-                    {c.name}
-                  </button>
-                ))}
-              </div>
-            )}
-            <button
-              onClick={() => setAddingTo(null)}
-              className="mt-4 w-full text-center text-gray-400 text-sm hover:text-gray-600"
-            >
-              Abbrechen
-            </button>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
