@@ -4,6 +4,7 @@ CREATE TABLE "Word" (
     "hiragana" TEXT NOT NULL,
     "katakana" TEXT,
     "kanji" TEXT,
+    "romaji" TEXT,
     "deutsch" TEXT NOT NULL,
     "beispielsatz_jp" TEXT,
     "beispielsatz_de" TEXT,
@@ -60,7 +61,10 @@ CREATE TABLE "WordProgress" (
 -- CreateTable
 CREATE TABLE "Settings" (
     "id" TEXT NOT NULL PRIMARY KEY DEFAULT 'default',
-    "frontSide" TEXT NOT NULL DEFAULT 'hiragana',
+    "frontShowHiragana" BOOLEAN NOT NULL DEFAULT true,
+    "frontShowKanji" BOOLEAN NOT NULL DEFAULT false,
+    "frontShowRomaji" BOOLEAN NOT NULL DEFAULT false,
+    "frontShowExampleJp" BOOLEAN NOT NULL DEFAULT false,
     "showHiragana" BOOLEAN NOT NULL DEFAULT true,
     "showKanji" BOOLEAN NOT NULL DEFAULT true,
     "showExampleSentence" BOOLEAN NOT NULL DEFAULT true,
@@ -80,3 +84,4 @@ CREATE UNIQUE INDEX "WordProgress_wordId_key" ON "WordProgress"("wordId");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "LearningDay_date_key" ON "LearningDay"("date");
+

@@ -12,7 +12,10 @@ interface SettingsStore {
 
 const DEFAULT_SETTINGS: Settings = {
   id: 'default',
-  frontSide: 'hiragana',
+  frontShowHiragana: true,
+  frontShowKanji: false,
+  frontShowRomaji: false,
+  frontShowExampleJp: false,
   showHiragana: true,
   showKanji: true,
   showExampleSentence: true,

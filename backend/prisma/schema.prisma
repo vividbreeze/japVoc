@@ -12,6 +12,7 @@ model Word {
   hiragana        String
   katakana        String?
   kanji           String?
+  romaji          String?
   deutsch         String
   beispielsatz_jp String?
   beispielsatz_de String?
@@ -71,12 +72,17 @@ model WordProgress {
 }
 
 model Settings {
-  id                  String  @id @default("default")
-  frontSide           String  @default("hiragana")
-  showHiragana        Boolean @default(true)
-  showKanji           Boolean @default(true)
-  showExampleSentence Boolean @default(true)
-  newWordsPerDay      Int     @default(20)
+  id                   String  @id @default("default")
+  // Front side toggles
+  frontShowHiragana    Boolean @default(true)
+  frontShowKanji       Boolean @default(false)
+  frontShowRomaji      Boolean @default(false)
+  frontShowExampleJp   Boolean @default(false)
+  // Back side toggles
+  showHiragana         Boolean @default(true)
+  showKanji            Boolean @default(true)
+  showExampleSentence  Boolean @default(true)
+  newWordsPerDay       Int     @default(20)
 }
 
 model LearningDay {

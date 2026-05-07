@@ -2,6 +2,7 @@
   {
     "hiragana": "あ",
     "kanji": null,
+    "romaji": "a",
     "deutsch": "Ah",
     "beispielsatz_jp": "あ、そうですか。",
     "beispielsatz_de": "Ach so.",
@@ -10,6 +11,7 @@
   {
     "hiragana": "あう",
     "kanji": "会う",
+    "romaji": "au",
     "deutsch": "sich versammeln , treffen",
     "beispielsatz_jp": "ともだちとこうえんであいました。",
     "beispielsatz_de": "Ich habe mich mit einem Freund im Park getroffen.",
@@ -18,6 +20,7 @@
   {
     "hiragana": "あお",
     "kanji": "青",
+    "romaji": "ao",
     "deutsch": "Farbe Blau",
     "beispielsatz_jp": "そらはあおです。",
     "beispielsatz_de": "Der Himmel ist blau.",
@@ -26,6 +29,7 @@
   {
     "hiragana": "あおい",
     "kanji": "青い",
+    "romaji": "aoi",
     "deutsch": "blau",
     "beispielsatz_jp": "このかばんはあおいです。",
     "beispielsatz_de": "Diese Tasche ist blau.",
@@ -34,6 +38,7 @@
   {
     "hiragana": "あか",
     "kanji": "赤",
+    "romaji": "aka",
     "deutsch": "Farbe Rot",
     "beispielsatz_jp": "あかはすきなかいろです。",
     "beispielsatz_de": "Rot ist meine Lieblingsfarbe.",
@@ -42,6 +47,7 @@
   {
     "hiragana": "あかい",
     "kanji": "赤い",
+    "romaji": "akai",
     "deutsch": "rot",
     "beispielsatz_jp": "このりんごはあかいです。",
     "beispielsatz_de": "Dieser Apfel ist rot.",
@@ -50,6 +56,7 @@
   {
     "hiragana": "あがる",
     "kanji": "上がる",
+    "romaji": "agaru",
     "deutsch": "hochsteigen",
     "beispielsatz_jp": "かいだんをあがります。",
     "beispielsatz_de": "Ich steige die Treppe hoch.",
@@ -58,6 +65,7 @@
   {
     "hiragana": "あかるい",
     "kanji": "明るい",
+    "romaji": "akarui",
     "deutsch": "hell",
     "beispielsatz_jp": "このへやはあかるいです。",
     "beispielsatz_de": "Dieses Zimmer ist hell.",
@@ -66,6 +74,7 @@
   {
     "hiragana": "あき",
     "kanji": "秋",
+    "romaji": "aki",
     "deutsch": "Herbst",
     "beispielsatz_jp": "あきはすずしいです。",
     "beispielsatz_de": "Der Herbst ist kühl.",
@@ -74,6 +83,7 @@
   {
     "hiragana": "あく",
     "kanji": "開く",
+    "romaji": "aku",
     "deutsch": "sich öffnen",
     "beispielsatz_jp": "まどがあきます。",
     "beispielsatz_de": "Das Fenster öffnet sich.",
@@ -82,6 +92,7 @@
   {
     "hiragana": "あげる",
     "kanji": "上げる",
+    "romaji": "ageru",
     "deutsch": "hochheben, geben",
     "beispielsatz_jp": "ともだちにほんをあげました。",
     "beispielsatz_de": "Ich habe dem Freund ein Buch gegeben.",
@@ -90,6 +101,7 @@
   {
     "hiragana": "あける",
     "kanji": "開ける",
+    "romaji": "akeru",
     "deutsch": "öffnen",
     "beispielsatz_jp": "まどをあけてください。",
     "beispielsatz_de": "Bitte öffnen Sie das Fenster.",
@@ -98,6 +110,7 @@
   {
     "hiragana": "あさ",
     "kanji": "朝",
+    "romaji": "asa",
     "deutsch": "Morgen",
     "beispielsatz_jp": "まいあさろくじにおきます。",
     "beispielsatz_de": "Jeden Morgen stehe ich um 6 Uhr auf.",
@@ -106,6 +119,7 @@
   {
     "hiragana": "あさごはん",
     "kanji": "朝ご飯",
+    "romaji": "asagohan",
     "deutsch": "Frühstück",
     "beispielsatz_jp": "まいあさあさごはんをたべます。",
     "beispielsatz_de": "Ich esse jeden Morgen Frühstück.",
@@ -114,6 +128,7 @@
   {
     "hiragana": "あさって",
     "kanji": null,
+    "romaji": "asatte",
     "deutsch": "übermorgen",
     "beispielsatz_jp": "あさってともだちとあいます。",
     "beispielsatz_de": "Übermorgen treffe ich mich mit einem Freund.",
@@ -122,6 +137,7 @@
   {
     "hiragana": "あし",
     "kanji": "足",
+    "romaji": "ashi",
     "deutsch": "Bein",
     "beispielsatz_jp": "あしがいたいです。",
     "beispielsatz_de": "Mein Bein tut weh.",
@@ -130,6 +146,7 @@
   {
     "hiragana": "あした",
     "kanji": "明日",
+    "romaji": "ashita",
     "deutsch": "morgen",
     "beispielsatz_jp": "あしたがっこうにいきます。",
     "beispielsatz_de": "Morgen gehe ich zur Schule.",
@@ -138,6 +155,7 @@
   {
     "hiragana": "あそこ",
     "kanji": null,
+    "romaji": "asoko",
     "deutsch": "dort (entfernt)",
     "beispielsatz_jp": "えきはあそこです。",
     "beispielsatz_de": "Der Bahnhof ist dort drüben.",
@@ -146,6 +164,7 @@
   {
     "hiragana": "あそぶ",
     "kanji": "遊ぶ",
+    "romaji": "asobu",
     "deutsch": "spielen",
     "beispielsatz_jp": "こどもたちはこうえんであそびます。",
     "beispielsatz_de": "Die Kinder spielen im Park.",
@@ -154,6 +173,7 @@
   {
     "hiragana": "あたたかい",
     "kanji": null,
+    "romaji": "atatakai",
     "deutsch": "warm",
     "beispielsatz_jp": "はるはあたたかいです。",
     "beispielsatz_de": "Der Frühling ist warm.",
@@ -162,6 +182,7 @@
   {
     "hiragana": "あたま",
     "kanji": "頭",
+    "romaji": "atama",
     "deutsch": "Kopf",
     "beispielsatz_jp": "あたまがいたいです。",
     "beispielsatz_de": "Ich habe Kopfschmerzen.",
@@ -170,6 +191,7 @@
   {
     "hiragana": "あたらしい",
     "kanji": "新しい",
+    "romaji": "atarashii",
     "deutsch": "neu",
     "beispielsatz_jp": "これはあたらしいくつです。",
     "beispielsatz_de": "Das sind neue Schuhe.",
@@ -178,6 +200,7 @@
   {
     "hiragana": "あちら",
     "kanji": null,
+    "romaji": "achira",
     "deutsch": "dort (hin) (entfernt)",
     "beispielsatz_jp": "ぎんこうはあちらです。",
     "beispielsatz_de": "Die Bank ist dort.",
@@ -186,6 +209,7 @@
   {
     "hiragana": "あつい",
     "kanji": null,
+    "romaji": "atsui",
     "deutsch": "dick",
     "beispielsatz_jp": "このほんはあついです。",
     "beispielsatz_de": "Dieses Buch ist dick.",
@@ -194,6 +218,7 @@
   {
     "hiragana": "あつい",
     "kanji": "暑い",
+    "romaji": "atsui",
     "deutsch": "heiß",
     "beispielsatz_jp": "なつはあついです。",
     "beispielsatz_de": "Der Sommer ist heiß.",
@@ -202,6 +227,7 @@
   {
     "hiragana": "あつい",
     "kanji": "熱い",
+    "romaji": "atsui",
     "deutsch": "heiß",
     "beispielsatz_jp": "このおちゃはあついです。",
     "beispielsatz_de": "Dieser Tee ist heiß.",
@@ -210,6 +236,7 @@
   {
     "hiragana": "あっち",
     "kanji": null,
+    "romaji": "atchi",
     "deutsch": "dort (hin) (entfernt)",
     "beispielsatz_jp": "えきはあっちです。",
     "beispielsatz_de": "Der Bahnhof ist da drüben.",
@@ -218,6 +245,7 @@
   {
     "hiragana": "あと",
     "kanji": "後",
+    "romaji": "ato",
     "deutsch": "hinter / später",
     "beispielsatz_jp": "しごとのあとでともだちにあいます。",
     "beispielsatz_de": "Nach der Arbeit treffe ich einen Freund.",
@@ -226,6 +254,7 @@
   {
     "hiragana": "あなた",
     "kanji": null,
+    "romaji": "anata",
     "deutsch": "Du, Sie",
     "beispielsatz_jp": "あなたのなまえはなんですか。",
     "beispielsatz_de": "Wie heißen Sie?",
@@ -234,6 +263,7 @@
   {
     "hiragana": "あに",
     "kanji": "兄",
+    "romaji": "ani",
     "deutsch": "(mein) älterer Bruder",
     "beispielsatz_jp": "あにはかいしゃではたらいています。",
     "beispielsatz_de": "Mein älterer Bruder arbeitet in einer Firma.",
@@ -242,6 +272,7 @@
   {
     "hiragana": "あね",
     "kanji": "姉",
+    "romaji": "ane",
     "deutsch": "(meine) ältere Schwester",
     "beispielsatz_jp": "あねはがくせいです。",
     "beispielsatz_de": "Meine ältere Schwester ist Studentin.",
@@ -250,6 +281,7 @@
   {
     "hiragana": "あの",
     "kanji": null,
+    "romaji": "ano",
     "deutsch": "dieses dort, ehm",
     "beispielsatz_jp": "あのたてものはなんですか。",
     "beispielsatz_de": "Was ist das Gebäude dort?",
@@ -258,6 +290,7 @@
   {
     "hiragana": "アパート",
     "kanji": null,
+    "romaji": "apaato",
     "deutsch": "Mietwohnung",
     "beispielsatz_jp": "わたしはアパートにすんでいます。",
     "beispielsatz_de": "Ich wohne in einer Mietwohnung.",
@@ -266,6 +299,7 @@
   {
     "hiragana": "あぶない",
     "kanji": "危ない",
+    "romaji": "abunai",
     "deutsch": "gefährlich",
     "beispielsatz_jp": "あぶないですよ！",
     "beispielsatz_de": "Das ist gefährlich!",
@@ -274,6 +308,7 @@
   {
     "hiragana": "あまい",
     "kanji": "甘い",
+    "romaji": "amai",
     "deutsch": "süß (Essen)",
     "beispielsatz_jp": "このケーキはあまいです。",
     "beispielsatz_de": "Dieser Kuchen ist süß.",
@@ -282,6 +317,7 @@
   {
     "hiragana": "あまり",
     "kanji": null,
+    "romaji": "amari",
     "deutsch": "weniger",
     "beispielsatz_jp": "にほんごはあまりむずかしくないです。",
     "beispielsatz_de": "Japanisch ist nicht sehr schwierig.",
@@ -290,6 +326,7 @@
   {
     "hiragana": "あめ",
     "kanji": null,
+    "romaji": "ame",
     "deutsch": "Bonbon",
     "beispielsatz_jp": "こどもはあめがすきです。",
     "beispielsatz_de": "Kinder mögen Bonbons.",
@@ -298,6 +335,7 @@
   {
     "hiragana": "あめ",
     "kanji": "雨",
+    "romaji": "ame",
     "deutsch": "Regen",
     "beispielsatz_jp": "きょうはあめがふっています。",
     "beispielsatz_de": "Heute regnet es.",
@@ -306,6 +344,7 @@
   {
     "hiragana": "あらう",
     "kanji": "洗う",
+    "romaji": "arau",
     "deutsch": "waschen",
     "beispielsatz_jp": "てをあらってください。",
     "beispielsatz_de": "Bitte waschen Sie die Hände.",
@@ -314,6 +353,7 @@
   {
     "hiragana": "ありがとう",
     "kanji": null,
+    "romaji": "arigatou",
     "deutsch": "Danke",
     "beispielsatz_jp": "ありがとう！",
     "beispielsatz_de": "Danke!",
@@ -322,6 +362,7 @@
   {
     "hiragana": "ありがとうございます",
     "kanji": null,
+    "romaji": "arigatougozaimasu",
     "deutsch": "Dankeschön (höfl.)",
     "beispielsatz_jp": "ありがとうございます。",
     "beispielsatz_de": "Vielen Dank.",
@@ -330,6 +371,7 @@
   {
     "hiragana": "ある",
     "kanji": null,
+    "romaji": "aru",
     "deutsch": "haben / existieren",
     "beispielsatz_jp": "つくえのうえにほんがあります。",
     "beispielsatz_de": "Auf dem Schreibtisch liegt ein Buch.",
@@ -338,6 +380,7 @@
   {
     "hiragana": "あるく",
     "kanji": "歩く",
+    "romaji": "aruku",
     "deutsch": "zu Fuß gehen",
     "beispielsatz_jp": "えきまであるきます。",
     "beispielsatz_de": "Ich gehe zum Bahnhof zu Fuß.",
@@ -346,6 +389,7 @@
   {
     "hiragana": "あれ",
     "kanji": null,
+    "romaji": "are",
     "deutsch": "das dort",
     "beispielsatz_jp": "あれはなんですか。",
     "beispielsatz_de": "Was ist das dort?",
@@ -354,6 +398,7 @@
   {
     "hiragana": "いい",
     "kanji": null,
+    "romaji": "ii",
     "deutsch": "gut",
     "beispielsatz_jp": "このえいがはいいです。",
     "beispielsatz_de": "Dieser Film ist gut.",
@@ -362,6 +407,7 @@
   {
     "hiragana": "いいえ",
     "kanji": null,
+    "romaji": "iie",
     "deutsch": "Nein",
     "beispielsatz_jp": "「すきですか。」「いいえ、すきじゃないです。」",
     "beispielsatz_de": "\"Mögen Sie es?\" \"Nein, ich mag es nicht.\"",
@@ -370,6 +416,7 @@
   {
     "hiragana": "いう",
     "kanji": "言う",
+    "romaji": "iu",
     "deutsch": "sagen",
     "beispielsatz_jp": "せんせいはなんといいましたか。",
     "beispielsatz_de": "Was hat der Lehrer gesagt?",
@@ -378,6 +425,7 @@
   {
     "hiragana": "いえ",
     "kanji": "家",
+    "romaji": "ie",
     "deutsch": "Haus",
     "beispielsatz_jp": "わたしのいえはちいさいです。",
     "beispielsatz_de": "Mein Haus ist klein.",
@@ -386,6 +434,7 @@
   {
     "hiragana": "いかが",
     "kanji": null,
+    "romaji": "ikaga",
     "deutsch": "wie",
     "beispielsatz_jp": "おちゃはいかがですか。",
     "beispielsatz_de": "Möchten Sie Tee?",
@@ -394,6 +443,7 @@
   {
     "hiragana": "いく",
     "kanji": "行く",
+    "romaji": "iku",
     "deutsch": "gehen",
     "beispielsatz_jp": "がっこうにいきます。",
     "beispielsatz_de": "Ich gehe zur Schule.",
@@ -402,6 +452,7 @@
   {
     "hiragana": "いくつ",
     "kanji": null,
+    "romaji": "ikutsu",
     "deutsch": "wie viel, einige",
     "beispielsatz_jp": "りんごはいくつありますか。",
     "beispielsatz_de": "Wie viele Äpfel gibt es?",
@@ -410,6 +461,7 @@
   {
     "hiragana": "いくら",
     "kanji": null,
+    "romaji": "ikura",
     "deutsch": "wie viel, einige",
     "beispielsatz_jp": "このくつはいくらですか。",
     "beispielsatz_de": "Wie viel kosten diese Schuhe?",
@@ -418,6 +470,7 @@
   {
     "hiragana": "いけ",
     "kanji": "池",
+    "romaji": "ike",
     "deutsch": "Teich",
     "beispielsatz_jp": "こうえんにきれいないけがあります。",
     "beispielsatz_de": "Im Park gibt es einen schönen Teich.",
@@ -426,6 +479,7 @@
   {
     "hiragana": "いしゃ",
     "kanji": "医者",
+    "romaji": "isha",
     "deutsch": "Arzt",
     "beispielsatz_jp": "いしゃにいきました。",
     "beispielsatz_de": "Ich bin zum Arzt gegangen.",
@@ -434,6 +488,7 @@
   {
     "hiragana": "いす",
     "kanji": null,
+    "romaji": "isu",
     "deutsch": "Stuhl",
     "beispielsatz_jp": "このいすにすわってください。",
     "beispielsatz_de": "Bitte setzen Sie sich auf diesen Stuhl.",
@@ -442,6 +497,7 @@
   {
     "hiragana": "いそがしい",
     "kanji": "忙しい",
+    "romaji": "isogashii",
     "deutsch": "beschäftigt",
     "beispielsatz_jp": "ちちはいつもいそがしいです。",
     "beispielsatz_de": "Mein Vater ist immer beschäftigt.",
@@ -450,6 +506,7 @@
   {
     "hiragana": "いたい",
     "kanji": "痛い",
+    "romaji": "itai",
     "deutsch": "schmerzen",
     "beispielsatz_jp": "あしがいたいです。",
     "beispielsatz_de": "Mein Bein tut weh.",
@@ -458,6 +515,7 @@
   {
     "hiragana": "いただきます",
     "kanji": null,
+    "romaji": "itadakimasu",
     "deutsch": "Danke für das Essen. (vorher)",
     "beispielsatz_jp": "たべるまえにいただきます。",
     "beispielsatz_de": "Vor dem Essen sage ich itadakimasu.",
@@ -466,6 +524,7 @@
   {
     "hiragana": "いち",
     "kanji": "一",
+    "romaji": "ichi",
     "deutsch": "eins",
     "beispielsatz_jp": "いちはひとつです。",
     "beispielsatz_de": "Eins ist eines.",
@@ -474,6 +533,7 @@
   {
     "hiragana": "いちがつ",
     "kanji": "一月",
+    "romaji": "ichigatsu",
     "deutsch": "Januar",
     "beispielsatz_jp": "いちがつはふゆです。",
     "beispielsatz_de": "Januar ist Winter.",
@@ -482,6 +542,7 @@
   {
     "hiragana": "いちじ",
     "kanji": "一時",
+    "romaji": "ichiji",
     "deutsch": "1 Uhr",
     "beispielsatz_jp": "いちじにあいましょう。",
     "beispielsatz_de": "Treffen wir uns um 1 Uhr.",
@@ -490,6 +551,7 @@
   {
     "hiragana": "いちにち",
     "kanji": "一日",
+    "romaji": "ichinichi",
     "deutsch": "1 Tag, den ganzen Tag",
     "beispielsatz_jp": "いちにちじゅうべんきょうしました。",
     "beispielsatz_de": "Ich habe den ganzen Tag gelernt.",
@@ -498,6 +560,7 @@
   {
     "hiragana": "いちばん",
     "kanji": "一番",
+    "romaji": "ichiban",
     "deutsch": "Erster",
     "beispielsatz_jp": "にほんごがいちばんすきです。",
     "beispielsatz_de": "Japanisch mag ich am liebsten.",
@@ -506,6 +569,7 @@
   {
     "hiragana": "いつ",
     "kanji": null,
+    "romaji": "itsu",
     "deutsch": "wann",
     "beispielsatz_jp": "しけんはいつですか。",
     "beispielsatz_de": "Wann ist die Prüfung?",
@@ -514,6 +578,7 @@
   {
     "hiragana": "いつか",
     "kanji": "五日",
+    "romaji": "itsuka",
     "deutsch": "5. Tag eines Monats",
     "beispielsatz_jp": "いつかにともだちとあいます。",
     "beispielsatz_de": "Am 5. treffe ich einen Freund.",
@@ -522,6 +587,7 @@
   {
     "hiragana": "いつかかん",
     "kanji": "五日間",
+    "romaji": "itsukakan",
     "deutsch": "5 Tage",
     "beispielsatz_jp": "りょこうはいつかかんです。",
     "beispielsatz_de": "Die Reise dauert 5 Tage.",
@@ -530,6 +596,7 @@
   {
     "hiragana": "いっしょ",
     "kanji": "一緒",
+    "romaji": "issho",
     "deutsch": "zusammen, gleich",
     "beispielsatz_jp": "いっしょにたべましょう。",
     "beispielsatz_de": "Essen wir zusammen.",
@@ -538,6 +605,7 @@
   {
     "hiragana": "いつつ",
     "kanji": "五つ",
+    "romaji": "itsutsu",
     "deutsch": "fünf (Stück)",
     "beispielsatz_jp": "りんごがいつつあります。",
     "beispielsatz_de": "Es gibt fünf Äpfel.",
@@ -546,6 +614,7 @@
   {
     "hiragana": "いってきます",
     "kanji": null,
+    "romaji": "ittekimasu",
     "deutsch": "Verabschiedung beim Zuhause Losgehen",
     "beispielsatz_jp": "いってきます！",
     "beispielsatz_de": "Ich gehe jetzt!",
@@ -554,6 +623,7 @@
   {
     "hiragana": "いっぴき",
     "kanji": "一匹",
+    "romaji": "ippiki",
     "deutsch": "1 Tier",
     "beispielsatz_jp": "ねこがいっぴきいます。",
     "beispielsatz_de": "Es gibt eine Katze.",
@@ -562,6 +632,7 @@
   {
     "hiragana": "いっぷん",
     "kanji": "一分",
+    "romaji": "ippun",
     "deutsch": "1 Minute",
     "beispielsatz_jp": "いっぷんまってください。",
     "beispielsatz_de": "Bitte warten Sie eine Minute.",
@@ -570,6 +641,7 @@
   {
     "hiragana": "いっぽん",
     "kanji": "一本",
+    "romaji": "ippon",
     "deutsch": "1 (Flasche, …)",
     "beispielsatz_jp": "ジュースがいっぽんあります。",
     "beispielsatz_de": "Es gibt eine Flasche Saft.",
@@ -578,6 +650,7 @@
   {
     "hiragana": "いつも",
     "kanji": null,
+    "romaji": "itsumo",
     "deutsch": "immer",
     "beispielsatz_jp": "わたしはいつもあさごはんをたべます。",
     "beispielsatz_de": "Ich esse immer Frühstück.",
@@ -586,6 +659,7 @@
   {
     "hiragana": "いぬ",
     "kanji": "犬",
+    "romaji": "inu",
     "deutsch": "Hund",
     "beispielsatz_jp": "うちにいぬがいます。",
     "beispielsatz_de": "Zuhause habe ich einen Hund.",
@@ -594,6 +668,7 @@
   {
     "hiragana": "いま",
     "kanji": "今",
+    "romaji": "ima",
     "deutsch": "jetzt",
     "beispielsatz_jp": "いまなんじですか。",
     "beispielsatz_de": "Wie spät ist es jetzt?",
@@ -602,6 +677,7 @@
   {
     "hiragana": "いみ",
     "kanji": "意味",
+    "romaji": "imi",
     "deutsch": "Bedeutung",
     "beispielsatz_jp": "このことばのいみはなんですか。",
     "beispielsatz_de": "Was bedeutet dieses Wort?",
@@ -610,6 +686,7 @@
   {
     "hiragana": "いもうと",
     "kanji": "妹",
+    "romaji": "imouto",
     "deutsch": "jüngere Schwester",
     "beispielsatz_jp": "いもうとはちゅうがくせいです。",
     "beispielsatz_de": "Meine jüngere Schwester ist Mittelschülerin.",
@@ -618,6 +695,7 @@
   {
     "hiragana": "いや",
     "kanji": null,
+    "romaji": "iya",
     "deutsch": "unangenehm",
     "beispielsatz_jp": "そのえいがはいやでした。",
     "beispielsatz_de": "Dieser Film war unangenehm.",
@@ -626,6 +704,7 @@
   {
     "hiragana": "いらっしゃいませ",
     "kanji": null,
+    "romaji": "irasshaimase",
     "deutsch": "Willkommen. (im Geschäft)",
     "beispielsatz_jp": "おみせにはいるといらっしゃいませといいます。",
     "beispielsatz_de": "Wenn man einen Laden betritt, sagt man willkommen.",
@@ -634,6 +713,7 @@
   {
     "hiragana": "いりぐち",
     "kanji": "入口",
+    "romaji": "iriguchi",
     "deutsch": "Eingang",
     "beispielsatz_jp": "いりぐちはどこですか。",
     "beispielsatz_de": "Wo ist der Eingang?",
@@ -642,6 +722,7 @@
   {
     "hiragana": "いる",
     "kanji": null,
+    "romaji": "iru",
     "deutsch": "sein",
     "beispielsatz_jp": "ねこがへやにいます。",
     "beispielsatz_de": "Die Katze ist im Zimmer.",
@@ -650,6 +731,7 @@
   {
     "hiragana": "いれる",
     "kanji": "入れる",
+    "romaji": "ireru",
     "deutsch": "hineintun",
     "beispielsatz_jp": "バッグにほんをいれます。",
     "beispielsatz_de": "Ich tue das Buch in die Tasche.",
@@ -658,6 +740,7 @@
   {
     "hiragana": "いろ",
     "kanji": "色",
+    "romaji": "iro",
     "deutsch": "Farbe",
     "beispielsatz_jp": "あなたのすきないろはなんですか。",
     "beispielsatz_de": "Welche Farbe magst du?",
@@ -666,6 +749,7 @@
   {
     "hiragana": "いろいろ",
     "kanji": null,
+    "romaji": "iroiro",
     "deutsch": "unterschiedliches",
     "beispielsatz_jp": "このみせにはいろいろなものがあります。",
     "beispielsatz_de": "In diesem Laden gibt es verschiedene Dinge.",
@@ -674,6 +758,7 @@
   {
     "hiragana": "うえ",
     "kanji": "上",
+    "romaji": "ue",
     "deutsch": "oben",
     "beispielsatz_jp": "ほんはつくえのうえにあります。",
     "beispielsatz_de": "Das Buch liegt auf dem Schreibtisch.",
@@ -682,6 +767,7 @@
   {
     "hiragana": "うしろ",
     "kanji": "後ろ",
+    "romaji": "ushiro",
     "deutsch": "Rückseite",
     "beispielsatz_jp": "いぬはいすのうしろにいます。",
     "beispielsatz_de": "Der Hund ist hinter dem Stuhl.",
@@ -690,6 +776,7 @@
   {
     "hiragana": "うすい",
     "kanji": null,
+    "romaji": "usui",
     "deutsch": "dünn",
     "beispielsatz_jp": "このかみはうすいです。",
     "beispielsatz_de": "Dieses Papier ist dünn.",
@@ -698,6 +785,7 @@
   {
     "hiragana": "うた",
     "kanji": "歌",
+    "romaji": "uta",
     "deutsch": "Lied",
     "beispielsatz_jp": "きれいなうたですね。",
     "beispielsatz_de": "Das ist ein schönes Lied.",
@@ -706,6 +794,7 @@
   {
     "hiragana": "うたう",
     "kanji": "歌う",
+    "romaji": "utau",
     "deutsch": "singen",
     "beispielsatz_jp": "まいにちうたをうたいます。",
     "beispielsatz_de": "Ich singe jeden Tag ein Lied.",
@@ -714,6 +803,7 @@
   {
     "hiragana": "うまれる",
     "kanji": "生まれる",
+    "romaji": "umareru",
     "deutsch": "geboren werden",
     "beispielsatz_jp": "にほんでうまれました。",
     "beispielsatz_de": "Ich wurde in Japan geboren.",
@@ -722,6 +812,7 @@
   {
     "hiragana": "うみ",
     "kanji": "海",
+    "romaji": "umi",
     "deutsch": "Meer",
     "beispielsatz_jp": "うみにいきたいです。",
     "beispielsatz_de": "Ich möchte ans Meer gehen.",
@@ -730,6 +821,7 @@
   {
     "hiragana": "うる",
     "kanji": "売る",
+    "romaji": "uru",
     "deutsch": "verkaufen",
     "beispielsatz_jp": "みせでくつをうります。",
     "beispielsatz_de": "Im Laden werden Schuhe verkauft.",
@@ -738,6 +830,7 @@
   {
     "hiragana": "うるさい",
     "kanji": null,
+    "romaji": "urusai",
     "deutsch": "laut",
     "beispielsatz_jp": "となりのへやがうるさいです。",
     "beispielsatz_de": "Das Nebenzimmer ist laut.",
@@ -746,6 +839,7 @@
   {
     "hiragana": "うれしい",
     "kanji": null,
+    "romaji": "ureshii",
     "deutsch": "sich freuen",
     "beispielsatz_jp": "プレゼントをもらってうれしいです。",
     "beispielsatz_de": "Ich freue mich, ein Geschenk bekommen zu haben.",
@@ -754,6 +848,7 @@
   {
     "hiragana": "うわぎ",
     "kanji": "上着",
+    "romaji": "uwagi",
     "deutsch": "Sakko, Jacke",
     "beispielsatz_jp": "さむいのでうわぎをきます。",
     "beispielsatz_de": "Weil es kalt ist, ziehe ich eine Jacke an.",
@@ -762,6 +857,7 @@
   {
     "hiragana": "え",
     "kanji": "絵",
+    "romaji": "e",
     "deutsch": "Bild",
     "beispielsatz_jp": "かべにきれいなえがあります。",
     "beispielsatz_de": "An der Wand hängt ein schönes Bild.",
@@ -770,6 +866,7 @@
   {
     "hiragana": "エアコン",
     "kanji": null,
+    "romaji": "eakon",
     "deutsch": "Klimaanlage",
     "beispielsatz_jp": "なつはエアコンをつけます。",
     "beispielsatz_de": "Im Sommer schalte ich die Klimaanlage ein.",
@@ -778,6 +875,7 @@
   {
     "hiragana": "えいが",
     "kanji": "映画",
+    "romaji": "eiga",
     "deutsch": "Film",
     "beispielsatz_jp": "きのうえいがをみました。",
     "beispielsatz_de": "Gestern habe ich einen Film gesehen.",
@@ -786,6 +884,7 @@
   {
     "hiragana": "えいがかん",
     "kanji": "映画館",
+    "romaji": "eigakan",
     "deutsch": "Kino",
     "beispielsatz_jp": "えいがかんにいきたいです。",
     "beispielsatz_de": "Ich möchte ins Kino gehen.",
@@ -794,6 +893,7 @@
   {
     "hiragana": "えいご",
     "kanji": "英語",
+    "romaji": "eigo",
     "deutsch": "Englisch",
     "beispielsatz_jp": "えいごをべんきょうしています。",
     "beispielsatz_de": "Ich lerne Englisch.",
@@ -802,6 +902,7 @@
   {
     "hiragana": "ええ",
     "kanji": null,
+    "romaji": "ee",
     "deutsch": "ja",
     "beispielsatz_jp": "「おちゃはいかがですか。」「ええ、ありがとう。」",
     "beispielsatz_de": "\"Möchten Sie Tee?\" \"Ja, danke.\"",
@@ -810,6 +911,7 @@
   {
     "hiragana": "えき",
     "kanji": "駅",
+    "romaji": "eki",
     "deutsch": "Bahnhof",
     "beispielsatz_jp": "えきはどこですか。",
     "beispielsatz_de": "Wo ist der Bahnhof?",
@@ -818,6 +920,7 @@
   {
     "hiragana": "えっ",
     "kanji": null,
+    "romaji": "etsu",
     "deutsch": "hä?, wie bitte?",
     "beispielsatz_jp": "えっ、ほんとうですか。",
     "beispielsatz_de": "Wie bitte, ist das wahr?",
@@ -826,6 +929,7 @@
   {
     "hiragana": "えらぶ",
     "kanji": "選ぶ",
+    "romaji": "erabu",
     "deutsch": "auswählen",
     "beispielsatz_jp": "どのくつをえらびますか。",
     "beispielsatz_de": "Welche Schuhe wählen Sie?",
@@ -834,6 +938,7 @@
   {
     "hiragana": "エレベーター",
     "kanji": null,
+    "romaji": "erebeetaa",
     "deutsch": "Fahrstuhl",
     "beispielsatz_jp": "エレベーターでいきます。",
     "beispielsatz_de": "Ich fahre mit dem Fahrstuhl.",
@@ -842,6 +947,7 @@
   {
     "hiragana": "〜えん",
     "kanji": "〜円",
+    "romaji": "~en",
     "deutsch": "〜 Yen",
     "beispielsatz_jp": "このほんは1000えんです。",
     "beispielsatz_de": "Dieses Buch kostet 1000 Yen.",
@@ -850,6 +956,7 @@
   {
     "hiragana": "えんぴつ",
     "kanji": null,
+    "romaji": "enpitsu",
     "deutsch": "Bleistift",
     "beispielsatz_jp": "えんぴつでかきます。",
     "beispielsatz_de": "Ich schreibe mit dem Bleistift.",
@@ -858,6 +965,7 @@
   {
     "hiragana": "おいしい",
     "kanji": null,
+    "romaji": "oishii",
     "deutsch": "lecker",
     "beispielsatz_jp": "このりょうりはおいしいです。",
     "beispielsatz_de": "Dieses Gericht ist lecker.",
@@ -866,6 +974,7 @@
   {
     "hiragana": "おおい",
     "kanji": "多い",
+    "romaji": "ooi",
     "deutsch": "viel",
     "beispielsatz_jp": "このこうえんにはひとがおおいです。",
     "beispielsatz_de": "Im Park gibt es viele Menschen.",
@@ -874,6 +983,7 @@
   {
     "hiragana": "おおきい",
     "kanji": "大きい",
+    "romaji": "ookii",
     "deutsch": "groß",
     "beispielsatz_jp": "このいえはおおきいです。",
     "beispielsatz_de": "Dieses Haus ist groß.",
@@ -882,6 +992,7 @@
   {
     "hiragana": "おおきな",
     "kanji": "大きな",
+    "romaji": "ookina",
     "deutsch": "groß",
     "beispielsatz_jp": "おおきなきがあります。",
     "beispielsatz_de": "Es gibt einen großen Baum.",
@@ -890,6 +1001,7 @@
   {
     "hiragana": "おおぜい",
     "kanji": "大勢",
+    "romaji": "oozei",
     "deutsch": "große Anzahl von Menschen",
     "beispielsatz_jp": "えきにおおぜいひとがいます。",
     "beispielsatz_de": "Am Bahnhof sind viele Menschen.",
@@ -898,6 +1010,7 @@
   {
     "hiragana": "おかあさん",
     "kanji": "お母さん",
+    "romaji": "okaasan",
     "deutsch": "Mutter (anderer Leute)",
     "beispielsatz_jp": "おかあさんはりょうりがじょうずです。",
     "beispielsatz_de": "Die Mutter kocht gut.",
@@ -906,6 +1019,7 @@
   {
     "hiragana": "おかし",
     "kanji": null,
+    "romaji": "okashi",
     "deutsch": "Süßigkeiten",
     "beispielsatz_jp": "こどもはおかしがすきです。",
     "beispielsatz_de": "Kinder mögen Süßigkeiten.",
@@ -914,6 +1028,7 @@
   {
     "hiragana": "おかね",
     "kanji": "お金",
+    "romaji": "okane",
     "deutsch": "Geld",
     "beispielsatz_jp": "おかねがありません。",
     "beispielsatz_de": "Ich habe kein Geld.",
@@ -922,6 +1037,7 @@
   {
     "hiragana": "おきる",
     "kanji": "起きる",
+    "romaji": "okiru",
     "deutsch": "aufstehen",
     "beispielsatz_jp": "まいあさはやくおきます。",
     "beispielsatz_de": "Jeden Morgen stehe ich früh auf.",
@@ -930,6 +1046,7 @@
   {
     "hiragana": "おく",
     "kanji": "置く",
+    "romaji": "oku",
     "deutsch": "hinstellen, hinlegen",
     "beispielsatz_jp": "つくえのうえにほんをおきます。",
     "beispielsatz_de": "Ich lege das Buch auf den Schreibtisch.",
@@ -938,6 +1055,7 @@
   {
     "hiragana": "おくさん",
     "kanji": null,
+    "romaji": "okusan",
     "deutsch": "jmds. anderen Ehefrau",
     "beispielsatz_jp": "やまださんのおくさんはきれいです。",
     "beispielsatz_de": "Frau Yamadas Ehefrau ist schön.",
@@ -946,6 +1064,7 @@
   {
     "hiragana": "おくに",
     "kanji": "お国",
+    "romaji": "okuni",
     "deutsch": "Heimatland",
     "beispielsatz_jp": "おくにはどこですか。",
     "beispielsatz_de": "Woher kommen Sie?",
@@ -954,6 +1073,7 @@
   {
     "hiragana": "おさけ",
     "kanji": "お酒",
+    "romaji": "osake",
     "deutsch": "Sake",
     "beispielsatz_jp": "おさけをのみます。",
     "beispielsatz_de": "Ich trinke Sake.",
@@ -962,6 +1082,7 @@
   {
     "hiragana": "おさら",
     "kanji": "お皿",
+    "romaji": "osara",
     "deutsch": "Teller",
     "beispielsatz_jp": "おさらにりょうりをいれます。",
     "beispielsatz_de": "Ich lege das Essen auf den Teller.",
@@ -970,6 +1091,7 @@
   {
     "hiragana": "おじいさん",
     "kanji": null,
+    "romaji": "ojiisan",
     "deutsch": "Großvater",
     "beispielsatz_jp": "おじいさんはとしょかんにいます。",
     "beispielsatz_de": "Der Großvater ist in der Bibliothek.",
@@ -978,6 +1100,7 @@
   {
     "hiragana": "おしえる",
     "kanji": "教える",
+    "romaji": "oshieru",
     "deutsch": "lehren",
     "beispielsatz_jp": "せんせいがにほんごをおしえます。",
     "beispielsatz_de": "Der Lehrer unterrichtet Japanisch.",
@@ -986,6 +1109,7 @@
   {
     "hiragana": "おじさん",
     "kanji": null,
+    "romaji": "ojisan",
     "deutsch": "Onkel",
     "beispielsatz_jp": "おじさんはいしゃです。",
     "beispielsatz_de": "Mein Onkel ist Arzt.",
@@ -994,6 +1118,7 @@
   {
     "hiragana": "おす",
     "kanji": "押す",
+    "romaji": "osu",
     "deutsch": "drücken",
     "beispielsatz_jp": "このボタンをおしてください。",
     "beispielsatz_de": "Bitte drücken Sie diesen Knopf.",
@@ -1002,6 +1127,7 @@
   {
     "hiragana": "おそい",
     "kanji": "遅い",
+    "romaji": "osoi",
     "deutsch": "spät",
     "beispielsatz_jp": "バスがおそいです。",
     "beispielsatz_de": "Der Bus ist spät.",
@@ -1010,6 +1136,7 @@
   {
     "hiragana": "おちゃ",
     "kanji": "お茶",
+    "romaji": "ocha",
     "deutsch": "Tee",
     "beispielsatz_jp": "おちゃをのみます。",
     "beispielsatz_de": "Ich trinke Tee.",
@@ -1018,6 +1145,7 @@
   {
     "hiragana": "おてあらい",
     "kanji": "お手洗い",
+    "romaji": "otearai",
     "deutsch": "Toilette",
     "beispielsatz_jp": "おてあらいはどこですか。",
     "beispielsatz_de": "Wo ist die Toilette?",
@@ -1026,6 +1154,7 @@
   {
     "hiragana": "おとうさん",
     "kanji": "お父さん",
+    "romaji": "otousan",
     "deutsch": "Vater (anderer Leute)",
     "beispielsatz_jp": "おとうさんはかいしゃにいます。",
     "beispielsatz_de": "Der Vater ist in der Firma.",
@@ -1034,6 +1163,7 @@
   {
     "hiragana": "おとうと",
     "kanji": "弟",
+    "romaji": "otouto",
     "deutsch": "jüngerer Bruder",
     "beispielsatz_jp": "おとうとといっしょにあそびます。",
     "beispielsatz_de": "Ich spiele mit meinem jüngeren Bruder.",
@@ -1042,6 +1172,7 @@
   {
     "hiragana": "おとこ",
     "kanji": "男",
+    "romaji": "otoko",
     "deutsch": "Mann",
     "beispielsatz_jp": "あのおとこはだれですか。",
     "beispielsatz_de": "Wer ist dieser Mann?",
@@ -1050,6 +1181,7 @@
   {
     "hiragana": "おとこのこ",
     "kanji": "男の子",
+    "romaji": "otokonoko",
     "deutsch": "Junge",
     "beispielsatz_jp": "おとこのこがにわであそんでいます。",
     "beispielsatz_de": "Der Junge spielt im Garten.",
@@ -1058,6 +1190,7 @@
   {
     "hiragana": "おとこのひと",
     "kanji": "男の人",
+    "romaji": "otokonohito",
     "deutsch": "Mann",
     "beispielsatz_jp": "あのおとこのひとはせんせいです。",
     "beispielsatz_de": "Dieser Mann ist Lehrer.",
@@ -1066,6 +1199,7 @@
   {
     "hiragana": "おととい",
     "kanji": null,
+    "romaji": "ototoi",
     "deutsch": "vorgestern",
     "beispielsatz_jp": "おとといえいがをみました。",
     "beispielsatz_de": "Vorgestern habe ich einen Film gesehen.",
@@ -1074,6 +1208,7 @@
   {
     "hiragana": "おととし",
     "kanji": null,
+    "romaji": "ototoshi",
     "deutsch": "vorletztes Jahr",
     "beispielsatz_jp": "おとといよりおととしのほうがさむかったです。",
     "beispielsatz_de": "Das vorletzte Jahr war kälter.",
@@ -1082,6 +1217,7 @@
   {
     "hiragana": "おとな",
     "kanji": "大人",
+    "romaji": "otona",
     "deutsch": "Erwachsener",
     "beispielsatz_jp": "このえいがはおとなだけです。",
     "beispielsatz_de": "Dieser Film ist nur für Erwachsene.",
@@ -1090,6 +1226,7 @@
   {
     "hiragana": "おなか",
     "kanji": null,
+    "romaji": "onaka",
     "deutsch": "Bauch",
     "beispielsatz_jp": "おなかがすきました。",
     "beispielsatz_de": "Ich habe Hunger.",
@@ -1098,6 +1235,7 @@
   {
     "hiragana": "おなじ",
     "kanji": "同じ",
+    "romaji": "onaji",
     "deutsch": "gleich",
     "beispielsatz_jp": "このふたつはおなじです。",
     "beispielsatz_de": "Diese zwei sind gleich.",
@@ -1106,6 +1244,7 @@
   {
     "hiragana": "おにいさん",
     "kanji": "お兄さん",
+    "romaji": "oniisan",
     "deutsch": "älterer Bruder",
     "beispielsatz_jp": "おにいさんはだいがくせいです。",
     "beispielsatz_de": "Mein älterer Bruder ist Student.",
@@ -1114,6 +1253,7 @@
   {
     "hiragana": "おにぎり",
     "kanji": null,
+    "romaji": "onigiri",
     "deutsch": "Onigiri, Reisball",
     "beispielsatz_jp": "おにぎりをたべます。",
     "beispielsatz_de": "Ich esse einen Onigiri.",
@@ -1122,6 +1262,7 @@
   {
     "hiragana": "おねえさん",
     "kanji": "お姉さん",
+    "romaji": "oneesan",
     "deutsch": "ältere Schwester",
     "beispielsatz_jp": "おねえさんはかわいいです。",
     "beispielsatz_de": "Meine ältere Schwester ist niedlich.",
@@ -1130,6 +1271,7 @@
   {
     "hiragana": "おねがいします",
     "kanji": null,
+    "romaji": "onegaishimasu",
     "deutsch": "Ich bitte Sie, dich.",
     "beispielsatz_jp": "みずをおねがいします。",
     "beispielsatz_de": "Wasser bitte.",
@@ -1138,6 +1280,7 @@
   {
     "hiragana": "おばあさん",
     "kanji": null,
+    "romaji": "obaasan",
     "deutsch": "Großmutter",
     "beispielsatz_jp": "おばあさんはげんきです。",
     "beispielsatz_de": "Meine Großmutter ist munter.",
@@ -1146,6 +1289,7 @@
   {
     "hiragana": "おばさん",
     "kanji": null,
+    "romaji": "obasan",
     "deutsch": "Tante, Frau mittleren Alters",
     "beispielsatz_jp": "おばさんからプレゼントをもらいました。",
     "beispielsatz_de": "Ich habe ein Geschenk von meiner Tante bekommen.",
@@ -1154,6 +1298,7 @@
   {
     "hiragana": "おふろ",
     "kanji": null,
+    "romaji": "ofuro",
     "deutsch": "Bad",
     "beispielsatz_jp": "おふろにはいります。",
     "beispielsatz_de": "Ich nehme ein Bad.",
@@ -1162,6 +1307,7 @@
   {
     "hiragana": "おべんとう",
     "kanji": null,
+    "romaji": "obentou",
     "deutsch": "Bentō",
     "beispielsatz_jp": "おべんとうをたべます。",
     "beispielsatz_de": "Ich esse ein Bentō.",
@@ -1170,6 +1316,7 @@
   {
     "hiragana": "おぼえる",
     "kanji": "覚える",
+    "romaji": "oboeru",
     "deutsch": "lernen",
     "beispielsatz_jp": "たんごをおぼえます。",
     "beispielsatz_de": "Ich lerne Vokabeln.",
@@ -1178,6 +1325,7 @@
   {
     "hiragana": "おまわりさん",
     "kanji": null,
+    "romaji": "omawarisan",
     "deutsch": "Polizist",
     "beispielsatz_jp": "おまわりさんにきいてください。",
     "beispielsatz_de": "Fragen Sie bitte den Polizisten.",
@@ -1186,6 +1334,7 @@
   {
     "hiragana": "おもい",
     "kanji": "重い",
+    "romaji": "omoi",
     "deutsch": "schwer",
     "beispielsatz_jp": "このかばんはおもいです。",
     "beispielsatz_de": "Diese Tasche ist schwer.",
@@ -1194,6 +1343,7 @@
   {
     "hiragana": "おもしろい",
     "kanji": null,
+    "romaji": "omoshiroi",
     "deutsch": "lustig, interessant",
     "beispielsatz_jp": "このえいがはおもしろいです。",
     "beispielsatz_de": "Dieser Film ist interessant.",
@@ -1202,6 +1352,7 @@
   {
     "hiragana": "およぐ",
     "kanji": "泳ぐ",
+    "romaji": "oyogu",
     "deutsch": "schwimmen",
     "beispielsatz_jp": "うみでおよぎます。",
     "beispielsatz_de": "Ich schwimme im Meer.",
@@ -1210,6 +1361,7 @@
   {
     "hiragana": "おりる",
     "kanji": "降りる",
+    "romaji": "oriru",
     "deutsch": "herabsteigen",
     "beispielsatz_jp": "バスをおります。",
     "beispielsatz_de": "Ich steige aus dem Bus.",
@@ -1218,6 +1370,7 @@
   {
     "hiragana": "おわる",
     "kanji": "終わる",
+    "romaji": "owaru",
     "deutsch": "aufhören",
     "beispielsatz_jp": "しごとがおわりました。",
     "beispielsatz_de": "Die Arbeit ist fertig.",
@@ -1226,6 +1379,7 @@
   {
     "hiragana": "おんがく",
     "kanji": "音楽",
+    "romaji": "ongaku",
     "deutsch": "Musik",
     "beispielsatz_jp": "おんがくをきくのがすきです。",
     "beispielsatz_de": "Ich höre gerne Musik.",
@@ -1234,6 +1388,7 @@
   {
     "hiragana": "おんな",
     "kanji": "女",
+    "romaji": "onna",
     "deutsch": "Frau (urspr. junge Frau)",
     "beispielsatz_jp": "あのおんなはだれですか。",
     "beispielsatz_de": "Wer ist diese Frau?",
@@ -1242,6 +1397,7 @@
   {
     "hiragana": "おんなのこ",
     "kanji": "女の子",
+    "romaji": "onnanoko",
     "deutsch": "Mädchen",
     "beispielsatz_jp": "おんなのこがうたをうたっています。",
     "beispielsatz_de": "Das Mädchen singt ein Lied.",
@@ -1250,6 +1406,7 @@
   {
     "hiragana": "おんなのひと",
     "kanji": "女の人",
+    "romaji": "onnanohito",
     "deutsch": "Frau",
     "beispielsatz_jp": "あのおんなのひとはせんせいです。",
     "beispielsatz_de": "Diese Frau ist Lehrerin.",
@@ -1258,6 +1415,7 @@
   {
     "hiragana": "か",
     "kanji": "火",
+    "romaji": "ka",
     "deutsch": "Dienstag (Abkürzung)",
     "beispielsatz_jp": "かはかようびのりゃくです。",
     "beispielsatz_de": "Ka ist die Abkürzung für Dienstag.",
@@ -1266,6 +1424,7 @@
   {
     "hiragana": "〜かい",
     "kanji": "〜階",
+    "romaji": "~kai",
     "deutsch": "～ter Stock (Erdgeschoss = １かい)",
     "beispielsatz_jp": "このたてものはなんかいですか。",
     "beispielsatz_de": "Wie viele Stockwerke hat dieses Gebäude?",
@@ -1274,6 +1433,7 @@
   {
     "hiragana": "〜かい",
     "kanji": "〜回",
+    "romaji": "~kai",
     "deutsch": "～mal",
     "beispielsatz_jp": "にほんにはにかいいきました。",
     "beispielsatz_de": "Ich war zweimal in Japan.",
@@ -1282,6 +1442,7 @@
   {
     "hiragana": "がいこく",
     "kanji": "外国",
+    "romaji": "gaikoku",
     "deutsch": "Ausland",
     "beispielsatz_jp": "がいこくにいきたいです。",
     "beispielsatz_de": "Ich möchte ins Ausland gehen.",
@@ -1290,6 +1451,7 @@
   {
     "hiragana": "がいこくじん",
     "kanji": "外国人",
+    "romaji": "gaikokujin",
     "deutsch": "Ausländer",
     "beispielsatz_jp": "このまちにはがいこくじんがおおいです。",
     "beispielsatz_de": "In dieser Stadt gibt es viele Ausländer.",
@@ -1298,6 +1460,7 @@
   {
     "hiragana": "かいしゃ",
     "kanji": "会社",
+    "romaji": "kaisha",
     "deutsch": "Firma",
     "beispielsatz_jp": "ちちはかいしゃではたらいています。",
     "beispielsatz_de": "Mein Vater arbeitet in einer Firma.",
@@ -1306,6 +1469,7 @@
   {
     "hiragana": "〜かいたて",
     "kanji": "〜階建て",
+    "romaji": "~kaitate",
     "deutsch": "～stöckiges Gebäude",
     "beispielsatz_jp": "あれはさんかいたてのたてものです。",
     "beispielsatz_de": "Das ist ein dreistöckiges Gebäude.",
@@ -1314,6 +1478,7 @@
   {
     "hiragana": "かいだん",
     "kanji": "階段",
+    "romaji": "kaidan",
     "deutsch": "Treppe",
     "beispielsatz_jp": "かいだんをのぼります。",
     "beispielsatz_de": "Ich gehe die Treppe hoch.",
@@ -1322,6 +1487,7 @@
   {
     "hiragana": "かいもの",
     "kanji": "買い物",
+    "romaji": "kaimono",
     "deutsch": "Einkauf",
     "beispielsatz_jp": "かいものにいきます。",
     "beispielsatz_de": "Ich gehe einkaufen.",
@@ -1330,6 +1496,7 @@
   {
     "hiragana": "かう",
     "kanji": "買う",
+    "romaji": "kau",
     "deutsch": "kaufen",
     "beispielsatz_jp": "スーパーでやさいをかいます。",
     "beispielsatz_de": "Ich kaufe Gemüse im Supermarkt.",
@@ -1338,6 +1505,7 @@
   {
     "hiragana": "かえす",
     "kanji": "返す",
+    "romaji": "kaesu",
     "deutsch": "zurückgeben",
     "beispielsatz_jp": "ともだちにほんをかえします。",
     "beispielsatz_de": "Ich gebe dem Freund das Buch zurück.",
@@ -1346,6 +1514,7 @@
   {
     "hiragana": "かえる",
     "kanji": "帰る",
+    "romaji": "kaeru",
     "deutsch": "zurückgehen",
     "beispielsatz_jp": "うちにかえります。",
     "beispielsatz_de": "Ich gehe nach Hause.",
@@ -1354,6 +1523,7 @@
   {
     "hiragana": "かかる",
     "kanji": null,
+    "romaji": "kakaru",
     "deutsch": "kosten (Zeit, Geld)",
     "beispielsatz_jp": "えきまでじかんがかかります。",
     "beispielsatz_de": "Es dauert Zeit bis zum Bahnhof.",
@@ -1362,6 +1532,7 @@
   {
     "hiragana": "かぎ",
     "kanji": null,
+    "romaji": "kagi",
     "deutsch": "Schlüssel",
     "beispielsatz_jp": "かぎをわすれました。",
     "beispielsatz_de": "Ich habe den Schlüssel vergessen.",
@@ -1370,6 +1541,7 @@
   {
     "hiragana": "かく",
     "kanji": "書く",
+    "romaji": "kaku",
     "deutsch": "schreiben",
     "beispielsatz_jp": "てがみをかきます。",
     "beispielsatz_de": "Ich schreibe einen Brief.",
@@ -1378,6 +1550,7 @@
   {
     "hiragana": "がくせい",
     "kanji": "学生",
+    "romaji": "gakusei",
     "deutsch": "Student",
     "beispielsatz_jp": "わたしはだいがくのがくせいです。",
     "beispielsatz_de": "Ich bin Universitätsstudent.",
@@ -1386,6 +1559,7 @@
   {
     "hiragana": "かける",
     "kanji": null,
+    "romaji": "kakeru",
     "deutsch": "aufwenden (Zeit, Geld) , aufhängen",
     "beispielsatz_jp": "でんわをかけます。",
     "beispielsatz_de": "Ich rufe an.",
@@ -1394,6 +1568,7 @@
   {
     "hiragana": "かさ",
     "kanji": null,
+    "romaji": "kasa",
     "deutsch": "Schirm",
     "beispielsatz_jp": "あめのひにはかさをもちます。",
     "beispielsatz_de": "An Regentagen nehme ich einen Schirm mit.",
@@ -1402,6 +1577,7 @@
   {
     "hiragana": "かす",
     "kanji": "貸す",
+    "romaji": "kasu",
     "deutsch": "verleihen",
     "beispielsatz_jp": "ともだちにじてんしゃをかします。",
     "beispielsatz_de": "Ich verleihe dem Freund mein Fahrrad.",
@@ -1410,6 +1586,7 @@
   {
     "hiragana": "かぜ",
     "kanji": null,
+    "romaji": "kaze",
     "deutsch": "Erkältung",
     "beispielsatz_jp": "かぜをひきました。",
     "beispielsatz_de": "Ich habe mich erkältet.",
@@ -1418,6 +1595,7 @@
   {
     "hiragana": "かぜ",
     "kanji": "風",
+    "romaji": "kaze",
     "deutsch": "Wind",
     "beispielsatz_jp": "きょうはかぜがつよいです。",
     "beispielsatz_de": "Heute ist der Wind stark.",
@@ -1426,6 +1604,7 @@
   {
     "hiragana": "かぞく",
     "kanji": "家族",
+    "romaji": "kazoku",
     "deutsch": "Familie",
     "beispielsatz_jp": "わたしのかぞくはよにんです。",
     "beispielsatz_de": "Meine Familie besteht aus vier Personen.",
@@ -1434,6 +1613,7 @@
   {
     "hiragana": "かた",
     "kanji": "方",
+    "romaji": "kata",
     "deutsch": "Person, Art und Weise",
     "beispielsatz_jp": "あのかたはだれですか。",
     "beispielsatz_de": "Wer ist diese Person?",
@@ -1442,6 +1622,7 @@
   {
     "hiragana": "カタカナ",
     "kanji": null,
+    "romaji": "katakana",
     "deutsch": "Katakana",
     "beispielsatz_jp": "カタカナでかきます。",
     "beispielsatz_de": "Ich schreibe in Katakana.",
@@ -1450,6 +1631,7 @@
   {
     "hiragana": "がっこう",
     "kanji": "学校",
+    "romaji": "gakkou",
     "deutsch": "Schule",
     "beispielsatz_jp": "まいにちがっこうにいきます。",
     "beispielsatz_de": "Ich gehe jeden Tag zur Schule.",
@@ -1458,6 +1640,7 @@
   {
     "hiragana": "カップ",
     "kanji": null,
+    "romaji": "kappu",
     "deutsch": "Tasse",
     "beispielsatz_jp": "カップにこーひーをいれます。",
     "beispielsatz_de": "Ich gieße Kaffee in die Tasse.",
@@ -1466,6 +1649,7 @@
   {
     "hiragana": "かてい",
     "kanji": "家庭",
+    "romaji": "katei",
     "deutsch": "Familie",
     "beispielsatz_jp": "かていでにほんごをはなします。",
     "beispielsatz_de": "Zu Hause spreche ich Japanisch.",
@@ -1474,6 +1658,7 @@
   {
     "hiragana": "かど",
     "kanji": null,
+    "romaji": "kado",
     "deutsch": "Ecke",
     "beispielsatz_jp": "かどをみぎにまがってください。",
     "beispielsatz_de": "Bitte biegen Sie an der Ecke rechts ab.",
@@ -1482,6 +1667,7 @@
   {
     "hiragana": "かばん",
     "kanji": null,
+    "romaji": "kaban",
     "deutsch": "Koffer",
     "beispielsatz_jp": "かばんにほんをいれます。",
     "beispielsatz_de": "Ich tue das Buch in die Tasche.",
@@ -1490,6 +1676,7 @@
   {
     "hiragana": "かびん",
     "kanji": null,
+    "romaji": "kabin",
     "deutsch": "Vase",
     "beispielsatz_jp": "テーブルのうえにかびんがあります。",
     "beispielsatz_de": "Auf dem Tisch steht eine Vase.",
@@ -1498,6 +1685,7 @@
   {
     "hiragana": "かみ",
     "kanji": "紙",
+    "romaji": "kami",
     "deutsch": "Papier",
     "beispielsatz_jp": "かみにじをかきます。",
     "beispielsatz_de": "Ich schreibe Zeichen auf Papier.",
@@ -1506,6 +1694,7 @@
   {
     "hiragana": "カメラ",
     "kanji": null,
+    "romaji": "kamera",
     "deutsch": "Kamera",
     "beispielsatz_jp": "カメラでしゃしんをとります。",
     "beispielsatz_de": "Ich mache mit der Kamera ein Foto.",
@@ -1514,6 +1703,7 @@
   {
     "hiragana": "かようび",
     "kanji": "火曜日",
+    "romaji": "kayoubi",
     "deutsch": "Dienstag",
     "beispielsatz_jp": "かようびにえいごのじゅぎょうがあります。",
     "beispielsatz_de": "Am Dienstag gibt es Englischunterricht.",
@@ -1522,6 +1712,7 @@
   {
     "hiragana": "からい",
     "kanji": null,
+    "romaji": "karai",
     "deutsch": "scharf",
     "beispielsatz_jp": "このカレーはからいです。",
     "beispielsatz_de": "Dieses Curry ist scharf.",
@@ -1530,6 +1721,7 @@
   {
     "hiragana": "からだ",
     "kanji": "体",
+    "romaji": "karada",
     "deutsch": "Körper",
     "beispielsatz_jp": "からだにいいものをたべます。",
     "beispielsatz_de": "Ich esse Dinge, die gut für den Körper sind.",
@@ -1538,6 +1730,7 @@
   {
     "hiragana": "かりる",
     "kanji": "借りる",
+    "romaji": "kariru",
     "deutsch": "ausleihen",
     "beispielsatz_jp": "としょかんでほんをかります。",
     "beispielsatz_de": "Ich leihe in der Bibliothek ein Buch aus.",
@@ -1546,6 +1739,7 @@
   {
     "hiragana": "かるい",
     "kanji": null,
+    "romaji": "karui",
     "deutsch": "leicht",
     "beispielsatz_jp": "このかばんはかるいです。",
     "beispielsatz_de": "Diese Tasche ist leicht.",
@@ -1554,6 +1748,7 @@
   {
     "hiragana": "カレー",
     "kanji": null,
+    "romaji": "karee",
     "deutsch": "Curry",
     "beispielsatz_jp": "カレーをたべます。",
     "beispielsatz_de": "Ich esse Curry.",
@@ -1562,6 +1757,7 @@
   {
     "hiragana": "カレンダー",
     "kanji": null,
+    "romaji": "karendaa",
     "deutsch": "Kalender",
     "beispielsatz_jp": "かべにカレンダーをかけます。",
     "beispielsatz_de": "Ich hänge den Kalender an die Wand.",
@@ -1570,6 +1766,7 @@
   {
     "hiragana": "かわ",
     "kanji": "川",
+    "romaji": "kawa",
     "deutsch": "Fluss",
     "beispielsatz_jp": "えきのちかくにかわがあります。",
     "beispielsatz_de": "In der Nähe des Bahnhofs gibt es einen Fluss.",
@@ -1578,6 +1775,7 @@
   {
     "hiragana": "かわいい",
     "kanji": null,
+    "romaji": "kawaii",
     "deutsch": "niedlich",
     "beispielsatz_jp": "あのねこはかわいいですね。",
     "beispielsatz_de": "Diese Katze ist niedlich, oder?",
@@ -1586,6 +1784,7 @@
   {
     "hiragana": "かんがえる",
     "kanji": "考える",
+    "romaji": "kangaeru",
     "deutsch": "nachdenken",
     "beispielsatz_jp": "すこしかんがえてください。",
     "beispielsatz_de": "Denken Sie bitte kurz nach.",
@@ -1594,6 +1793,7 @@
   {
     "hiragana": "かんじ",
     "kanji": "漢字",
+    "romaji": "kanji",
     "deutsch": "Kanji",
     "beispielsatz_jp": "かんじはむずかしいです。",
     "beispielsatz_de": "Kanji ist schwierig.",
@@ -1602,6 +1802,7 @@
   {
     "hiragana": "かんたん",
     "kanji": null,
+    "romaji": "kantan",
     "deutsch": "leicht",
     "beispielsatz_jp": "このもんだいはかんたんです。",
     "beispielsatz_de": "Diese Aufgabe ist einfach.",
@@ -1610,6 +1811,7 @@
   {
     "hiragana": "き",
     "kanji": "木",
+    "romaji": "ki",
     "deutsch": "Baum",
     "beispielsatz_jp": "にわにおおきなきがあります。",
     "beispielsatz_de": "Im Garten steht ein großer Baum.",
@@ -1618,6 +1820,7 @@
   {
     "hiragana": "きいろ",
     "kanji": "黄色",
+    "romaji": "kiiro",
     "deutsch": "Gelb",
     "beispielsatz_jp": "きいろはきれいないろです。",
     "beispielsatz_de": "Gelb ist eine schöne Farbe.",
@@ -1626,6 +1829,7 @@
   {
     "hiragana": "きいろい",
     "kanji": "黄色い",
+    "romaji": "kiiroi",
     "deutsch": "gelb",
     "beispielsatz_jp": "このはなはきいろいです。",
     "beispielsatz_de": "Diese Blume ist gelb.",
@@ -1634,6 +1838,7 @@
   {
     "hiragana": "きえる",
     "kanji": "消える",
+    "romaji": "kieru",
     "deutsch": "verschwinden, ausgehen",
     "beispielsatz_jp": "でんきがきえました。",
     "beispielsatz_de": "Das Licht ist ausgegangen.",
@@ -1642,6 +1847,7 @@
   {
     "hiragana": "きく",
     "kanji": "聞く",
+    "romaji": "kiku",
     "deutsch": "hören",
     "beispielsatz_jp": "おんがくをきいています。",
     "beispielsatz_de": "Ich höre Musik.",
@@ -1650,6 +1856,7 @@
   {
     "hiragana": "きた",
     "kanji": "北",
+    "romaji": "kita",
     "deutsch": "Norden",
     "beispielsatz_jp": "きたにえきがあります。",
     "beispielsatz_de": "Im Norden ist der Bahnhof.",
@@ -1658,6 +1865,7 @@
   {
     "hiragana": "ギター",
     "kanji": null,
+    "romaji": "gitaa",
     "deutsch": "Gitarre",
     "beispielsatz_jp": "ギターをひきます。",
     "beispielsatz_de": "Ich spiele Gitarre.",
@@ -1666,6 +1874,7 @@
   {
     "hiragana": "きたない",
     "kanji": null,
+    "romaji": "kitanai",
     "deutsch": "schmutzig",
     "beispielsatz_jp": "このへやはきたないです。",
     "beispielsatz_de": "Dieses Zimmer ist schmutzig.",
@@ -1674,6 +1883,7 @@
   {
     "hiragana": "きっさてん",
     "kanji": null,
+    "romaji": "kissaten",
     "deutsch": "Teehaus",
     "beispielsatz_jp": "きっさてんでコーヒーをのみます。",
     "beispielsatz_de": "Ich trinke Kaffee im Teehaus.",
@@ -1682,6 +1892,7 @@
   {
     "hiragana": "きって",
     "kanji": "切手",
+    "romaji": "kitte",
     "deutsch": "Briefmarke",
     "beispielsatz_jp": "てがみにきってをはります。",
     "beispielsatz_de": "Ich klebe eine Briefmarke auf den Brief.",
@@ -1690,6 +1901,7 @@
   {
     "hiragana": "きっぷ",
     "kanji": null,
+    "romaji": "kippu",
     "deutsch": "Ticket",
     "beispielsatz_jp": "えきできっぷをかいます。",
     "beispielsatz_de": "Ich kaufe am Bahnhof ein Ticket.",
@@ -1698,6 +1910,7 @@
   {
     "hiragana": "きのう",
     "kanji": "昨日",
+    "romaji": "kinou",
     "deutsch": "gestern",
     "beispielsatz_jp": "きのうがっこうをやすみました。",
     "beispielsatz_de": "Gestern habe ich die Schule versäumt.",
@@ -1706,6 +1919,7 @@
   {
     "hiragana": "きゅう",
     "kanji": "九",
+    "romaji": "kyuu",
     "deutsch": "neun",
     "beispielsatz_jp": "きゅうはここのつです。",
     "beispielsatz_de": "Neun ist die Zahl 9.",
@@ -1714,6 +1928,7 @@
   {
     "hiragana": "ぎゅうにく",
     "kanji": "牛肉",
+    "romaji": "gyuuniku",
     "deutsch": "Rindfleisch",
     "beispielsatz_jp": "ぎゅうにくをたべます。",
     "beispielsatz_de": "Ich esse Rindfleisch.",
@@ -1722,6 +1937,7 @@
   {
     "hiragana": "ぎゅうにゅう",
     "kanji": "牛乳",
+    "romaji": "gyuunyuu",
     "deutsch": "Milch",
     "beispielsatz_jp": "まいあさぎゅうにゅうをのみます。",
     "beispielsatz_de": "Jeden Morgen trinke ich Milch.",
@@ -1730,6 +1946,7 @@
   {
     "hiragana": "きゅうひき",
     "kanji": "九匹",
+    "romaji": "kyuuhiki",
     "deutsch": "9 Tiere",
     "beispielsatz_jp": "どうぶつえんにきゅうひきいます。",
     "beispielsatz_de": "Im Zoo gibt es 9 Tiere.",
@@ -1738,6 +1955,7 @@
   {
     "hiragana": "きゅうふん",
     "kanji": "九分",
+    "romaji": "kyuufun",
     "deutsch": "9 Minuten",
     "beispielsatz_jp": "バスできゅうふんかかります。",
     "beispielsatz_de": "Mit dem Bus dauert es 9 Minuten.",
@@ -1746,6 +1964,7 @@
   {
     "hiragana": "きゅうほん",
     "kanji": "九本",
+    "romaji": "kyuuhon",
     "deutsch": "9 (Flaschen, …)",
     "beispielsatz_jp": "ジュースがきゅうほんあります。",
     "beispielsatz_de": "Es gibt 9 Flaschen Saft.",
@@ -1754,6 +1973,7 @@
   {
     "hiragana": "きょう",
     "kanji": "今日",
+    "romaji": "kyou",
     "deutsch": "heute",
     "beispielsatz_jp": "きょうはいいてんきです。",
     "beispielsatz_de": "Heute ist gutes Wetter.",
@@ -1762,6 +1982,7 @@
   {
     "hiragana": "きょうしつ",
     "kanji": "教室",
+    "romaji": "kyoushitsu",
     "deutsch": "Klassenzimmer",
     "beispielsatz_jp": "きょうしつにがくせいがいます。",
     "beispielsatz_de": "Im Klassenzimmer sind Schüler.",
@@ -1770,6 +1991,7 @@
   {
     "hiragana": "きょうだい",
     "kanji": "兄弟",
+    "romaji": "kyoudai",
     "deutsch": "Brüder",
     "beispielsatz_jp": "わたしにはきょうだいがふたりいます。",
     "beispielsatz_de": "Ich habe zwei Geschwister.",
@@ -1778,6 +2000,7 @@
   {
     "hiragana": "きょうと",
     "kanji": "京都",
+    "romaji": "kyouto",
     "deutsch": "Kioto",
     "beispielsatz_jp": "きょうとはきれいなまちです。",
     "beispielsatz_de": "Kioto ist eine schöne Stadt.",
@@ -1786,6 +2009,7 @@
   {
     "hiragana": "きょねん",
     "kanji": "去年",
+    "romaji": "kyonen",
     "deutsch": "letztes Jahr",
     "beispielsatz_jp": "きょねんにほんにいきました。",
     "beispielsatz_de": "Letztes Jahr bin ich nach Japan gereist.",
@@ -1794,6 +2018,7 @@
   {
     "hiragana": "きらい",
     "kanji": null,
+    "romaji": "kirai",
     "deutsch": "nicht gemocht sei, gehasst sein",
     "beispielsatz_jp": "からいたべものはきらいです。",
     "beispielsatz_de": "Ich mag keine scharfen Speisen.",
@@ -1802,6 +2027,7 @@
   {
     "hiragana": "きる",
     "kanji": "切る",
+    "romaji": "kiru",
     "deutsch": "schneiden",
     "beispielsatz_jp": "やさいをきります。",
     "beispielsatz_de": "Ich schneide Gemüse.",
@@ -1810,6 +2036,7 @@
   {
     "hiragana": "きる",
     "kanji": "着る",
+    "romaji": "kiru",
     "deutsch": "anziehen",
     "beispielsatz_jp": "うわぎをきます。",
     "beispielsatz_de": "Ich ziehe eine Jacke an.",
@@ -1818,6 +2045,7 @@
   {
     "hiragana": "キレイ",
     "kanji": "きれい",
+    "romaji": "kirei",
     "deutsch": "sauber, schön",
     "beispielsatz_jp": "このこうえんはキレイです。",
     "beispielsatz_de": "Dieser Park ist schön.",
@@ -1826,6 +2054,7 @@
   {
     "hiragana": "〜キロ",
     "kanji": null,
+    "romaji": "~kiro",
     "deutsch": "〜 km (Kilometer) / 〜 kg (Kilogramm)",
     "beispielsatz_jp": "えきまでにキロぐらいです。",
     "beispielsatz_de": "Es sind etwa 2 km bis zum Bahnhof.",
@@ -1834,6 +2063,7 @@
   {
     "hiragana": "〜キログラム",
     "kanji": null,
+    "romaji": "~kiroguramu",
     "deutsch": "〜 kg (Kilogramm)",
     "beispielsatz_jp": "このにもつはにキログラムです。",
     "beispielsatz_de": "Dieses Gepäck wiegt 2 Kilogramm.",
@@ -1842,6 +2072,7 @@
   {
     "hiragana": "〜キロメートル",
     "kanji": null,
+    "romaji": "~kiromeetoru",
     "deutsch": "〜 km (Kilometer)",
     "beispielsatz_jp": "がっこうまでさんキロメートルです。",
     "beispielsatz_de": "Es sind 3 Kilometer bis zur Schule.",
@@ -1850,6 +2081,7 @@
   {
     "hiragana": "きん",
     "kanji": "金",
+    "romaji": "kin",
     "deutsch": "Freitag (Abkürzung)",
     "beispielsatz_jp": "きんはきんようびのりゃくです。",
     "beispielsatz_de": "Kin ist die Abkürzung für Freitag.",
@@ -1858,6 +2090,7 @@
   {
     "hiragana": "ぎんこう",
     "kanji": "銀行",
+    "romaji": "ginkou",
     "deutsch": "Bank",
     "beispielsatz_jp": "ぎんこうでおかねをおろします。",
     "beispielsatz_de": "Ich hebe Geld von der Bank ab.",
@@ -1866,6 +2099,7 @@
   {
     "hiragana": "きんようび",
     "kanji": "金曜日",
+    "romaji": "kinyoubi",
     "deutsch": "Freitag",
     "beispielsatz_jp": "きんようびにえいがをみます。",
     "beispielsatz_de": "Am Freitag sehe ich einen Film.",
@@ -1874,6 +2108,7 @@
   {
     "hiragana": "く",
     "kanji": "九",
+    "romaji": "ku",
     "deutsch": "neun",
     "beispielsatz_jp": "くはここのつともいいます。",
     "beispielsatz_de": "Ku ist auch eine Aussprache für neun.",
@@ -1882,6 +2117,7 @@
   {
     "hiragana": "くがつ",
     "kanji": "九月",
+    "romaji": "kugatsu",
     "deutsch": "September",
     "beispielsatz_jp": "くがつはあきです。",
     "beispielsatz_de": "September ist Herbst.",
@@ -1890,6 +2126,7 @@
   {
     "hiragana": "くじ",
     "kanji": "九時",
+    "romaji": "kuji",
     "deutsch": "9 Uhr",
     "beispielsatz_jp": "くじにあいましょう。",
     "beispielsatz_de": "Treffen wir uns um 9 Uhr.",
@@ -1898,6 +2135,7 @@
   {
     "hiragana": "くすり",
     "kanji": "薬",
+    "romaji": "kusuri",
     "deutsch": "Arznei",
     "beispielsatz_jp": "かぜをひいたのでくすりをのみます。",
     "beispielsatz_de": "Weil ich erkältet bin, nehme ich Medizin.",
@@ -1906,6 +2144,7 @@
   {
     "hiragana": "ください",
     "kanji": null,
+    "romaji": "kudasai",
     "deutsch": "bitte",
     "beispielsatz_jp": "みずをください。",
     "beispielsatz_de": "Wasser bitte.",
@@ -1914,6 +2153,7 @@
   {
     "hiragana": "くだもの",
     "kanji": "果物",
+    "romaji": "kudamono",
     "deutsch": "Obst",
     "beispielsatz_jp": "くだものをたべます。",
     "beispielsatz_de": "Ich esse Obst.",
@@ -1922,6 +2162,7 @@
   {
     "hiragana": "くち",
     "kanji": "口",
+    "romaji": "kuchi",
     "deutsch": "Mund",
     "beispielsatz_jp": "くちをあけてください。",
     "beispielsatz_de": "Bitte öffnen Sie den Mund.",
@@ -1930,6 +2171,7 @@
   {
     "hiragana": "くつ",
     "kanji": null,
+    "romaji": "kutsu",
     "deutsch": "Schuh",
     "beispielsatz_jp": "あたらしいくつをかいました。",
     "beispielsatz_de": "Ich habe neue Schuhe gekauft.",
@@ -1938,6 +2180,7 @@
   {
     "hiragana": "くつした",
     "kanji": null,
+    "romaji": "kutsushita",
     "deutsch": "Socken",
     "beispielsatz_jp": "くつしたをはきます。",
     "beispielsatz_de": "Ich ziehe Socken an.",
@@ -1946,6 +2189,7 @@
   {
     "hiragana": "くに",
     "kanji": "国",
+    "romaji": "kuni",
     "deutsch": "Land",
     "beispielsatz_jp": "にほんはきれいなくにです。",
     "beispielsatz_de": "Japan ist ein schönes Land.",
@@ -1954,6 +2198,7 @@
   {
     "hiragana": "くもり",
     "kanji": null,
+    "romaji": "kumori",
     "deutsch": "Bewölkung",
     "beispielsatz_jp": "きょうのてんきはくもりです。",
     "beispielsatz_de": "Das heutige Wetter ist bewölkt.",
@@ -1962,6 +2207,7 @@
   {
     "hiragana": "くもる",
     "kanji": null,
+    "romaji": "kumoru",
     "deutsch": "sich bewölken",
     "beispielsatz_jp": "そらがくもっています。",
     "beispielsatz_de": "Der Himmel ist bewölkt.",
@@ -1970,6 +2216,7 @@
   {
     "hiragana": "〜くらい",
     "kanji": null,
+    "romaji": "~kurai",
     "deutsch": "ungefähr",
     "beispielsatz_jp": "にじかんくらいかかります。",
     "beispielsatz_de": "Es dauert etwa 2 Stunden.",
@@ -1978,6 +2225,7 @@
   {
     "hiragana": "〜ぐらい",
     "kanji": null,
+    "romaji": "~gurai",
     "deutsch": "ungefähr",
     "beispielsatz_jp": "さんじかんぐらいかかります。",
     "beispielsatz_de": "Es dauert ungefähr 3 Stunden.",
@@ -1986,6 +2234,7 @@
   {
     "hiragana": "くらい",
     "kanji": "暗い",
+    "romaji": "kurai",
     "deutsch": "dunkel",
     "beispielsatz_jp": "このへやはくらいです。",
     "beispielsatz_de": "Dieses Zimmer ist dunkel.",
@@ -1994,6 +2243,7 @@
   {
     "hiragana": "クラス",
     "kanji": null,
+    "romaji": "kurasu",
     "deutsch": "Klasse",
     "beispielsatz_jp": "わたしのクラスにはさんじゅうにんいます。",
     "beispielsatz_de": "In meiner Klasse sind dreißig Schüler.",
@@ -2002,6 +2252,7 @@
   {
     "hiragana": "〜グラム",
     "kanji": null,
+    "romaji": "~guramu",
     "deutsch": "〜 Gramm",
     "beispielsatz_jp": "このにくはひゃくグラムいくらですか。",
     "beispielsatz_de": "Was kostet dieses Fleisch pro 100 Gramm?",
@@ -2010,6 +2261,7 @@
   {
     "hiragana": "くる",
     "kanji": "来る",
+    "romaji": "kuru",
     "deutsch": "kommen",
     "beispielsatz_jp": "ともだちがきます。",
     "beispielsatz_de": "Ein Freund kommt.",
@@ -2018,6 +2270,7 @@
   {
     "hiragana": "くるま",
     "kanji": "車",
+    "romaji": "kuruma",
     "deutsch": "Auto",
     "beispielsatz_jp": "まいにちくるまでがっこうにいきます。",
     "beispielsatz_de": "Jeden Tag fahre ich mit dem Auto zur Schule.",
@@ -2026,6 +2279,7 @@
   {
     "hiragana": "くろ",
     "kanji": "黒",
+    "romaji": "kuro",
     "deutsch": "Schwarz",
     "beispielsatz_jp": "くろはすきなかいろです。",
     "beispielsatz_de": "Schwarz ist meine Lieblingsfarbe.",
@@ -2034,6 +2288,7 @@
   {
     "hiragana": "くろい",
     "kanji": "黒い",
+    "romaji": "kuroi",
     "deutsch": "schwarz",
     "beispielsatz_jp": "このくつはくろいです。",
     "beispielsatz_de": "Diese Schuhe sind schwarz.",
@@ -2042,6 +2297,7 @@
   {
     "hiragana": "ケーキ",
     "kanji": null,
+    "romaji": "keeki",
     "deutsch": "Kuchen",
     "beispielsatz_jp": "たんじょうびにケーキをたべます。",
     "beispielsatz_de": "Zum Geburtstag esse ich Kuchen.",
@@ -2050,6 +2306,7 @@
   {
     "hiragana": "けいかん",
     "kanji": "警官",
+    "romaji": "keikan",
     "deutsch": "Polizeibeamter",
     "beispielsatz_jp": "けいかんがみちをおしえてくれました。",
     "beispielsatz_de": "Der Polizist hat mir den Weg erklärt.",
@@ -2058,6 +2315,7 @@
   {
     "hiragana": "けさ",
     "kanji": "今朝",
+    "romaji": "kesa",
     "deutsch": "heute Morgen",
     "beispielsatz_jp": "けさはやくおきました。",
     "beispielsatz_de": "Heute Morgen bin ich früh aufgestanden.",
@@ -2066,6 +2324,7 @@
   {
     "hiragana": "けしごむ",
     "kanji": null,
+    "romaji": "keshigomu",
     "deutsch": "Radiergummi",
     "beispielsatz_jp": "けしごむをかしてください。",
     "beispielsatz_de": "Bitte leihen Sie mir den Radiergummi.",
@@ -2074,6 +2333,7 @@
   {
     "hiragana": "けす",
     "kanji": "消す",
+    "romaji": "kesu",
     "deutsch": "löschen",
     "beispielsatz_jp": "でんきをけします。",
     "beispielsatz_de": "Ich lösche das Licht.",
@@ -2082,6 +2342,7 @@
   {
     "hiragana": "げつ",
     "kanji": "月",
+    "romaji": "getsu",
     "deutsch": "Montag (Abkürzung)",
     "beispielsatz_jp": "げつはげつようびのりゃくです。",
     "beispielsatz_de": "Getsu ist die Abkürzung für Montag.",
@@ -2090,6 +2351,7 @@
   {
     "hiragana": "けっこう",
     "kanji": null,
+    "romaji": "kekkou",
     "deutsch": "ziemlich",
     "beispielsatz_jp": "このまちはけっこうにぎやかです。",
     "beispielsatz_de": "Diese Stadt ist ziemlich lebhaft.",
@@ -2098,6 +2360,7 @@
   {
     "hiragana": "けっこん",
     "kanji": "結婚",
+    "romaji": "kekkon",
     "deutsch": "Heirat",
     "beispielsatz_jp": "らいねんけっこんします。",
     "beispielsatz_de": "Nächstes Jahr heirate ich.",
@@ -2106,6 +2369,7 @@
   {
     "hiragana": "げつようび",
     "kanji": "月曜日",
+    "romaji": "getsuyoubi",
     "deutsch": "Montag",
     "beispielsatz_jp": "げつようびからべんきょうします。",
     "beispielsatz_de": "Ab Montag lerne ich.",
@@ -2114,6 +2378,7 @@
   {
     "hiragana": "げんかん",
     "kanji": null,
+    "romaji": "genkan",
     "deutsch": "Eingang",
     "beispielsatz_jp": "げんかんでくつをぬぎます。",
     "beispielsatz_de": "Im Eingang ziehe ich die Schuhe aus.",
@@ -2122,6 +2387,7 @@
   {
     "hiragana": "げんき",
     "kanji": "元気",
+    "romaji": "genki",
     "deutsch": "Munter, Wohlfühlen",
     "beispielsatz_jp": "げんきですか。",
     "beispielsatz_de": "Wie geht es Ihnen?",
@@ -2130,6 +2396,7 @@
   {
     "hiragana": "げんご",
     "kanji": "言語",
+    "romaji": "gengo",
     "deutsch": "Sprache",
     "beispielsatz_jp": "にほんごはわたしのすきなげんごです。",
     "beispielsatz_de": "Japanisch ist meine Lieblingssprache.",
@@ -2138,6 +2405,7 @@
   {
     "hiragana": "ご",
     "kanji": "五",
+    "romaji": "go",
     "deutsch": "fünf",
     "beispielsatz_jp": "ごにごをたすとじゅうです。",
     "beispielsatz_de": "Fünf plus fünf ist zehn.",
@@ -2146,6 +2414,7 @@
   {
     "hiragana": "コート",
     "kanji": null,
+    "romaji": "kooto",
     "deutsch": "Mantel",
     "beispielsatz_jp": "さむいのでコートをきます。",
     "beispielsatz_de": "Weil es kalt ist, ziehe ich einen Mantel an.",
@@ -2154,6 +2423,7 @@
   {
     "hiragana": "コーヒー",
     "kanji": null,
+    "romaji": "koohii",
     "deutsch": "Kaffee",
     "beispielsatz_jp": "まいあさコーヒーをのみます。",
     "beispielsatz_de": "Jeden Morgen trinke ich Kaffee.",
@@ -2162,6 +2432,7 @@
   {
     "hiragana": "ごい",
     "kanji": "語彙",
+    "romaji": "goi",
     "deutsch": "Wortschatz",
     "beispielsatz_jp": "ごいをおぼえます。",
     "beispielsatz_de": "Ich lerne Vokabeln.",
@@ -2170,6 +2441,7 @@
   {
     "hiragana": "こうえん",
     "kanji": "公園",
+    "romaji": "kouen",
     "deutsch": "öffentlicher Park",
     "beispielsatz_jp": "こうえんでさんぽします。",
     "beispielsatz_de": "Ich spaziere im Park.",
@@ -2178,6 +2450,7 @@
   {
     "hiragana": "こうさてん",
     "kanji": "交差点",
+    "romaji": "kousaten",
     "deutsch": "Kreuzung",
     "beispielsatz_jp": "こうさてんをわたります。",
     "beispielsatz_de": "Ich überquere die Kreuzung.",
@@ -2186,6 +2459,7 @@
   {
     "hiragana": "こうちゃ",
     "kanji": null,
+    "romaji": "koucha",
     "deutsch": "schwarzer Tee",
     "beispielsatz_jp": "こうちゃをのみます。",
     "beispielsatz_de": "Ich trinke schwarzen Tee.",
@@ -2194,6 +2468,7 @@
   {
     "hiragana": "こうばん",
     "kanji": "交番",
+    "romaji": "kouban",
     "deutsch": "Polizeiwache",
     "beispielsatz_jp": "こうばんはどこですか。",
     "beispielsatz_de": "Wo ist die Polizeiwache?",
@@ -2202,6 +2477,7 @@
   {
     "hiragana": "こえ",
     "kanji": "声",
+    "romaji": "koe",
     "deutsch": "Stimme",
     "beispielsatz_jp": "あのひとのこえはおおきいです。",
     "beispielsatz_de": "Die Stimme dieser Person ist laut.",
@@ -2210,6 +2486,7 @@
   {
     "hiragana": "ごがつ",
     "kanji": "五月",
+    "romaji": "gogatsu",
     "deutsch": "Mai",
     "beispielsatz_jp": "ごがつにはなみにいきます。",
     "beispielsatz_de": "Im Mai gehe ich zur Kirschblütenbesichtigung.",
@@ -2218,6 +2495,7 @@
   {
     "hiragana": "ここ",
     "kanji": null,
+    "romaji": "koko",
     "deutsch": "hier",
     "beispielsatz_jp": "ここにすわってください。",
     "beispielsatz_de": "Bitte setzen Sie sich hier hin.",
@@ -2226,6 +2504,7 @@
   {
     "hiragana": "ごご",
     "kanji": "午後",
+    "romaji": "gogo",
     "deutsch": "Nachmittag",
     "beispielsatz_jp": "ごごさんじにあいましょう。",
     "beispielsatz_de": "Treffen wir uns um 15 Uhr.",
@@ -2234,6 +2513,7 @@
   {
     "hiragana": "ここのか",
     "kanji": "九日",
+    "romaji": "kokonoka",
     "deutsch": "9. Tag eines Monats",
     "beispielsatz_jp": "ここのかはくがつのここのかです。",
     "beispielsatz_de": "Der 9. ist der neunte September.",
@@ -2242,6 +2522,7 @@
   {
     "hiragana": "ここのかかん",
     "kanji": "九日間",
+    "romaji": "kokonokakan",
     "deutsch": "9 Tage",
     "beispielsatz_jp": "りょこうはここのかかんです。",
     "beispielsatz_de": "Die Reise dauert 9 Tage.",
@@ -2250,6 +2531,7 @@
   {
     "hiragana": "ここのつ",
     "kanji": "九つ",
+    "romaji": "kokonotsu",
     "deutsch": "neun (Stück)",
     "beispielsatz_jp": "りんごがここのつあります。",
     "beispielsatz_de": "Es gibt neun Äpfel.",
@@ -2258,6 +2540,7 @@
   {
     "hiragana": "ごじ",
     "kanji": "五時",
+    "romaji": "goji",
     "deutsch": "5 Uhr",
     "beispielsatz_jp": "ごじにうちにかえります。",
     "beispielsatz_de": "Um 5 Uhr gehe ich nach Hause.",
@@ -2266,6 +2549,7 @@
   {
     "hiragana": "ごぜん",
     "kanji": "午前",
+    "romaji": "gozen",
     "deutsch": "Vormittag",
     "beispielsatz_jp": "ごぜんじゅうじにかいぎがあります。",
     "beispielsatz_de": "Vormittags um 10 Uhr gibt es eine Besprechung.",
@@ -2274,6 +2558,7 @@
   {
     "hiragana": "こたえる",
     "kanji": "答える",
+    "romaji": "kotaeru",
     "deutsch": "antworten",
     "beispielsatz_jp": "せんせいのしつもんにこたえます。",
     "beispielsatz_de": "Ich beantworte die Frage des Lehrers.",
@@ -2282,6 +2567,7 @@
   {
     "hiragana": "ごちそうさまでした",
     "kanji": null,
+    "romaji": "gochisousamadeshita",
     "deutsch": "Danke für das Essen. (hinterher)",
     "beispielsatz_jp": "ごちそうさまでした。",
     "beispielsatz_de": "Danke für das Essen.",
@@ -2290,6 +2576,7 @@
   {
     "hiragana": "こちら",
     "kanji": null,
+    "romaji": "kochira",
     "deutsch": "hier (her)",
     "beispielsatz_jp": "トイレはこちらです。",
     "beispielsatz_de": "Die Toilette ist hier.",
@@ -2298,6 +2585,7 @@
   {
     "hiragana": "こっち",
     "kanji": null,
+    "romaji": "kotchi",
     "deutsch": "hier (her)",
     "beispielsatz_jp": "えきはこっちです。",
     "beispielsatz_de": "Der Bahnhof ist hier drüben.",
@@ -2306,6 +2594,7 @@
   {
     "hiragana": "コップ",
     "kanji": null,
+    "romaji": "koppu",
     "deutsch": "Tasse",
     "beispielsatz_jp": "コップにみずをいれます。",
     "beispielsatz_de": "Ich gieße Wasser in das Glas.",
@@ -2314,6 +2603,7 @@
   {
     "hiragana": "こと",
     "kanji": null,
+    "romaji": "koto",
     "deutsch": "Ding, Sache",
     "beispielsatz_jp": "たいせつなことをおしえてください。",
     "beispielsatz_de": "Bitte erklären Sie mir etwas Wichtiges.",
@@ -2322,6 +2612,7 @@
   {
     "hiragana": "ことし",
     "kanji": "今年",
+    "romaji": "kotoshi",
     "deutsch": "dieses Jahr",
     "beispielsatz_jp": "ことしにほんにいきます。",
     "beispielsatz_de": "Dieses Jahr fahre ich nach Japan.",
@@ -2330,6 +2621,7 @@
   {
     "hiragana": "ことば",
     "kanji": "言葉",
+    "romaji": "kotoba",
     "deutsch": "das Wort",
     "beispielsatz_jp": "このことばのいみはなんですか。",
     "beispielsatz_de": "Was bedeutet dieses Wort?",
@@ -2338,6 +2630,7 @@
   {
     "hiragana": "こども",
     "kanji": "子供",
+    "romaji": "kodomo",
     "deutsch": "Kind",
     "beispielsatz_jp": "このこどもはなんさいですか。",
     "beispielsatz_de": "Wie alt ist dieses Kind?",
@@ -2346,6 +2639,7 @@
   {
     "hiragana": "この",
     "kanji": null,
+    "romaji": "kono",
     "deutsch": "dieses (hier)",
     "beispielsatz_jp": "このほんはおもしろいです。",
     "beispielsatz_de": "Dieses Buch hier ist interessant.",
@@ -2354,6 +2648,7 @@
   {
     "hiragana": "ごはん",
     "kanji": "ご飯",
+    "romaji": "gohan",
     "deutsch": "Essen, Reis",
     "beispielsatz_jp": "まいにちごはんをたべます。",
     "beispielsatz_de": "Ich esse jeden Tag Reis.",
@@ -2362,6 +2657,7 @@
   {
     "hiragana": "コピーする",
     "kanji": null,
+    "romaji": "kopiisuru",
     "deutsch": "kopieren",
     "beispielsatz_jp": "このぶんしょうをコピーします。",
     "beispielsatz_de": "Ich kopiere dieses Dokument.",
@@ -2370,6 +2666,7 @@
   {
     "hiragana": "ごひき",
     "kanji": "五匹",
+    "romaji": "gohiki",
     "deutsch": "5 Tiere",
     "beispielsatz_jp": "どうぶつえんにごひきいます。",
     "beispielsatz_de": "Im Zoo gibt es 5 Tiere.",
@@ -2378,6 +2675,7 @@
   {
     "hiragana": "ごふん",
     "kanji": "五分",
+    "romaji": "gofun",
     "deutsch": "5 Minuten",
     "beispielsatz_jp": "バスでごふんかかります。",
     "beispielsatz_de": "Mit dem Bus dauert es 5 Minuten.",
@@ -2386,6 +2684,7 @@
   {
     "hiragana": "ごほん",
     "kanji": "五本",
+    "romaji": "gohon",
     "deutsch": "5 (Flaschen, ..)",
     "beispielsatz_jp": "コーラがごほんあります。",
     "beispielsatz_de": "Es gibt 5 Flaschen Cola.",
@@ -2394,6 +2693,7 @@
   {
     "hiragana": "こまる",
     "kanji": "困る",
+    "romaji": "komaru",
     "deutsch": "in Schwierigkeiten sein",
     "beispielsatz_jp": "おかねがなくてこまりました。",
     "beispielsatz_de": "Ich bin in Schwierigkeiten, weil ich kein Geld habe.",
@@ -2402,6 +2702,7 @@
   {
     "hiragana": "これ",
     "kanji": null,
+    "romaji": "kore",
     "deutsch": "das hier",
     "beispielsatz_jp": "これはわたしのほんです。",
     "beispielsatz_de": "Das hier ist mein Buch.",
@@ -2410,6 +2711,7 @@
   {
     "hiragana": "〜ごろ",
     "kanji": null,
+    "romaji": "~goro",
     "deutsch": "ungefähr 〜 (nach Zeitangaben)",
     "beispielsatz_jp": "さんじごろいえにかえります。",
     "beispielsatz_de": "Gegen 3 Uhr komme ich nach Hause.",
@@ -2418,6 +2720,7 @@
   {
     "hiragana": "こんげつ",
     "kanji": "今月",
+    "romaji": "kongetsu",
     "deutsch": "dieser Monat",
     "beispielsatz_jp": "こんげつはいそがしいです。",
     "beispielsatz_de": "Diesen Monat bin ich beschaeftigt.",
@@ -2426,6 +2729,7 @@
   {
     "hiragana": "こんしゅう",
     "kanji": "今週",
+    "romaji": "konshuu",
     "deutsch": "diese Woche",
     "beispielsatz_jp": "こんしゅうにほんごのしけんがあります。",
     "beispielsatz_de": "Diese Woche gibt es eine Japanischpruefung.",
@@ -2434,6 +2738,7 @@
   {
     "hiragana": "こんな",
     "kanji": null,
+    "romaji": "konna",
     "deutsch": "so ein",
     "beispielsatz_jp": "こんなにおいしいりょうりははじめてです。",
     "beispielsatz_de": "So ein leckeres Essen habe ich noch nie gegessen.",
@@ -2442,6 +2747,7 @@
   {
     "hiragana": "こんばん",
     "kanji": "今晩",
+    "romaji": "konban",
     "deutsch": "heute Abend",
     "beispielsatz_jp": "こんばんえいがをみます。",
     "beispielsatz_de": "Heute Abend sehe ich einen Film.",
@@ -2450,6 +2756,7 @@
   {
     "hiragana": "さあ",
     "kanji": null,
+    "romaji": "saa",
     "deutsch": "Nun … (Satzanfang)",
     "beispielsatz_jp": "さあ、いきましょう。",
     "beispielsatz_de": "Nun, lasst uns gehen.",
@@ -2458,6 +2765,7 @@
   {
     "hiragana": "〜さい",
     "kanji": "〜歳",
+    "romaji": "~sai",
     "deutsch": "～ Jahre (Alter)",
     "beispielsatz_jp": "わたしはにじゅうごさいです。",
     "beispielsatz_de": "Ich bin 25 Jahre alt.",
@@ -2466,6 +2774,7 @@
   {
     "hiragana": "さいご",
     "kanji": "最後",
+    "romaji": "saigo",
     "deutsch": "letzte",
     "beispielsatz_jp": "さいごのでんしゃはなんじですか。",
     "beispielsatz_de": "Wann faehrt der letzte Zug?",
@@ -2474,6 +2783,7 @@
   {
     "hiragana": "さいふ",
     "kanji": null,
+    "romaji": "saifu",
     "deutsch": "Portemonnaie",
     "beispielsatz_jp": "さいふをわすれました。",
     "beispielsatz_de": "Ich habe mein Portemonnaie vergessen.",
@@ -2482,6 +2792,7 @@
   {
     "hiragana": "さかな",
     "kanji": "魚",
+    "romaji": "sakana",
     "deutsch": "Fisch",
     "beispielsatz_jp": "さかなをたべます。",
     "beispielsatz_de": "Ich esse Fisch.",
@@ -2490,6 +2801,7 @@
   {
     "hiragana": "さき",
     "kanji": "先",
+    "romaji": "saki",
     "deutsch": "vorher, Zukunft, Spitze",
     "beispielsatz_jp": "さきにいってください。",
     "beispielsatz_de": "Bitte gehen Sie vor.",
@@ -2498,6 +2810,7 @@
   {
     "hiragana": "さく",
     "kanji": "咲く",
+    "romaji": "saku",
     "deutsch": "blühen",
     "beispielsatz_jp": "にわにはながさいています。",
     "beispielsatz_de": "Im Garten bluehen Blumen.",
@@ -2506,6 +2819,7 @@
   {
     "hiragana": "さくぶん",
     "kanji": "作文",
+    "romaji": "sakubun",
     "deutsch": "Aufsatz",
     "beispielsatz_jp": "にほんごのさくぶんをかきます。",
     "beispielsatz_de": "Ich schreibe einen japanischen Aufsatz.",
@@ -2514,6 +2828,7 @@
   {
     "hiragana": "さす",
     "kanji": "差す",
+    "romaji": "sasu",
     "deutsch": "zeigen, (Schirm) hochhalten",
     "beispielsatz_jp": "みぎにゆびをさします。",
     "beispielsatz_de": "Ich zeige mit dem Finger nach rechts.",
@@ -2522,6 +2837,7 @@
   {
     "hiragana": "サッカー",
     "kanji": null,
+    "romaji": "sakkaa",
     "deutsch": "Fußball",
     "beispielsatz_jp": "まいしゅうサッカーをします。",
     "beispielsatz_de": "Jede Woche spiele ich Fussball.",
@@ -2530,6 +2846,7 @@
   {
     "hiragana": "ざっし",
     "kanji": "雑誌",
+    "romaji": "zasshi",
     "deutsch": "Zeitschrift",
     "beispielsatz_jp": "このざっしはおもしろいです。",
     "beispielsatz_de": "Diese Zeitschrift ist interessant.",
@@ -2538,6 +2855,7 @@
   {
     "hiragana": "さとう",
     "kanji": "砂糖",
+    "romaji": "satou",
     "deutsch": "Zucker",
     "beispielsatz_jp": "コーヒーにさとうをいれます。",
     "beispielsatz_de": "Ich tue Zucker in den Kaffee.",
@@ -2546,6 +2864,7 @@
   {
     "hiragana": "さむい",
     "kanji": "寒い",
+    "romaji": "samui",
     "deutsch": "kalt",
     "beispielsatz_jp": "ふゆはさむいです。",
     "beispielsatz_de": "Der Winter ist kalt.",
@@ -2554,6 +2873,7 @@
   {
     "hiragana": "さようなら",
     "kanji": null,
+    "romaji": "sayounara",
     "deutsch": "Auf Wiedersehen",
     "beispielsatz_jp": "さようなら、またあした。",
     "beispielsatz_de": "Auf Wiedersehen, bis morgen.",
@@ -2562,6 +2882,7 @@
   {
     "hiragana": "さらいねん",
     "kanji": null,
+    "romaji": "sarainen",
     "deutsch": "übernächstes Jahr",
     "beispielsatz_jp": "さらいねんにほんにいきます。",
     "beispielsatz_de": "Uebernaechstes Jahr fahre ich nach Japan.",
@@ -2570,6 +2891,7 @@
   {
     "hiragana": "さん",
     "kanji": "三",
+    "romaji": "san",
     "deutsch": "drei",
     "beispielsatz_jp": "さんたすさんはろくです。",
     "beispielsatz_de": "Drei plus drei ist sechs.",
@@ -2578,6 +2900,7 @@
   {
     "hiragana": "さんがつ",
     "kanji": "三月",
+    "romaji": "sangatsu",
     "deutsch": "März",
     "beispielsatz_jp": "さんがつはさくらのきせつです。",
     "beispielsatz_de": "Maerz ist die Kirschbluetezeit.",
@@ -2586,6 +2909,7 @@
   {
     "hiragana": "さんじ",
     "kanji": "三時",
+    "romaji": "sanji",
     "deutsch": "3 Uhr",
     "beispielsatz_jp": "さんじにともだちとあいます。",
     "beispielsatz_de": "Um 3 Uhr treffe ich mich mit einem Freund.",
@@ -2594,6 +2918,7 @@
   {
     "hiragana": "さんにん",
     "kanji": "三人",
+    "romaji": "sannin",
     "deutsch": "3 Personen",
     "beispielsatz_jp": "さんにんでたべました。",
     "beispielsatz_de": "Wir haben zu dritt gegessen.",
@@ -2602,6 +2927,7 @@
   {
     "hiragana": "さんびき",
     "kanji": "三匹",
+    "romaji": "sanbiki",
     "deutsch": "3 Tiere",
     "beispielsatz_jp": "どうぶつえんにさんびきいます。",
     "beispielsatz_de": "Im Zoo gibt es 3 Tiere.",
@@ -2610,6 +2936,7 @@
   {
     "hiragana": "さんぷん",
     "kanji": "三分",
+    "romaji": "sanpun",
     "deutsch": "3 Minuten",
     "beispielsatz_jp": "えきまでさんぷんかかります。",
     "beispielsatz_de": "Bis zum Bahnhof dauert es 3 Minuten.",
@@ -2618,6 +2945,7 @@
   {
     "hiragana": "さんぽする",
     "kanji": "散歩する",
+    "romaji": "sanposuru",
     "deutsch": "spazieren gehen",
     "beispielsatz_jp": "こうえんでさんぽします。",
     "beispielsatz_de": "Ich gehe im Park spazieren.",
@@ -2626,6 +2954,7 @@
   {
     "hiragana": "さんぼん",
     "kanji": "三本",
+    "romaji": "sanbon",
     "deutsch": "3 (Flaschen, …)",
     "beispielsatz_jp": "ジュースがさんぼんあります。",
     "beispielsatz_de": "Es gibt 3 Flaschen Saft.",
@@ -2634,6 +2963,7 @@
   {
     "hiragana": "〜じ",
     "kanji": "〜時",
+    "romaji": "~ji",
     "deutsch": "～ Uhr",
     "beispielsatz_jp": "さんじにあいましょう。",
     "beispielsatz_de": "Treffen wir uns um 3 Uhr.",
@@ -2642,6 +2972,7 @@
   {
     "hiragana": "し",
     "kanji": "四",
+    "romaji": "shi",
     "deutsch": "vier",
     "beispielsatz_jp": "しはよんともいいます。",
     "beispielsatz_de": "Shi wird auch yon ausgesprochen.",
@@ -2650,6 +2981,7 @@
   {
     "hiragana": "しお",
     "kanji": "塩",
+    "romaji": "shio",
     "deutsch": "Salz",
     "beispielsatz_jp": "りょうりにしおをいれます。",
     "beispielsatz_de": "Ich gebe Salz in das Essen.",
@@ -2658,6 +2990,7 @@
   {
     "hiragana": "しかし",
     "kanji": null,
+    "romaji": "shikashi",
     "deutsch": "aber",
     "beispielsatz_jp": "あめでした、しかしかえりました。",
     "beispielsatz_de": "Es regnete, aber ich bin nach Hause gegangen.",
@@ -2666,6 +2999,7 @@
   {
     "hiragana": "しがつ",
     "kanji": "四月",
+    "romaji": "shigatsu",
     "deutsch": "April",
     "beispielsatz_jp": "しがつはあたたかいです。",
     "beispielsatz_de": "April ist warm.",
@@ -2674,6 +3008,7 @@
   {
     "hiragana": "〜じかん",
     "kanji": "〜時間",
+    "romaji": "~jikan",
     "deutsch": "Stunden (Anzahl)",
     "beispielsatz_jp": "にじかんべんきょうしました。",
     "beispielsatz_de": "Ich habe 2 Stunden gelernt.",
@@ -2682,6 +3017,7 @@
   {
     "hiragana": "じかん",
     "kanji": "時間",
+    "romaji": "jikan",
     "deutsch": "Zeit",
     "beispielsatz_jp": "じかんがありません。",
     "beispielsatz_de": "Ich habe keine Zeit.",
@@ -2690,6 +3026,7 @@
   {
     "hiragana": "しけん",
     "kanji": "試験",
+    "romaji": "shiken",
     "deutsch": "Test",
     "beispielsatz_jp": "にほんごのしけんをうけます。",
     "beispielsatz_de": "Ich mache die Japanischpruefung.",
@@ -2698,6 +3035,7 @@
   {
     "hiragana": "しごと",
     "kanji": "仕事",
+    "romaji": "shigoto",
     "deutsch": "Arbeit",
     "beispielsatz_jp": "しごとをしています。",
     "beispielsatz_de": "Ich arbeite.",
@@ -2706,6 +3044,7 @@
   {
     "hiragana": "じしょ",
     "kanji": "辞書",
+    "romaji": "jisho",
     "deutsch": "Wörterbuch",
     "beispielsatz_jp": "じしょでことばをしらべます。",
     "beispielsatz_de": "Ich schaue das Wort im Woerterbuch nach.",
@@ -2714,6 +3053,7 @@
   {
     "hiragana": "しずか",
     "kanji": "静か",
+    "romaji": "shizuka",
     "deutsch": "still",
     "beispielsatz_jp": "このとしょかんはしずかです。",
     "beispielsatz_de": "Diese Bibliothek ist still.",
@@ -2722,6 +3062,7 @@
   {
     "hiragana": "した",
     "kanji": "下",
+    "romaji": "shita",
     "deutsch": "unten",
     "beispielsatz_jp": "ほんはつくえのしたにあります。",
     "beispielsatz_de": "Das Buch liegt unter dem Schreibtisch.",
@@ -2730,6 +3071,7 @@
   {
     "hiragana": "しち",
     "kanji": "七",
+    "romaji": "shichi",
     "deutsch": "sieben",
     "beispielsatz_jp": "しちたすさんはじゅうです。",
     "beispielsatz_de": "Sieben plus drei ist zehn.",
@@ -2738,6 +3080,7 @@
   {
     "hiragana": "しちがつ",
     "kanji": "七月",
+    "romaji": "shichigatsu",
     "deutsch": "Juli",
     "beispielsatz_jp": "しちがつはなつです。",
     "beispielsatz_de": "Juli ist Sommer.",
@@ -2746,6 +3089,7 @@
   {
     "hiragana": "しちじ",
     "kanji": "七時",
+    "romaji": "shichiji",
     "deutsch": "7 Uhr",
     "beispielsatz_jp": "しちじにおきます。",
     "beispielsatz_de": "Ich stehe um 7 Uhr auf.",
@@ -2754,6 +3098,7 @@
   {
     "hiragana": "しつもん",
     "kanji": "質問",
+    "romaji": "shitsumon",
     "deutsch": "Frage",
     "beispielsatz_jp": "せんせいにしつもんします。",
     "beispielsatz_de": "Ich stelle dem Lehrer eine Frage.",
@@ -2762,6 +3107,7 @@
   {
     "hiragana": "しつれいしました",
     "kanji": null,
+    "romaji": "shitsureishimashita",
     "deutsch": "Entschuldigung. (hinterher)",
     "beispielsatz_jp": "おそくなってしつれいしました。",
     "beispielsatz_de": "Entschuldigung, dass ich zu spaet kam.",
@@ -2770,6 +3116,7 @@
   {
     "hiragana": "じてんしゃ",
     "kanji": "自転車",
+    "romaji": "jitensha",
     "deutsch": "Fahrrad",
     "beispielsatz_jp": "まいにちじてんしゃでがっこうにいきます。",
     "beispielsatz_de": "Jeden Tag fahre ich mit dem Fahrrad zur Schule.",
@@ -2778,6 +3125,7 @@
   {
     "hiragana": "じどうしゃ",
     "kanji": "自動車",
+    "romaji": "jidousha",
     "deutsch": "Auto",
     "beispielsatz_jp": "ちちはじどうしゃをもっています。",
     "beispielsatz_de": "Mein Vater hat ein Auto.",
@@ -2786,6 +3134,7 @@
   {
     "hiragana": "しぬ",
     "kanji": "死ぬ",
+    "romaji": "shinu",
     "deutsch": "sterben",
     "beispielsatz_jp": "おじいさんがしにました。",
     "beispielsatz_de": "Mein Grossvater ist gestorben.",
@@ -2794,6 +3143,7 @@
   {
     "hiragana": "じびき",
     "kanji": "字引",
+    "romaji": "jibiki",
     "deutsch": "Kanjilexikon",
     "beispielsatz_jp": "じびきでかんじをしらべます。",
     "beispielsatz_de": "Ich schaue Kanji im Lexikon nach.",
@@ -2802,6 +3152,7 @@
   {
     "hiragana": "じぶん",
     "kanji": "自分",
+    "romaji": "jibun",
     "deutsch": "selbst",
     "beispielsatz_jp": "じぶんでつくります。",
     "beispielsatz_de": "Ich mache es selbst.",
@@ -2810,6 +3161,7 @@
   {
     "hiragana": "しまる",
     "kanji": "閉まる",
+    "romaji": "shimaru",
     "deutsch": "sich schließen",
     "beispielsatz_jp": "みせがしまります。",
     "beispielsatz_de": "Das Geschaeft schliesst.",
@@ -2818,6 +3170,7 @@
   {
     "hiragana": "しめる",
     "kanji": null,
+    "romaji": "shimeru",
     "deutsch": "zubinden",
     "beispielsatz_jp": "ネクタイをしめます。",
     "beispielsatz_de": "Ich binde die Krawatte.",
@@ -2826,6 +3179,7 @@
   {
     "hiragana": "しめる",
     "kanji": "閉める",
+    "romaji": "shimeru",
     "deutsch": "schließen",
     "beispielsatz_jp": "まどをしめてください。",
     "beispielsatz_de": "Bitte schliessen Sie das Fenster.",
@@ -2834,6 +3188,7 @@
   {
     "hiragana": "じゃ",
     "kanji": null,
+    "romaji": "ja",
     "deutsch": "also dann",
     "beispielsatz_jp": "じゃ、またあした。",
     "beispielsatz_de": "Also dann, bis morgen.",
@@ -2842,6 +3197,7 @@
   {
     "hiragana": "じゃ、また",
     "kanji": null,
+    "romaji": "ja,mata",
     "deutsch": "Verabschiedung",
     "beispielsatz_jp": "じゃ、またらいしゅう。",
     "beispielsatz_de": "Also dann, bis naechste Woche.",
@@ -2850,6 +3206,7 @@
   {
     "hiragana": "じゃあ",
     "kanji": null,
+    "romaji": "jaa",
     "deutsch": "also dann",
     "beispielsatz_jp": "じゃあ、いきましょう。",
     "beispielsatz_de": "Also dann, lass uns gehen.",
@@ -2858,6 +3215,7 @@
   {
     "hiragana": "しゃしん",
     "kanji": "写真",
+    "romaji": "shashin",
     "deutsch": "Fotografie",
     "beispielsatz_jp": "しゃしんをとってもいいですか。",
     "beispielsatz_de": "Darf ich ein Foto machen?",
@@ -2866,6 +3224,7 @@
   {
     "hiragana": "シャツ",
     "kanji": null,
+    "romaji": "shatsu",
     "deutsch": "Hemd, Unterhemd",
     "beispielsatz_jp": "あたらしいシャツをきます。",
     "beispielsatz_de": "Ich ziehe ein neues Hemd an.",
@@ -2874,6 +3233,7 @@
   {
     "hiragana": "シャワー",
     "kanji": null,
+    "romaji": "shawaa",
     "deutsch": "Dusche",
     "beispielsatz_jp": "まいあさシャワーをあびます。",
     "beispielsatz_de": "Jeden Morgen dusche ich.",
@@ -2882,6 +3242,7 @@
   {
     "hiragana": "シャワーをあびる",
     "kanji": null,
+    "romaji": "shawaawoabiru",
     "deutsch": "duschen",
     "beispielsatz_jp": "あさシャワーをあびます。",
     "beispielsatz_de": "Morgens dusche ich.",
@@ -2890,6 +3251,7 @@
   {
     "hiragana": "ジュース",
     "kanji": null,
+    "romaji": "juusu",
     "deutsch": "Saft",
     "beispielsatz_jp": "ジュースをのみます。",
     "beispielsatz_de": "Ich trinke Saft.",
@@ -2898,6 +3260,7 @@
   {
     "hiragana": "じゅう",
     "kanji": "十",
+    "romaji": "juu",
     "deutsch": "10",
     "beispielsatz_jp": "じゅうはとおともいいます。",
     "beispielsatz_de": "Zehn wird auch too ausgesprochen.",
@@ -2906,6 +3269,7 @@
   {
     "hiragana": "じゅういちがつ",
     "kanji": "十一月",
+    "romaji": "juuichigatsu",
     "deutsch": "November",
     "beispielsatz_jp": "じゅういちがつはあきです。",
     "beispielsatz_de": "November ist Herbst.",
@@ -2914,6 +3278,7 @@
   {
     "hiragana": "じゅういちじ",
     "kanji": "十一時",
+    "romaji": "juuichiji",
     "deutsch": "11 Uhr",
     "beispielsatz_jp": "じゅういちじにねます。",
     "beispielsatz_de": "Ich gehe um 23 Uhr schlafen.",
@@ -2922,6 +3287,7 @@
   {
     "hiragana": "じゅういちにち",
     "kanji": "十一日",
+    "romaji": "juuichinichi",
     "deutsch": "11. Tag eines Monats",
     "beispielsatz_jp": "じゅういちにちにしけんがあります。",
     "beispielsatz_de": "Am 11. gibt es eine Pruefung.",
@@ -2930,6 +3296,7 @@
   {
     "hiragana": "じゅうがつ",
     "kanji": "十月",
+    "romaji": "juugatsu",
     "deutsch": "Oktober",
     "beispielsatz_jp": "じゅうがつはあきです。",
     "beispielsatz_de": "Oktober ist Herbst.",
@@ -2938,6 +3305,7 @@
   {
     "hiragana": "じゅうじ",
     "kanji": "十時",
+    "romaji": "juuji",
     "deutsch": "10 Uhr",
     "beispielsatz_jp": "じゅうじにはじまります。",
     "beispielsatz_de": "Es beginnt um 10 Uhr.",
@@ -2946,6 +3314,7 @@
   {
     "hiragana": "じゅうにがつ",
     "kanji": "十二月",
+    "romaji": "juunigatsu",
     "deutsch": "Dezember",
     "beispielsatz_jp": "じゅうにがつはふゆです。",
     "beispielsatz_de": "Dezember ist Winter.",
@@ -2954,6 +3323,7 @@
   {
     "hiragana": "じゅうにじ",
     "kanji": "十二時",
+    "romaji": "juuniji",
     "deutsch": "12 Uhr",
     "beispielsatz_jp": "じゅうにじにひるごはんをたべます。",
     "beispielsatz_de": "Um 12 Uhr esse ich zu Mittag.",
@@ -2962,6 +3332,7 @@
   {
     "hiragana": "じゅうににち",
     "kanji": "十二日",
+    "romaji": "juuninichi",
     "deutsch": "12. Tag eines Monats",
     "beispielsatz_jp": "じゅうににちはやすみです。",
     "beispielsatz_de": "Am 12. ist frei.",
@@ -2970,6 +3341,7 @@
   {
     "hiragana": "じゅぎょう",
     "kanji": "授業",
+    "romaji": "jugyou",
     "deutsch": "Unterricht",
     "beispielsatz_jp": "きょうじゅぎょうがさんこまあります。",
     "beispielsatz_de": "Heute gibt es 3 Unterrichtsstunden.",
@@ -2978,6 +3350,7 @@
   {
     "hiragana": "しゅくだい",
     "kanji": "宿題",
+    "romaji": "shukudai",
     "deutsch": "Hausaufgaben",
     "beispielsatz_jp": "しゅくだいをします。",
     "beispielsatz_de": "Ich mache Hausaufgaben.",
@@ -2986,6 +3359,7 @@
   {
     "hiragana": "じゅっぴき",
     "kanji": "十匹",
+    "romaji": "juppiki",
     "deutsch": "10 Tiere",
     "beispielsatz_jp": "どうぶつえんにじゅっぴきいます。",
     "beispielsatz_de": "Im Zoo gibt es 10 Tiere.",
@@ -2994,6 +3368,7 @@
   {
     "hiragana": "じゅっぷん",
     "kanji": "十分",
+    "romaji": "juppun",
     "deutsch": "10 Minuten",
     "beispielsatz_jp": "じゅっぷんまってください。",
     "beispielsatz_de": "Bitte warten Sie 10 Minuten.",
@@ -3002,6 +3377,7 @@
   {
     "hiragana": "じゅっぽん",
     "kanji": "十本",
+    "romaji": "juppon",
     "deutsch": "10 (Flaschen, ..)",
     "beispielsatz_jp": "ビールがじゅっぽんあります。",
     "beispielsatz_de": "Es gibt 10 Flaschen Bier.",
@@ -3010,6 +3386,7 @@
   {
     "hiragana": "じょうず",
     "kanji": "上手",
+    "romaji": "jouzu",
     "deutsch": "geschickt",
     "beispielsatz_jp": "ピアノがじょうずです。",
     "beispielsatz_de": "Ich bin gut im Klavierspielen.",
@@ -3018,6 +3395,7 @@
   {
     "hiragana": "じょうぶ",
     "kanji": null,
+    "romaji": "joubu",
     "deutsch": "robust",
     "beispielsatz_jp": "このいすはじょうぶです。",
     "beispielsatz_de": "Dieser Stuhl ist robust.",
@@ -3026,6 +3404,7 @@
   {
     "hiragana": "しょうゆ",
     "kanji": null,
+    "romaji": "shouyu",
     "deutsch": "Shoyu-Sauce",
     "beispielsatz_jp": "りょうりにしょうゆをいれます。",
     "beispielsatz_de": "Ich gebe Sojasosse in das Essen.",
@@ -3034,6 +3413,7 @@
   {
     "hiragana": "しょくどう",
     "kanji": "食堂",
+    "romaji": "shokudou",
     "deutsch": "Speisezimmer",
     "beispielsatz_jp": "しょくどうでひるごはんをたべます。",
     "beispielsatz_de": "Ich esse im Speisezimmer zu Mittag.",
@@ -3042,6 +3422,7 @@
   {
     "hiragana": "しる",
     "kanji": "知る",
+    "romaji": "shiru",
     "deutsch": "wissen",
     "beispielsatz_jp": "そのことはしっています。",
     "beispielsatz_de": "Das weiss ich.",
@@ -3050,6 +3431,7 @@
   {
     "hiragana": "しろ",
     "kanji": "白",
+    "romaji": "shiro",
     "deutsch": "Weiß",
     "beispielsatz_jp": "しろはきれいないろです。",
     "beispielsatz_de": "Weiss ist eine schoene Farbe.",
@@ -3058,6 +3440,7 @@
   {
     "hiragana": "しろい",
     "kanji": "白い",
+    "romaji": "shiroi",
     "deutsch": "weiß",
     "beispielsatz_jp": "このかみはしろいです。",
     "beispielsatz_de": "Dieses Papier ist weiss.",
@@ -3066,6 +3449,7 @@
   {
     "hiragana": "しんぶん",
     "kanji": "新聞",
+    "romaji": "shinbun",
     "deutsch": "Zeitung",
     "beispielsatz_jp": "まいにちしんぶんをよみます。",
     "beispielsatz_de": "Jeden Tag lese ich die Zeitung.",
@@ -3074,6 +3458,7 @@
   {
     "hiragana": "スーツ",
     "kanji": null,
+    "romaji": "suutsu",
     "deutsch": "Anzug",
     "beispielsatz_jp": "スーツをきてかいしゃにいきます。",
     "beispielsatz_de": "Ich ziehe einen Anzug an und gehe zur Arbeit.",
@@ -3082,6 +3467,7 @@
   {
     "hiragana": "すい",
     "kanji": "水",
+    "romaji": "sui",
     "deutsch": "Mittwoch (Abkürzung)",
     "beispielsatz_jp": "すいはすいようびのりゃくです。",
     "beispielsatz_de": "Sui ist die Abkuerzung fuer Mittwoch.",
@@ -3090,6 +3476,7 @@
   {
     "hiragana": "すいようび",
     "kanji": "水曜日",
+    "romaji": "suiyoubi",
     "deutsch": "Mittwoch",
     "beispielsatz_jp": "すいようびにえいごをならいます。",
     "beispielsatz_de": "Mittwochs lerne ich Englisch.",
@@ -3098,6 +3485,7 @@
   {
     "hiragana": "すう",
     "kanji": "吸う",
+    "romaji": "suu",
     "deutsch": "einatmen",
     "beispielsatz_jp": "タバコをすいます。",
     "beispielsatz_de": "Ich rauche eine Zigarette.",
@@ -3106,6 +3494,7 @@
   {
     "hiragana": "スカート",
     "kanji": null,
+    "romaji": "sukaato",
     "deutsch": "Rock",
     "beispielsatz_jp": "あたらしいスカートをはきます。",
     "beispielsatz_de": "Ich ziehe einen neuen Rock an.",
@@ -3114,6 +3503,7 @@
   {
     "hiragana": "すき",
     "kanji": "好き",
+    "romaji": "suki",
     "deutsch": "mögen, lieben",
     "beispielsatz_jp": "やさいがすきです。",
     "beispielsatz_de": "Ich mag Gemuese.",
@@ -3122,6 +3512,7 @@
   {
     "hiragana": "すくない",
     "kanji": "少ない",
+    "romaji": "sukunai",
     "deutsch": "wenig",
     "beispielsatz_jp": "このまちにはひとがすくないです。",
     "beispielsatz_de": "In dieser Stadt gibt es wenige Menschen.",
@@ -3130,6 +3521,7 @@
   {
     "hiragana": "すぐに",
     "kanji": null,
+    "romaji": "suguni",
     "deutsch": "sofort",
     "beispielsatz_jp": "すぐにきます。",
     "beispielsatz_de": "Ich komme sofort.",
@@ -3138,6 +3530,7 @@
   {
     "hiragana": "すこし",
     "kanji": "少し",
+    "romaji": "sukoshi",
     "deutsch": "etwas",
     "beispielsatz_jp": "にほんごがすこしわかります。",
     "beispielsatz_de": "Ich verstehe ein bisschen Japanisch.",
@@ -3146,6 +3539,7 @@
   {
     "hiragana": "すし",
     "kanji": null,
+    "romaji": "sushi",
     "deutsch": "Sushi",
     "beispielsatz_jp": "すしをたべます。",
     "beispielsatz_de": "Ich esse Sushi.",
@@ -3154,6 +3548,7 @@
   {
     "hiragana": "すしや",
     "kanji": "すし屋",
+    "romaji": "sushiya",
     "deutsch": "Sushibar",
     "beispielsatz_jp": "すしやにいきます。",
     "beispielsatz_de": "Ich gehe in die Sushibar.",
@@ -3162,6 +3557,7 @@
   {
     "hiragana": "すずしい",
     "kanji": null,
+    "romaji": "suzushii",
     "deutsch": "kühl",
     "beispielsatz_jp": "あきはすずしいです。",
     "beispielsatz_de": "Der Herbst ist kuehl.",
@@ -3170,6 +3566,7 @@
   {
     "hiragana": "ストーブ",
     "kanji": null,
+    "romaji": "sutoobu",
     "deutsch": "Ofen",
     "beispielsatz_jp": "ふゆにストーブをつけます。",
     "beispielsatz_de": "Im Winter schalte ich den Ofen ein.",
@@ -3178,6 +3575,7 @@
   {
     "hiragana": "スプーン",
     "kanji": null,
+    "romaji": "supuun",
     "deutsch": "Löffel",
     "beispielsatz_jp": "スプーンでたべます。",
     "beispielsatz_de": "Ich esse mit dem Loeffel.",
@@ -3186,6 +3584,7 @@
   {
     "hiragana": "スポーツ",
     "kanji": null,
+    "romaji": "supootsu",
     "deutsch": "Sport",
     "beispielsatz_jp": "スポーツがすきです。",
     "beispielsatz_de": "Ich mag Sport.",
@@ -3194,6 +3593,7 @@
   {
     "hiragana": "ズボン",
     "kanji": null,
+    "romaji": "zubon",
     "deutsch": "Hose",
     "beispielsatz_jp": "ズボンをはきます。",
     "beispielsatz_de": "Ich ziehe eine Hose an.",
@@ -3202,6 +3602,7 @@
   {
     "hiragana": "すみません",
     "kanji": null,
+    "romaji": "sumimasen",
     "deutsch": "Entschuldigung",
     "beispielsatz_jp": "すみません、えきはどこですか。",
     "beispielsatz_de": "Entschuldigung, wo ist der Bahnhof?",
@@ -3210,6 +3611,7 @@
   {
     "hiragana": "すむ",
     "kanji": "住む",
+    "romaji": "sumu",
     "deutsch": "wohnen",
     "beispielsatz_jp": "とうきょうにすんでいます。",
     "beispielsatz_de": "Ich wohne in Tokio.",
@@ -3218,6 +3620,7 @@
   {
     "hiragana": "スリッパ",
     "kanji": null,
+    "romaji": "surippa",
     "deutsch": "Pantoffeln",
     "beispielsatz_jp": "うちでスリッパをはきます。",
     "beispielsatz_de": "Zuhause trage ich Pantoffeln.",
@@ -3226,6 +3629,7 @@
   {
     "hiragana": "する",
     "kanji": null,
+    "romaji": "suru",
     "deutsch": "machen",
     "beispielsatz_jp": "まいにちうんどうをします。",
     "beispielsatz_de": "Jeden Tag mache ich Sport.",
@@ -3234,6 +3638,7 @@
   {
     "hiragana": "すわる",
     "kanji": "座る",
+    "romaji": "suwaru",
     "deutsch": "sitzen",
     "beispielsatz_jp": "ここにすわってください。",
     "beispielsatz_de": "Bitte setzen Sie sich hier hin.",
@@ -3242,6 +3647,7 @@
   {
     "hiragana": "せ",
     "kanji": "背",
+    "romaji": "se",
     "deutsch": "Rücken",
     "beispielsatz_jp": "せがたかいです。",
     "beispielsatz_de": "Ich bin gross (Koerpergroesse).",
@@ -3250,6 +3656,7 @@
   {
     "hiragana": "セーター",
     "kanji": null,
+    "romaji": "seetaa",
     "deutsch": "Pullover",
     "beispielsatz_jp": "さむいのでセーターをきます。",
     "beispielsatz_de": "Weil es kalt ist, ziehe ich einen Pullover an.",
@@ -3258,6 +3665,7 @@
   {
     "hiragana": "せいと",
     "kanji": "生徒",
+    "romaji": "seito",
     "deutsch": "Schüler",
     "beispielsatz_jp": "わたしはせいとです。",
     "beispielsatz_de": "Ich bin Schueler.",
@@ -3266,6 +3674,7 @@
   {
     "hiragana": "せっけん",
     "kanji": null,
+    "romaji": "sekken",
     "deutsch": "Seife",
     "beispielsatz_jp": "てをせっけんであらいます。",
     "beispielsatz_de": "Ich wasche meine Haende mit Seife.",
@@ -3274,6 +3683,7 @@
   {
     "hiragana": "せまい",
     "kanji": null,
+    "romaji": "semai",
     "deutsch": "eng",
     "beispielsatz_jp": "このへやはせまいです。",
     "beispielsatz_de": "Dieses Zimmer ist eng.",
@@ -3282,6 +3692,7 @@
   {
     "hiragana": "ゼロ",
     "kanji": null,
+    "romaji": "zero",
     "deutsch": "Null",
     "beispielsatz_jp": "ゼロはれいともいいます。",
     "beispielsatz_de": "Zero wird auch rei ausgesprochen.",
@@ -3290,6 +3701,7 @@
   {
     "hiragana": "せん",
     "kanji": "千",
+    "romaji": "sen",
     "deutsch": "tausend",
     "beispielsatz_jp": "せんえんさつをもっています。",
     "beispielsatz_de": "Ich habe einen Tausend-Yen-Schein.",
@@ -3298,6 +3710,7 @@
   {
     "hiragana": "せんげつ",
     "kanji": "先月",
+    "romaji": "sengetsu",
     "deutsch": "voriger Monat",
     "beispielsatz_jp": "せんげつにほんにいきました。",
     "beispielsatz_de": "Letzten Monat bin ich nach Japan gefahren.",
@@ -3306,6 +3719,7 @@
   {
     "hiragana": "せんしゅう",
     "kanji": "先週",
+    "romaji": "senshuu",
     "deutsch": "letzte Woche",
     "beispielsatz_jp": "せんしゅうのきんようびにえいがをみました。",
     "beispielsatz_de": "Letzte Woche am Freitag habe ich einen Film gesehen.",
@@ -3314,6 +3728,7 @@
   {
     "hiragana": "せんせい",
     "kanji": "先生",
+    "romaji": "sensei",
     "deutsch": "Lehrer",
     "beispielsatz_jp": "せんせいにしつもんします。",
     "beispielsatz_de": "Ich stelle dem Lehrer eine Frage.",
@@ -3322,6 +3737,7 @@
   {
     "hiragana": "せんたく",
     "kanji": "洗濯",
+    "romaji": "sentaku",
     "deutsch": "Wäsche",
     "beispielsatz_jp": "せんたくをします。",
     "beispielsatz_de": "Ich wasche Waesche.",
@@ -3330,6 +3746,7 @@
   {
     "hiragana": "ぜんぶ",
     "kanji": "全部",
+    "romaji": "zenbu",
     "deutsch": "alle",
     "beispielsatz_jp": "ぜんぶたべてください。",
     "beispielsatz_de": "Bitte essen Sie alles auf.",
@@ -3338,6 +3755,7 @@
   {
     "hiragana": "そうじ",
     "kanji": null,
+    "romaji": "souji",
     "deutsch": "Saubermachen",
     "beispielsatz_jp": "まいしゅうそうじをします。",
     "beispielsatz_de": "Jede Woche mache ich sauber.",
@@ -3346,6 +3764,7 @@
   {
     "hiragana": "そうじする",
     "kanji": null,
+    "romaji": "soujisuru",
     "deutsch": "sauber machen",
     "beispielsatz_jp": "へやをそうじします。",
     "beispielsatz_de": "Ich putze das Zimmer.",
@@ -3354,6 +3773,7 @@
   {
     "hiragana": "そこ",
     "kanji": null,
+    "romaji": "soko",
     "deutsch": "dort",
     "beispielsatz_jp": "えきはそこです。",
     "beispielsatz_de": "Der Bahnhof ist dort.",
@@ -3362,6 +3782,7 @@
   {
     "hiragana": "そして",
     "kanji": null,
+    "romaji": "soshite",
     "deutsch": "danach",
     "beispielsatz_jp": "ごはんをたべて、そしてさんぽしました。",
     "beispielsatz_de": "Ich ass und ging danach spazieren.",
@@ -3370,6 +3791,7 @@
   {
     "hiragana": "そちら",
     "kanji": null,
+    "romaji": "sochira",
     "deutsch": "dort (hin)",
     "beispielsatz_jp": "トイレはそちらです。",
     "beispielsatz_de": "Die Toilette ist dort.",
@@ -3378,6 +3800,7 @@
   {
     "hiragana": "そっち",
     "kanji": null,
+    "romaji": "sotchi",
     "deutsch": "dort (hin)",
     "beispielsatz_jp": "えきはそっちです。",
     "beispielsatz_de": "Der Bahnhof ist da drueben.",
@@ -3386,6 +3809,7 @@
   {
     "hiragana": "そと",
     "kanji": "外",
+    "romaji": "soto",
     "deutsch": "außen",
     "beispielsatz_jp": "そとはさむいです。",
     "beispielsatz_de": "Draussen ist es kalt.",
@@ -3394,6 +3818,7 @@
   {
     "hiragana": "その",
     "kanji": null,
+    "romaji": "sono",
     "deutsch": "dieses dort",
     "beispielsatz_jp": "そのほんをかしてください。",
     "beispielsatz_de": "Bitte leihen Sie mir das Buch dort.",
@@ -3402,6 +3827,7 @@
   {
     "hiragana": "そば",
     "kanji": null,
+    "romaji": "soba",
     "deutsch": "daneben",
     "beispielsatz_jp": "びょういんのそばにやっきょくがあります。",
     "beispielsatz_de": "Neben dem Krankenhaus ist eine Apotheke.",
@@ -3410,6 +3836,7 @@
   {
     "hiragana": "そら",
     "kanji": "空",
+    "romaji": "sora",
     "deutsch": "Himmel",
     "beispielsatz_jp": "きょうはそらがあおいです。",
     "beispielsatz_de": "Heute ist der Himmel blau.",
@@ -3418,6 +3845,7 @@
   {
     "hiragana": "それ",
     "kanji": null,
+    "romaji": "sore",
     "deutsch": "das dort",
     "beispielsatz_jp": "それはなんですか。",
     "beispielsatz_de": "Was ist das dort?",
@@ -3426,6 +3854,7 @@
   {
     "hiragana": "それから",
     "kanji": null,
+    "romaji": "sorekara",
     "deutsch": "danach",
     "beispielsatz_jp": "ひるごはんをたべて、それからさんぽします。",
     "beispielsatz_de": "Ich esse Mittagessen, danach gehe ich spazieren.",
@@ -3434,6 +3863,7 @@
   {
     "hiragana": "それでは",
     "kanji": null,
+    "romaji": "soredeha",
     "deutsch": "dann (auch als Verabschiedung)",
     "beispielsatz_jp": "それではまた。",
     "beispielsatz_de": "Dann bis dann.",
@@ -3442,6 +3872,7 @@
   {
     "hiragana": "だいがく",
     "kanji": "大学",
+    "romaji": "daigaku",
     "deutsch": "Universität",
     "beispielsatz_jp": "だいがくでにほんごをべんきょうしています。",
     "beispielsatz_de": "An der Universitaet lerne ich Japanisch.",
@@ -3450,6 +3881,7 @@
   {
     "hiragana": "たいしかん",
     "kanji": "大使館",
+    "romaji": "taishikan",
     "deutsch": "Botschaft",
     "beispielsatz_jp": "たいしかんはどこですか。",
     "beispielsatz_de": "Wo ist die Botschaft?",
@@ -3458,6 +3890,7 @@
   {
     "hiragana": "だいじょうぶ",
     "kanji": "大丈夫",
+    "romaji": "daijoubu",
     "deutsch": "alles in Ordnung",
     "beispielsatz_jp": "だいじょうぶですか。",
     "beispielsatz_de": "Ist alles in Ordnung?",
@@ -3466,6 +3899,7 @@
   {
     "hiragana": "だいすき",
     "kanji": "大好き",
+    "romaji": "daisuki",
     "deutsch": "sehr mögen, lieben",
     "beispielsatz_jp": "にほんりょうりがだいすきです。",
     "beispielsatz_de": "Ich liebe japanisches Essen.",
@@ -3474,6 +3908,7 @@
   {
     "hiragana": "たいせつ",
     "kanji": "大切",
+    "romaji": "taisetsu",
     "deutsch": "wichtig",
     "beispielsatz_jp": "けんこうはたいせつです。",
     "beispielsatz_de": "Gesundheit ist wichtig.",
@@ -3482,6 +3917,7 @@
   {
     "hiragana": "だいたい",
     "kanji": null,
+    "romaji": "daitai",
     "deutsch": "größtenteils",
     "beispielsatz_jp": "だいたいわかりました。",
     "beispielsatz_de": "Ich habe es groesstenteils verstanden.",
@@ -3490,6 +3926,7 @@
   {
     "hiragana": "だいどころ",
     "kanji": "台所",
+    "romaji": "daidokoro",
     "deutsch": "Küche",
     "beispielsatz_jp": "だいどころでりょうりをします。",
     "beispielsatz_de": "Ich koche in der Kueche.",
@@ -3498,6 +3935,7 @@
   {
     "hiragana": "たいへん",
     "kanji": "大変",
+    "romaji": "taihen",
     "deutsch": "sehr, schwierig",
     "beispielsatz_jp": "にほんごはたいへんむずかしいです。",
     "beispielsatz_de": "Japanisch ist sehr schwierig.",
@@ -3506,6 +3944,7 @@
   {
     "hiragana": "たかい",
     "kanji": "高い",
+    "romaji": "takai",
     "deutsch": "hoch",
     "beispielsatz_jp": "このビルはたかいです。",
     "beispielsatz_de": "Dieses Gebaeude ist hoch.",
@@ -3514,6 +3953,7 @@
   {
     "hiragana": "だから",
     "kanji": null,
+    "romaji": "dakara",
     "deutsch": "deswegen",
     "beispielsatz_jp": "あめでした、だからいえにいました。",
     "beispielsatz_de": "Es regnete, deshalb blieb ich zu Hause.",
@@ -3522,6 +3962,7 @@
   {
     "hiragana": "たくさん",
     "kanji": null,
+    "romaji": "takusan",
     "deutsch": "viel",
     "beispielsatz_jp": "たくさんたべました。",
     "beispielsatz_de": "Ich habe viel gegessen.",
@@ -3530,6 +3971,7 @@
   {
     "hiragana": "タクシー",
     "kanji": null,
+    "romaji": "takushii",
     "deutsch": "Taxi",
     "beispielsatz_jp": "タクシーでいきます。",
     "beispielsatz_de": "Ich fahre mit dem Taxi.",
@@ -3538,6 +3980,7 @@
   {
     "hiragana": "だす",
     "kanji": "出す",
+    "romaji": "dasu",
     "deutsch": "herausholen",
     "beispielsatz_jp": "バッグからほんをだします。",
     "beispielsatz_de": "Ich hole das Buch aus der Tasche.",
@@ -3546,6 +3989,7 @@
   {
     "hiragana": "ただいま",
     "kanji": null,
+    "romaji": "tadaima",
     "deutsch": "Begrüßung beim Zuhause Ankommen",
     "beispielsatz_jp": "ただいま！",
     "beispielsatz_de": "Ich bin zu Hause!",
@@ -3554,6 +3998,7 @@
   {
     "hiragana": "ただしい",
     "kanji": "正しい",
+    "romaji": "tadashii",
     "deutsch": "richtig",
     "beispielsatz_jp": "このこたえはただしいですか。",
     "beispielsatz_de": "Ist diese Antwort richtig?",
@@ -3562,6 +4007,7 @@
   {
     "hiragana": "たつ",
     "kanji": "立つ",
+    "romaji": "tatsu",
     "deutsch": "aufstehen",
     "beispielsatz_jp": "どうぞたってください。",
     "beispielsatz_de": "Bitte stehen Sie auf.",
@@ -3570,6 +4016,7 @@
   {
     "hiragana": "たてもの",
     "kanji": "建物",
+    "romaji": "tatemono",
     "deutsch": "Gebäude",
     "beispielsatz_jp": "このたてものはおおきいです。",
     "beispielsatz_de": "Dieses Gebaeude ist gross.",
@@ -3578,6 +4025,7 @@
   {
     "hiragana": "たのしい",
     "kanji": "楽しい",
+    "romaji": "tanoshii",
     "deutsch": "angenehm",
     "beispielsatz_jp": "りょこうはたのしかったです。",
     "beispielsatz_de": "Die Reise war angenehm.",
@@ -3586,6 +4034,7 @@
   {
     "hiragana": "たのむ",
     "kanji": "頼む",
+    "romaji": "tanomu",
     "deutsch": "bitten",
     "beispielsatz_jp": "てつだってくれるようにたのみました。",
     "beispielsatz_de": "Ich bat, mir zu helfen.",
@@ -3594,6 +4043,7 @@
   {
     "hiragana": "たばこ",
     "kanji": null,
+    "romaji": "tabako",
     "deutsch": "Zigaretten",
     "beispielsatz_jp": "そこでたばこをすわないでください。",
     "beispielsatz_de": "Bitte rauchen Sie dort nicht.",
@@ -3602,6 +4052,7 @@
   {
     "hiragana": "たぶん",
     "kanji": null,
+    "romaji": "tabun",
     "deutsch": "vielleicht",
     "beispielsatz_jp": "たぶんあしたあめがふります。",
     "beispielsatz_de": "Vielleicht regnet es morgen.",
@@ -3610,6 +4061,7 @@
   {
     "hiragana": "たべもの",
     "kanji": "食べ物",
+    "romaji": "tabemono",
     "deutsch": "Essen",
     "beispielsatz_jp": "どんなたべものがすきですか。",
     "beispielsatz_de": "Welches Essen moegen Sie?",
@@ -3618,6 +4070,7 @@
   {
     "hiragana": "たべる",
     "kanji": "食べる",
+    "romaji": "taberu",
     "deutsch": "essen",
     "beispielsatz_jp": "まいにちやさいをたべます。",
     "beispielsatz_de": "Ich esse jeden Tag Gemuese.",
@@ -3626,6 +4079,7 @@
   {
     "hiragana": "たまご",
     "kanji": "卵",
+    "romaji": "tamago",
     "deutsch": "Ei",
     "beispielsatz_jp": "たまごりょうりがすきです。",
     "beispielsatz_de": "Ich mag Eiergerichte.",
@@ -3634,6 +4088,7 @@
   {
     "hiragana": "だれ",
     "kanji": null,
+    "romaji": "dare",
     "deutsch": "wer",
     "beispielsatz_jp": "だれがきましたか。",
     "beispielsatz_de": "Wer ist gekommen?",
@@ -3642,6 +4097,7 @@
   {
     "hiragana": "だれか",
     "kanji": null,
+    "romaji": "dareka",
     "deutsch": "jemand",
     "beispielsatz_jp": "だれかがドアをたたいています。",
     "beispielsatz_de": "Jemand klopft an die Tuer.",
@@ -3650,6 +4106,7 @@
   {
     "hiragana": "たんじょうび",
     "kanji": "誕生日",
+    "romaji": "tanjoubi",
     "deutsch": "Geburtstag",
     "beispielsatz_jp": "たんじょうびはいつですか。",
     "beispielsatz_de": "Wann ist Ihr Geburtstag?",
@@ -3658,6 +4115,7 @@
   {
     "hiragana": "だんだん",
     "kanji": null,
+    "romaji": "dandan",
     "deutsch": "nach und nach",
     "beispielsatz_jp": "だんだんにほんごがじょうずになります。",
     "beispielsatz_de": "Nach und nach wird mein Japanisch besser.",
@@ -3666,6 +4124,7 @@
   {
     "hiragana": "ちいさい",
     "kanji": "小さい",
+    "romaji": "chiisai",
     "deutsch": "klein",
     "beispielsatz_jp": "このこねこはちいさいです。",
     "beispielsatz_de": "Dieses Kaetzchen ist klein.",
@@ -3674,6 +4133,7 @@
   {
     "hiragana": "ちいさな",
     "kanji": "小さな",
+    "romaji": "chiisana",
     "deutsch": "klein",
     "beispielsatz_jp": "ちいさなかびんです。",
     "beispielsatz_de": "Es ist eine kleine Vase.",
@@ -3682,6 +4142,7 @@
   {
     "hiragana": "ちかい",
     "kanji": "近い",
+    "romaji": "chikai",
     "deutsch": "nahe",
     "beispielsatz_jp": "えきはちかいです。",
     "beispielsatz_de": "Der Bahnhof ist nah.",
@@ -3690,6 +4151,7 @@
   {
     "hiragana": "ちがう",
     "kanji": "違う",
+    "romaji": "chigau",
     "deutsch": "anders sein",
     "beispielsatz_jp": "このふたつのいろはちがいます。",
     "beispielsatz_de": "Diese zwei Farben sind unterschiedlich.",
@@ -3698,6 +4160,7 @@
   {
     "hiragana": "ちかく",
     "kanji": "近く",
+    "romaji": "chikaku",
     "deutsch": "in der Nähe",
     "beispielsatz_jp": "えきのちかくにスーパーがあります。",
     "beispielsatz_de": "In der Naehe des Bahnhofs ist ein Supermarkt.",
@@ -3706,6 +4169,7 @@
   {
     "hiragana": "ちかてつ",
     "kanji": "地下鉄",
+    "romaji": "chikatetsu",
     "deutsch": "U-Bahn",
     "beispielsatz_jp": "ちかてつでいきます。",
     "beispielsatz_de": "Ich fahre mit der U-Bahn.",
@@ -3714,6 +4178,7 @@
   {
     "hiragana": "ちず",
     "kanji": "地図",
+    "romaji": "chizu",
     "deutsch": "Karte",
     "beispielsatz_jp": "ちずをみてください。",
     "beispielsatz_de": "Schauen Sie bitte auf die Karte.",
@@ -3722,6 +4187,7 @@
   {
     "hiragana": "ちち",
     "kanji": "父",
+    "romaji": "chichi",
     "deutsch": "(mein) Vater",
     "beispielsatz_jp": "ちちはかいしゃいんです。",
     "beispielsatz_de": "Mein Vater ist Bueroangestellter.",
@@ -3730,6 +4196,7 @@
   {
     "hiragana": "ちゃいろ",
     "kanji": "茶色",
+    "romaji": "chairo",
     "deutsch": "Braun",
     "beispielsatz_jp": "このくつはちゃいろです。",
     "beispielsatz_de": "Diese Schuhe sind braun.",
@@ -3738,6 +4205,7 @@
   {
     "hiragana": "ちゃわん",
     "kanji": null,
+    "romaji": "chawan",
     "deutsch": "Schüssel",
     "beispielsatz_jp": "ちゃわんにごはんをいれます。",
     "beispielsatz_de": "Ich tue Reis in die Schuessel.",
@@ -3746,6 +4214,7 @@
   {
     "hiragana": "ちょうど",
     "kanji": null,
+    "romaji": "choudo",
     "deutsch": "genau",
     "beispielsatz_jp": "ちょうどいちじです。",
     "beispielsatz_de": "Es ist genau 1 Uhr.",
@@ -3754,6 +4223,7 @@
   {
     "hiragana": "ちょっと",
     "kanji": null,
+    "romaji": "chotto",
     "deutsch": "etwas",
     "beispielsatz_jp": "ちょっとまってください。",
     "beispielsatz_de": "Warten Sie bitte kurz.",
@@ -3762,6 +4232,7 @@
   {
     "hiragana": "ついたち",
     "kanji": "一日",
+    "romaji": "tsuitachi",
     "deutsch": "1. Tag eines Monats",
     "beispielsatz_jp": "ついたちにしけんがあります。",
     "beispielsatz_de": "Am 1. gibt es eine Pruefung.",
@@ -3770,6 +4241,7 @@
   {
     "hiragana": "つかう",
     "kanji": "使う",
+    "romaji": "tsukau",
     "deutsch": "benutzen",
     "beispielsatz_jp": "まいにちパソコンをつかいます。",
     "beispielsatz_de": "Jeden Tag benutze ich den Computer.",
@@ -3778,6 +4250,7 @@
   {
     "hiragana": "つかれる",
     "kanji": "疲れる",
+    "romaji": "tsukareru",
     "deutsch": "müde werden",
     "beispielsatz_jp": "しごとでつかれました。",
     "beispielsatz_de": "Ich bin von der Arbeit muede.",
@@ -3786,6 +4259,7 @@
   {
     "hiragana": "つぎ",
     "kanji": "次",
+    "romaji": "tsugi",
     "deutsch": "der Nächste",
     "beispielsatz_jp": "つぎのえきはどこですか。",
     "beispielsatz_de": "Wo ist der naechste Bahnhof?",
@@ -3794,6 +4268,7 @@
   {
     "hiragana": "つく",
     "kanji": "着く",
+    "romaji": "tsuku",
     "deutsch": "ankommen",
     "beispielsatz_jp": "えきにつきました。",
     "beispielsatz_de": "Ich bin am Bahnhof angekommen.",
@@ -3802,6 +4277,7 @@
   {
     "hiragana": "つくえ",
     "kanji": "机",
+    "romaji": "tsukue",
     "deutsch": "Schreibtisch",
     "beispielsatz_jp": "つくえのうえにほんがあります。",
     "beispielsatz_de": "Auf dem Schreibtisch liegt ein Buch.",
@@ -3810,6 +4286,7 @@
   {
     "hiragana": "つくりかた",
     "kanji": "作り方",
+    "romaji": "tsukurikata",
     "deutsch": "wie es hergestellt wird",
     "beispielsatz_jp": "ケーキのつくりかたをおしえてください。",
     "beispielsatz_de": "Bitte erklaeren Sie mir, wie man Kuchen macht.",
@@ -3818,6 +4295,7 @@
   {
     "hiragana": "つくる",
     "kanji": "作る",
+    "romaji": "tsukuru",
     "deutsch": "herstellen",
     "beispielsatz_jp": "りょうりをつくります。",
     "beispielsatz_de": "Ich koche.",
@@ -3826,6 +4304,7 @@
   {
     "hiragana": "つける",
     "kanji": null,
+    "romaji": "tsukeru",
     "deutsch": "einschalten, anbringen",
     "beispielsatz_jp": "テレビをつけます。",
     "beispielsatz_de": "Ich schalte den Fernseher ein.",
@@ -3834,6 +4313,7 @@
   {
     "hiragana": "つとめる",
     "kanji": "勤める",
+    "romaji": "tsutomeru",
     "deutsch": "arbeiten",
     "beispielsatz_jp": "ぎんこうにつとめています。",
     "beispielsatz_de": "Ich arbeite bei einer Bank.",
@@ -3842,6 +4322,7 @@
   {
     "hiragana": "つまらない",
     "kanji": null,
+    "romaji": "tsumaranai",
     "deutsch": "langweilig",
     "beispielsatz_jp": "このえいがはつまらないです。",
     "beispielsatz_de": "Dieser Film ist langweilig.",
@@ -3850,6 +4331,7 @@
   {
     "hiragana": "つめたい",
     "kanji": "冷たい",
+    "romaji": "tsumetai",
     "deutsch": "kalt",
     "beispielsatz_jp": "このみずはつめたいです。",
     "beispielsatz_de": "Dieses Wasser ist kalt.",
@@ -3858,6 +4340,7 @@
   {
     "hiragana": "つよい",
     "kanji": "強い",
+    "romaji": "tsuyoi",
     "deutsch": "stark",
     "beispielsatz_jp": "このいぬはつよいです。",
     "beispielsatz_de": "Dieser Hund ist stark.",
@@ -3866,6 +4349,7 @@
   {
     "hiragana": "て",
     "kanji": "手",
+    "romaji": "te",
     "deutsch": "Hand",
     "beispielsatz_jp": "てをあらってください。",
     "beispielsatz_de": "Bitte waschen Sie die Haende.",
@@ -3874,6 +4358,7 @@
   {
     "hiragana": "テープ",
     "kanji": null,
+    "romaji": "teepu",
     "deutsch": "Band, Klebestreifen",
     "beispielsatz_jp": "はこをテープでとめます。",
     "beispielsatz_de": "Ich befestige die Box mit Klebeband.",
@@ -3882,6 +4367,7 @@
   {
     "hiragana": "テーブル",
     "kanji": null,
+    "romaji": "teeburu",
     "deutsch": "Tisch",
     "beispielsatz_jp": "テーブルのうえにほんがあります。",
     "beispielsatz_de": "Auf dem Tisch liegt ein Buch.",
@@ -3890,6 +4376,7 @@
   {
     "hiragana": "でかける",
     "kanji": "出かける",
+    "romaji": "dekakeru",
     "deutsch": "ausgehen",
     "beispielsatz_jp": "ともだちといっしょにでかけます。",
     "beispielsatz_de": "Ich gehe mit einem Freund aus.",
@@ -3898,6 +4385,7 @@
   {
     "hiragana": "てがみ",
     "kanji": "手紙",
+    "romaji": "tegami",
     "deutsch": "Brief",
     "beispielsatz_jp": "てがみをかきます。",
     "beispielsatz_de": "Ich schreibe einen Brief.",
@@ -3906,6 +4394,7 @@
   {
     "hiragana": "できる",
     "kanji": null,
+    "romaji": "dekiru",
     "deutsch": "können",
     "beispielsatz_jp": "にほんごがすこしできます。",
     "beispielsatz_de": "Ich kann ein bisschen Japanisch.",
@@ -3914,6 +4403,7 @@
   {
     "hiragana": "でぐち",
     "kanji": "出口",
+    "romaji": "deguchi",
     "deutsch": "Ausgang",
     "beispielsatz_jp": "でぐちはどこですか。",
     "beispielsatz_de": "Wo ist der Ausgang?",
@@ -3922,6 +4412,7 @@
   {
     "hiragana": "テスト",
     "kanji": null,
+    "romaji": "tesuto",
     "deutsch": "Test",
     "beispielsatz_jp": "テストでいいてんをとりました。",
     "beispielsatz_de": "Beim Test habe ich eine gute Note bekommen.",
@@ -3930,6 +4421,7 @@
   {
     "hiragana": "では",
     "kanji": null,
+    "romaji": "deha",
     "deutsch": "dann (auch als Verabschiedung)",
     "beispielsatz_jp": "では、またらいしゅう。",
     "beispielsatz_de": "Dann, bis naechste Woche.",
@@ -3938,6 +4430,7 @@
   {
     "hiragana": "デパート",
     "kanji": null,
+    "romaji": "depaato",
     "deutsch": "Kaufhaus",
     "beispielsatz_jp": "デパートでかいものをします。",
     "beispielsatz_de": "Ich kaufe im Kaufhaus ein.",
@@ -3946,6 +4439,7 @@
   {
     "hiragana": "でも",
     "kanji": null,
+    "romaji": "demo",
     "deutsch": "aber",
     "beispielsatz_jp": "たかいです、でもかいます。",
     "beispielsatz_de": "Es ist teuer, aber ich kaufe es.",
@@ -3954,6 +4448,7 @@
   {
     "hiragana": "でる",
     "kanji": "出る",
+    "romaji": "deru",
     "deutsch": "hinausgehen",
     "beispielsatz_jp": "そとにでます。",
     "beispielsatz_de": "Ich gehe nach draussen.",
@@ -3962,6 +4457,7 @@
   {
     "hiragana": "テレビ",
     "kanji": null,
+    "romaji": "terebi",
     "deutsch": "TV",
     "beispielsatz_jp": "まいばんテレビをみます。",
     "beispielsatz_de": "Jeden Abend sehe ich Fernsehen.",
@@ -3970,6 +4466,7 @@
   {
     "hiragana": "てんき",
     "kanji": "天気",
+    "romaji": "tenki",
     "deutsch": "Wetter",
     "beispielsatz_jp": "きょうのてんきはいいです。",
     "beispielsatz_de": "Das heutige Wetter ist gut.",
@@ -3978,6 +4475,7 @@
   {
     "hiragana": "でんき",
     "kanji": "電気",
+    "romaji": "denki",
     "deutsch": "elektrisches Licht",
     "beispielsatz_jp": "へやのでんきをつけます。",
     "beispielsatz_de": "Ich schalte das Licht im Zimmer ein.",
@@ -3986,6 +4484,7 @@
   {
     "hiragana": "でんしゃ",
     "kanji": "電車",
+    "romaji": "densha",
     "deutsch": "(elektrische) Bahn",
     "beispielsatz_jp": "まいにちでんしゃでかいしゃにいきます。",
     "beispielsatz_de": "Jeden Tag fahre ich mit der Bahn zur Arbeit.",
@@ -3994,6 +4493,7 @@
   {
     "hiragana": "でんわ",
     "kanji": "電話",
+    "romaji": "denwa",
     "deutsch": "Telefon",
     "beispielsatz_jp": "でんわをかけます。",
     "beispielsatz_de": "Ich rufe an.",
@@ -4002,6 +4502,7 @@
   {
     "hiragana": "でんわばんごう",
     "kanji": "電話番号",
+    "romaji": "denwabangou",
     "deutsch": "Telefonnummer",
     "beispielsatz_jp": "でんわばんごうをおしえてください。",
     "beispielsatz_de": "Bitte geben Sie mir Ihre Telefonnummer.",
@@ -4010,6 +4511,7 @@
   {
     "hiragana": "〜ど",
     "kanji": "〜度",
+    "romaji": "~do",
     "deutsch": "〜°C",
     "beispielsatz_jp": "きょうはにじゅうごどです。",
     "beispielsatz_de": "Heute sind es 25 Grad.",
@@ -4018,6 +4520,7 @@
   {
     "hiragana": "ど",
     "kanji": "土",
+    "romaji": "do",
     "deutsch": "Samstag (Abkürzung)",
     "beispielsatz_jp": "どはどようびのりゃくです。",
     "beispielsatz_de": "Do ist die Abkuerzung fuer Samstag.",
@@ -4026,6 +4529,7 @@
   {
     "hiragana": "ドア",
     "kanji": null,
+    "romaji": "doa",
     "deutsch": "Tür",
     "beispielsatz_jp": "ドアをあけてください。",
     "beispielsatz_de": "Bitte oeffnen Sie die Tuer.",
@@ -4034,6 +4538,7 @@
   {
     "hiragana": "ドイツ",
     "kanji": null,
+    "romaji": "doitsu",
     "deutsch": "Deutschland",
     "beispielsatz_jp": "ドイツにすんでいます。",
     "beispielsatz_de": "Ich wohne in Deutschland.",
@@ -4042,6 +4547,7 @@
   {
     "hiragana": "どいつご",
     "kanji": "ドイツ語",
+    "romaji": "doitsugo",
     "deutsch": "Deutsch (Sprache)",
     "beispielsatz_jp": "どいつごをべんきょうしています。",
     "beispielsatz_de": "Ich lerne Deutsch.",
@@ -4050,6 +4556,7 @@
   {
     "hiragana": "トイレ",
     "kanji": null,
+    "romaji": "toire",
     "deutsch": "Toilette",
     "beispielsatz_jp": "トイレはどこですか。",
     "beispielsatz_de": "Wo ist die Toilette?",
@@ -4058,6 +4565,7 @@
   {
     "hiragana": "トイレットペーパー",
     "kanji": null,
+    "romaji": "toirettopeepaa",
     "deutsch": "Toilettenpapier",
     "beispielsatz_jp": "トイレットペーパーがありません。",
     "beispielsatz_de": "Es gibt kein Toilettenpapier.",
@@ -4066,6 +4574,7 @@
   {
     "hiragana": "どう",
     "kanji": null,
+    "romaji": "dou",
     "deutsch": "wie",
     "beispielsatz_jp": "にほんごはどうですか。",
     "beispielsatz_de": "Wie ist Japanisch fuer Sie?",
@@ -4074,6 +4583,7 @@
   {
     "hiragana": "どういたしまして",
     "kanji": null,
+    "romaji": "douitashimashite",
     "deutsch": "Gern geschehen.",
     "beispielsatz_jp": "どういたしまして。",
     "beispielsatz_de": "Gern geschehen.",
@@ -4082,6 +4592,7 @@
   {
     "hiragana": "とうきょう",
     "kanji": "東京",
+    "romaji": "toukyou",
     "deutsch": "Tokio",
     "beispielsatz_jp": "とうきょうにすんでいます。",
     "beispielsatz_de": "Ich wohne in Tokio.",
@@ -4090,6 +4601,7 @@
   {
     "hiragana": "どうして",
     "kanji": null,
+    "romaji": "doushite",
     "deutsch": "wie, warum",
     "beispielsatz_jp": "どうしてがっこうをやすみましたか。",
     "beispielsatz_de": "Warum haben Sie die Schule verpasst?",
@@ -4098,6 +4610,7 @@
   {
     "hiragana": "どうぞ",
     "kanji": null,
+    "romaji": "douzo",
     "deutsch": "bitte sehr",
     "beispielsatz_jp": "どうぞすわってください。",
     "beispielsatz_de": "Bitte setzen Sie sich.",
@@ -4106,6 +4619,7 @@
   {
     "hiragana": "とうふ",
     "kanji": "豆腐",
+    "romaji": "toufu",
     "deutsch": "Tofu",
     "beispielsatz_jp": "とうふをたべます。",
     "beispielsatz_de": "Ich esse Tofu.",
@@ -4114,6 +4628,7 @@
   {
     "hiragana": "どうぶつ",
     "kanji": "動物",
+    "romaji": "doubutsu",
     "deutsch": "Tier",
     "beispielsatz_jp": "どうぶつがすきです。",
     "beispielsatz_de": "Ich mag Tiere.",
@@ -4122,6 +4637,7 @@
   {
     "hiragana": "どうも",
     "kanji": null,
+    "romaji": "doumo",
     "deutsch": "sehr",
     "beispielsatz_jp": "どうもありがとうございます。",
     "beispielsatz_de": "Vielen herzlichen Dank.",
@@ -4130,6 +4646,7 @@
   {
     "hiragana": "とお",
     "kanji": "十",
+    "romaji": "too",
     "deutsch": "10",
     "beispielsatz_jp": "とおはじゅうともいいます。",
     "beispielsatz_de": "Too wird auch juu ausgesprochen.",
@@ -4138,6 +4655,7 @@
   {
     "hiragana": "とおい",
     "kanji": "遠い",
+    "romaji": "tooi",
     "deutsch": "weit entfernt",
     "beispielsatz_jp": "えきはとおいです。",
     "beispielsatz_de": "Der Bahnhof ist weit entfernt.",
@@ -4146,6 +4664,7 @@
   {
     "hiragana": "とおか",
     "kanji": "十日",
+    "romaji": "tooka",
     "deutsch": "10. Tag eines Monats",
     "beispielsatz_jp": "とおかにかいぎがあります。",
     "beispielsatz_de": "Am 10. gibt es eine Besprechung.",
@@ -4154,6 +4673,7 @@
   {
     "hiragana": "とおかかん",
     "kanji": "十日間",
+    "romaji": "tookakan",
     "deutsch": "10 Tage",
     "beispielsatz_jp": "りょこうはとおかかんです。",
     "beispielsatz_de": "Die Reise dauert 10 Tage.",
@@ -4162,6 +4682,7 @@
   {
     "hiragana": "ときどき",
     "kanji": "時々",
+    "romaji": "tokidoki",
     "deutsch": "manchmal",
     "beispielsatz_jp": "ときどきえいがをみます。",
     "beispielsatz_de": "Manchmal sehe ich Filme.",
@@ -4170,6 +4691,7 @@
   {
     "hiragana": "とけい",
     "kanji": "時計",
+    "romaji": "tokei",
     "deutsch": "Uhr",
     "beispielsatz_jp": "とけいをみます。",
     "beispielsatz_de": "Ich schaue auf die Uhr.",
@@ -4178,6 +4700,7 @@
   {
     "hiragana": "どこ",
     "kanji": null,
+    "romaji": "doko",
     "deutsch": "wo",
     "beispielsatz_jp": "えきはどこですか。",
     "beispielsatz_de": "Wo ist der Bahnhof?",
@@ -4186,6 +4709,7 @@
   {
     "hiragana": "どこか",
     "kanji": null,
+    "romaji": "dokoka",
     "deutsch": "irgendwo",
     "beispielsatz_jp": "どこかにいきたいです。",
     "beispielsatz_de": "Ich moechte irgendwo hingehen.",
@@ -4194,6 +4718,7 @@
   {
     "hiragana": "ところ",
     "kanji": "所",
+    "romaji": "tokoro",
     "deutsch": "Ort",
     "beispielsatz_jp": "すきなところはどこですか。",
     "beispielsatz_de": "Welcher Ort gefaellt Ihnen?",
@@ -4202,6 +4727,7 @@
   {
     "hiragana": "とし",
     "kanji": "年",
+    "romaji": "toshi",
     "deutsch": "Jahr",
     "beispielsatz_jp": "ことしはとしがあがりました。",
     "beispielsatz_de": "Dieses Jahr bin ich aelter geworden.",
@@ -4210,6 +4736,7 @@
   {
     "hiragana": "としょかん",
     "kanji": "図書館",
+    "romaji": "toshokan",
     "deutsch": "Bibliothek",
     "beispielsatz_jp": "としょかんでほんをかります。",
     "beispielsatz_de": "Ich leihe in der Bibliothek ein Buch aus.",
@@ -4218,6 +4745,7 @@
   {
     "hiragana": "どちら",
     "kanji": null,
+    "romaji": "dochira",
     "deutsch": "woher, welches",
     "beispielsatz_jp": "どちらのほうがすきですか。",
     "beispielsatz_de": "Welches moegen Sie lieber?",
@@ -4226,6 +4754,7 @@
   {
     "hiragana": "どっかい",
     "kanji": "読解",
+    "romaji": "dokkai",
     "deutsch": "Leseverständnis",
     "beispielsatz_jp": "どっかいのれんしゅうをします。",
     "beispielsatz_de": "Ich uebe das Leseverstaendnis.",
@@ -4234,6 +4763,7 @@
   {
     "hiragana": "どっち",
     "kanji": null,
+    "romaji": "dotchi",
     "deutsch": "woher, welches",
     "beispielsatz_jp": "どっちのほうがすきですか。",
     "beispielsatz_de": "Welches moegen Sie lieber?",
@@ -4242,6 +4772,7 @@
   {
     "hiragana": "とても",
     "kanji": null,
+    "romaji": "totemo",
     "deutsch": "sehr",
     "beispielsatz_jp": "このりょうりはとてもおいしいです。",
     "beispielsatz_de": "Dieses Gericht ist sehr lecker.",
@@ -4250,6 +4781,7 @@
   {
     "hiragana": "どなた",
     "kanji": null,
+    "romaji": "donata",
     "deutsch": "wer",
     "beispielsatz_jp": "どなたですか。",
     "beispielsatz_de": "Wer sind Sie?",
@@ -4258,6 +4790,7 @@
   {
     "hiragana": "となり",
     "kanji": null,
+    "romaji": "tonari",
     "deutsch": "Nachbarschaft",
     "beispielsatz_jp": "となりのへやはしずかです。",
     "beispielsatz_de": "Das Nachbarzimmer ist ruhig.",
@@ -4266,6 +4799,7 @@
   {
     "hiragana": "どの",
     "kanji": null,
+    "romaji": "dono",
     "deutsch": "welches",
     "beispielsatz_jp": "どのほんがすきですか。",
     "beispielsatz_de": "Welches Buch moegen Sie?",
@@ -4274,6 +4808,7 @@
   {
     "hiragana": "とぶ",
     "kanji": "飛ぶ",
+    "romaji": "tobu",
     "deutsch": "springen",
     "beispielsatz_jp": "とりがそらをとんでいます。",
     "beispielsatz_de": "Der Vogel fliegt am Himmel.",
@@ -4282,6 +4817,7 @@
   {
     "hiragana": "とまる",
     "kanji": "止まる",
+    "romaji": "tomaru",
     "deutsch": "halten",
     "beispielsatz_jp": "バスがとまります。",
     "beispielsatz_de": "Der Bus haelt an.",
@@ -4290,6 +4826,7 @@
   {
     "hiragana": "ともだち",
     "kanji": "友達",
+    "romaji": "tomodachi",
     "deutsch": "Freund",
     "beispielsatz_jp": "ともだちにてがみをかきます。",
     "beispielsatz_de": "Ich schreibe einem Freund einen Brief.",
@@ -4298,6 +4835,7 @@
   {
     "hiragana": "どようび",
     "kanji": "土曜日",
+    "romaji": "doyoubi",
     "deutsch": "Samstag",
     "beispielsatz_jp": "どようびにえいがをみます。",
     "beispielsatz_de": "Am Samstag sehe ich einen Film.",
@@ -4306,6 +4844,7 @@
   {
     "hiragana": "とり",
     "kanji": "鳥",
+    "romaji": "tori",
     "deutsch": "Vogel",
     "beispielsatz_jp": "にわにとりがいます。",
     "beispielsatz_de": "Im Garten ist ein Vogel.",
@@ -4314,6 +4853,7 @@
   {
     "hiragana": "とりにく",
     "kanji": "鳥肉",
+    "romaji": "toriniku",
     "deutsch": "Vogelfleisch",
     "beispielsatz_jp": "とりにくをたべます。",
     "beispielsatz_de": "Ich esse Huehner.",
@@ -4322,6 +4862,7 @@
   {
     "hiragana": "とる",
     "kanji": "取る",
+    "romaji": "toru",
     "deutsch": "aufnehmen",
     "beispielsatz_jp": "でんわをとります。",
     "beispielsatz_de": "Ich nehme das Telefon ab.",
@@ -4330,6 +4871,7 @@
   {
     "hiragana": "とる",
     "kanji": "取る",
+    "romaji": "toru",
     "deutsch": "nehmen",
     "beispielsatz_jp": "テーブルのうえのほんをとってください。",
     "beispielsatz_de": "Bitte nehmen Sie das Buch vom Tisch.",
@@ -4338,6 +4880,7 @@
   {
     "hiragana": "どれ",
     "kanji": null,
+    "romaji": "dore",
     "deutsch": "welches",
     "beispielsatz_jp": "どれがすきですか。",
     "beispielsatz_de": "Welches moegen Sie?",
@@ -4346,6 +4889,7 @@
   {
     "hiragana": "ドレス",
     "kanji": null,
+    "romaji": "doresu",
     "deutsch": "Kleid",
     "beispielsatz_jp": "きれいなドレスをきています。",
     "beispielsatz_de": "Sie traegt ein schoenes Kleid.",
@@ -4354,6 +4898,7 @@
   {
     "hiragana": "どんな",
     "kanji": null,
+    "romaji": "donna",
     "deutsch": "welche Art",
     "beispielsatz_jp": "どんなりょうりがすきですか。",
     "beispielsatz_de": "Welche Art von Essen moegen Sie?",
@@ -4362,6 +4907,7 @@
   {
     "hiragana": "ない",
     "kanji": null,
+    "romaji": "nai",
     "deutsch": "nicht existieren",
     "beispielsatz_jp": "きょうはじかんがないです。",
     "beispielsatz_de": "Heute habe ich keine Zeit.",
@@ -4370,6 +4916,7 @@
   {
     "hiragana": "ナイフ",
     "kanji": null,
+    "romaji": "naifu",
     "deutsch": "Messer",
     "beispielsatz_jp": "ナイフとフォークをつかいます。",
     "beispielsatz_de": "Ich benutze Messer und Gabel.",
@@ -4378,6 +4925,7 @@
   {
     "hiragana": "なか",
     "kanji": "中",
+    "romaji": "naka",
     "deutsch": "innen",
     "beispielsatz_jp": "はこのなかにほんがあります。",
     "beispielsatz_de": "Im Kasten ist ein Buch.",
@@ -4386,6 +4934,7 @@
   {
     "hiragana": "ながい",
     "kanji": "長い",
+    "romaji": "nagai",
     "deutsch": "lang",
     "beispielsatz_jp": "このなわはながいです。",
     "beispielsatz_de": "Dieses Seil ist lang.",
@@ -4394,6 +4943,7 @@
   {
     "hiragana": "なかから",
     "kanji": "中から",
+    "romaji": "nakakara",
     "deutsch": "aus",
     "beispielsatz_jp": "はこのなかからほんをだします。",
     "beispielsatz_de": "Ich nehme das Buch aus dem Kasten.",
@@ -4402,6 +4952,7 @@
   {
     "hiragana": "なく",
     "kanji": "泣く",
+    "romaji": "naku",
     "deutsch": "weinen",
     "beispielsatz_jp": "かなしくてなきました。",
     "beispielsatz_de": "Ich weinte, weil ich traurig war.",
@@ -4410,6 +4961,7 @@
   {
     "hiragana": "なくす",
     "kanji": null,
+    "romaji": "nakusu",
     "deutsch": "etwas verlieren, verschwinden lassen",
     "beispielsatz_jp": "さいふをなくしました。",
     "beispielsatz_de": "Ich habe mein Portemonnaie verloren.",
@@ -4418,6 +4970,7 @@
   {
     "hiragana": "なぜ",
     "kanji": null,
+    "romaji": "naze",
     "deutsch": "warum",
     "beispielsatz_jp": "なぜがっこうをやすみましたか。",
     "beispielsatz_de": "Warum haben Sie die Schule verpasst?",
@@ -4426,6 +4979,7 @@
   {
     "hiragana": "なつ",
     "kanji": "夏",
+    "romaji": "natsu",
     "deutsch": "Sommer",
     "beispielsatz_jp": "なつはあついです。",
     "beispielsatz_de": "Der Sommer ist heiss.",
@@ -4434,6 +4988,7 @@
   {
     "hiragana": "なつやすみ",
     "kanji": "夏休み",
+    "romaji": "natsuyasumi",
     "deutsch": "Sommerferien",
     "beispielsatz_jp": "なつやすみにうみにいきます。",
     "beispielsatz_de": "In den Sommerferien gehe ich ans Meer.",
@@ -4442,6 +4997,7 @@
   {
     "hiragana": "など",
     "kanji": null,
+    "romaji": "nado",
     "deutsch": "usw.",
     "beispielsatz_jp": "やさいやくだものなどをたべます。",
     "beispielsatz_de": "Ich esse Gemuese, Obst usw.",
@@ -4450,6 +5006,7 @@
   {
     "hiragana": "なな",
     "kanji": "七",
+    "romaji": "nana",
     "deutsch": "sieben",
     "beispielsatz_jp": "ななたすさんはじゅうです。",
     "beispielsatz_de": "Sieben plus drei ist zehn.",
@@ -4458,6 +5015,7 @@
   {
     "hiragana": "ななつ",
     "kanji": "七つ",
+    "romaji": "nanatsu",
     "deutsch": "sieben Stück",
     "beispielsatz_jp": "りんごがななつあります。",
     "beispielsatz_de": "Es gibt sieben Aepfel.",
@@ -4466,6 +5024,7 @@
   {
     "hiragana": "ななひき",
     "kanji": "七匹",
+    "romaji": "nanahiki",
     "deutsch": "7 Tiere",
     "beispielsatz_jp": "どうぶつえんにななひきいます。",
     "beispielsatz_de": "Im Zoo gibt es 7 Tiere.",
@@ -4474,6 +5033,7 @@
   {
     "hiragana": "ななふん",
     "kanji": "七分",
+    "romaji": "nanafun",
     "deutsch": "7 Minuten",
     "beispielsatz_jp": "バスでななふんかかります。",
     "beispielsatz_de": "Mit dem Bus dauert es 7 Minuten.",
@@ -4482,6 +5042,7 @@
   {
     "hiragana": "ななほん",
     "kanji": "七本",
+    "romaji": "nanahon",
     "deutsch": "7 (Flaschen, ..)",
     "beispielsatz_jp": "ジュースがななほんあります。",
     "beispielsatz_de": "Es gibt 7 Flaschen Saft.",
@@ -4490,6 +5051,7 @@
   {
     "hiragana": "なに",
     "kanji": "何",
+    "romaji": "nani",
     "deutsch": "was, etwas",
     "beispielsatz_jp": "なにをたべますか。",
     "beispielsatz_de": "Was essen Sie?",
@@ -4498,6 +5060,7 @@
   {
     "hiragana": "なのか",
     "kanji": "七日",
+    "romaji": "nanoka",
     "deutsch": "7. Tag eines Monats",
     "beispielsatz_jp": "なのかにしけんがあります。",
     "beispielsatz_de": "Am 7. gibt es eine Pruefung.",
@@ -4506,6 +5069,7 @@
   {
     "hiragana": "なのかかん",
     "kanji": "七日間",
+    "romaji": "nanokakan",
     "deutsch": "7 Tage",
     "beispielsatz_jp": "りょこうはなのかかんです。",
     "beispielsatz_de": "Die Reise dauert 7 Tage.",
@@ -4514,6 +5078,7 @@
   {
     "hiragana": "なまえ",
     "kanji": "名前",
+    "romaji": "namae",
     "deutsch": "Name",
     "beispielsatz_jp": "おなまえはなんですか。",
     "beispielsatz_de": "Wie ist Ihr Name?",
@@ -4522,6 +5087,7 @@
   {
     "hiragana": "ならう",
     "kanji": "習う",
+    "romaji": "narau",
     "deutsch": "lernen",
     "beispielsatz_jp": "にほんごをならっています。",
     "beispielsatz_de": "Ich lerne Japanisch.",
@@ -4530,6 +5096,7 @@
   {
     "hiragana": "ならぶ",
     "kanji": null,
+    "romaji": "narabu",
     "deutsch": "nebeneinander stehen",
     "beispielsatz_jp": "みんながならんでいます。",
     "beispielsatz_de": "Alle stehen in einer Reihe.",
@@ -4538,6 +5105,7 @@
   {
     "hiragana": "ならべる",
     "kanji": null,
+    "romaji": "naraberu",
     "deutsch": "aufreihen",
     "beispielsatz_jp": "ほんをならべます。",
     "beispielsatz_de": "Ich reihe die Buecher auf.",
@@ -4546,6 +5114,7 @@
   {
     "hiragana": "なる",
     "kanji": null,
+    "romaji": "naru",
     "deutsch": "werden",
     "beispielsatz_jp": "せんせいになりたいです。",
     "beispielsatz_de": "Ich moechte Lehrer werden.",
@@ -4554,6 +5123,7 @@
   {
     "hiragana": "なん",
     "kanji": "何",
+    "romaji": "nan",
     "deutsch": "was, etwas",
     "beispielsatz_jp": "なんをたべましたか。",
     "beispielsatz_de": "Was haben Sie gegessen?",
@@ -4562,6 +5132,7 @@
   {
     "hiragana": "なんかい",
     "kanji": "何回",
+    "romaji": "nankai",
     "deutsch": "wievielmal?",
     "beispielsatz_jp": "なんかいにほんにいきましたか。",
     "beispielsatz_de": "Wie oft sind Sie nach Japan gefahren?",
@@ -4570,6 +5141,7 @@
   {
     "hiragana": "なんじかん",
     "kanji": "何時間",
+    "romaji": "nanjikan",
     "deutsch": "wie viel Stunden",
     "beispielsatz_jp": "なんじかんべんきょうしましたか。",
     "beispielsatz_de": "Wie viele Stunden haben Sie gelernt?",
@@ -4578,6 +5150,7 @@
   {
     "hiragana": "なんばん",
     "kanji": "何番",
+    "romaji": "nanban",
     "deutsch": "welche Nummer",
     "beispielsatz_jp": "でんわのなんばんですか。",
     "beispielsatz_de": "Was ist die Telefonnummer?",
@@ -4586,6 +5159,7 @@
   {
     "hiragana": "に",
     "kanji": "二",
+    "romaji": "ni",
     "deutsch": "zwei",
     "beispielsatz_jp": "にたすにはよんです。",
     "beispielsatz_de": "Zwei plus zwei ist vier.",
@@ -4594,6 +5168,7 @@
   {
     "hiragana": "にがつ",
     "kanji": "二月",
+    "romaji": "nigatsu",
     "deutsch": "Februar",
     "beispielsatz_jp": "にがつはさむいです。",
     "beispielsatz_de": "Februar ist kalt.",
@@ -4602,6 +5177,7 @@
   {
     "hiragana": "にぎやか",
     "kanji": null,
+    "romaji": "nigiyaka",
     "deutsch": "lebhaft",
     "beispielsatz_jp": "とうきょうはにぎやかなまちです。",
     "beispielsatz_de": "Tokio ist eine lebhafte Stadt.",
@@ -4610,6 +5186,7 @@
   {
     "hiragana": "にく",
     "kanji": "肉",
+    "romaji": "niku",
     "deutsch": "Fleisch",
     "beispielsatz_jp": "にくをたべます。",
     "beispielsatz_de": "Ich esse Fleisch.",
@@ -4618,6 +5195,7 @@
   {
     "hiragana": "にじ",
     "kanji": "二時",
+    "romaji": "niji",
     "deutsch": "2 Uhr",
     "beispielsatz_jp": "にじにあいましょう。",
     "beispielsatz_de": "Treffen wir uns um 2 Uhr.",
@@ -4626,6 +5204,7 @@
   {
     "hiragana": "にし",
     "kanji": "西",
+    "romaji": "nishi",
     "deutsch": "Westen",
     "beispielsatz_jp": "にしにえきがあります。",
     "beispielsatz_de": "Im Westen ist der Bahnhof.",
@@ -4634,6 +5213,7 @@
   {
     "hiragana": "〜にち",
     "kanji": "〜日",
+    "romaji": "~nichi",
     "deutsch": "～. Tag eines Monats",
     "beispielsatz_jp": "じゅうにちはじゅうのひです。",
     "beispielsatz_de": "Der 10. ist der zehnte Tag.",
@@ -4642,6 +5222,7 @@
   {
     "hiragana": "にち",
     "kanji": "日",
+    "romaji": "nichi",
     "deutsch": "Sonntag (Abkürzung)",
     "beispielsatz_jp": "にちはにちようびのりゃくです。",
     "beispielsatz_de": "Nichi ist die Abkuerzung fuer Sonntag.",
@@ -4650,6 +5231,7 @@
   {
     "hiragana": "〜にちかん",
     "kanji": "〜日間",
+    "romaji": "~nichikan",
     "deutsch": "～ Tage (Anzahl ab 3)",
     "beispielsatz_jp": "さんにちかんにほんにいます。",
     "beispielsatz_de": "Ich bin 3 Tage in Japan.",
@@ -4658,6 +5240,7 @@
   {
     "hiragana": "にちようび",
     "kanji": "日曜日",
+    "romaji": "nichiyoubi",
     "deutsch": "Sonntag",
     "beispielsatz_jp": "にちようびはやすみです。",
     "beispielsatz_de": "Sonntag ist frei.",
@@ -4666,6 +5249,7 @@
   {
     "hiragana": "にひき",
     "kanji": "二匹",
+    "romaji": "nihiki",
     "deutsch": "2 Tiere",
     "beispielsatz_jp": "どうぶつえんにはにひきいます。",
     "beispielsatz_de": "Im Zoo gibt es 2 Tiere.",
@@ -4674,6 +5258,7 @@
   {
     "hiragana": "にふん",
     "kanji": "二分",
+    "romaji": "nifun",
     "deutsch": "2 Minuten",
     "beispielsatz_jp": "バスでにふんかかります。",
     "beispielsatz_de": "Mit dem Bus dauert es 2 Minuten.",
@@ -4682,6 +5267,7 @@
   {
     "hiragana": "にほん",
     "kanji": "二本",
+    "romaji": "nihon",
     "deutsch": "2 (Flaschen, ..)",
     "beispielsatz_jp": "ビールがにほんあります。",
     "beispielsatz_de": "Es gibt 2 Flaschen Bier.",
@@ -4690,6 +5276,7 @@
   {
     "hiragana": "にほん",
     "kanji": "日本",
+    "romaji": "nihon",
     "deutsch": "Japan",
     "beispielsatz_jp": "にほんにいきたいです。",
     "beispielsatz_de": "Ich moechte nach Japan fahren.",
@@ -4698,6 +5285,7 @@
   {
     "hiragana": "にほんご",
     "kanji": "日本語",
+    "romaji": "nihongo",
     "deutsch": "Japanisch",
     "beispielsatz_jp": "にほんごをべんきょうしています。",
     "beispielsatz_de": "Ich lerne Japanisch.",
@@ -4706,6 +5294,7 @@
   {
     "hiragana": "にもつ",
     "kanji": "荷物",
+    "romaji": "nimotsu",
     "deutsch": "Gepäck",
     "beispielsatz_jp": "にもつをもってください。",
     "beispielsatz_de": "Bitte tragen Sie das Gepaeck.",
@@ -4714,6 +5303,7 @@
   {
     "hiragana": "ニュース",
     "kanji": null,
+    "romaji": "nyuusu",
     "deutsch": "Nachrichten",
     "beispielsatz_jp": "まいにちニュースをみます。",
     "beispielsatz_de": "Jeden Tag schaue ich Nachrichten.",
@@ -4722,6 +5312,7 @@
   {
     "hiragana": "にわ",
     "kanji": "庭",
+    "romaji": "niwa",
     "deutsch": "Garten",
     "beispielsatz_jp": "にわでさんぽします。",
     "beispielsatz_de": "Ich spaziere im Garten.",
@@ -4730,6 +5321,7 @@
   {
     "hiragana": "〜にん",
     "kanji": "〜人",
+    "romaji": "~nin",
     "deutsch": "Personen (Anzahl ab 3)",
     "beispielsatz_jp": "さんにんでたべます。",
     "beispielsatz_de": "Wir essen zu dritt.",
@@ -4738,6 +5330,7 @@
   {
     "hiragana": "ぬぐ",
     "kanji": "脱ぐ",
+    "romaji": "nugu",
     "deutsch": "ausziehen",
     "beispielsatz_jp": "くつをぬいでください。",
     "beispielsatz_de": "Bitte ziehen Sie die Schuhe aus.",
@@ -4746,6 +5339,7 @@
   {
     "hiragana": "ぬる",
     "kanji": "塗る",
+    "romaji": "nuru",
     "deutsch": "malen, schmieren",
     "beispielsatz_jp": "かべをぬります。",
     "beispielsatz_de": "Ich streiche die Wand.",
@@ -4754,6 +5348,7 @@
   {
     "hiragana": "ぬるい",
     "kanji": null,
+    "romaji": "nurui",
     "deutsch": "lauwarm",
     "beispielsatz_jp": "このスープはぬるいです。",
     "beispielsatz_de": "Diese Suppe ist lauwarm.",
@@ -4762,6 +5357,7 @@
   {
     "hiragana": "ねこ",
     "kanji": "猫",
+    "romaji": "neko",
     "deutsch": "Katze",
     "beispielsatz_jp": "うちにねこがいます。",
     "beispielsatz_de": "Zuhause habe ich eine Katze.",
@@ -4770,6 +5366,7 @@
   {
     "hiragana": "ねる",
     "kanji": "寝る",
+    "romaji": "neru",
     "deutsch": "schlafen",
     "beispielsatz_jp": "まいにちはやくねます。",
     "beispielsatz_de": "Jeden Tag gehe ich frueh schlafen.",
@@ -4778,6 +5375,7 @@
   {
     "hiragana": "〜ねん",
     "kanji": "〜年",
+    "romaji": "~nen",
     "deutsch": "Jahr 〜 (Datum)",
     "beispielsatz_jp": "にせんにじゅうごねんにほんにいきました。",
     "beispielsatz_de": "Im Jahr 2025 bin ich nach Japan gefahren.",
@@ -4786,6 +5384,7 @@
   {
     "hiragana": "ノート",
     "kanji": null,
+    "romaji": "nooto",
     "deutsch": "Notiz, Notizbuch",
     "beispielsatz_jp": "ノートにかきます。",
     "beispielsatz_de": "Ich schreibe ins Notizbuch.",
@@ -4794,6 +5393,7 @@
   {
     "hiragana": "のぼる",
     "kanji": "登る",
+    "romaji": "noboru",
     "deutsch": "aufgehen",
     "beispielsatz_jp": "やまにのぼります。",
     "beispielsatz_de": "Ich steige auf den Berg.",
@@ -4802,6 +5402,7 @@
   {
     "hiragana": "のみもの",
     "kanji": "飲み物",
+    "romaji": "nomimono",
     "deutsch": "Getränk",
     "beispielsatz_jp": "なにかのみものはいかがですか。",
     "beispielsatz_de": "Moechten Sie etwas trinken?",
@@ -4810,6 +5411,7 @@
   {
     "hiragana": "のむ",
     "kanji": "飲む",
+    "romaji": "nomu",
     "deutsch": "trinken",
     "beispielsatz_jp": "まいにちみずをのみます。",
     "beispielsatz_de": "Jeden Tag trinke ich Wasser.",
@@ -4818,6 +5420,7 @@
   {
     "hiragana": "のる",
     "kanji": "乗る",
+    "romaji": "noru",
     "deutsch": "einsteigen, aufsteigen",
     "beispielsatz_jp": "でんしゃにのります。",
     "beispielsatz_de": "Ich steige in den Zug.",
@@ -4826,6 +5429,7 @@
   {
     "hiragana": "は",
     "kanji": "歯",
+    "romaji": "ha",
     "deutsch": "Zahn",
     "beispielsatz_jp": "はをみがきます。",
     "beispielsatz_de": "Ich putze die Zaehne.",
@@ -4834,6 +5438,7 @@
   {
     "hiragana": "パーティー",
     "kanji": null,
+    "romaji": "paateii",
     "deutsch": "Party",
     "beispielsatz_jp": "パーティーにいきます。",
     "beispielsatz_de": "Ich gehe zur Party.",
@@ -4842,6 +5447,7 @@
   {
     "hiragana": "はい",
     "kanji": null,
+    "romaji": "hai",
     "deutsch": "ja",
     "beispielsatz_jp": "はい、そうです。",
     "beispielsatz_de": "Ja, das stimmt.",
@@ -4850,6 +5456,7 @@
   {
     "hiragana": "はいざら",
     "kanji": null,
+    "romaji": "haizara",
     "deutsch": "Aschenbecher",
     "beispielsatz_jp": "はいざらはテーブルのうえにあります。",
     "beispielsatz_de": "Der Aschenbecher ist auf dem Tisch.",
@@ -4858,6 +5465,7 @@
   {
     "hiragana": "はいる",
     "kanji": "入る",
+    "romaji": "hairu",
     "deutsch": "hineingehen",
     "beispielsatz_jp": "このたてものにはいります。",
     "beispielsatz_de": "Ich betrete dieses Gebaeude.",
@@ -4866,6 +5474,7 @@
   {
     "hiragana": "はがき",
     "kanji": "葉書",
+    "romaji": "hagaki",
     "deutsch": "Postkarte",
     "beispielsatz_jp": "ともだちにはがきをおくります。",
     "beispielsatz_de": "Ich schicke einem Freund eine Postkarte.",
@@ -4874,6 +5483,7 @@
   {
     "hiragana": "はく",
     "kanji": null,
+    "romaji": "haku",
     "deutsch": "(Hose) anziehen",
     "beispielsatz_jp": "ズボンをはきます。",
     "beispielsatz_de": "Ich ziehe eine Hose an.",
@@ -4882,6 +5492,7 @@
   {
     "hiragana": "はこ",
     "kanji": "箱",
+    "romaji": "hako",
     "deutsch": "Kasten",
     "beispielsatz_jp": "はこのなかにほんがあります。",
     "beispielsatz_de": "Im Kasten ist ein Buch.",
@@ -4890,6 +5501,7 @@
   {
     "hiragana": "はし",
     "kanji": "橋",
+    "romaji": "hashi",
     "deutsch": "Brücke",
     "beispielsatz_jp": "かわにはしがあります。",
     "beispielsatz_de": "Am Fluss gibt es eine Bruecke.",
@@ -4898,6 +5510,7 @@
   {
     "hiragana": "はし",
     "kanji": "箸",
+    "romaji": "hashi",
     "deutsch": "Stäbchen",
     "beispielsatz_jp": "はしでたべます。",
     "beispielsatz_de": "Ich esse mit Staebchen.",
@@ -4906,6 +5519,7 @@
   {
     "hiragana": "はじまる",
     "kanji": "始まる",
+    "romaji": "hajimaru",
     "deutsch": "anfangen",
     "beispielsatz_jp": "じゅぎょうがはじまります。",
     "beispielsatz_de": "Der Unterricht faengt an.",
@@ -4914,6 +5528,7 @@
   {
     "hiragana": "はじめ",
     "kanji": "始め",
+    "romaji": "hajime",
     "deutsch": "Anfang",
     "beispielsatz_jp": "はじめにじこしょうかいをします。",
     "beispielsatz_de": "Zuerst stelle ich mich vor.",
@@ -4922,6 +5537,7 @@
   {
     "hiragana": "はじめて",
     "kanji": "初めて",
+    "romaji": "hajimete",
     "deutsch": "zum ersten Mal",
     "beispielsatz_jp": "はじめてにほんにいきました。",
     "beispielsatz_de": "Zum ersten Mal bin ich nach Japan gefahren.",
@@ -4930,6 +5546,7 @@
   {
     "hiragana": "はじめに",
     "kanji": "初めに",
+    "romaji": "hajimeni",
     "deutsch": "zuerst",
     "beispielsatz_jp": "はじめにてをあらいます。",
     "beispielsatz_de": "Zuerst wasche ich die Haende.",
@@ -4938,6 +5555,7 @@
   {
     "hiragana": "はじめまして",
     "kanji": null,
+    "romaji": "hajimemashite",
     "deutsch": "Begrüßung bei erster Begegnung",
     "beispielsatz_jp": "はじめまして、やまだです。",
     "beispielsatz_de": "Guten Tag, ich bin Yamada.",
@@ -4946,6 +5564,7 @@
   {
     "hiragana": "はしる",
     "kanji": "走る",
+    "romaji": "hashiru",
     "deutsch": "laufen",
     "beispielsatz_jp": "こうえんをはしります。",
     "beispielsatz_de": "Ich laufe im Park.",
@@ -4954,6 +5573,7 @@
   {
     "hiragana": "バス",
     "kanji": null,
+    "romaji": "basu",
     "deutsch": "Bus",
     "beispielsatz_jp": "バスでいきます。",
     "beispielsatz_de": "Ich fahre mit dem Bus.",
@@ -4962,6 +5582,7 @@
   {
     "hiragana": "バスてい",
     "kanji": "バス停",
+    "romaji": "basutei",
     "deutsch": "Bushaltestelle",
     "beispielsatz_jp": "バスていでまちます。",
     "beispielsatz_de": "Ich warte an der Bushaltestelle.",
@@ -4970,6 +5591,7 @@
   {
     "hiragana": "バター",
     "kanji": null,
+    "romaji": "bataa",
     "deutsch": "Butter",
     "beispielsatz_jp": "パンにバターをぬります。",
     "beispielsatz_de": "Ich streiche Butter auf das Brot.",
@@ -4978,6 +5600,7 @@
   {
     "hiragana": "はたらく",
     "kanji": "働く",
+    "romaji": "hataraku",
     "deutsch": "arbeiten",
     "beispielsatz_jp": "かいしゃではたらいています。",
     "beispielsatz_de": "Ich arbeite in der Firma.",
@@ -4986,6 +5609,7 @@
   {
     "hiragana": "はち",
     "kanji": "八",
+    "romaji": "hachi",
     "deutsch": "acht",
     "beispielsatz_jp": "はちはようかともいいます。",
     "beispielsatz_de": "Hachi ist auch eine Aussprache fuer acht.",
@@ -4994,6 +5618,7 @@
   {
     "hiragana": "はちがつ",
     "kanji": "八月",
+    "romaji": "hachigatsu",
     "deutsch": "August",
     "beispielsatz_jp": "はちがつはなつです。",
     "beispielsatz_de": "August ist Sommer.",
@@ -5002,6 +5627,7 @@
   {
     "hiragana": "はちじ",
     "kanji": "八時",
+    "romaji": "hachiji",
     "deutsch": "8 Uhr",
     "beispielsatz_jp": "はちじにおきます。",
     "beispielsatz_de": "Ich stehe um 8 Uhr auf.",
@@ -5010,6 +5636,7 @@
   {
     "hiragana": "はっぴき",
     "kanji": "八匹",
+    "romaji": "happiki",
     "deutsch": "8 Tiere",
     "beispielsatz_jp": "どうぶつえんにはっぴきいます。",
     "beispielsatz_de": "Im Zoo gibt es 8 Tiere.",
@@ -5018,6 +5645,7 @@
   {
     "hiragana": "はっぷん",
     "kanji": "八分",
+    "romaji": "happun",
     "deutsch": "8 Minuten",
     "beispielsatz_jp": "バスではっぷんかかります。",
     "beispielsatz_de": "Mit dem Bus dauert es 8 Minuten.",
@@ -5026,6 +5654,7 @@
   {
     "hiragana": "はっぽん",
     "kanji": "八本",
+    "romaji": "happon",
     "deutsch": "8 (Flaschen, ..)",
     "beispielsatz_jp": "ジュースがはっぽんあります。",
     "beispielsatz_de": "Es gibt 8 Flaschen Saft.",
@@ -5034,6 +5663,7 @@
   {
     "hiragana": "はな",
     "kanji": "鼻",
+    "romaji": "hana",
     "deutsch": "Nase",
     "beispielsatz_jp": "はながいたいです。",
     "beispielsatz_de": "Meine Nase tut weh.",
@@ -5042,6 +5672,7 @@
   {
     "hiragana": "はな",
     "kanji": "花",
+    "romaji": "hana",
     "deutsch": "Blume",
     "beispielsatz_jp": "にわにきれいなはながさいています。",
     "beispielsatz_de": "Im Garten blueht eine schoene Blume.",
@@ -5050,6 +5681,7 @@
   {
     "hiragana": "はなし",
     "kanji": "話",
+    "romaji": "hanashi",
     "deutsch": "Geschichte, Gespräch",
     "beispielsatz_jp": "おもしろいはなしをきいてください。",
     "beispielsatz_de": "Hoeren Sie sich bitte diese interessante Geschichte an.",
@@ -5058,6 +5690,7 @@
   {
     "hiragana": "はなす",
     "kanji": "話す",
+    "romaji": "hanasu",
     "deutsch": "sagen",
     "beispielsatz_jp": "にほんごではなします。",
     "beispielsatz_de": "Ich spreche Japanisch.",
@@ -5066,6 +5699,7 @@
   {
     "hiragana": "はは",
     "kanji": "母",
+    "romaji": "haha",
     "deutsch": "(meine) Mutter",
     "beispielsatz_jp": "はははかいしゃにはたらいています。",
     "beispielsatz_de": "Meine Mutter arbeitet in einer Firma.",
@@ -5074,6 +5708,7 @@
   {
     "hiragana": "はやい",
     "kanji": "早い",
+    "romaji": "hayai",
     "deutsch": "früh",
     "beispielsatz_jp": "はやくおきます。",
     "beispielsatz_de": "Ich stehe frueh auf.",
@@ -5082,6 +5717,7 @@
   {
     "hiragana": "はやい",
     "kanji": "速い",
+    "romaji": "hayai",
     "deutsch": "schnell",
     "beispielsatz_jp": "このでんしゃははやいです。",
     "beispielsatz_de": "Dieser Zug ist schnell.",
@@ -5090,6 +5726,7 @@
   {
     "hiragana": "はる",
     "kanji": "貼る",
+    "romaji": "haru",
     "deutsch": "aufkleben, aufhängen",
     "beispielsatz_jp": "かべにポスターをはります。",
     "beispielsatz_de": "Ich klebe ein Poster an die Wand.",
@@ -5098,6 +5735,7 @@
   {
     "hiragana": "はる",
     "kanji": "春",
+    "romaji": "haru",
     "deutsch": "Frühling",
     "beispielsatz_jp": "はるはあたたかいです。",
     "beispielsatz_de": "Der Fruehling ist warm.",
@@ -5106,6 +5744,7 @@
   {
     "hiragana": "はれ",
     "kanji": "晴れ",
+    "romaji": "hare",
     "deutsch": "heiteres Wetter",
     "beispielsatz_jp": "きょうははれです。",
     "beispielsatz_de": "Heute ist es sonnig.",
@@ -5114,6 +5753,7 @@
   {
     "hiragana": "はれる",
     "kanji": "晴れる",
+    "romaji": "hareru",
     "deutsch": "aufklaren",
     "beispielsatz_jp": "あしたははれるとおもいます。",
     "beispielsatz_de": "Ich glaube, morgen wird es aufklaren.",
@@ -5122,6 +5762,7 @@
   {
     "hiragana": "パン",
     "kanji": null,
+    "romaji": "pan",
     "deutsch": "Brot",
     "beispielsatz_jp": "まいあさパンをたべます。",
     "beispielsatz_de": "Jeden Morgen esse ich Brot.",
@@ -5130,6 +5771,7 @@
   {
     "hiragana": "〜はん",
     "kanji": "〜半",
+    "romaji": "~han",
     "deutsch": "halb (z.B. １時半 = 1 Uhr 30)",
     "beispielsatz_jp": "いちじはんにかえります。",
     "beispielsatz_de": "Um halb zwei komme ich zurueck.",
@@ -5138,6 +5780,7 @@
   {
     "hiragana": "〜ばん",
     "kanji": "〜番",
+    "romaji": "~ban",
     "deutsch": "Nummer ～",
     "beispielsatz_jp": "このでんしゃはなんばんせんですか。",
     "beispielsatz_de": "Auf welchem Gleis faehrt dieser Zug?",
@@ -5146,6 +5789,7 @@
   {
     "hiragana": "ばん",
     "kanji": "晩",
+    "romaji": "ban",
     "deutsch": "Abend",
     "beispielsatz_jp": "ばんはすずしいです。",
     "beispielsatz_de": "Der Abend ist kuehl.",
@@ -5154,6 +5798,7 @@
   {
     "hiragana": "はん〜",
     "kanji": "半〜",
+    "romaji": "han~",
     "deutsch": "halb, fast",
     "beispielsatz_jp": "はんぶんすんだところです。",
     "beispielsatz_de": "Ich bin zur Haelfte fertig.",
@@ -5162,6 +5807,7 @@
   {
     "hiragana": "ハンカチ",
     "kanji": null,
+    "romaji": "hankachi",
     "deutsch": "Taschentuch",
     "beispielsatz_jp": "ハンカチをもっていますか。",
     "beispielsatz_de": "Haben Sie ein Taschentuch?",
@@ -5170,6 +5816,7 @@
   {
     "hiragana": "ばんごう",
     "kanji": "番号",
+    "romaji": "bangou",
     "deutsch": "Nummer",
     "beispielsatz_jp": "でんわのばんごうをおしえてください。",
     "beispielsatz_de": "Bitte geben Sie mir Ihre Telefonnummer.",
@@ -5178,6 +5825,7 @@
   {
     "hiragana": "ばんごはん",
     "kanji": "晩ご飯",
+    "romaji": "bangohan",
     "deutsch": "Abendessen",
     "beispielsatz_jp": "まいにちばんごはんをたべます。",
     "beispielsatz_de": "Jeden Abend esse ich Abendessen.",
@@ -5186,6 +5834,7 @@
   {
     "hiragana": "はんぶん",
     "kanji": "半分",
+    "romaji": "hanbun",
     "deutsch": "Hälfte",
     "beispielsatz_jp": "ケーキのはんぶんをたべました。",
     "beispielsatz_de": "Ich habe die Haelfte des Kuchens gegessen.",
@@ -5194,6 +5843,7 @@
   {
     "hiragana": "ぱんや",
     "kanji": "パン屋",
+    "romaji": "panya",
     "deutsch": "Bäckerei",
     "beispielsatz_jp": "ぱんやでパンをかいます。",
     "beispielsatz_de": "Ich kaufe Brot in der Baeckerei.",
@@ -5202,6 +5852,7 @@
   {
     "hiragana": "ひ",
     "kanji": "日",
+    "romaji": "hi",
     "deutsch": "Tag",
     "beispielsatz_jp": "きょうはいいひです。",
     "beispielsatz_de": "Heute ist ein schöner Tag.",
@@ -5210,6 +5861,7 @@
   {
     "hiragana": "ひがし",
     "kanji": "東",
+    "romaji": "higashi",
     "deutsch": "Osten",
     "beispielsatz_jp": "ひがしにえきがあります。",
     "beispielsatz_de": "Im Osten ist der Bahnhof.",
@@ -5218,6 +5870,7 @@
   {
     "hiragana": "〜ひき",
     "kanji": "〜匹",
+    "romaji": "~hiki",
     "deutsch": "～ Tiere (Anzahl)",
     "beispielsatz_jp": "いぬがにひきいます。",
     "beispielsatz_de": "Es gibt 2 Hunde.",
@@ -5226,6 +5879,7 @@
   {
     "hiragana": "ひく",
     "kanji": "弾く",
+    "romaji": "hiku",
     "deutsch": "(Instrument) spielen",
     "beispielsatz_jp": "ギターをひきます。",
     "beispielsatz_de": "Ich spiele Gitarre.",
@@ -5234,6 +5888,7 @@
   {
     "hiragana": "ひく",
     "kanji": "引く",
+    "romaji": "hiku",
     "deutsch": "ziehen",
     "beispielsatz_jp": "ドアをひいてください。",
     "beispielsatz_de": "Bitte ziehen Sie die Tuer.",
@@ -5242,6 +5897,7 @@
   {
     "hiragana": "ひくい",
     "kanji": "低い",
+    "romaji": "hikui",
     "deutsch": "niedrig",
     "beispielsatz_jp": "このたなはひくいです。",
     "beispielsatz_de": "Dieses Regal ist niedrig.",
@@ -5250,6 +5906,7 @@
   {
     "hiragana": "ひこうき",
     "kanji": "飛行機",
+    "romaji": "hikouki",
     "deutsch": "Flugzeug",
     "beispielsatz_jp": "ひこうきでとうきょうにいきます。",
     "beispielsatz_de": "Ich fliege nach Tokio.",
@@ -5258,6 +5915,7 @@
   {
     "hiragana": "ひだり",
     "kanji": "左",
+    "romaji": "hidari",
     "deutsch": "links",
     "beispielsatz_jp": "ひだりにまがってください。",
     "beispielsatz_de": "Bitte biegen Sie links ab.",
@@ -5266,6 +5924,7 @@
   {
     "hiragana": "ひと",
     "kanji": "人",
+    "romaji": "hito",
     "deutsch": "Mensch",
     "beispielsatz_jp": "あのひとはだれですか。",
     "beispielsatz_de": "Wer ist diese Person?",
@@ -5274,6 +5933,7 @@
   {
     "hiragana": "ひとつ",
     "kanji": "一つ",
+    "romaji": "hitotsu",
     "deutsch": "ein",
     "beispielsatz_jp": "りんごがひとつあります。",
     "beispielsatz_de": "Es gibt einen Apfel.",
@@ -5282,6 +5942,7 @@
   {
     "hiragana": "ひとつき",
     "kanji": "一月",
+    "romaji": "hitotsuki",
     "deutsch": "ein Monat",
     "beispielsatz_jp": "ひとつきにほんにいます。",
     "beispielsatz_de": "Ich bin einen Monat in Japan.",
@@ -5290,6 +5951,7 @@
   {
     "hiragana": "ひとり",
     "kanji": "一人",
+    "romaji": "hitori",
     "deutsch": "eine Person",
     "beispielsatz_jp": "ひとりでいきます。",
     "beispielsatz_de": "Ich gehe alleine.",
@@ -5298,6 +5960,7 @@
   {
     "hiragana": "ひま",
     "kanji": null,
+    "romaji": "hima",
     "deutsch": "unbeschäftigt",
     "beispielsatz_jp": "きょうはひまです。",
     "beispielsatz_de": "Heute bin ich frei.",
@@ -5306,6 +5969,7 @@
   {
     "hiragana": "ひゃく",
     "kanji": "百",
+    "romaji": "hyaku",
     "deutsch": "hundert",
     "beispielsatz_jp": "ひゃくえんです。",
     "beispielsatz_de": "Es kostet hundert Yen.",
@@ -5314,6 +5978,7 @@
   {
     "hiragana": "びょういん",
     "kanji": "病院",
+    "romaji": "byouin",
     "deutsch": "Krankenhaus",
     "beispielsatz_jp": "びょういんにいきます。",
     "beispielsatz_de": "Ich gehe ins Krankenhaus.",
@@ -5322,6 +5987,7 @@
   {
     "hiragana": "びょうき",
     "kanji": "病気",
+    "romaji": "byouki",
     "deutsch": "Krankheit",
     "beispielsatz_jp": "びょうきでがっこうをやすみました。",
     "beispielsatz_de": "Wegen Krankheit habe ich die Schule verpasst.",
@@ -5330,6 +5996,7 @@
   {
     "hiragana": "ひらがな",
     "kanji": null,
+    "romaji": "hiragana",
     "deutsch": "Hiragana",
     "beispielsatz_jp": "ひらがなをれんしゅうします。",
     "beispielsatz_de": "Ich uebe Hiragana.",
@@ -5338,6 +6005,7 @@
   {
     "hiragana": "ビル",
     "kanji": null,
+    "romaji": "biru",
     "deutsch": "Hochhaus, Gebäude",
     "beispielsatz_jp": "このビルはたかいです。",
     "beispielsatz_de": "Dieses Hochhaus ist hoch.",
@@ -5346,6 +6014,7 @@
   {
     "hiragana": "ひる",
     "kanji": "昼",
+    "romaji": "hiru",
     "deutsch": "Mittag",
     "beispielsatz_jp": "ひるごはんをたべます。",
     "beispielsatz_de": "Ich esse Mittagessen.",
@@ -5354,6 +6023,7 @@
   {
     "hiragana": "ひるごはん",
     "kanji": "昼ご飯",
+    "romaji": "hirugohan",
     "deutsch": "Mittagessen",
     "beispielsatz_jp": "ひるごはんにすしをたべます。",
     "beispielsatz_de": "Zum Mittagessen esse ich Sushi.",
@@ -5362,6 +6032,7 @@
   {
     "hiragana": "ひろい",
     "kanji": "広い",
+    "romaji": "hiroi",
     "deutsch": "weit",
     "beispielsatz_jp": "このへやはひろいです。",
     "beispielsatz_de": "Dieses Zimmer ist gross.",
@@ -5370,6 +6041,7 @@
   {
     "hiragana": "プール",
     "kanji": null,
+    "romaji": "puuru",
     "deutsch": "Pool",
     "beispielsatz_jp": "プールでおよぎます。",
     "beispielsatz_de": "Ich schwimme im Pool.",
@@ -5378,6 +6050,7 @@
   {
     "hiragana": "ふうとう",
     "kanji": "封筒",
+    "romaji": "fuutou",
     "deutsch": "Umschlag",
     "beispielsatz_jp": "てがみをふうとうにいれます。",
     "beispielsatz_de": "Ich stecke den Brief in den Umschlag.",
@@ -5386,6 +6059,7 @@
   {
     "hiragana": "フォーク",
     "kanji": null,
+    "romaji": "fooku",
     "deutsch": "Gabel",
     "beispielsatz_jp": "フォークとナイフをつかいます。",
     "beispielsatz_de": "Ich benutze Gabel und Messer.",
@@ -5394,6 +6068,7 @@
   {
     "hiragana": "ふく",
     "kanji": "吹く",
+    "romaji": "fuku",
     "deutsch": "blasen",
     "beispielsatz_jp": "かぜがふいています。",
     "beispielsatz_de": "Der Wind blaest.",
@@ -5402,6 +6077,7 @@
   {
     "hiragana": "ふく",
     "kanji": "服",
+    "romaji": "fuku",
     "deutsch": "Kleidung",
     "beispielsatz_jp": "あたらしいふくをかいました。",
     "beispielsatz_de": "Ich habe neue Kleidung gekauft.",
@@ -5410,6 +6086,7 @@
   {
     "hiragana": "ふたつ",
     "kanji": "二つ",
+    "romaji": "futatsu",
     "deutsch": "zwei",
     "beispielsatz_jp": "りんごがふたつあります。",
     "beispielsatz_de": "Es gibt zwei Aepfel.",
@@ -5418,6 +6095,7 @@
   {
     "hiragana": "ぶたにく",
     "kanji": "豚肉",
+    "romaji": "butaniku",
     "deutsch": "Schweinefleisch",
     "beispielsatz_jp": "ぶたにくをたべます。",
     "beispielsatz_de": "Ich esse Schweinefleisch.",
@@ -5426,6 +6104,7 @@
   {
     "hiragana": "ふたり",
     "kanji": "二人",
+    "romaji": "futari",
     "deutsch": "zwei (Personen)",
     "beispielsatz_jp": "ふたりでいきます。",
     "beispielsatz_de": "Wir gehen zu zweit.",
@@ -5434,6 +6113,7 @@
   {
     "hiragana": "ふつか",
     "kanji": "二日",
+    "romaji": "futsuka",
     "deutsch": "2. Tag eines Monats",
     "beispielsatz_jp": "ふつかはにがつのふつかです。",
     "beispielsatz_de": "Der 2. ist der zweite Februar.",
@@ -5442,6 +6122,7 @@
   {
     "hiragana": "ふつかかん",
     "kanji": "二日間",
+    "romaji": "futsukakan",
     "deutsch": "2 Tage",
     "beispielsatz_jp": "りょこうはふつかかんです。",
     "beispielsatz_de": "Die Reise dauert 2 Tage.",
@@ -5450,6 +6131,7 @@
   {
     "hiragana": "ふとい",
     "kanji": "太い",
+    "romaji": "futoi",
     "deutsch": "dick",
     "beispielsatz_jp": "このほんはふといです。",
     "beispielsatz_de": "Dieses Buch ist dick.",
@@ -5458,6 +6140,7 @@
   {
     "hiragana": "ふゆ",
     "kanji": "冬",
+    "romaji": "fuyu",
     "deutsch": "Winter",
     "beispielsatz_jp": "ふゆはさむいです。",
     "beispielsatz_de": "Der Winter ist kalt.",
@@ -5466,6 +6149,7 @@
   {
     "hiragana": "ふる",
     "kanji": "降る",
+    "romaji": "furu",
     "deutsch": "regnen",
     "beispielsatz_jp": "きょうはあめがふっています。",
     "beispielsatz_de": "Heute regnet es.",
@@ -5474,6 +6158,7 @@
   {
     "hiragana": "ふるい",
     "kanji": "古い",
+    "romaji": "furui",
     "deutsch": "alt",
     "beispielsatz_jp": "このいすはふるいです。",
     "beispielsatz_de": "Dieser Stuhl ist alt.",
@@ -5482,6 +6167,7 @@
   {
     "hiragana": "〜ふん",
     "kanji": "〜分",
+    "romaji": "~fun",
     "deutsch": "～ Minuten",
     "beispielsatz_jp": "えきまでごふんかかります。",
     "beispielsatz_de": "Bis zum Bahnhof dauert es 5 Minuten.",
@@ -5490,6 +6176,7 @@
   {
     "hiragana": "ぶん",
     "kanji": "文",
+    "romaji": "bun",
     "deutsch": "Satz",
     "beispielsatz_jp": "みじかいぶんをかきます。",
     "beispielsatz_de": "Ich schreibe einen kurzen Satz.",
@@ -5498,6 +6185,7 @@
   {
     "hiragana": "ぶんしょう",
     "kanji": "文章",
+    "romaji": "bunshou",
     "deutsch": "Aufsatz",
     "beispielsatz_jp": "ながいぶんしょうをかきました。",
     "beispielsatz_de": "Ich habe einen langen Aufsatz geschrieben.",
@@ -5506,6 +6194,7 @@
   {
     "hiragana": "ぶんぽう",
     "kanji": "文法",
+    "romaji": "bunpou",
     "deutsch": "Grammatik",
     "beispielsatz_jp": "ぶんぽうをべんきょうします。",
     "beispielsatz_de": "Ich lerne Grammatik.",
@@ -5514,6 +6203,7 @@
   {
     "hiragana": "ページ",
     "kanji": null,
+    "romaji": "peeji",
     "deutsch": "Seite",
     "beispielsatz_jp": "なんページですか。",
     "beispielsatz_de": "Welche Seite ist das?",
@@ -5522,6 +6212,7 @@
   {
     "hiragana": "へた",
     "kanji": "下手",
+    "romaji": "heta",
     "deutsch": "ungeschickt",
     "beispielsatz_jp": "りょうりがへたです。",
     "beispielsatz_de": "Ich bin schlecht im Kochen.",
@@ -5530,6 +6221,7 @@
   {
     "hiragana": "ベッド",
     "kanji": null,
+    "romaji": "beddo",
     "deutsch": "Bett",
     "beispielsatz_jp": "ベッドでねます。",
     "beispielsatz_de": "Ich schlafe im Bett.",
@@ -5538,6 +6230,7 @@
   {
     "hiragana": "ペット",
     "kanji": null,
+    "romaji": "petto",
     "deutsch": "Haustier",
     "beispielsatz_jp": "うちにペットがいます。",
     "beispielsatz_de": "Zuhause habe ich ein Haustier.",
@@ -5546,6 +6239,7 @@
   {
     "hiragana": "へや",
     "kanji": "部屋",
+    "romaji": "heya",
     "deutsch": "Zimmer",
     "beispielsatz_jp": "このへやはせまいです。",
     "beispielsatz_de": "Dieses Zimmer ist eng.",
@@ -5554,6 +6248,7 @@
   {
     "hiragana": "へん",
     "kanji": null,
+    "romaji": "hen",
     "deutsch": "Gegend",
     "beispielsatz_jp": "このへんにはなにがありますか。",
     "beispielsatz_de": "Was gibt es in dieser Gegend?",
@@ -5562,6 +6257,7 @@
   {
     "hiragana": "ペン",
     "kanji": null,
+    "romaji": "pen",
     "deutsch": "Stift",
     "beispielsatz_jp": "ペンでかきます。",
     "beispielsatz_de": "Ich schreibe mit dem Stift.",
@@ -5570,6 +6266,7 @@
   {
     "hiragana": "べんきょうする",
     "kanji": "勉強する",
+    "romaji": "benkyousuru",
     "deutsch": "lernen, studieren",
     "beispielsatz_jp": "まいにちにほんごをべんきょうします。",
     "beispielsatz_de": "Jeden Tag lerne ich Japanisch.",
@@ -5578,6 +6275,7 @@
   {
     "hiragana": "べんり",
     "kanji": "便利",
+    "romaji": "benri",
     "deutsch": "Bequemlichkeit",
     "beispielsatz_jp": "このまちはべんりです。",
     "beispielsatz_de": "Diese Stadt ist bequem.",
@@ -5586,6 +6284,7 @@
   {
     "hiragana": "ボールペン",
     "kanji": null,
+    "romaji": "boorupen",
     "deutsch": "Kugelschreiber",
     "beispielsatz_jp": "ボールペンをかしてください。",
     "beispielsatz_de": "Bitte leihen Sie mir den Kugelschreiber.",
@@ -5594,6 +6293,7 @@
   {
     "hiragana": "ぼうし",
     "kanji": "帽子",
+    "romaji": "boushi",
     "deutsch": "Hut",
     "beispielsatz_jp": "あたまにぼうしをかぶります。",
     "beispielsatz_de": "Ich setze einen Hut auf.",
@@ -5602,6 +6302,7 @@
   {
     "hiragana": "ほか",
     "kanji": null,
+    "romaji": "hoka",
     "deutsch": "anderes",
     "beispielsatz_jp": "ほかのたべものをたべます。",
     "beispielsatz_de": "Ich esse etwas anderes.",
@@ -5610,6 +6311,7 @@
   {
     "hiragana": "ぼく",
     "kanji": null,
+    "romaji": "boku",
     "deutsch": "ich",
     "beispielsatz_jp": "ぼくはがくせいです。",
     "beispielsatz_de": "Ich bin Student.",
@@ -5618,6 +6320,7 @@
   {
     "hiragana": "ポケット",
     "kanji": null,
+    "romaji": "poketto",
     "deutsch": "(Hosen)tasche",
     "beispielsatz_jp": "ポケットにかぎをいれます。",
     "beispielsatz_de": "Ich stecke den Schluessel in die Tasche.",
@@ -5626,6 +6329,7 @@
   {
     "hiragana": "ほしい",
     "kanji": "欲しい",
+    "romaji": "hoshii",
     "deutsch": "wünschen",
     "beispielsatz_jp": "あたらしいじてんしゃがほしいです。",
     "beispielsatz_de": "Ich wuensche mir ein neues Fahrrad.",
@@ -5634,6 +6338,7 @@
   {
     "hiragana": "ポスト",
     "kanji": null,
+    "romaji": "posuto",
     "deutsch": "Briefkasten",
     "beispielsatz_jp": "てがみをポストにいれます。",
     "beispielsatz_de": "Ich werfe den Brief in den Briefkasten.",
@@ -5642,6 +6347,7 @@
   {
     "hiragana": "ほそい",
     "kanji": "細い",
+    "romaji": "hosoi",
     "deutsch": "dünn",
     "beispielsatz_jp": "このほんはほそいです。",
     "beispielsatz_de": "Dieses Buch ist duenn.",
@@ -5650,6 +6356,7 @@
   {
     "hiragana": "ボタン",
     "kanji": null,
+    "romaji": "botan",
     "deutsch": "Knopf",
     "beispielsatz_jp": "シャツのボタンをとめます。",
     "beispielsatz_de": "Ich schliesse die Knopfe des Hemdes.",
@@ -5658,6 +6365,7 @@
   {
     "hiragana": "ホテル",
     "kanji": null,
+    "romaji": "hoteru",
     "deutsch": "Hotel (im westlichen Stil)",
     "beispielsatz_jp": "ホテルにとまります。",
     "beispielsatz_de": "Ich uebernachte im Hotel.",
@@ -5666,6 +6374,7 @@
   {
     "hiragana": "〜ほん",
     "kanji": "〜本",
+    "romaji": "~hon",
     "deutsch": "～ Stück (Anzahl für längliche Sachen wie Flaschen)",
     "beispielsatz_jp": "ビールがさんぼんあります。",
     "beispielsatz_de": "Es gibt drei Flaschen Bier.",
@@ -5674,6 +6383,7 @@
   {
     "hiragana": "ほん",
     "kanji": "本",
+    "romaji": "hon",
     "deutsch": "Buch",
     "beispielsatz_jp": "としょかんでほんをかります。",
     "beispielsatz_de": "Ich leihe in der Bibliothek ein Buch aus.",
@@ -5682,6 +6392,7 @@
   {
     "hiragana": "ほんだな",
     "kanji": "本棚",
+    "romaji": "hondana",
     "deutsch": "Bücherregal",
     "beispielsatz_jp": "ほんをほんだなにならべます。",
     "beispielsatz_de": "Ich stelle die Buecher ins Regal.",
@@ -5690,6 +6401,7 @@
   {
     "hiragana": "ほんとう",
     "kanji": "本当",
+    "romaji": "hontou",
     "deutsch": "wirklich",
     "beispielsatz_jp": "それはほんとうですか。",
     "beispielsatz_de": "Ist das wirklich wahr?",
@@ -5698,6 +6410,7 @@
   {
     "hiragana": "ほんや",
     "kanji": "本屋",
+    "romaji": "honya",
     "deutsch": "Bücherladen",
     "beispielsatz_jp": "ほんやでまんがをかいます。",
     "beispielsatz_de": "Ich kaufe im Buecher laden Manga.",
@@ -5706,6 +6419,7 @@
   {
     "hiragana": "マーク",
     "kanji": null,
+    "romaji": "maaku",
     "deutsch": "Markierung",
     "beispielsatz_jp": "このマークはなんですか。",
     "beispielsatz_de": "Was bedeutet diese Markierung?",
@@ -5714,6 +6428,7 @@
   {
     "hiragana": "〜まい",
     "kanji": "〜枚",
+    "romaji": "~mai",
     "deutsch": "～ Blatt, Stück (Anzahl für flache Sachen wie Kleidung, Papier, Brotscheiben)",
     "beispielsatz_jp": "かみがさんまいあります。",
     "beispielsatz_de": "Es gibt drei Blaetter Papier.",
@@ -5722,6 +6437,7 @@
   {
     "hiragana": "まいあさ",
     "kanji": "毎朝",
+    "romaji": "maiasa",
     "deutsch": "jeden Morgen",
     "beispielsatz_jp": "まいあさにほんごをべんきょうします。",
     "beispielsatz_de": "Jeden Morgen lerne ich Japanisch.",
@@ -5730,6 +6446,7 @@
   {
     "hiragana": "まいしゅう",
     "kanji": "毎週",
+    "romaji": "maishuu",
     "deutsch": "jede Woche",
     "beispielsatz_jp": "まいしゅうえいごをならいます。",
     "beispielsatz_de": "Jede Woche lerne ich Englisch.",
@@ -5738,6 +6455,7 @@
   {
     "hiragana": "まいつき",
     "kanji": "毎月",
+    "romaji": "maitsuki",
     "deutsch": "jeden Monat",
     "beispielsatz_jp": "まいつきにほんにてがみをおくります。",
     "beispielsatz_de": "Jeden Monat schicke ich einen Brief nach Japan.",
@@ -5746,6 +6464,7 @@
   {
     "hiragana": "まいとし",
     "kanji": "毎年",
+    "romaji": "maitoshi",
     "deutsch": "jedes Jahr",
     "beispielsatz_jp": "まいとしにほんにいきます。",
     "beispielsatz_de": "Jedes Jahr fahre ich nach Japan.",
@@ -5754,6 +6473,7 @@
   {
     "hiragana": "まいにち",
     "kanji": "毎日",
+    "romaji": "mainichi",
     "deutsch": "jeden Tag",
     "beispielsatz_jp": "まいにちにほんごをべんきょうします。",
     "beispielsatz_de": "Jeden Tag lerne ich Japanisch.",
@@ -5762,6 +6482,7 @@
   {
     "hiragana": "まいばん",
     "kanji": "毎晩",
+    "romaji": "maiban",
     "deutsch": "jeder Abend",
     "beispielsatz_jp": "まいばんほんをよみます。",
     "beispielsatz_de": "Jeden Abend lese ich ein Buch.",
@@ -5770,6 +6491,7 @@
   {
     "hiragana": "まえ",
     "kanji": "前",
+    "romaji": "mae",
     "deutsch": "vor, vorn",
     "beispielsatz_jp": "えきのまえでまちます。",
     "beispielsatz_de": "Ich warte vor dem Bahnhof.",
@@ -5778,6 +6500,7 @@
   {
     "hiragana": "まえに",
     "kanji": "前に",
+    "romaji": "maeni",
     "deutsch": "vor, früher",
     "beispielsatz_jp": "たべるまえにてをあらいます。",
     "beispielsatz_de": "Vor dem Essen wasche ich die Haende.",
@@ -5786,6 +6509,7 @@
   {
     "hiragana": "まがる",
     "kanji": "曲がる",
+    "romaji": "magaru",
     "deutsch": "sich biegen, abbiegen",
     "beispielsatz_jp": "こうさてんをみぎにまがります。",
     "beispielsatz_de": "An der Kreuzung biege ich rechts ab.",
@@ -5794,6 +6518,7 @@
   {
     "hiragana": "まずい",
     "kanji": null,
+    "romaji": "mazui",
     "deutsch": "schlecht (schmecken)",
     "beispielsatz_jp": "このりょうりはまずいです。",
     "beispielsatz_de": "Dieses Gericht schmeckt schlecht.",
@@ -5802,6 +6527,7 @@
   {
     "hiragana": "まだ",
     "kanji": null,
+    "romaji": "mada",
     "deutsch": "noch",
     "beispielsatz_jp": "まだしゅくだいがあります。",
     "beispielsatz_de": "Ich habe noch Hausaufgaben.",
@@ -5810,6 +6536,7 @@
   {
     "hiragana": "また",
     "kanji": null,
+    "romaji": "mata",
     "deutsch": "wieder",
     "beispielsatz_jp": "またきてください。",
     "beispielsatz_de": "Bitte kommen Sie wieder.",
@@ -5818,6 +6545,7 @@
   {
     "hiragana": "まち",
     "kanji": "町",
+    "romaji": "machi",
     "deutsch": "Ortschaft",
     "beispielsatz_jp": "このまちはしずかです。",
     "beispielsatz_de": "Diese Stadt ist ruhig.",
@@ -5826,6 +6554,7 @@
   {
     "hiragana": "まつ",
     "kanji": "待つ",
+    "romaji": "matsu",
     "deutsch": "warten",
     "beispielsatz_jp": "バスをまちます。",
     "beispielsatz_de": "Ich warte auf den Bus.",
@@ -5834,6 +6563,7 @@
   {
     "hiragana": "まっすぐ",
     "kanji": null,
+    "romaji": "massugu",
     "deutsch": "gerade aus",
     "beispielsatz_jp": "まっすぐいってください。",
     "beispielsatz_de": "Bitte gehen Sie geradeaus.",
@@ -5842,6 +6572,7 @@
   {
     "hiragana": "まど",
     "kanji": "窓",
+    "romaji": "mado",
     "deutsch": "Fenster",
     "beispielsatz_jp": "まどをあけます。",
     "beispielsatz_de": "Ich oeffne das Fenster.",
@@ -5850,6 +6581,7 @@
   {
     "hiragana": "まるい",
     "kanji": "丸い",
+    "romaji": "marui",
     "deutsch": "rund",
     "beispielsatz_jp": "このテーブルはまるいです。",
     "beispielsatz_de": "Dieser Tisch ist rund.",
@@ -5858,6 +6590,7 @@
   {
     "hiragana": "まるい",
     "kanji": "円い",
+    "romaji": "marui",
     "deutsch": "rund",
     "beispielsatz_jp": "このおさらはまるいです。",
     "beispielsatz_de": "Dieser Teller ist rund.",
@@ -5866,6 +6599,7 @@
   {
     "hiragana": "まん",
     "kanji": "万",
+    "romaji": "man",
     "deutsch": "zehntausend",
     "beispielsatz_jp": "いちまんえんあります。",
     "beispielsatz_de": "Ich habe 10.000 Yen.",
@@ -5874,6 +6608,7 @@
   {
     "hiragana": "みがく",
     "kanji": "磨く",
+    "romaji": "migaku",
     "deutsch": "polieren",
     "beispielsatz_jp": "まいにちはをみがきます。",
     "beispielsatz_de": "Jeden Tag putze ich die Zaehne.",
@@ -5882,6 +6617,7 @@
   {
     "hiragana": "みぎ",
     "kanji": "右",
+    "romaji": "migi",
     "deutsch": "rechts",
     "beispielsatz_jp": "みぎにまがってください。",
     "beispielsatz_de": "Bitte biegen Sie rechts ab.",
@@ -5890,6 +6626,7 @@
   {
     "hiragana": "みじかい",
     "kanji": "短い",
+    "romaji": "mijikai",
     "deutsch": "kurz",
     "beispielsatz_jp": "このなわはみじかいです。",
     "beispielsatz_de": "Dieses Seil ist kurz.",
@@ -5898,6 +6635,7 @@
   {
     "hiragana": "みず",
     "kanji": "水",
+    "romaji": "mizu",
     "deutsch": "Wasser",
     "beispielsatz_jp": "まいにちみずをのみます。",
     "beispielsatz_de": "Jeden Tag trinke ich Wasser.",
@@ -5906,6 +6644,7 @@
   {
     "hiragana": "みせ",
     "kanji": "店",
+    "romaji": "mise",
     "deutsch": "Geschäft",
     "beispielsatz_jp": "このみせではなんをうっていますか。",
     "beispielsatz_de": "Was wird in diesem Laden verkauft?",
@@ -5914,6 +6653,7 @@
   {
     "hiragana": "みせる",
     "kanji": "見せる",
+    "romaji": "miseru",
     "deutsch": "zeigen",
     "beispielsatz_jp": "ともだちにしゃしんをみせます。",
     "beispielsatz_de": "Ich zeige dem Freund ein Foto.",
@@ -5922,6 +6662,7 @@
   {
     "hiragana": "みち",
     "kanji": "道",
+    "romaji": "michi",
     "deutsch": "Straße",
     "beispielsatz_jp": "このみちをまっすぐいきます。",
     "beispielsatz_de": "Ich gehe diese Strasse geradeaus.",
@@ -5930,6 +6671,7 @@
   {
     "hiragana": "みっか",
     "kanji": "三日",
+    "romaji": "mikka",
     "deutsch": "3. Tag eines Monats",
     "beispielsatz_jp": "みっかにかいぎがあります。",
     "beispielsatz_de": "Am 3. gibt es eine Besprechung.",
@@ -5938,6 +6680,7 @@
   {
     "hiragana": "みっかかん",
     "kanji": "三日間",
+    "romaji": "mikkakan",
     "deutsch": "3 Tage",
     "beispielsatz_jp": "りょこうはみっかかんです。",
     "beispielsatz_de": "Die Reise dauert 3 Tage.",
@@ -5946,6 +6689,7 @@
   {
     "hiragana": "みっつ",
     "kanji": "三つ",
+    "romaji": "mittsu",
     "deutsch": "drei (Stück)",
     "beispielsatz_jp": "りんごがみっつあります。",
     "beispielsatz_de": "Es gibt drei Aepfel.",
@@ -5954,6 +6698,7 @@
   {
     "hiragana": "みどり",
     "kanji": "緑",
+    "romaji": "midori",
     "deutsch": "Grün",
     "beispielsatz_jp": "みどりはきれいないろです。",
     "beispielsatz_de": "Gruen ist eine schoene Farbe.",
@@ -5962,6 +6707,7 @@
   {
     "hiragana": "みなさん",
     "kanji": "皆さん",
+    "romaji": "minasan",
     "deutsch": "meine Damen und Herren",
     "beispielsatz_jp": "みなさん、おはようございます。",
     "beispielsatz_de": "Guten Morgen, meine Damen und Herren.",
@@ -5970,6 +6716,7 @@
   {
     "hiragana": "みなみ",
     "kanji": "南",
+    "romaji": "minami",
     "deutsch": "Süden",
     "beispielsatz_jp": "みなみにえきがあります。",
     "beispielsatz_de": "Im Sueden ist der Bahnhof.",
@@ -5978,6 +6725,7 @@
   {
     "hiragana": "みにいく",
     "kanji": "見に行く",
+    "romaji": "miniiku",
     "deutsch": "besuchen",
     "beispielsatz_jp": "えいがをみにいきます。",
     "beispielsatz_de": "Ich gehe einen Film anschauen.",
@@ -5986,6 +6734,7 @@
   {
     "hiragana": "みみ",
     "kanji": "耳",
+    "romaji": "mimi",
     "deutsch": "Ohr",
     "beispielsatz_jp": "みみがいたいです。",
     "beispielsatz_de": "Mein Ohr tut weh.",
@@ -5994,6 +6743,7 @@
   {
     "hiragana": "みる",
     "kanji": "見る",
+    "romaji": "miru",
     "deutsch": "sehen, schauen",
     "beispielsatz_jp": "テレビをみます。",
     "beispielsatz_de": "Ich schaue Fernsehen.",
@@ -6002,6 +6752,7 @@
   {
     "hiragana": "みんな",
     "kanji": null,
+    "romaji": "minna",
     "deutsch": "alle Personen",
     "beispielsatz_jp": "みんなでいきましょう。",
     "beispielsatz_de": "Lasst uns alle zusammen gehen.",
@@ -6010,6 +6761,7 @@
   {
     "hiragana": "むいか",
     "kanji": "六日",
+    "romaji": "muika",
     "deutsch": "6. Tag eines Monats",
     "beispielsatz_jp": "むいかにしけんがあります。",
     "beispielsatz_de": "Am 6. gibt es eine Pruefung.",
@@ -6018,6 +6770,7 @@
   {
     "hiragana": "むいかかん",
     "kanji": "六日間",
+    "romaji": "muikakan",
     "deutsch": "6 Tage",
     "beispielsatz_jp": "りょこうはむいかかんです。",
     "beispielsatz_de": "Die Reise dauert 6 Tage.",
@@ -6026,6 +6779,7 @@
   {
     "hiragana": "むこう",
     "kanji": "向こう",
+    "romaji": "mukou",
     "deutsch": "entgegengesetzte Seite",
     "beispielsatz_jp": "えきはむこうにあります。",
     "beispielsatz_de": "Der Bahnhof ist auf der anderen Seite.",
@@ -6034,6 +6788,7 @@
   {
     "hiragana": "むずかしい",
     "kanji": "難しい",
+    "romaji": "muzukashii",
     "deutsch": "schwierig",
     "beispielsatz_jp": "このもんだいはむずかしいです。",
     "beispielsatz_de": "Diese Aufgabe ist schwierig.",
@@ -6042,6 +6797,7 @@
   {
     "hiragana": "むっつ",
     "kanji": "六つ",
+    "romaji": "muttsu",
     "deutsch": "sechs",
     "beispielsatz_jp": "りんごがむっつあります。",
     "beispielsatz_de": "Es gibt sechs Aepfel.",
@@ -6050,6 +6806,7 @@
   {
     "hiragana": "むら",
     "kanji": "村",
+    "romaji": "mura",
     "deutsch": "Dorf",
     "beispielsatz_jp": "ちいさなむらにすんでいます。",
     "beispielsatz_de": "Ich wohne in einem kleinen Dorf.",
@@ -6058,6 +6815,7 @@
   {
     "hiragana": "め",
     "kanji": "目",
+    "romaji": "me",
     "deutsch": "Auge",
     "beispielsatz_jp": "めがいたいです。",
     "beispielsatz_de": "Mein Auge tut weh.",
@@ -6066,6 +6824,7 @@
   {
     "hiragana": "〜メートル",
     "kanji": null,
+    "romaji": "~meetoru",
     "deutsch": "～m (Meter)",
     "beispielsatz_jp": "えきまでごメートルです。",
     "beispielsatz_de": "Es sind 5 Meter bis zum Bahnhof.",
@@ -6074,6 +6833,7 @@
   {
     "hiragana": "めがね",
     "kanji": null,
+    "romaji": "megane",
     "deutsch": "Brille",
     "beispielsatz_jp": "めがねをかけています。",
     "beispielsatz_de": "Ich trage eine Brille.",
@@ -6082,6 +6842,7 @@
   {
     "hiragana": "メモ",
     "kanji": null,
+    "romaji": "memo",
     "deutsch": "Notiz",
     "beispielsatz_jp": "メモをとります。",
     "beispielsatz_de": "Ich mache eine Notiz.",
@@ -6090,6 +6851,7 @@
   {
     "hiragana": "もう",
     "kanji": null,
+    "romaji": "mou",
     "deutsch": "schon",
     "beispielsatz_jp": "もうじゅうじです。",
     "beispielsatz_de": "Es ist schon 10 Uhr.",
@@ -6098,6 +6860,7 @@
   {
     "hiragana": "もういちど",
     "kanji": "もう一度",
+    "romaji": "mouichido",
     "deutsch": "noch einmal",
     "beispielsatz_jp": "もういちどいってください。",
     "beispielsatz_de": "Bitte sagen Sie es noch einmal.",
@@ -6106,6 +6869,7 @@
   {
     "hiragana": "もうすこし",
     "kanji": "もう少し",
+    "romaji": "mousukoshi",
     "deutsch": "noch etwas",
     "beispielsatz_jp": "もうすこしゆっくりはなしてください。",
     "beispielsatz_de": "Bitte sprechen Sie noch etwas langsamer.",
@@ -6114,6 +6878,7 @@
   {
     "hiragana": "もく",
     "kanji": "木",
+    "romaji": "moku",
     "deutsch": "Donnerstag (Abkürzung)",
     "beispielsatz_jp": "もくはもくようびのりゃくです。",
     "beispielsatz_de": "Moku ist die Abkuerzung fuer Donnerstag.",
@@ -6122,6 +6887,7 @@
   {
     "hiragana": "もくようび",
     "kanji": "木曜日",
+    "romaji": "mokuyoubi",
     "deutsch": "Donnerstag",
     "beispielsatz_jp": "もくようびにえいがをみます。",
     "beispielsatz_de": "Donnerstags sehe ich einen Film.",
@@ -6130,6 +6896,7 @@
   {
     "hiragana": "もじ",
     "kanji": "文字",
+    "romaji": "moji",
     "deutsch": "Schriftzeichen",
     "beispielsatz_jp": "このもじはよめますか。",
     "beispielsatz_de": "Koennen Sie dieses Schriftzeichen lesen?",
@@ -6138,6 +6905,7 @@
   {
     "hiragana": "もつ",
     "kanji": "持つ",
+    "romaji": "motsu",
     "deutsch": "haben",
     "beispielsatz_jp": "おもいにもつをもっています。",
     "beispielsatz_de": "Ich trage schweres Gepaeck.",
@@ -6146,6 +6914,7 @@
   {
     "hiragana": "もってかえる",
     "kanji": "持って帰る",
+    "romaji": "mottekaeru",
     "deutsch": "mit nach Hause nehmen",
     "beispielsatz_jp": "りんごをもっていえにかえります。",
     "beispielsatz_de": "Ich nehme den Apfel mit nach Hause.",
@@ -6154,6 +6923,7 @@
   {
     "hiragana": "もっと",
     "kanji": null,
+    "romaji": "motto",
     "deutsch": "mehr",
     "beispielsatz_jp": "もっとゆっくりはなしてください。",
     "beispielsatz_de": "Bitte sprechen Sie langsamer.",
@@ -6162,6 +6932,7 @@
   {
     "hiragana": "もの",
     "kanji": "物",
+    "romaji": "mono",
     "deutsch": "Ding",
     "beispielsatz_jp": "このものはなんですか。",
     "beispielsatz_de": "Was ist dieses Ding?",
@@ -6170,6 +6941,7 @@
   {
     "hiragana": "もらう",
     "kanji": null,
+    "romaji": "morau",
     "deutsch": "bekommen",
     "beispielsatz_jp": "ともだちからプレゼントをもらいました。",
     "beispielsatz_de": "Ich habe ein Geschenk von einem Freund bekommen.",
@@ -6178,6 +6950,7 @@
   {
     "hiragana": "もん",
     "kanji": "門",
+    "romaji": "mon",
     "deutsch": "Tor",
     "beispielsatz_jp": "こうえんにおおきなもんがあります。",
     "beispielsatz_de": "Im Park gibt es ein grosses Tor.",
@@ -6186,6 +6959,7 @@
   {
     "hiragana": "もんだい",
     "kanji": "問題",
+    "romaji": "mondai",
     "deutsch": "Frage",
     "beispielsatz_jp": "もんだいがわかりません。",
     "beispielsatz_de": "Ich verstehe die Frage nicht.",
@@ -6194,6 +6968,7 @@
   {
     "hiragana": "やさい",
     "kanji": "野菜",
+    "romaji": "yasai",
     "deutsch": "Gemüse",
     "beispielsatz_jp": "やさいをたべます。",
     "beispielsatz_de": "Ich esse Gemuese.",
@@ -6202,6 +6977,7 @@
   {
     "hiragana": "やさしい",
     "kanji": "易しい",
+    "romaji": "yasashii",
     "deutsch": "leicht",
     "beispielsatz_jp": "このもんだいはやさしいです。",
     "beispielsatz_de": "Diese Aufgabe ist leicht.",
@@ -6210,6 +6986,7 @@
   {
     "hiragana": "やじるし",
     "kanji": "矢印",
+    "romaji": "yajirushi",
     "deutsch": "Pfeil",
     "beispielsatz_jp": "やじるしのほうこうにいきます。",
     "beispielsatz_de": "Ich gehe in die Richtung des Pfeils.",
@@ -6218,6 +6995,7 @@
   {
     "hiragana": "やすい",
     "kanji": "安い",
+    "romaji": "yasui",
     "deutsch": "billig",
     "beispielsatz_jp": "このみせはやすいです。",
     "beispielsatz_de": "Dieser Laden ist billig.",
@@ -6226,6 +7004,7 @@
   {
     "hiragana": "やすみ",
     "kanji": "休み",
+    "romaji": "yasumi",
     "deutsch": "Pause",
     "beispielsatz_jp": "きょうはやすみです。",
     "beispielsatz_de": "Heute ist frei.",
@@ -6234,6 +7013,7 @@
   {
     "hiragana": "やすむ",
     "kanji": "休む",
+    "romaji": "yasumu",
     "deutsch": "ausruhen",
     "beispielsatz_jp": "にちようびはいえでやすみます。",
     "beispielsatz_de": "Sonntags ruhe ich zu Hause aus.",
@@ -6242,6 +7022,7 @@
   {
     "hiragana": "やっつ",
     "kanji": "八つ",
+    "romaji": "yattsu",
     "deutsch": "acht",
     "beispielsatz_jp": "りんごがやっつあります。",
     "beispielsatz_de": "Es gibt acht Aepfel.",
@@ -6250,6 +7031,7 @@
   {
     "hiragana": "やま",
     "kanji": "山",
+    "romaji": "yama",
     "deutsch": "Berg",
     "beispielsatz_jp": "やまにのぼります。",
     "beispielsatz_de": "Ich steige auf den Berg.",
@@ -6258,6 +7040,7 @@
   {
     "hiragana": "やる",
     "kanji": null,
+    "romaji": "yaru",
     "deutsch": "machen, geben",
     "beispielsatz_jp": "まいにちうんどうをやります。",
     "beispielsatz_de": "Jeden Tag mache ich Sport.",
@@ -6266,6 +7049,7 @@
   {
     "hiragana": "ゆうがた",
     "kanji": "夕方",
+    "romaji": "yuugata",
     "deutsch": "Abend",
     "beispielsatz_jp": "ゆうがたにかえります。",
     "beispielsatz_de": "Am Abend komme ich zurueck.",
@@ -6274,6 +7058,7 @@
   {
     "hiragana": "ゆうはん",
     "kanji": "夕飯",
+    "romaji": "yuuhan",
     "deutsch": "Abendessen",
     "beispielsatz_jp": "ゆうはんをたべます。",
     "beispielsatz_de": "Ich esse Abendessen.",
@@ -6282,6 +7067,7 @@
   {
     "hiragana": "ゆうびんきょく",
     "kanji": "郵便局",
+    "romaji": "yuubinkyoku",
     "deutsch": "Postamt",
     "beispielsatz_jp": "ゆうびんきょくでてがみをおくります。",
     "beispielsatz_de": "Ich schicke am Postamt einen Brief.",
@@ -6290,6 +7076,7 @@
   {
     "hiragana": "ゆうべ",
     "kanji": "夕べ",
+    "romaji": "yuube",
     "deutsch": "letzte Nacht",
     "beispielsatz_jp": "ゆうべえいがをみました。",
     "beispielsatz_de": "Letzte Nacht habe ich einen Film gesehen.",
@@ -6298,6 +7085,7 @@
   {
     "hiragana": "ゆうめい",
     "kanji": "有名",
+    "romaji": "yuumei",
     "deutsch": "Berühmtheit",
     "beispielsatz_jp": "このはいゆうはゆうめいです。",
     "beispielsatz_de": "Dieser Schauspieler ist berühmt.",
@@ -6306,6 +7094,7 @@
   {
     "hiragana": "ゆき",
     "kanji": "雪",
+    "romaji": "yuki",
     "deutsch": "Schnee",
     "beispielsatz_jp": "ふゆにゆきがふります。",
     "beispielsatz_de": "Im Winter schneit es.",
@@ -6314,6 +7103,7 @@
   {
     "hiragana": "ゆっくりと",
     "kanji": null,
+    "romaji": "yukkurito",
     "deutsch": "langsam",
     "beispielsatz_jp": "ゆっくりとはなしてください。",
     "beispielsatz_de": "Bitte sprechen Sie langsam.",
@@ -6322,6 +7112,7 @@
   {
     "hiragana": "ようか",
     "kanji": "八日",
+    "romaji": "youka",
     "deutsch": "8. Tag eines Monats",
     "beispielsatz_jp": "ようかにかいぎがあります。",
     "beispielsatz_de": "Am 8. gibt es eine Besprechung.",
@@ -6330,6 +7121,7 @@
   {
     "hiragana": "ようかかん",
     "kanji": "八日間",
+    "romaji": "youkakan",
     "deutsch": "8 Tage",
     "beispielsatz_jp": "りょこうはようかかんです。",
     "beispielsatz_de": "Die Reise dauert 8 Tage.",
@@ -6338,6 +7130,7 @@
   {
     "hiragana": "ようふく",
     "kanji": "洋服",
+    "romaji": "youfuku",
     "deutsch": "(westliche) Kleidung",
     "beispielsatz_jp": "ようふくをかいます。",
     "beispielsatz_de": "Ich kaufe westliche Kleidung.",
@@ -6346,6 +7139,7 @@
   {
     "hiragana": "よく",
     "kanji": null,
+    "romaji": "yoku",
     "deutsch": "oft, gut, gründlich",
     "beispielsatz_jp": "よくがっこうにいきます。",
     "beispielsatz_de": "Ich gehe oft zur Schule.",
@@ -6354,6 +7148,7 @@
   {
     "hiragana": "よこ",
     "kanji": "横",
+    "romaji": "yoko",
     "deutsch": "Seite",
     "beispielsatz_jp": "となりのひとのよこにすわります。",
     "beispielsatz_de": "Ich setze mich neben die Person nebenan.",
@@ -6362,6 +7157,7 @@
   {
     "hiragana": "よじ",
     "kanji": "四時",
+    "romaji": "yoji",
     "deutsch": "4 Uhr",
     "beispielsatz_jp": "よじにおきます。",
     "beispielsatz_de": "Ich stehe um 4 Uhr auf.",
@@ -6370,6 +7166,7 @@
   {
     "hiragana": "よっか",
     "kanji": "四日",
+    "romaji": "yokka",
     "deutsch": "4. Tag eines Monats",
     "beispielsatz_jp": "よっかにしけんがあります。",
     "beispielsatz_de": "Am 4. gibt es eine Pruefung.",
@@ -6378,6 +7175,7 @@
   {
     "hiragana": "よっかかん",
     "kanji": "四日間",
+    "romaji": "yokkakan",
     "deutsch": "4 Tage",
     "beispielsatz_jp": "りょこうはよっかかんです。",
     "beispielsatz_de": "Die Reise dauert 4 Tage.",
@@ -6386,6 +7184,7 @@
   {
     "hiragana": "よっつ",
     "kanji": "四つ",
+    "romaji": "yottsu",
     "deutsch": "4 (Anzahl)",
     "beispielsatz_jp": "りんごがよっつあります。",
     "beispielsatz_de": "Es gibt vier Aepfel.",
@@ -6394,6 +7193,7 @@
   {
     "hiragana": "よにん",
     "kanji": "四人",
+    "romaji": "yonin",
     "deutsch": "4 Personen",
     "beispielsatz_jp": "よにんでたべます。",
     "beispielsatz_de": "Wir essen zu viert.",
@@ -6402,6 +7202,7 @@
   {
     "hiragana": "よぶ",
     "kanji": "呼ぶ",
+    "romaji": "yobu",
     "deutsch": "rufen",
     "beispielsatz_jp": "いぬをよびます。",
     "beispielsatz_de": "Ich rufe den Hund.",
@@ -6410,6 +7211,7 @@
   {
     "hiragana": "よむ",
     "kanji": "読む",
+    "romaji": "yomu",
     "deutsch": "lesen",
     "beispielsatz_jp": "まいにちほんをよみます。",
     "beispielsatz_de": "Jeden Tag lese ich ein Buch.",
@@ -6418,6 +7220,7 @@
   {
     "hiragana": "よる",
     "kanji": "夜",
+    "romaji": "yoru",
     "deutsch": "Nacht",
     "beispielsatz_jp": "よるはすずしいです。",
     "beispielsatz_de": "Nachts ist es kuehl.",
@@ -6426,6 +7229,7 @@
   {
     "hiragana": "よわい",
     "kanji": "弱い",
+    "romaji": "yowai",
     "deutsch": "schwach",
     "beispielsatz_jp": "このいぬはよわいです。",
     "beispielsatz_de": "Dieser Hund ist schwach.",
@@ -6434,6 +7238,7 @@
   {
     "hiragana": "よん",
     "kanji": "四",
+    "romaji": "yon",
     "deutsch": "vier",
     "beispielsatz_jp": "よんたすよんははちです。",
     "beispielsatz_de": "Vier plus vier ist acht.",
@@ -6442,6 +7247,7 @@
   {
     "hiragana": "よんひき",
     "kanji": "四匹",
+    "romaji": "yonhiki",
     "deutsch": "4 Tiere",
     "beispielsatz_jp": "どうぶつえんによんひきいます。",
     "beispielsatz_de": "Im Zoo gibt es 4 Tiere.",
@@ -6450,6 +7256,7 @@
   {
     "hiragana": "よんぷん",
     "kanji": "四分",
+    "romaji": "yonpun",
     "deutsch": "4 Minuten",
     "beispielsatz_jp": "バスでよんぷんかかります。",
     "beispielsatz_de": "Mit dem Bus dauert es 4 Minuten.",
@@ -6458,6 +7265,7 @@
   {
     "hiragana": "よんほん",
     "kanji": "四本",
+    "romaji": "yonhon",
     "deutsch": "4 (Flaschen, …)",
     "beispielsatz_jp": "ジュースがよんほんあります。",
     "beispielsatz_de": "Es gibt 4 Flaschen Saft.",
@@ -6466,6 +7274,7 @@
   {
     "hiragana": "ラーメン",
     "kanji": null,
+    "romaji": "raamen",
     "deutsch": "Ramen-Nudeln",
     "beispielsatz_jp": "ラーメンをたべます。",
     "beispielsatz_de": "Ich esse Ramen.",
@@ -6474,6 +7283,7 @@
   {
     "hiragana": "らいげつ",
     "kanji": "来月",
+    "romaji": "raigetsu",
     "deutsch": "nächsten Monat",
     "beispielsatz_jp": "らいげつにほんにいきます。",
     "beispielsatz_de": "Naechsten Monat fahre ich nach Japan.",
@@ -6482,6 +7292,7 @@
   {
     "hiragana": "らいしゅう",
     "kanji": "来週",
+    "romaji": "raishuu",
     "deutsch": "nächste Woche",
     "beispielsatz_jp": "らいしゅうしけんがあります。",
     "beispielsatz_de": "Naechste Woche gibt es eine Pruefung.",
@@ -6490,6 +7301,7 @@
   {
     "hiragana": "らいねん",
     "kanji": "来年",
+    "romaji": "rainen",
     "deutsch": "kommendes Jahr",
     "beispielsatz_jp": "らいねんにほんにいきたいです。",
     "beispielsatz_de": "Naechstes Jahr moechte ich nach Japan fahren.",
@@ -6498,6 +7310,7 @@
   {
     "hiragana": "ラジオ",
     "kanji": null,
+    "romaji": "rajio",
     "deutsch": "Radio",
     "beispielsatz_jp": "まいあさラジオをききます。",
     "beispielsatz_de": "Jeden Morgen hoere ich Radio.",
@@ -6506,6 +7319,7 @@
   {
     "hiragana": "りっぱ",
     "kanji": "立派",
+    "romaji": "rippa",
     "deutsch": "herrlich, schön",
     "beispielsatz_jp": "このたてものはりっぱです。",
     "beispielsatz_de": "Dieses Gebaeude ist herrlich.",
@@ -6514,6 +7328,7 @@
   {
     "hiragana": "りゅうがくせい",
     "kanji": "留学生",
+    "romaji": "ryuugakusei",
     "deutsch": "im Ausland Studierender",
     "beispielsatz_jp": "わたしはりゅうがくせいです。",
     "beispielsatz_de": "Ich bin ein Austauschstudent.",
@@ -6522,6 +7337,7 @@
   {
     "hiragana": "りょうしん",
     "kanji": "両親",
+    "romaji": "ryoushin",
     "deutsch": "Eltern",
     "beispielsatz_jp": "りょうしんはにほんにいます。",
     "beispielsatz_de": "Meine Eltern sind in Japan.",
@@ -6530,6 +7346,7 @@
   {
     "hiragana": "りょうり",
     "kanji": "料理",
+    "romaji": "ryouri",
     "deutsch": "Kochen",
     "beispielsatz_jp": "まいにちりょうりをします。",
     "beispielsatz_de": "Jeden Tag koche ich.",
@@ -6538,6 +7355,7 @@
   {
     "hiragana": "りょこう",
     "kanji": "旅行",
+    "romaji": "ryokou",
     "deutsch": "Reise",
     "beispielsatz_jp": "らいねんりょこうにいきます。",
     "beispielsatz_de": "Naechstes Jahr gehe ich auf Reisen.",
@@ -6546,6 +7364,7 @@
   {
     "hiragana": "りんご",
     "kanji": null,
+    "romaji": "ringo",
     "deutsch": "Apfel",
     "beispielsatz_jp": "りんごをたべます。",
     "beispielsatz_de": "Ich esse einen Apfel.",
@@ -6554,6 +7373,7 @@
   {
     "hiragana": "れい",
     "kanji": "零",
+    "romaji": "rei",
     "deutsch": "Null",
     "beispielsatz_jp": "れいはぜろともいいます。",
     "beispielsatz_de": "Rei wird auch zero ausgesprochen.",
@@ -6562,6 +7382,7 @@
   {
     "hiragana": "れいぞうこ",
     "kanji": "冷蔵庫",
+    "romaji": "reizouko",
     "deutsch": "Kühlschrank",
     "beispielsatz_jp": "れいぞうこにのみものがあります。",
     "beispielsatz_de": "Im Kuehlschrank sind Getraenke.",
@@ -6570,6 +7391,7 @@
   {
     "hiragana": "レストラン",
     "kanji": null,
+    "romaji": "resutoran",
     "deutsch": "Restaurant",
     "beispielsatz_jp": "レストランでたべます。",
     "beispielsatz_de": "Ich esse im Restaurant.",
@@ -6578,6 +7400,7 @@
   {
     "hiragana": "れんしゅうする",
     "kanji": "練習する",
+    "romaji": "renshuusuru",
     "deutsch": "üben",
     "beispielsatz_jp": "まいにちにほんごをれんしゅうします。",
     "beispielsatz_de": "Jeden Tag uebe ich Japanisch.",
@@ -6586,6 +7409,7 @@
   {
     "hiragana": "ろうか",
     "kanji": "廊下",
+    "romaji": "rouka",
     "deutsch": "Korridor",
     "beispielsatz_jp": "ろうかをあるきます。",
     "beispielsatz_de": "Ich gehe durch den Korridor.",
@@ -6594,6 +7418,7 @@
   {
     "hiragana": "ろく",
     "kanji": "六",
+    "romaji": "roku",
     "deutsch": "sechs",
     "beispielsatz_jp": "ろくたすよんはじゅうです。",
     "beispielsatz_de": "Sechs plus vier ist zehn.",
@@ -6602,6 +7427,7 @@
   {
     "hiragana": "ろくがつ",
     "kanji": "六月",
+    "romaji": "rokugatsu",
     "deutsch": "Juni",
     "beispielsatz_jp": "ろくがつはあめがおおいです。",
     "beispielsatz_de": "Im Juni regnet es viel.",
@@ -6610,6 +7436,7 @@
   {
     "hiragana": "ろくじ",
     "kanji": "六時",
+    "romaji": "rokuji",
     "deutsch": "6 Uhr",
     "beispielsatz_jp": "ろくじにおきます。",
     "beispielsatz_de": "Ich stehe um 6 Uhr auf.",
@@ -6618,6 +7445,7 @@
   {
     "hiragana": "ろっぴき",
     "kanji": "六匹",
+    "romaji": "roppiki",
     "deutsch": "6 Tiere",
     "beispielsatz_jp": "どうぶつえんにろっぴきいます。",
     "beispielsatz_de": "Im Zoo gibt es 6 Tiere.",
@@ -6626,6 +7454,7 @@
   {
     "hiragana": "ろっぷん",
     "kanji": "六分",
+    "romaji": "roppun",
     "deutsch": "6 Minuten",
     "beispielsatz_jp": "バスでろっぷんかかります。",
     "beispielsatz_de": "Mit dem Bus dauert es 6 Minuten.",
@@ -6634,6 +7463,7 @@
   {
     "hiragana": "ろっぽん",
     "kanji": "六本",
+    "romaji": "roppon",
     "deutsch": "6 (Flaschen, …)",
     "beispielsatz_jp": "ジュースがろっぽんあります。",
     "beispielsatz_de": "Es gibt 6 Flaschen Saft.",
@@ -6642,6 +7472,7 @@
   {
     "hiragana": "ワイシャツ",
     "kanji": null,
+    "romaji": "waishatsu",
     "deutsch": "Hemd",
     "beispielsatz_jp": "ワイシャツをきます。",
     "beispielsatz_de": "Ich ziehe ein Hemd an.",
@@ -6650,6 +7481,7 @@
   {
     "hiragana": "わかい",
     "kanji": "若い",
+    "romaji": "wakai",
     "deutsch": "jung",
     "beispielsatz_jp": "わかいひとがおおいです。",
     "beispielsatz_de": "Es gibt viele junge Menschen.",
@@ -6658,6 +7490,7 @@
   {
     "hiragana": "わかる",
     "kanji": "分かる",
+    "romaji": "wakaru",
     "deutsch": "verstehen",
     "beispielsatz_jp": "にほんごがわかります。",
     "beispielsatz_de": "Ich verstehe Japanisch.",
@@ -6666,6 +7499,7 @@
   {
     "hiragana": "わすれる",
     "kanji": "忘れる",
+    "romaji": "wasureru",
     "deutsch": "vergessen",
     "beispielsatz_jp": "かぎをわすれました。",
     "beispielsatz_de": "Ich habe den Schluessel vergessen.",
@@ -6674,6 +7508,7 @@
   {
     "hiragana": "わたし",
     "kanji": "私",
+    "romaji": "watashi",
     "deutsch": "ich",
     "beispielsatz_jp": "わたしはにほんごをべんきょうしています。",
     "beispielsatz_de": "Ich lerne Japanisch.",
@@ -6682,6 +7517,7 @@
   {
     "hiragana": "わたす",
     "kanji": "渡す",
+    "romaji": "watasu",
     "deutsch": "geben, überreichen",
     "beispielsatz_jp": "ともだちにほんをわたします。",
     "beispielsatz_de": "Ich gebe dem Freund das Buch.",
@@ -6690,6 +7526,7 @@
   {
     "hiragana": "わたる",
     "kanji": "渡る",
+    "romaji": "wataru",
     "deutsch": "sich erstrecken, überqueren",
     "beispielsatz_jp": "はしをわたります。",
     "beispielsatz_de": "Ich ueberquere die Bruecke.",
@@ -6698,6 +7535,7 @@
   {
     "hiragana": "わるい",
     "kanji": "悪い",
+    "romaji": "warui",
     "deutsch": "schlecht",
     "beispielsatz_jp": "このりょうりはわるいです。",
     "beispielsatz_de": "Dieses Gericht ist schlecht.",

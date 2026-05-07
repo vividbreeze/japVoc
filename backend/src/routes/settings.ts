@@ -8,14 +8,7 @@ router.get('/', async (_req: Request, res: Response) => {
   try {
     const settings = await prisma.settings.upsert({
       where: { id: 'default' },
-      create: {
-        id: 'default',
-        frontSide: 'hiragana',
-        showHiragana: true,
-        showKanji: true,
-        showExampleSentence: true,
-        newWordsPerDay: 20,
-      },
+      create: { id: 'default' },
       update: {},
     });
     res.json(settings);
@@ -27,35 +20,32 @@ router.get('/', async (_req: Request, res: Response) => {
 // PUT /api/settings
 router.put('/', async (req: Request, res: Response) => {
   try {
-    const { frontSide, showHiragana, showKanji, showExampleSentence, newWordsPerDay } = req.body as {
-      frontSide?: string;
+    const {
+      frontShowHiragana, frontShowKanji, frontShowRomaji, frontShowExampleJp,
+      showHiragana, showKanji, showExampleSentence, newWordsPerDay,
+    } = req.body as {
+      frontShowHiragana?: boolean;
+      frontShowKanji?: boolean;
+      frontShowRomaji?: boolean;
+      frontShowExampleJp?: boolean;
       showHiragana?: boolean;
       showKanji?: boolean;
       showExampleSentence?: boolean;
       newWordsPerDay?: number;
     };
 
-    const validFrontSides = ['hiragana', 'kanji', 'deutsch'];
-    if (frontSide && !validFrontSides.includes(frontSide)) {
-      return res.status(400).json({ error: 'Invalid frontSide value' });
-    }
-
     const updated = await prisma.settings.upsert({
       where: { id: 'default' },
-      create: {
-        id: 'default',
-        frontSide: frontSide ?? 'hiragana',
-        showHiragana: showHiragana ?? true,
-        showKanji: showKanji ?? true,
-        showExampleSentence: showExampleSentence ?? true,
-        newWordsPerDay: newWordsPerDay ?? 20,
-      },
+      create: { id: 'default' },
       update: {
-        ...(frontSide !== undefined && { frontSide }),
-        ...(showHiragana !== undefined && { showHiragana }),
-        ...(showKanji !== undefined && { showKanji }),
+        ...(frontShowHiragana !== undefined && { frontShowHiragana }),
+        ...(frontShowKanji    !== undefined && { frontShowKanji }),
+        ...(frontShowRomaji   !== undefined && { frontShowRomaji }),
+        ...(frontShowExampleJp !== undefined && { frontShowExampleJp }),
+        ...(showHiragana      !== undefined && { showHiragana }),
+        ...(showKanji         !== undefined && { showKanji }),
         ...(showExampleSentence !== undefined && { showExampleSentence }),
-        ...(newWordsPerDay !== undefined && { newWordsPerDay }),
+        ...(newWordsPerDay    !== undefined && { newWordsPerDay }),
       },
     });
     res.json(updated);

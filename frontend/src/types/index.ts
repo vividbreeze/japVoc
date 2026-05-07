@@ -3,6 +3,7 @@ export interface Word {
   hiragana: string;
   katakana?: string | null;
   kanji?: string | null;
+  romaji?: string | null;
   deutsch: string;
   beispielsatz_jp?: string | null;
   beispielsatz_de?: string | null;
@@ -67,7 +68,12 @@ export interface Stats {
 
 export interface Settings {
   id: string;
-  frontSide: 'hiragana' | 'kanji' | 'deutsch';
+  // Front side toggles
+  frontShowHiragana: boolean;
+  frontShowKanji: boolean;
+  frontShowRomaji: boolean;
+  frontShowExampleJp: boolean;
+  // Back side toggles
   showHiragana: boolean;
   showKanji: boolean;
   showExampleSentence: boolean;

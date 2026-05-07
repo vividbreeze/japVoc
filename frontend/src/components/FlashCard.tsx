@@ -47,12 +47,6 @@ export default function FlashCard({ word, settings, onRate, cardIndex, total }: 
     return () => window.removeEventListener('keydown', handleKey);
   }, [handleKey]);
 
-  const frontContent = () => {
-    if (settings.frontSide === 'deutsch') return word.deutsch;
-    if (settings.frontSide === 'kanji') return word.kanji || word.hiragana;
-    return word.hiragana;
-  };
-
   return (
     <div className="flex flex-col items-center gap-6 w-full max-w-2xl mx-auto px-4">
       {/* Progress bar */}
@@ -83,15 +77,30 @@ export default function FlashCard({ word, settings, onRate, cardIndex, total }: 
               animate={{ rotateY: 0, opacity: 1 }}
               exit={{ rotateY: -90, opacity: 0 }}
               transition={{ duration: 0.25 }}
-              className="bg-white rounded-2xl shadow-xl border border-gray-100 min-h-64 flex flex-col items-center justify-center p-8 gap-3"
+              className="bg-white rounded-2xl shadow-xl border border-gray-100 min-h-64 flex flex-col items-center justify-center p-8 gap-2"
             >
               <span className="text-xs font-medium text-indigo-400 uppercase tracking-widest">{word.wortart}</span>
-              <p className="text-5xl font-japanese font-medium text-gray-800 text-center leading-tight">
-                {frontContent()}
-              </p>
-              {settings.frontSide !== 'hiragana' && word.hiragana && settings.frontSide === 'kanji' && (
-                <p className="text-xl text-gray-400 font-japanese">{word.hiragana}</p>
+
+              {settings.frontShowHiragana && (
+                <p className="text-5xl font-japanese font-medium text-gray-800 text-center leading-tight">
+                  {word.hiragana}
+                </p>
               )}
+              {settings.frontShowKanji && word.kanji && (
+                <p className={`font-japanese font-medium text-gray-700 text-center ${settings.frontShowHiragana ? 'text-3xl' : 'text-5xl'}`}>
+                  {word.kanji}
+                </p>
+              )}
+              {settings.frontShowRomaji && word.romaji && (
+                <p className="text-xl text-indigo-400 italic">{word.romaji}</p>
+              )}
+              {settings.frontShowExampleJp && word.beispielsatz_jp && (
+                <p className="text-base font-japanese text-gray-600 text-center mt-1">{word.beispielsatz_jp}</p>
+              )}
+              {!settings.frontShowHiragana && !settings.frontShowKanji && !settings.frontShowRomaji && !settings.frontShowExampleJp && (
+                <p className="text-gray-400 italic text-sm">Keine Vorderseite aktiviert</p>
+              )}
+
               <p className="mt-4 text-sm text-gray-400">Leertaste oder klicken zum Umdrehen</p>
             </motion.div>
           ) : (
@@ -105,28 +114,16 @@ export default function FlashCard({ word, settings, onRate, cardIndex, total }: 
             >
               <span className="text-xs font-medium text-indigo-400 uppercase tracking-widest">{word.wortart}</span>
 
-              {settings.frontSide === 'deutsch' ? (
-                <>
-                  {settings.showHiragana && (
-                    <p className="text-4xl font-japanese font-medium text-gray-800">{word.hiragana}</p>
-                  )}
-                  {settings.showKanji && word.kanji && (
-                    <p className="text-4xl font-japanese text-indigo-700">{word.kanji}</p>
-                  )}
-                </>
-              ) : (
-                <>
-                  <p className="text-4xl font-bold text-indigo-700 text-center">{word.deutsch}</p>
-                  {settings.showHiragana && settings.frontSide !== 'hiragana' && (
-                    <p className="text-2xl font-japanese text-gray-600">{word.hiragana}</p>
-                  )}
-                  {settings.showKanji && word.kanji && settings.frontSide !== 'kanji' && (
-                    <p className="text-2xl font-japanese text-gray-500">{word.kanji}</p>
-                  )}
-                  {settings.frontSide === 'hiragana' && settings.showKanji && word.kanji && (
-                    <p className="text-2xl font-japanese text-gray-500">{word.kanji}</p>
-                  )}
-                </>
+              {/* Deutsche Übersetzung – immer auf der Rückseite */}
+              <p className="text-4xl font-bold text-indigo-700 text-center">{word.deutsch}</p>
+
+              {/* Hiragana auf Rückseite, wenn aktiviert und nicht schon vorne */}
+              {settings.showHiragana && !settings.frontShowHiragana && (
+                <p className="text-2xl font-japanese text-gray-600">{word.hiragana}</p>
+              )}
+              {/* Kanji auf Rückseite, wenn aktiviert und nicht schon vorne */}
+              {settings.showKanji && word.kanji && !settings.frontShowKanji && (
+                <p className="text-2xl font-japanese text-gray-500">{word.kanji}</p>
               )}
 
               {settings.showExampleSentence && word.beispielsatz_jp && (

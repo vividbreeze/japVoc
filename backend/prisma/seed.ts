@@ -8,6 +8,7 @@ const prisma = new PrismaClient();
 interface SeedWord {
   hiragana: string;
   kanji: string | null;
+  romaji: string | null;
   deutsch: string;
   beispielsatz_jp: string | null;
   beispielsatz_de: string | null;
@@ -44,6 +45,7 @@ async function main() {
           id,
           hiragana: w.hiragana,
           kanji: w.kanji ?? null,
+          romaji: w.romaji ?? null,
           deutsch: w.deutsch,
           beispielsatz_jp: w.beispielsatz_jp ?? null,
           beispielsatz_de: w.beispielsatz_de ?? null,
@@ -77,14 +79,7 @@ async function main() {
 
   // Default settings
   await prisma.settings.create({
-    data: {
-      id: 'default',
-      frontSide: 'hiragana',
-      showHiragana: true,
-      showKanji: true,
-      showExampleSentence: true,
-      newWordsPerDay: 20,
-    },
+    data: { id: 'default' },
   });
 
   console.log(`✅ Seed complete. ${vocab.length} words, 1 default collection.`);
