@@ -41,8 +41,12 @@ router.get('/queue', async (req: Request, res: Response) => {
     });
     const learnedIds = new Set(learnedWordIds.map((p) => p.wordId));
 
+    const newWordWhere: Record<string, unknown> = { ...wordFilter };
+    if (learnedIds.size > 0) {
+      newWordWhere.NOT = { id: { in: [...learnedIds] } };
+    }
     const allWords = await prisma.word.findMany({
-      where: { ...wordFilter, NOT: { id: { in: [...learnedIds] } } },
+      where: newWordWhere,
       orderBy: { hiragana: 'asc' },
       take: newWordsPerDay,
     });
