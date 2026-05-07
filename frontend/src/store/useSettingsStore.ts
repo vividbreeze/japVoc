@@ -12,12 +12,10 @@ interface SettingsStore {
 
 const DEFAULT_SETTINGS: Settings = {
   id: 'default',
+  lernrichtung: 'jp_to_de',
   frontShowHiragana: true,
   frontShowKanji: false,
   frontShowRomaji: false,
-  frontShowExampleJp: false,
-  showHiragana: true,
-  showKanji: true,
   showExampleSentence: true,
   newWordsPerDay: 20,
 };

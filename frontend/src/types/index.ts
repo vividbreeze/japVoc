@@ -68,14 +68,12 @@ export interface Stats {
 
 export interface Settings {
   id: string;
-  // Front side toggles
+  lernrichtung: 'jp_to_de' | 'de_to_jp';
+  // Japanese side (front in jp_to_de, back in de_to_jp)
   frontShowHiragana: boolean;
   frontShowKanji: boolean;
   frontShowRomaji: boolean;
-  frontShowExampleJp: boolean;
-  // Back side toggles
-  showHiragana: boolean;
-  showKanji: boolean;
+  // Back side
   showExampleSentence: boolean;
   newWordsPerDay: number;
 }

@@ -7,6 +7,8 @@ export default function Settings() {
 
   useEffect(() => { if (!loaded) load(); }, [loaded, load]);
 
+  const jpToDE = settings.lernrichtung === 'jp_to_de';
+
   return (
     <div className="space-y-6 max-w-lg">
       <div>
@@ -14,8 +16,35 @@ export default function Settings() {
         <p className="text-sm text-gray-500">Lernmodus anpassen</p>
       </div>
 
-      {/* ── Vorderseite ─────────────────────────────────────────── */}
-      <Section title="Vorderseite der Karte" description="Was auf der Vorderseite der Karteikarte angezeigt wird">
+      {/* ── Lernrichtung ─────────────────────────────────────────── */}
+      <Section title="Lernrichtung" description="Welche Seite der Karte zuerst angezeigt wird">
+        <div className="grid grid-cols-2 gap-3 mt-3">
+          <DirectionCard
+            active={jpToDE}
+            onClick={() => update({ lernrichtung: 'jp_to_de' })}
+            front="日本語"
+            frontSub="Japanisch"
+            back="Deutsch"
+          />
+          <DirectionCard
+            active={!jpToDE}
+            onClick={() => update({ lernrichtung: 'de_to_jp' })}
+            front="Deutsch"
+            back="日本語"
+            backSub="Japanisch"
+          />
+        </div>
+      </Section>
+
+      {/* ── Vorderseite ──────────────────────────────────────────── */}
+      <Section
+        title={jpToDE ? 'Vorderseite – Japanisch' : 'Rückseite – Japanisch'}
+        description={
+          jpToDE
+            ? 'Was auf der japanischen Vorderseite angezeigt wird'
+            : 'Was auf der japanischen Rückseite angezeigt wird'
+        }
+      >
         <div className="space-y-3 mt-3">
           <ToggleRow
             label="Hiragana / Katakana"
@@ -32,42 +61,30 @@ export default function Settings() {
             checked={settings.frontShowRomaji}
             onChange={(v) => update({ frontShowRomaji: v })}
           />
-          <ToggleRow
-            label="Beispielsatz (Japanisch)"
-            checked={settings.frontShowExampleJp}
-            onChange={(v) => update({ frontShowExampleJp: v })}
-          />
-          {!anyFrontEnabled(settings) && (
+          {!anyJapaneseEnabled(settings) && (
             <p className="text-xs text-amber-600 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2">
-              Mindestens eine Option sollte aktiviert sein – sonst bleibt die Vorderseite leer.
+              Mindestens eine Option sollte aktiviert sein.
             </p>
           )}
         </div>
       </Section>
 
       {/* ── Rückseite ────────────────────────────────────────────── */}
-      <Section title="Rückseite der Karte" description="Was zusätzlich zur deutschen Übersetzung angezeigt wird">
-        <div className="space-y-3 mt-3">
+      <Section
+        title={jpToDE ? 'Rückseite – Deutsch' : 'Vorderseite – Deutsch'}
+        description="Die deutsche Übersetzung wird immer angezeigt"
+      >
+        <div className="mt-3">
           <ToggleRow
-            label="Hiragana / Katakana"
-            checked={settings.showHiragana}
-            onChange={(v) => update({ showHiragana: v })}
-          />
-          <ToggleRow
-            label="Kanji"
-            checked={settings.showKanji}
-            onChange={(v) => update({ showKanji: v })}
-          />
-          <ToggleRow
-            label="Beispielsatz (Japanisch + Deutsch)"
+            label="Beispielsatz anzeigen"
             checked={settings.showExampleSentence}
             onChange={(v) => update({ showExampleSentence: v })}
           />
         </div>
       </Section>
 
-      {/* ── Lernmodus ────────────────────────────────────────────── */}
-      <Section title="Lernmodus" description="Tägliches Lernziel">
+      {/* ── Lernziel ─────────────────────────────────────────────── */}
+      <Section title="Tägliches Lernziel" description="Neue Vokabeln pro Tag">
         <div className="flex items-center gap-3 mt-3">
           <input
             type="range"
@@ -87,9 +104,11 @@ export default function Settings() {
   );
 }
 
-function anyFrontEnabled(s: Settings) {
-  return s.frontShowHiragana || s.frontShowKanji || s.frontShowRomaji || s.frontShowExampleJp;
+function anyJapaneseEnabled(s: Settings) {
+  return s.frontShowHiragana || s.frontShowKanji || s.frontShowRomaji;
 }
+
+// ─── Sub-components ──────────────────────────────────────────────────────────
 
 function Section({ title, description, children }: { title: string; description: string; children: React.ReactNode }) {
   return (
@@ -98,6 +117,43 @@ function Section({ title, description, children }: { title: string; description:
       <p className="text-xs text-gray-400">{description}</p>
       {children}
     </div>
+  );
+}
+
+function DirectionCard({
+  active, onClick, front, frontSub, back, backSub,
+}: {
+  active: boolean;
+  onClick: () => void;
+  front: string;
+  frontSub?: string;
+  back: string;
+  backSub?: string;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      className={`rounded-xl border-2 p-4 text-center transition-all ${
+        active
+          ? 'border-indigo-500 bg-indigo-50'
+          : 'border-gray-200 hover:border-gray-300 bg-white'
+      }`}
+    >
+      <div className="flex items-center justify-center gap-2 text-sm">
+        <span className={`font-bold font-japanese text-lg ${active ? 'text-indigo-700' : 'text-gray-700'}`}>
+          {front}
+        </span>
+        <span className="text-gray-400">→</span>
+        <span className={`font-medium ${active ? 'text-indigo-500' : 'text-gray-500'}`}>
+          {back}
+        </span>
+      </div>
+      {(frontSub || backSub) && (
+        <p className="text-xs text-gray-400 mt-1">
+          {frontSub ?? front} → {backSub ?? back}
+        </p>
+      )}
+    </button>
   );
 }
 

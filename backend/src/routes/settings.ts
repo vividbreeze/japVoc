@@ -21,31 +21,32 @@ router.get('/', async (_req: Request, res: Response) => {
 router.put('/', async (req: Request, res: Response) => {
   try {
     const {
-      frontShowHiragana, frontShowKanji, frontShowRomaji, frontShowExampleJp,
-      showHiragana, showKanji, showExampleSentence, newWordsPerDay,
+      lernrichtung,
+      frontShowHiragana, frontShowKanji, frontShowRomaji,
+      showExampleSentence, newWordsPerDay,
     } = req.body as {
+      lernrichtung?: string;
       frontShowHiragana?: boolean;
       frontShowKanji?: boolean;
       frontShowRomaji?: boolean;
-      frontShowExampleJp?: boolean;
-      showHiragana?: boolean;
-      showKanji?: boolean;
       showExampleSentence?: boolean;
       newWordsPerDay?: number;
     };
+
+    if (lernrichtung && !['jp_to_de', 'de_to_jp'].includes(lernrichtung)) {
+      return res.status(400).json({ error: 'Invalid lernrichtung value' });
+    }
 
     const updated = await prisma.settings.upsert({
       where: { id: 'default' },
       create: { id: 'default' },
       update: {
-        ...(frontShowHiragana !== undefined && { frontShowHiragana }),
-        ...(frontShowKanji    !== undefined && { frontShowKanji }),
-        ...(frontShowRomaji   !== undefined && { frontShowRomaji }),
-        ...(frontShowExampleJp !== undefined && { frontShowExampleJp }),
-        ...(showHiragana      !== undefined && { showHiragana }),
-        ...(showKanji         !== undefined && { showKanji }),
+        ...(lernrichtung        !== undefined && { lernrichtung }),
+        ...(frontShowHiragana   !== undefined && { frontShowHiragana }),
+        ...(frontShowKanji      !== undefined && { frontShowKanji }),
+        ...(frontShowRomaji     !== undefined && { frontShowRomaji }),
         ...(showExampleSentence !== undefined && { showExampleSentence }),
-        ...(newWordsPerDay    !== undefined && { newWordsPerDay }),
+        ...(newWordsPerDay      !== undefined && { newWordsPerDay }),
       },
     });
     res.json(updated);

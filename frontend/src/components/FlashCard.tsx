@@ -12,20 +12,69 @@ interface FlashCardProps {
 
 const RATING_CONFIG: { rating: Rating; label: string; sublabel: string; color: string }[] = [
   { rating: 0, label: 'Nochmal', sublabel: 'Again', color: 'bg-red-500 hover:bg-red-600' },
-  { rating: 1, label: 'Schwer', sublabel: 'Hard', color: 'bg-orange-400 hover:bg-orange-500' },
-  { rating: 2, label: 'Gut', sublabel: 'Good', color: 'bg-green-500 hover:bg-green-600' },
-  { rating: 3, label: 'Leicht', sublabel: 'Easy', color: 'bg-blue-500 hover:bg-blue-600' },
+  { rating: 1, label: 'Schwer',  sublabel: 'Hard',  color: 'bg-orange-400 hover:bg-orange-500' },
+  { rating: 2, label: 'Gut',     sublabel: 'Good',  color: 'bg-green-500 hover:bg-green-600' },
+  { rating: 3, label: 'Leicht',  sublabel: 'Easy',  color: 'bg-blue-500 hover:bg-blue-600' },
 ];
 
+// ─── Japanese side ────────────────────────────────────────────────────────────
+function JapaneseSide({ word, settings, dim = false }: { word: Word; settings: Settings; dim?: boolean }) {
+  const hasContent = settings.frontShowHiragana || settings.frontShowKanji || settings.frontShowRomaji;
+  return (
+    <div className="flex flex-col items-center gap-2">
+      {settings.frontShowHiragana && (
+        <p className={`font-japanese font-medium text-center leading-tight ${dim ? 'text-3xl text-gray-600' : 'text-5xl text-gray-800'}`}>
+          {word.hiragana}
+        </p>
+      )}
+      {settings.frontShowKanji && word.kanji && (
+        <p className={`font-japanese font-medium text-center ${dim ? 'text-2xl text-indigo-500' : settings.frontShowHiragana ? 'text-3xl text-indigo-600' : 'text-5xl text-gray-800'}`}>
+          {word.kanji}
+        </p>
+      )}
+      {settings.frontShowRomaji && word.romaji && (
+        <p className={`italic ${dim ? 'text-base text-indigo-300' : 'text-xl text-indigo-400'}`}>
+          {word.romaji}
+        </p>
+      )}
+      {!hasContent && (
+        <p className="text-gray-400 italic text-sm">Keine japanische Anzeige aktiviert</p>
+      )}
+    </div>
+  );
+}
+
+// ─── German side ─────────────────────────────────────────────────────────────
+function GermanSide({ word, dim = false }: { word: Word; dim?: boolean }) {
+  return (
+    <p className={`font-bold text-center ${dim ? 'text-3xl text-indigo-500' : 'text-5xl text-indigo-700'}`}>
+      {word.deutsch}
+    </p>
+  );
+}
+
+// ─── Example sentence ─────────────────────────────────────────────────────────
+function ExampleBlock({ word }: { word: Word }) {
+  if (!word.beispielsatz_jp && !word.beispielsatz_de) return null;
+  return (
+    <div className="mt-3 w-full bg-white rounded-xl p-4 border border-indigo-100">
+      {word.beispielsatz_jp && (
+        <p className="text-base font-japanese text-gray-700 mb-1">{word.beispielsatz_jp}</p>
+      )}
+      {word.beispielsatz_de && (
+        <p className="text-sm text-gray-500 italic">{word.beispielsatz_de}</p>
+      )}
+    </div>
+  );
+}
+
+// ─── FlashCard ────────────────────────────────────────────────────────────────
 export default function FlashCard({ word, settings, onRate, cardIndex, total }: FlashCardProps) {
   const [flipped, setFlipped] = useState(false);
+  const jpFirst = settings.lernrichtung === 'jp_to_de';
 
-  // Reset flip state when word changes
-  useEffect(() => {
-    setFlipped(false);
-  }, [word.id]);
+  useEffect(() => { setFlipped(false); }, [word.id]);
 
-  // Keyboard controls
   const handleKey = useCallback(
     (e: KeyboardEvent) => {
       if (e.key === ' ' || e.key === 'Enter') {
@@ -49,11 +98,12 @@ export default function FlashCard({ word, settings, onRate, cardIndex, total }: 
 
   return (
     <div className="flex flex-col items-center gap-6 w-full max-w-2xl mx-auto px-4">
+
       {/* Progress bar */}
       <div className="w-full">
         <div className="flex justify-between text-sm text-gray-500 mb-1">
           <span>Karte {cardIndex + 1} von {total}</span>
-          <span>{Math.round(((cardIndex) / total) * 100)}%</span>
+          <span>{Math.round((cardIndex / total) * 100)}%</span>
         </div>
         <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
           <div
@@ -71,73 +121,65 @@ export default function FlashCard({ word, settings, onRate, cardIndex, total }: 
       >
         <AnimatePresence mode="wait" initial={false}>
           {!flipped ? (
+            // ── FRONT ──────────────────────────────────────────────
             <motion.div
               key="front"
               initial={{ rotateY: 90, opacity: 0 }}
               animate={{ rotateY: 0, opacity: 1 }}
               exit={{ rotateY: -90, opacity: 0 }}
               transition={{ duration: 0.25 }}
-              className="bg-white rounded-2xl shadow-xl border border-gray-100 min-h-64 flex flex-col items-center justify-center p-8 gap-2"
+              className="bg-white rounded-2xl shadow-xl border border-gray-100 min-h-64 flex flex-col items-center justify-center p-8 gap-3"
             >
-              <span className="text-xs font-medium text-indigo-400 uppercase tracking-widest">{word.wortart}</span>
+              <span className="text-xs font-medium text-indigo-400 uppercase tracking-widest">
+                {word.wortart}
+              </span>
 
-              {settings.frontShowHiragana && (
-                <p className="text-5xl font-japanese font-medium text-gray-800 text-center leading-tight">
-                  {word.hiragana}
-                </p>
-              )}
-              {settings.frontShowKanji && word.kanji && (
-                <p className={`font-japanese font-medium text-gray-700 text-center ${settings.frontShowHiragana ? 'text-3xl' : 'text-5xl'}`}>
-                  {word.kanji}
-                </p>
-              )}
-              {settings.frontShowRomaji && word.romaji && (
-                <p className="text-xl text-indigo-400 italic">{word.romaji}</p>
-              )}
-              {settings.frontShowExampleJp && word.beispielsatz_jp && (
-                <p className="text-base font-japanese text-gray-600 text-center mt-1">{word.beispielsatz_jp}</p>
-              )}
-              {!settings.frontShowHiragana && !settings.frontShowKanji && !settings.frontShowRomaji && !settings.frontShowExampleJp && (
-                <p className="text-gray-400 italic text-sm">Keine Vorderseite aktiviert</p>
+              {jpFirst ? (
+                <JapaneseSide word={word} settings={settings} />
+              ) : (
+                <GermanSide word={word} />
               )}
 
               <p className="mt-4 text-sm text-gray-400">Leertaste oder klicken zum Umdrehen</p>
             </motion.div>
           ) : (
+            // ── BACK ───────────────────────────────────────────────
             <motion.div
               key="back"
               initial={{ rotateY: 90, opacity: 0 }}
               animate={{ rotateY: 0, opacity: 1 }}
               exit={{ rotateY: -90, opacity: 0 }}
               transition={{ duration: 0.25 }}
-              className="bg-indigo-50 rounded-2xl shadow-xl border border-indigo-100 min-h-64 flex flex-col items-center justify-center p-8 gap-3"
+              className="bg-indigo-50 rounded-2xl shadow-xl border border-indigo-100 min-h-64 flex flex-col items-center justify-center p-8 gap-2"
             >
-              <span className="text-xs font-medium text-indigo-400 uppercase tracking-widest">{word.wortart}</span>
+              <span className="text-xs font-medium text-indigo-400 uppercase tracking-widest">
+                {word.wortart}
+              </span>
 
-              {/* Deutsche Übersetzung – immer auf der Rückseite */}
-              <p className="text-4xl font-bold text-indigo-700 text-center">{word.deutsch}</p>
-
-              {/* Hiragana auf Rückseite, wenn aktiviert und nicht schon vorne */}
-              {settings.showHiragana && !settings.frontShowHiragana && (
-                <p className="text-2xl font-japanese text-gray-600">{word.hiragana}</p>
-              )}
-              {/* Kanji auf Rückseite, wenn aktiviert und nicht schon vorne */}
-              {settings.showKanji && word.kanji && !settings.frontShowKanji && (
-                <p className="text-2xl font-japanese text-gray-500">{word.kanji}</p>
+              {/* Hint: what was on the front, shown smaller */}
+              {jpFirst ? (
+                <JapaneseSide word={word} settings={settings} dim />
+              ) : (
+                <GermanSide word={word} dim />
               )}
 
-              {settings.showExampleSentence && word.beispielsatz_jp && (
-                <div className="mt-4 w-full bg-white rounded-xl p-4 border border-indigo-100">
-                  <p className="text-base font-japanese text-gray-700 mb-1">{word.beispielsatz_jp}</p>
-                  <p className="text-sm text-gray-500 italic">{word.beispielsatz_de}</p>
-                </div>
+              <div className="w-full border-t border-indigo-100 my-1" />
+
+              {/* Main reveal */}
+              {jpFirst ? (
+                <GermanSide word={word} />
+              ) : (
+                <JapaneseSide word={word} settings={settings} />
               )}
+
+              {/* Example sentence */}
+              {settings.showExampleSentence && <ExampleBlock word={word} />}
             </motion.div>
           )}
         </AnimatePresence>
       </div>
 
-      {/* Rating buttons – only visible after flip */}
+      {/* Rating buttons */}
       <AnimatePresence>
         {flipped && (
           <motion.div

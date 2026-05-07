@@ -72,17 +72,15 @@ model WordProgress {
 }
 
 model Settings {
-  id                   String  @id @default("default")
-  // Front side toggles
-  frontShowHiragana    Boolean @default(true)
-  frontShowKanji       Boolean @default(false)
-  frontShowRomaji      Boolean @default(false)
-  frontShowExampleJp   Boolean @default(false)
-  // Back side toggles
-  showHiragana         Boolean @default(true)
-  showKanji            Boolean @default(true)
-  showExampleSentence  Boolean @default(true)
-  newWordsPerDay       Int     @default(20)
+  id                  String  @id @default("default")
+  lernrichtung        String  @default("jp_to_de")  // "jp_to_de" | "de_to_jp"
+  // Japanese side: shown on front (jp_to_de) or back (de_to_jp)
+  frontShowHiragana   Boolean @default(true)
+  frontShowKanji      Boolean @default(false)
+  frontShowRomaji     Boolean @default(false)
+  // Back side
+  showExampleSentence Boolean @default(true)
+  newWordsPerDay      Int     @default(20)
 }
 
 model LearningDay {

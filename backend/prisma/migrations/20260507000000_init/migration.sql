@@ -61,12 +61,10 @@ CREATE TABLE "WordProgress" (
 -- CreateTable
 CREATE TABLE "Settings" (
     "id" TEXT NOT NULL PRIMARY KEY DEFAULT 'default',
+    "lernrichtung" TEXT NOT NULL DEFAULT 'jp_to_de',
     "frontShowHiragana" BOOLEAN NOT NULL DEFAULT true,
     "frontShowKanji" BOOLEAN NOT NULL DEFAULT false,
     "frontShowRomaji" BOOLEAN NOT NULL DEFAULT false,
-    "frontShowExampleJp" BOOLEAN NOT NULL DEFAULT false,
-    "showHiragana" BOOLEAN NOT NULL DEFAULT true,
-    "showKanji" BOOLEAN NOT NULL DEFAULT true,
     "showExampleSentence" BOOLEAN NOT NULL DEFAULT true,
     "newWordsPerDay" INTEGER NOT NULL DEFAULT 20
 );
