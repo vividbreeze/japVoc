@@ -61,6 +61,11 @@ export default function Settings() {
             checked={settings.frontShowRomaji}
             onChange={(v) => update({ frontShowRomaji: v })}
           />
+          <ToggleRow
+            label="Beispielsatz (Japanisch)"
+            checked={settings.frontShowExampleJp}
+            onChange={(v) => update({ frontShowExampleJp: v })}
+          />
           {!anyJapaneseEnabled(settings) && (
             <p className="text-xs text-amber-600 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2">
               Mindestens eine Option sollte aktiviert sein.
@@ -84,20 +89,29 @@ export default function Settings() {
       </Section>
 
       {/* ── Lernziel ─────────────────────────────────────────────── */}
-      <Section title="Tägliches Lernziel" description="Neue Vokabeln pro Tag">
-        <div className="flex items-center gap-3 mt-3">
-          <input
-            type="range"
-            min={5}
-            max={100}
-            step={5}
-            value={settings.newWordsPerDay}
-            onChange={(e) => update({ newWordsPerDay: Number(e.target.value) })}
-            className="flex-1 accent-indigo-600"
+      <Section title="Neue Vokabeln pro Sitzung" description="Wie viele neue Wörter pro Lernsitzung angezeigt werden">
+        <div className="space-y-3 mt-3">
+          <ToggleRow
+            label="Alle verfügbaren Vokabeln"
+            checked={settings.newWordsPerDay === 0}
+            onChange={(v) => update({ newWordsPerDay: v ? 0 : 20 })}
           />
-          <span className="w-16 text-center font-semibold text-indigo-700 text-sm">
-            {settings.newWordsPerDay} / Tag
-          </span>
+          {settings.newWordsPerDay !== 0 && (
+            <div className="flex items-center gap-3">
+              <input
+                type="range"
+                min={5}
+                max={200}
+                step={5}
+                value={settings.newWordsPerDay}
+                onChange={(e) => update({ newWordsPerDay: Number(e.target.value) })}
+                className="flex-1 accent-indigo-600"
+              />
+              <span className="w-16 text-center font-semibold text-indigo-700 text-sm">
+                {settings.newWordsPerDay} / Tag
+              </span>
+            </div>
+          )}
         </div>
       </Section>
     </div>

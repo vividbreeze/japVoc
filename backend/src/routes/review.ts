@@ -48,7 +48,8 @@ router.get('/queue', async (req: Request, res: Response) => {
     const allWords = await prisma.word.findMany({
       where: newWordWhere,
       orderBy: { hiragana: 'asc' },
-      take: newWordsPerDay,
+      // newWordsPerDay === 0 means unlimited
+      ...(newWordsPerDay > 0 ? { take: newWordsPerDay } : {}),
     });
 
     // Combine: due reviews first, then new words

@@ -18,10 +18,10 @@ const RATING_CONFIG: { rating: Rating; label: string; sublabel: string; color: s
 ];
 
 // ─── Japanese side ────────────────────────────────────────────────────────────
-function JapaneseSide({ word, settings, dim = false }: { word: Word; settings: Settings; dim?: boolean }) {
+function JapaneseSide({ word, settings, dim = false, showExample = false }: { word: Word; settings: Settings; dim?: boolean; showExample?: boolean }) {
   const hasContent = settings.frontShowHiragana || settings.frontShowKanji || settings.frontShowRomaji;
   return (
-    <div className="flex flex-col items-center gap-2">
+    <div className="flex flex-col items-center gap-2 w-full">
       {settings.frontShowHiragana && (
         <p className={`font-japanese font-medium text-center leading-tight ${dim ? 'text-3xl text-gray-600' : 'text-5xl text-gray-800'}`}>
           {word.hiragana}
@@ -40,6 +40,11 @@ function JapaneseSide({ word, settings, dim = false }: { word: Word; settings: S
       {!hasContent && (
         <p className="text-gray-400 italic text-sm">Keine japanische Anzeige aktiviert</p>
       )}
+      {showExample && word.beispielsatz_jp && (
+        <div className="mt-2 w-full bg-white rounded-xl p-3 border border-gray-100">
+          <p className="text-sm font-japanese text-gray-600 text-center">{word.beispielsatz_jp}</p>
+        </div>
+      )}
     </div>
   );
 }
@@ -53,17 +58,12 @@ function GermanSide({ word, dim = false }: { word: Word; dim?: boolean }) {
   );
 }
 
-// ─── Example sentence ─────────────────────────────────────────────────────────
+// ─── German example sentence (back side) ─────────────────────────────────────
 function ExampleBlock({ word }: { word: Word }) {
-  if (!word.beispielsatz_jp && !word.beispielsatz_de) return null;
+  if (!word.beispielsatz_de) return null;
   return (
     <div className="mt-3 w-full bg-white rounded-xl p-4 border border-indigo-100">
-      {word.beispielsatz_jp && (
-        <p className="text-base font-japanese text-gray-700 mb-1">{word.beispielsatz_jp}</p>
-      )}
-      {word.beispielsatz_de && (
-        <p className="text-sm text-gray-500 italic">{word.beispielsatz_de}</p>
-      )}
+      <p className="text-sm text-gray-500 italic">{word.beispielsatz_de}</p>
     </div>
   );
 }
@@ -135,7 +135,7 @@ export default function FlashCard({ word, settings, onRate, cardIndex, total }: 
               </span>
 
               {jpFirst ? (
-                <JapaneseSide word={word} settings={settings} />
+                <JapaneseSide word={word} settings={settings} showExample={settings.frontShowExampleJp} />
               ) : (
                 <GermanSide word={word} />
               )}
@@ -169,7 +169,7 @@ export default function FlashCard({ word, settings, onRate, cardIndex, total }: 
               {jpFirst ? (
                 <GermanSide word={word} />
               ) : (
-                <JapaneseSide word={word} settings={settings} />
+                <JapaneseSide word={word} settings={settings} showExample={settings.frontShowExampleJp} />
               )}
 
               {/* Example sentence */}

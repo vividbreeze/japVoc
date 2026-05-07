@@ -73,8 +73,10 @@ export interface Settings {
   frontShowHiragana: boolean;
   frontShowKanji: boolean;
   frontShowRomaji: boolean;
-  // Back side
+  frontShowExampleJp: boolean;
+  // German side
   showExampleSentence: boolean;
+  // 0 = unlimited
   newWordsPerDay: number;
 }
 

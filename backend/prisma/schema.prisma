@@ -78,8 +78,10 @@ model Settings {
   frontShowHiragana   Boolean @default(true)
   frontShowKanji      Boolean @default(false)
   frontShowRomaji     Boolean @default(false)
-  // Back side
+  frontShowExampleJp  Boolean @default(false)
+  // German side
   showExampleSentence Boolean @default(true)
+  // 0 = unlimited
   newWordsPerDay      Int     @default(20)
 }
 

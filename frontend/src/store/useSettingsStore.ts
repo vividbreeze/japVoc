@@ -16,6 +16,7 @@ const DEFAULT_SETTINGS: Settings = {
   frontShowHiragana: true,
   frontShowKanji: false,
   frontShowRomaji: false,
+  frontShowExampleJp: false,
   showExampleSentence: true,
   newWordsPerDay: 20,
 };
