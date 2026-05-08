@@ -45,7 +45,7 @@ RUN mkdir -p /app/data
 EXPOSE 3000
 
 # Use node for health check — no wget/curl dependency needed
-HEALTHCHECK --interval=30s --timeout=10s --start_period=60s --retries=3 \
+HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
   CMD node -e "require('http').get('http://localhost:3000/health',r=>process.exit(r.statusCode===200?0:1)).on('error',()=>process.exit(1))"
 
 CMD ["sh", "-c", "npx prisma migrate deploy && node dist/src/index.js"]
