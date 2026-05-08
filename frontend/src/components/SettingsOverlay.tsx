@@ -1,5 +1,7 @@
+import { useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSettingsStore } from '../store/useSettingsStore';
+import { exportBackup, importBackup } from '../api/client';
 import type { Settings } from '../types';
 
 interface Props {
@@ -10,6 +12,39 @@ interface Props {
 export default function SettingsOverlay({ isOpen, onClose }: Props) {
   const { settings, update } = useSettingsStore();
   const jpToDE = settings.lernrichtung === 'jp_to_de';
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const [backupStatus, setBackupStatus] = useState<string | null>(null);
+
+  const handleExport = async () => {
+    try {
+      const blob = await exportBackup();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `japvoc-backup-${new Date().toISOString().split('T')[0]}.json`;
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch {
+      setBackupStatus('Export fehlgeschlagen.');
+    }
+  };
+
+  const handleImport = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setBackupStatus('Importiere…');
+    try {
+      const text = await file.text();
+      const data = JSON.parse(text);
+      const result = await importBackup(data);
+      setBackupStatus(
+        `Import erfolgreich: ${result.collectionsCreated} neue Sammlungen, ${result.wordsCreated} neue Vokabeln, ${result.progressRestored} Lernfortschritte wiederhergestellt.`
+      );
+    } catch {
+      setBackupStatus('Import fehlgeschlagen. Bitte prüfe die Datei.');
+    }
+    if (fileInputRef.current) fileInputRef.current.value = '';
+  };
 
   return (
     <AnimatePresence>
@@ -133,6 +168,34 @@ export default function SettingsOverlay({ isOpen, onClose }: Props) {
                         {settings.newWordsPerDay} / Tag
                       </span>
                     </div>
+                  )}
+                </div>
+              </Section>
+
+              {/* Datensicherung */}
+              <Section title="Datensicherung">
+                <div className="space-y-2 mt-2">
+                  <button
+                    onClick={handleExport}
+                    className="w-full flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold py-2.5 rounded-xl transition-colors"
+                  >
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+                    </svg>
+                    Backup exportieren
+                  </button>
+                  <button
+                    onClick={() => fileInputRef.current?.click()}
+                    className="w-full flex items-center justify-center gap-2 border border-indigo-300 text-indigo-600 hover:bg-indigo-50 text-sm font-semibold py-2.5 rounded-xl transition-colors"
+                  >
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>
+                    </svg>
+                    Backup importieren
+                  </button>
+                  <input ref={fileInputRef} type="file" accept=".json" className="hidden" onChange={handleImport} />
+                  {backupStatus && (
+                    <p className="text-xs text-gray-600 bg-gray-50 rounded-lg px-3 py-2 border border-gray-200">{backupStatus}</p>
                   )}
                 </div>
               </Section>

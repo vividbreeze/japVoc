@@ -46,3 +46,12 @@ export const fetchSettings = () => api.get<Settings>('/settings').then((r) => r.
 
 export const updateSettings = (settings: Partial<Settings>) =>
   api.put<Settings>('/settings', settings).then((r) => r.data);
+
+// Backup
+export const exportBackup = () =>
+  api.get('/backup/export', { responseType: 'blob' }).then((r) => r.data as Blob);
+
+export const importBackup = (data: unknown) =>
+  api.post<{ success: boolean; wordsCreated: number; collectionsCreated: number; progressRestored: number }>(
+    '/backup/import', data
+  ).then((r) => r.data);

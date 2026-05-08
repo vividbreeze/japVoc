@@ -8,6 +8,7 @@ import collectionsRouter from './routes/collections';
 import reviewRouter from './routes/review';
 import statsRouter from './routes/stats';
 import settingsRouter from './routes/settings';
+import backupRouter from './routes/backup';
 import { seedIfEmpty } from '../prisma/seed';
 
 const app = express();
@@ -22,6 +23,7 @@ app.use('/api/collections', collectionsRouter);
 app.use('/api/review', reviewRouter);
 app.use('/api/stats', statsRouter);
 app.use('/api/settings', settingsRouter);
+app.use('/api/backup', backupRouter);
 
 // Health check
 app.get('/health', (_req, res) => {
