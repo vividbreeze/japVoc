@@ -23,28 +23,27 @@ RUN npm run build
 FROM node:20-alpine AS runner
 WORKDIR /app
 
-# Install only production deps
+# Install production deps (includes prisma CLI for migrate deploy)
 COPY backend/package*.json ./
 RUN npm ci --omit=dev
 
-# Copy compiled backend
+# Copy compiled backend + generated Prisma client
 COPY --from=backend-builder /app/backend/dist ./dist
 COPY --from=backend-builder /app/backend/node_modules/.prisma ./node_modules/.prisma
 COPY --from=backend-builder /app/backend/node_modules/@prisma ./node_modules/@prisma
+
+# Copy Prisma schema, migrations and seed data
 COPY backend/prisma ./prisma
 
-# Copy seed data
-COPY backend/prisma/seed/n5-vocabulary.json ./prisma/seed/n5-vocabulary.json
-
-# Copy built frontend into location served by Express
+# Copy built frontend
 COPY --from=frontend-builder /app/frontend/dist ./frontend/dist
 
-# Create data directory for SQLite
+# Persistent data directory for SQLite
 RUN mkdir -p /app/data
 
 EXPOSE 3000
 
-HEALTHCHECK --interval=30s --timeout=10s --start-period=20s --retries=3 \
+HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
   CMD wget -qO- http://localhost:3000/health || exit 1
 
 CMD ["sh", "-c", "npx prisma migrate deploy && node dist/src/index.js"]
