@@ -29,49 +29,41 @@ export async function seedIfEmpty() {
   const vocabPath = path.join(process.cwd(), 'prisma', 'seed', 'n5-vocabulary.json');
   const vocab: SeedWord[] = JSON.parse(fs.readFileSync(vocabPath, 'utf-8'));
 
-  const batchSize = 100;
-  const wordIds: string[] = [];
-  for (let i = 0; i < vocab.length; i += batchSize) {
-    const batch = vocab.slice(i, i + batchSize);
-    for (const w of batch) {
-      const id = randomUUID();
-      wordIds.push(id);
-      await prisma.word.create({
-        data: {
-          id,
-          hiragana: w.hiragana,
-          kanji: w.kanji ?? null,
-          romaji: w.romaji ?? null,
-          deutsch: w.deutsch,
-          beispielsatz_jp: w.beispielsatz_jp ?? null,
-          beispielsatz_de: w.beispielsatz_de ?? null,
-          wortart: w.wortart,
-          jlpt_level: 'N5',
+  const wordIds = vocab.map(() => randomUUID());
+  const collectionId = randomUUID();
+
+  // Single transaction: ~1700 ops → 3 bulk statements, much faster on SQLite
+  await prisma.$transaction([
+    prisma.word.createMany({
+      data: vocab.map((w, i) => ({
+        id: wordIds[i],
+        hiragana: w.hiragana,
+        kanji: w.kanji ?? null,
+        romaji: w.romaji ?? null,
+        deutsch: w.deutsch,
+        beispielsatz_jp: w.beispielsatz_jp ?? null,
+        beispielsatz_de: w.beispielsatz_de ?? null,
+        wortart: w.wortart,
+        jlpt_level: 'N5',
+      })),
+    }),
+    prisma.collection.create({
+      data: {
+        id: collectionId,
+        name: 'Gesamtwortschatz N5',
+        beschreibung: 'Alle JLPT-N5-Vokabeln',
+        isDefault: true,
+        words: {
+          create: wordIds.map((wordId) => ({ wordId })),
         },
-      });
-    }
-    console.log(`  Inserted ${Math.min(i + batchSize, vocab.length)}/${vocab.length}`);
-  }
-
-  const defaultCollection = await prisma.collection.create({
-    data: {
-      id: randomUUID(),
-      name: 'Gesamtwortschatz N5',
-      beschreibung: 'Alle JLPT-N5-Vokabeln',
-      isDefault: true,
-    },
-  });
-
-  for (const wordId of wordIds) {
-    await prisma.collectionWord.create({
-      data: { collectionId: defaultCollection.id, wordId },
-    });
-  }
-
-  const existingSettings = await prisma.settings.findUnique({ where: { id: 'default' } });
-  if (!existingSettings) {
-    await prisma.settings.create({ data: { id: 'default' } });
-  }
+      },
+    }),
+    prisma.settings.upsert({
+      where: { id: 'default' },
+      create: { id: 'default' },
+      update: {},
+    }),
+  ]);
 
   console.log(`✅ Seed complete. ${vocab.length} words, 1 default collection.`);
 }

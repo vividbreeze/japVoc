@@ -35,13 +35,10 @@ app.get('*', (_req, res) => {
   res.sendFile(path.join(frontendDist, 'index.html'));
 });
 
-// Seed vocabulary on first run if DB is empty, then start server
-seedIfEmpty()
-  .catch((e) => console.error('Seed error:', e))
-  .finally(() => {
-    app.listen(PORT, '0.0.0.0', () => {
-      console.log(`🚀 Server running on http://0.0.0.0:${PORT}`);
-    });
-  });
+// Start server immediately, seed in background if DB is empty
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🚀 Server running on http://0.0.0.0:${PORT}`);
+  seedIfEmpty().catch((e) => console.error('Seed error:', e));
+});
 
 export default app;
