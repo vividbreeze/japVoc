@@ -22,13 +22,14 @@ router.put('/', async (req: Request, res: Response) => {
   try {
     const {
       lernrichtung,
-      frontShowHiragana, frontShowKanji, frontShowRomaji,
+      frontShowHiragana, frontShowKanji, frontShowRomaji, frontShowExampleJp,
       showExampleSentence, newWordsPerDay,
     } = req.body as {
       lernrichtung?: string;
       frontShowHiragana?: boolean;
       frontShowKanji?: boolean;
       frontShowRomaji?: boolean;
+      frontShowExampleJp?: boolean;
       showExampleSentence?: boolean;
       newWordsPerDay?: number;
     };
@@ -45,6 +46,7 @@ router.put('/', async (req: Request, res: Response) => {
         ...(frontShowHiragana   !== undefined && { frontShowHiragana }),
         ...(frontShowKanji      !== undefined && { frontShowKanji }),
         ...(frontShowRomaji     !== undefined && { frontShowRomaji }),
+        ...(frontShowExampleJp  !== undefined && { frontShowExampleJp }),
         ...(showExampleSentence !== undefined && { showExampleSentence }),
         ...(newWordsPerDay      !== undefined && { newWordsPerDay }),
       },
