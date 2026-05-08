@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { fetchCollections, fetchReviewQueue, submitReview } from '../api/client';
 import { useSettingsStore } from '../store/useSettingsStore';
 import FlashCard from '../components/FlashCard';
-import SettingsOverlay from '../components/SettingsOverlay';
 import type { Collection, Word, Rating } from '../types';
 
 type Phase = 'pick' | 'loading' | 'session' | 'done' | 'empty';
@@ -19,7 +18,6 @@ export default function Learn() {
   const [phase, setPhase] = useState<Phase>('pick');
   const [sessionStats, setSessionStats] = useState({ again: 0, hard: 0, good: 0, easy: 0 });
   const [queueStats, setQueueStats] = useState({ due: 0, new: 0 });
-  const [showSettings, setShowSettings] = useState(false);
 
   useEffect(() => {
     fetchCollections().then(setCollections);
@@ -191,40 +189,26 @@ export default function Learn() {
 
   // ── Session ──────────────────────────────────────────────────────────────
   return (
-    <>
-      <div className="flex flex-col items-center gap-4">
-        {/* Back link + queue info + settings button */}
-        <div className="w-full max-w-2xl flex items-center justify-between px-4 text-sm text-gray-400">
-          <button onClick={() => setPhase('pick')} className="hover:text-indigo-600 transition-colors">
-            ← Sammlungen
-          </button>
-          <span>
-            {queueStats.due > 0 && `${queueStats.due} fällig`}
-            {queueStats.due > 0 && queueStats.new > 0 && ' · '}
-            {queueStats.new > 0 && `${queueStats.new} neu`}
-          </span>
-          <button
-            onClick={() => setShowSettings(true)}
-            className="hover:text-indigo-600 transition-colors"
-            aria-label="Einstellungen"
-          >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="12" cy="12" r="3"/>
-              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
-            </svg>
-          </button>
-        </div>
-
-        <FlashCard
-          word={queue[currentIndex]}
-          settings={settings}
-          onRate={handleRate}
-          cardIndex={currentIndex}
-          total={queue.length}
-        />
+    <div className="flex flex-col items-center gap-4">
+      {/* Back link + queue info */}
+      <div className="w-full max-w-2xl flex items-center justify-between px-4 text-sm text-gray-400">
+        <button onClick={() => setPhase('pick')} className="hover:text-indigo-600 transition-colors">
+          ← Sammlungen
+        </button>
+        <span>
+          {queueStats.due > 0 && `${queueStats.due} fällig`}
+          {queueStats.due > 0 && queueStats.new > 0 && ' · '}
+          {queueStats.new > 0 && `${queueStats.new} neu`}
+        </span>
       </div>
 
-      <SettingsOverlay isOpen={showSettings} onClose={() => setShowSettings(false)} />
-    </>
+      <FlashCard
+        word={queue[currentIndex]}
+        settings={settings}
+        onRate={handleRate}
+        cardIndex={currentIndex}
+        total={queue.length}
+      />
+    </div>
   );
 }

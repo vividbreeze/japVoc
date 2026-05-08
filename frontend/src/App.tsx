@@ -6,7 +6,6 @@ import Learn from './pages/Learn';
 import Vocabulary from './pages/Vocabulary';
 import Collections from './pages/Collections';
 import Statistics from './pages/Statistics';
-import Settings from './pages/Settings';
 import { useSettingsStore } from './store/useSettingsStore';
 
 export default function App() {
@@ -30,7 +29,6 @@ export default function App() {
               <Route path="/vocabulary" element={<Vocabulary />} />
               <Route path="/collections" element={<Collections />} />
               <Route path="/statistics" element={<Statistics />} />
-              <Route path="/settings" element={<Settings />} />
             </Routes>
           </div>
         </main>
