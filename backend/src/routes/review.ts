@@ -3,6 +3,15 @@ import { randomUUID } from 'crypto';
 import prisma from '../db';
 import { calculateSM2 } from '../services/sm2';
 
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 const router = Router();
 
 // GET /api/review/queue?collectionId=X
@@ -52,9 +61,9 @@ router.get('/queue', async (req: Request, res: Response) => {
       ...(newWordsPerDay > 0 ? { take: newWordsPerDay } : {}),
     });
 
-    // Combine: due reviews first, then new words
-    const dueWords = dueReviews.map((r) => r.word);
-    const newWords = allWords.filter((w) => !dueWords.some((d) => d.id === w.id));
+    // Combine: due reviews first, then new words — both groups shuffled
+    const dueWords = shuffle(dueReviews.map((r) => r.word));
+    const newWords = shuffle(allWords.filter((w) => !dueWords.some((d) => d.id === w.id)));
 
     const queue = [...dueWords, ...newWords];
 
