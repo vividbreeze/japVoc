@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import SpeakButton from './SpeakButton';
 import type { Word, Rating, Settings } from '../types';
 
 interface FlashCardProps {
@@ -20,17 +21,24 @@ const RATING_CONFIG: { rating: Rating; label: string; sublabel: string; color: s
 // ─── Japanese side ────────────────────────────────────────────────────────────
 function JapaneseSide({ word, settings, dim = false, showExample = false }: { word: Word; settings: Settings; dim?: boolean; showExample?: boolean }) {
   const hasContent = settings.frontShowHiragana || settings.frontShowKanji || settings.frontShowRomaji;
+  const speakText = word.kanji || word.hiragana;
   return (
     <div className="flex flex-col items-center gap-2 w-full">
       {settings.frontShowHiragana && (
-        <p className={`font-japanese font-medium text-center leading-tight ${dim ? 'text-3xl text-gray-600' : 'text-5xl text-gray-800'}`}>
-          {word.hiragana}
-        </p>
+        <div className="flex items-center gap-2">
+          <p className={`font-japanese font-medium text-center leading-tight ${dim ? 'text-3xl text-gray-600' : 'text-5xl text-gray-800'}`}>
+            {word.hiragana}
+          </p>
+          {!dim && <SpeakButton text={speakText} />}
+        </div>
       )}
       {settings.frontShowKanji && word.kanji && (
-        <p className={`font-japanese font-medium text-center ${dim ? 'text-2xl text-indigo-500' : settings.frontShowHiragana ? 'text-3xl text-indigo-600' : 'text-5xl text-gray-800'}`}>
-          {word.kanji}
-        </p>
+        <div className="flex items-center gap-2">
+          <p className={`font-japanese font-medium text-center ${dim ? 'text-2xl text-indigo-500' : settings.frontShowHiragana ? 'text-3xl text-indigo-600' : 'text-5xl text-gray-800'}`}>
+            {word.kanji}
+          </p>
+          {!dim && !settings.frontShowHiragana && <SpeakButton text={speakText} />}
+        </div>
       )}
       {settings.frontShowRomaji && word.romaji && (
         <p className={`italic ${dim ? 'text-base text-indigo-300' : 'text-xl text-indigo-400'}`}>
@@ -42,7 +50,10 @@ function JapaneseSide({ word, settings, dim = false, showExample = false }: { wo
       )}
       {showExample && word.beispielsatz_jp && (
         <div className="mt-2 w-full bg-white rounded-xl p-3 border border-gray-100">
-          <p className="text-sm font-japanese text-gray-600 text-center">{word.beispielsatz_jp}</p>
+          <div className="flex items-center justify-center gap-2">
+            <p className="text-sm font-japanese text-gray-600 text-center">{word.beispielsatz_jp}</p>
+            <SpeakButton text={word.beispielsatz_jp} />
+          </div>
         </div>
       )}
     </div>
@@ -64,7 +75,10 @@ function ExampleBlock({ word }: { word: Word }) {
   return (
     <div className="mt-3 w-full bg-white rounded-xl p-4 border border-indigo-100">
       {word.beispielsatz_jp && (
-        <p className="text-base font-japanese text-gray-700 mb-1">{word.beispielsatz_jp}</p>
+        <div className="flex items-start gap-2 mb-1">
+          <p className="text-base font-japanese text-gray-700 flex-1">{word.beispielsatz_jp}</p>
+          <SpeakButton text={word.beispielsatz_jp} className="mt-0.5 shrink-0" />
+        </div>
       )}
       {word.beispielsatz_de && (
         <p className="text-sm text-gray-500 italic">{word.beispielsatz_de}</p>
