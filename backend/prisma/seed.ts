@@ -10,9 +10,10 @@ interface SeedWord {
   kanji: string | null;
   romaji: string | null;
   deutsch: string;
+  wortart: string;
+  kategorien: string[];
   beispielsatz_jp: string | null;
   beispielsatz_de: string | null;
-  wortart: string;
 }
 
 export async function seedIfEmpty() {
@@ -24,48 +25,75 @@ export async function seedIfEmpty() {
 
   console.log('🌱 Empty database detected, seeding N5 vocabulary...');
 
-  // Works both in dev (tsx prisma/seed.ts, cwd=backend/) and
-  // production (node dist/src/index.js, cwd=/app)
   const vocabPath = path.join(process.cwd(), 'prisma', 'seed', 'n5-vocabulary.json');
   const vocab: SeedWord[] = JSON.parse(fs.readFileSync(vocabPath, 'utf-8'));
 
   const wordIds = vocab.map(() => randomUUID());
-  const collectionId = randomUUID();
 
-  // Single transaction: ~1700 ops → 3 bulk statements, much faster on SQLite
-  await prisma.$transaction([
-    prisma.word.createMany({
-      data: vocab.map((w, i) => ({
-        id: wordIds[i],
-        hiragana: w.hiragana,
-        kanji: w.kanji ?? null,
-        romaji: w.romaji ?? null,
-        deutsch: w.deutsch,
-        beispielsatz_jp: w.beispielsatz_jp ?? null,
-        beispielsatz_de: w.beispielsatz_de ?? null,
-        wortart: w.wortart,
-        jlpt_level: 'N5',
-      })),
-    }),
-    prisma.collection.create({
+  // Collect all unique category names
+  const categoryNames = [...new Set(vocab.flatMap((w) => w.kategorien))].sort();
+
+  // Map category name → new UUID
+  const categoryIdMap = new Map<string, string>(
+    categoryNames.map((name) => [name, randomUUID()])
+  );
+
+  const defaultCollectionId = randomUUID();
+
+  // 1. Insert all words
+  await prisma.word.createMany({
+    data: vocab.map((w, i) => ({
+      id: wordIds[i],
+      hiragana: w.hiragana,
+      kanji: w.kanji ?? null,
+      romaji: w.romaji ?? null,
+      deutsch: w.deutsch,
+      beispielsatz_jp: w.beispielsatz_jp ?? null,
+      beispielsatz_de: w.beispielsatz_de ?? null,
+      wortart: w.wortart,
+      jlpt_level: 'N5',
+    })),
+  });
+
+  // 2. Create default collection with all words
+  await prisma.collection.create({
+    data: {
+      id: defaultCollectionId,
+      name: 'Gesamtwortschatz N5',
+      beschreibung: 'Alle JLPT-N5-Vokabeln',
+      isDefault: true,
+      words: { create: wordIds.map((wordId) => ({ wordId })) },
+    },
+  });
+
+  // 3. Create category collections
+  for (const name of categoryNames) {
+    const id = categoryIdMap.get(name)!;
+    const wordsInCategory = vocab
+      .map((w, i) => ({ kategorien: w.kategorien, wordId: wordIds[i] }))
+      .filter((w) => w.kategorien.includes(name));
+
+    await prisma.collection.create({
       data: {
-        id: collectionId,
-        name: 'Gesamtwortschatz N5',
-        beschreibung: 'Alle JLPT-N5-Vokabeln',
-        isDefault: true,
-        words: {
-          create: wordIds.map((wordId) => ({ wordId })),
-        },
+        id,
+        name,
+        beschreibung: null,
+        isDefault: false,
+        words: { create: wordsInCategory.map((w) => ({ wordId: w.wordId })) },
       },
-    }),
-    prisma.settings.upsert({
-      where: { id: 'default' },
-      create: { id: 'default' },
-      update: {},
-    }),
-  ]);
+    });
 
-  console.log(`✅ Seed complete. ${vocab.length} words, 1 default collection.`);
+    console.log(`  📁 ${name}: ${wordsInCategory.length} Wörter`);
+  }
+
+  // 4. Default settings
+  await prisma.settings.upsert({
+    where: { id: 'default' },
+    create: { id: 'default' },
+    update: {},
+  });
+
+  console.log(`✅ Seed complete. ${vocab.length} words, 1 default + ${categoryNames.length} category collections.`);
 }
 
 // Allow running directly: tsx prisma/seed.ts
