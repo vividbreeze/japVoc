@@ -29,7 +29,7 @@ function JapaneseSide({ word, settings, dim = false, showExample = false }: { wo
           <p className={`font-japanese font-medium text-center leading-tight ${dim ? 'text-3xl text-gray-600' : 'text-5xl text-gray-800'}`}>
             {word.hiragana}
           </p>
-          {!dim && <SpeakButton text={speakText} />}
+          <SpeakButton text={speakText} />
         </div>
       )}
       {settings.frontShowKanji && word.kanji && (
@@ -37,7 +37,7 @@ function JapaneseSide({ word, settings, dim = false, showExample = false }: { wo
           <p className={`font-japanese font-medium text-center ${dim ? 'text-2xl text-indigo-500' : settings.frontShowHiragana ? 'text-3xl text-indigo-600' : 'text-5xl text-gray-800'}`}>
             {word.kanji}
           </p>
-          {!dim && !settings.frontShowHiragana && <SpeakButton text={speakText} />}
+          {!settings.frontShowHiragana && <SpeakButton text={speakText} />}
         </div>
       )}
       {settings.frontShowRomaji && word.romaji && (
