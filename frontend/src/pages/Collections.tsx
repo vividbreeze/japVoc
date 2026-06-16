@@ -4,6 +4,7 @@ import {
   fetchCollections, createCollection, updateCollection, deleteCollection,
   fetchCollectionWords, fetchWords, addWordToCollection, removeWordFromCollection,
 } from '../api/client';
+import WordFormOverlay from '../components/WordFormOverlay';
 import type { Collection, Word } from '../types';
 
 // ─── Word Manager Modal ──────────────────────────────────────────────────────
@@ -20,7 +21,9 @@ function WordManager({ collection, onClose, onWordCountChange }: WordManagerProp
   const [search, setSearch] = useState('');
   const [tab, setTab] = useState<'in' | 'add'>('in');
   const [loading, setLoading] = useState(true);
-  const [busy, setBusy] = useState<string | null>(null); // wordId being toggled
+  const [busy, setBusy] = useState<string | null>(null);
+  const [showWordForm, setShowWordForm] = useState(false);
+  const [editingWord, setEditingWord] = useState<Word | undefined>(undefined);
 
   const inIds = new Set(collectionWords.map((w) => w.id));
 
@@ -39,7 +42,6 @@ function WordManager({ collection, onClose, onWordCountChange }: WordManagerProp
     Promise.all([loadCollectionWords(), loadAllWords('')]).finally(() => setLoading(false));
   }, [loadCollectionWords, loadAllWords]);
 
-  // Debounced search for "add" tab
   useEffect(() => {
     const t = setTimeout(() => loadAllWords(search), 250);
     return () => clearTimeout(t);
@@ -73,16 +75,22 @@ function WordManager({ collection, onClose, onWordCountChange }: WordManagerProp
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
       <div className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl flex flex-col h-[600px]">
 
-        {/* Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100">
           <div>
             <h2 className="font-bold text-gray-800 text-lg">{collection.name}</h2>
             <p className="text-xs text-gray-400">{collectionWords.length} Vokabeln in dieser Sammlung</p>
           </div>
-          <button onClick={onClose} className="text-gray-400 hover:text-gray-600 text-2xl leading-none">×</button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setShowWordForm(true)}
+              className="bg-indigo-600 text-white text-xs font-semibold px-3 py-1.5 rounded-lg hover:bg-indigo-700 transition-colors"
+            >
+              + Neue Vokabel
+            </button>
+            <button onClick={onClose} className="text-gray-400 hover:text-gray-600 text-2xl leading-none">×</button>
+          </div>
         </div>
 
-        {/* Tabs */}
         <div className="flex border-b border-gray-100 px-6">
           <button
             onClick={() => setTab('in')}
@@ -104,7 +112,6 @@ function WordManager({ collection, onClose, onWordCountChange }: WordManagerProp
           )}
         </div>
 
-        {/* Body */}
         {loading ? (
           <div className="flex justify-center items-center py-16">
             <div className="w-7 h-7 border-4 border-indigo-400 border-t-transparent rounded-full animate-spin" />
@@ -137,7 +144,11 @@ function WordManager({ collection, onClose, onWordCountChange }: WordManagerProp
                       </thead>
                       <tbody className="divide-y divide-gray-50">
                         {collectionWords.map((w) => (
-                          <tr key={w.id} className="hover:bg-gray-50">
+                          <tr
+                            key={w.id}
+                            onClick={() => setEditingWord(w)}
+                            className="hover:bg-indigo-50/40 cursor-pointer transition-colors"
+                          >
                             <td className="px-6 py-2.5 font-japanese text-gray-800">{w.hiragana}</td>
                             <td className="px-6 py-2.5 font-japanese text-gray-500">{w.kanji ?? '—'}</td>
                             <td className="px-6 py-2.5 text-gray-700">{w.deutsch}</td>
@@ -146,7 +157,7 @@ function WordManager({ collection, onClose, onWordCountChange }: WordManagerProp
                               <td className="px-4 py-2.5 text-right">
                                 <button
                                   disabled={busy === w.id}
-                                  onClick={() => handleRemove(w.id)}
+                                  onClick={(e) => { e.stopPropagation(); handleRemove(w.id); }}
                                   className="text-red-300 hover:text-red-500 disabled:opacity-40 transition-colors text-lg leading-none"
                                   title="Aus Sammlung entfernen"
                                 >
@@ -205,10 +216,10 @@ function WordManager({ collection, onClose, onWordCountChange }: WordManagerProp
                               <button
                                 disabled={busy === w.id}
                                 onClick={() => handleAdd(w.id)}
-                                className="bg-indigo-100 hover:bg-indigo-200 text-indigo-600 disabled:opacity-40 text-xs font-semibold px-3 py-1 rounded-lg transition-colors"
+                                className="text-indigo-300 hover:text-indigo-500 disabled:opacity-40 transition-colors text-lg leading-none"
                                 title="Zur Sammlung hinzufügen"
                               >
-                                {busy === w.id ? '…' : '+ Hinzu'}
+                                {busy === w.id ? '…' : '+'}
                               </button>
                             </td>
                           </tr>
@@ -222,7 +233,6 @@ function WordManager({ collection, onClose, onWordCountChange }: WordManagerProp
           </div>
         )}
 
-        {/* Footer */}
         <div className="px-6 py-3 border-t border-gray-100 flex justify-end">
           <button
             onClick={onClose}
@@ -232,7 +242,60 @@ function WordManager({ collection, onClose, onWordCountChange }: WordManagerProp
           </button>
         </div>
       </div>
+
+      <WordFormOverlay
+        isOpen={showWordForm}
+        collectionId={collection.isDefault ? undefined : collection.id}
+        onClose={() => setShowWordForm(false)}
+        onSaved={async () => {
+          await loadCollectionWords();
+          onWordCountChange();
+        }}
+      />
+
+      <WordFormOverlay
+        isOpen={!!editingWord}
+        word={editingWord}
+        onClose={() => setEditingWord(undefined)}
+        onSaved={async () => {
+          await loadCollectionWords();
+          onWordCountChange();
+        }}
+        onDeleted={async () => {
+          await loadCollectionWords();
+          onWordCountChange();
+        }}
+      />
     </div>
+  );
+}
+
+// ─── Icon helpers ────────────────────────────────────────────────────────────
+
+function ListIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/>
+      <line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/>
+    </svg>
+  );
+}
+
+function PencilIcon() {
+  return (
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+      <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+    </svg>
+  );
+}
+
+function TrashIcon() {
+  return (
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>
+      <path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/>
+    </svg>
   );
 }
 
@@ -292,12 +355,20 @@ export default function Collections() {
     setError('');
   };
 
+  const startLearn = (c: Collection) => {
+    if (c.isDefault) {
+      navigate('/learn');
+    } else {
+      navigate(`/learn?collectionId=${c.id}`);
+    }
+  };
+
   return (
-    <div className="space-y-4 max-w-2xl">
+    <div className="space-y-4">
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-bold text-gray-800">Sammlungen</h1>
-          <p className="text-sm text-gray-500">Eigene Lernsets verwalten</p>
+          <p className="text-sm text-gray-500">Sammlung auswählen und lernen</p>
         </div>
         <button
           onClick={() => { setShowCreate(true); setEditId(null); setFormName(''); setFormDesc(''); setError(''); }}
@@ -309,27 +380,27 @@ export default function Collections() {
 
       {/* Create form */}
       {showCreate && (
-        <form onSubmit={handleCreate} className="bg-white rounded-2xl border border-indigo-100 p-5 shadow-sm space-y-3">
-          <h3 className="font-semibold text-gray-700">Neue Sammlung</h3>
+        <form onSubmit={handleCreate} className="bg-white rounded-2xl border border-indigo-100 p-4 shadow-sm space-y-2">
+          <h3 className="font-semibold text-gray-700 text-sm">Neue Sammlung</h3>
           <input
             autoFocus
             value={formName}
             onChange={(e) => setFormName(e.target.value)}
             placeholder="Name der Sammlung"
-            className="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
+            className="w-full border border-gray-200 rounded-xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
           />
           <input
             value={formDesc}
             onChange={(e) => setFormDesc(e.target.value)}
             placeholder="Beschreibung (optional)"
-            className="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
+            className="w-full border border-gray-200 rounded-xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
           />
           {error && <p className="text-red-500 text-xs">{error}</p>}
           <div className="flex gap-2">
-            <button type="submit" className="bg-indigo-600 text-white px-4 py-2 rounded-xl text-sm font-semibold hover:bg-indigo-700 transition-colors">
+            <button type="submit" className="bg-indigo-600 text-white px-4 py-1.5 rounded-xl text-sm font-semibold hover:bg-indigo-700 transition-colors">
               Erstellen
             </button>
-            <button type="button" onClick={() => setShowCreate(false)} className="text-gray-500 px-4 py-2 text-sm hover:text-gray-700">
+            <button type="button" onClick={() => setShowCreate(false)} className="text-gray-500 px-4 py-1.5 text-sm hover:text-gray-700">
               Abbrechen
             </button>
           </div>
@@ -341,81 +412,87 @@ export default function Collections() {
           <div className="w-7 h-7 border-4 border-indigo-400 border-t-transparent rounded-full animate-spin" />
         </div>
       ) : (
-        <div className="space-y-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           {collections.map((c) => (
-            <div key={c.id} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
+            <div key={c.id} className="bg-white rounded-xl border border-gray-100 shadow-sm p-3 flex flex-col gap-2 min-w-0">
               {editId === c.id ? (
-                <div className="space-y-3">
+                <div className="space-y-2">
                   <input
                     autoFocus
                     value={formName}
                     onChange={(e) => setFormName(e.target.value)}
-                    className="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                    className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
                   />
                   <input
                     value={formDesc}
                     onChange={(e) => setFormDesc(e.target.value)}
                     placeholder="Beschreibung (optional)"
-                    className="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                    className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
                   />
                   {error && <p className="text-red-500 text-xs">{error}</p>}
-                  <div className="flex gap-2">
-                    <button onClick={() => handleUpdate(c.id)} className="bg-indigo-600 text-white px-4 py-2 rounded-xl text-sm font-semibold">Speichern</button>
-                    <button onClick={() => setEditId(null)} className="text-gray-500 text-sm px-4 py-2">Abbrechen</button>
+                  <div className="flex gap-1">
+                    <button onClick={() => handleUpdate(c.id)} className="flex-1 bg-indigo-600 text-white text-xs font-semibold py-1.5 rounded-lg hover:bg-indigo-700 transition-colors">
+                      Speichern
+                    </button>
+                    <button onClick={() => setEditId(null)} className="flex-1 text-gray-500 text-xs py-1.5 hover:text-gray-700">
+                      Abbrechen
+                    </button>
                   </div>
                 </div>
               ) : (
-                <div className="flex items-start justify-between gap-4">
+                <>
+                  {/* Title + badge */}
                   <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2 flex-wrap">
-                      <h3 className="font-semibold text-gray-800">{c.name}</h3>
+                    <div className="flex items-start gap-1 flex-wrap">
+                      <span className="font-semibold text-gray-800 text-sm leading-tight break-words">{c.name}</span>
                       {c.isDefault && (
-                        <span className="text-xs bg-indigo-100 text-indigo-600 px-2 py-0.5 rounded-full">Standard</span>
+                        <span className="text-xs bg-indigo-100 text-indigo-600 px-1.5 py-0.5 rounded-full shrink-0">Standard</span>
                       )}
                     </div>
-                    {c.beschreibung && <p className="text-sm text-gray-500 mt-0.5">{c.beschreibung}</p>}
-                    <p className="text-xs text-gray-400 mt-1">{c._count?.words ?? 0} Vokabeln</p>
+                    <p className="text-xs text-gray-400 mt-0.5">{c._count?.words ?? 0} Vokabeln</p>
                   </div>
-                  <div className="flex gap-2 shrink-0 flex-wrap justify-end">
+
+                  {/* Actions */}
+                  <div className="flex items-center gap-1">
                     <button
-                      onClick={() => navigate(`/learn?collectionId=${c.id}`)}
-                      className="bg-indigo-50 text-indigo-600 px-3 py-1.5 rounded-lg text-sm font-medium hover:bg-indigo-100 transition-colors"
+                      onClick={() => startLearn(c)}
+                      className="flex-1 bg-indigo-600 text-white text-xs font-semibold py-1.5 rounded-lg hover:bg-indigo-700 transition-colors"
                     >
                       Lernen
                     </button>
                     <button
                       onClick={() => setManagingCollection(c)}
-                      className="bg-gray-50 text-gray-600 px-3 py-1.5 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors"
+                      className="p-1.5 text-gray-400 hover:text-indigo-500 transition-colors rounded-lg hover:bg-indigo-50"
+                      title="Wörter verwalten"
                     >
-                      Wörter
+                      <ListIcon />
                     </button>
                     {!c.isDefault && (
                       <>
                         <button
                           onClick={() => startEdit(c)}
-                          className="text-gray-400 hover:text-gray-600 px-2 py-1.5 text-sm"
+                          className="p-1.5 text-gray-400 hover:text-gray-600 transition-colors rounded-lg hover:bg-gray-50"
                           title="Umbenennen"
                         >
-                          ✏️
+                          <PencilIcon />
                         </button>
                         <button
                           onClick={() => handleDelete(c.id, c.name)}
-                          className="text-red-300 hover:text-red-500 px-2 py-1.5 text-sm"
+                          className="p-1.5 text-red-300 hover:text-red-500 transition-colors rounded-lg hover:bg-red-50"
                           title="Löschen"
                         >
-                          🗑️
+                          <TrashIcon />
                         </button>
                       </>
                     )}
                   </div>
-                </div>
+                </>
               )}
             </div>
           ))}
         </div>
       )}
 
-      {/* Word Manager Modal */}
       {managingCollection && (
         <WordManager
           collection={managingCollection}

@@ -1,5 +1,6 @@
 import { useEffect, useState, useCallback } from 'react';
 import { fetchWords, fetchWortarten } from '../api/client';
+import WordFormOverlay from '../components/WordFormOverlay';
 import type { Word } from '../types';
 import { getWordStatus } from '../types';
 
@@ -25,6 +26,8 @@ export default function Vocabulary() {
   const [wortart, setWortart] = useState('');
   const [wortarten, setWortarten] = useState<string[]>([]);
   const [page, setPage] = useState(1);
+  const [activeWord, setActiveWord] = useState<Word | undefined>(undefined);
+  const [showCreate, setShowCreate] = useState(false);
   const LIMIT = 50;
 
   const load = useCallback(() => {
@@ -56,9 +59,17 @@ export default function Vocabulary() {
 
   return (
     <div className="space-y-4">
-      <div>
-        <h1 className="text-2xl font-bold text-gray-800">Vokabeln</h1>
-        <p className="text-sm text-gray-500">{total} Einträge</p>
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-2xl font-bold text-gray-800">Vokabeln</h1>
+          <p className="text-sm text-gray-500">{total} Einträge</p>
+        </div>
+        <button
+          onClick={() => setShowCreate(true)}
+          className="bg-indigo-600 text-white px-4 py-2 rounded-xl text-sm font-semibold hover:bg-indigo-700 transition-colors"
+        >
+          + Neu
+        </button>
       </div>
 
       {/* Filters */}
@@ -106,7 +117,11 @@ export default function Vocabulary() {
                   const status = getWordStatus(w.progress);
                   const due = dueDate(w.progress);
                   return (
-                    <tr key={w.id} className="hover:bg-gray-50 transition-colors">
+                    <tr
+                      key={w.id}
+                      onClick={() => setActiveWord(w)}
+                      className="hover:bg-indigo-50/40 transition-colors cursor-pointer"
+                    >
                       <td className="px-4 py-3 font-japanese text-base text-gray-800">{w.hiragana}</td>
                       <td className="px-4 py-3 font-japanese text-gray-600">{w.kanji ?? '—'}</td>
                       <td className="px-4 py-3 text-gray-700">{w.deutsch}</td>
@@ -157,6 +172,13 @@ export default function Vocabulary() {
         </div>
       )}
 
+      <WordFormOverlay
+        isOpen={showCreate || !!activeWord}
+        word={activeWord}
+        onClose={() => { setShowCreate(false); setActiveWord(undefined); }}
+        onSaved={load}
+        onDeleted={load}
+      />
     </div>
   );
 }

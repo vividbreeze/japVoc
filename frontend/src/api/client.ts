@@ -1,7 +1,41 @@
 import axios from 'axios';
 import type { Collection, ReviewQueue, ReviewResult, Settings, Stats, Word } from '../types';
 
+const TOKEN_KEY = 'japvoc_auth_token';
+
+export const getToken = () => localStorage.getItem(TOKEN_KEY);
+export const setToken = (t: string | null) => {
+  if (t) localStorage.setItem(TOKEN_KEY, t);
+  else localStorage.removeItem(TOKEN_KEY);
+};
+
 const api = axios.create({ baseURL: '/api' });
+
+// Attach token to every request
+api.interceptors.request.use((config) => {
+  const token = getToken();
+  if (token) config.headers.Authorization = `Bearer ${token}`;
+  return config;
+});
+
+// On 401, clear token and reload so App re-checks auth
+api.interceptors.response.use(
+  (r) => r,
+  (err) => {
+    if (err.response?.status === 401 && getToken()) {
+      setToken(null);
+      window.location.reload();
+    }
+    return Promise.reject(err);
+  }
+);
+
+// Auth
+export const checkAuth = () =>
+  api.get<{ ok: boolean; authRequired: boolean }>('/auth/check').then((r) => r.data);
+
+export const login = (password: string) =>
+  api.post<{ ok: boolean; token: string | null }>('/auth/login', { password }).then((r) => r.data);
 
 // Words
 export const fetchWords = (params?: Record<string, string>) =>
@@ -10,6 +44,26 @@ export const fetchWords = (params?: Record<string, string>) =>
 export const fetchWord = (id: string) => api.get<Word>(`/words/${id}`).then((r) => r.data);
 
 export const fetchWortarten = () => api.get<string[]>('/words/wortarten').then((r) => r.data);
+
+export interface WordInput {
+  hiragana: string;
+  kanji?: string;
+  romaji?: string;
+  deutsch: string;
+  wortart: string;
+  beispielsatz_jp?: string;
+  beispielsatz_de?: string;
+  collectionId?: string;
+}
+
+export const createWord = (data: WordInput) =>
+  api.post<Word>('/words', data).then((r) => r.data);
+
+export const updateWord = (id: string, data: Omit<WordInput, 'collectionId'>) =>
+  api.put<Word>(`/words/${id}`, data).then((r) => r.data);
+
+export const deleteWord = (id: string) =>
+  api.delete(`/words/${id}`).then((r) => r.data);
 
 // Collections
 export const fetchCollections = () => api.get<Collection[]>('/collections').then((r) => r.data);

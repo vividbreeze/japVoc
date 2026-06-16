@@ -2,11 +2,14 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import SettingsOverlay from './SettingsOverlay';
 
+interface Props {
+  onLogout?: () => void;
+}
+
 const NAV_ITEMS = [
   { to: '/', label: 'Dashboard', icon: '🏠' },
-  { to: '/learn', label: 'Lernen', icon: '📚' },
+  { to: '/collections', label: 'Sammlungen', icon: '📚' },
   { to: '/vocabulary', label: 'Vokabeln', icon: '📖' },
-  { to: '/collections', label: 'Sammlungen', icon: '🗂️' },
   { to: '/statistics', label: 'Statistiken', icon: '📊' },
 ];
 
@@ -17,7 +20,15 @@ const GearIcon = () => (
   </svg>
 );
 
-export default function Navigation() {
+const LogoutIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+    <polyline points="16 17 21 12 16 7"/>
+    <line x1="21" y1="12" x2="9" y2="12"/>
+  </svg>
+);
+
+export default function Navigation({ onLogout }: Props) {
   const [showSettings, setShowSettings] = useState(false);
 
   return (
@@ -49,14 +60,25 @@ export default function Navigation() {
           ))}
         </div>
 
-        {/* Gear button pinned to bottom */}
-        <button
-          onClick={() => setShowSettings(true)}
-          className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors"
-        >
-          <GearIcon />
-          <span>Einstellungen</span>
-        </button>
+        {/* Bottom buttons */}
+        <div className="flex flex-col gap-1">
+          <button
+            onClick={() => setShowSettings(true)}
+            className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors"
+          >
+            <GearIcon />
+            <span>Einstellungen</span>
+          </button>
+          {onLogout && (
+            <button
+              onClick={onLogout}
+              className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-gray-500 hover:bg-red-50 hover:text-red-600 transition-colors"
+            >
+              <LogoutIcon />
+              <span>Abmelden</span>
+            </button>
+          )}
+        </div>
       </aside>
 
       {/* Bottom bar – mobile */}
@@ -83,6 +105,15 @@ export default function Navigation() {
           <span className="text-xl flex items-center justify-center h-7"><GearIcon /></span>
           <span className="hidden sm:block">Einstellungen</span>
         </button>
+        {onLogout && (
+          <button
+            onClick={onLogout}
+            className="flex-1 flex flex-col items-center py-2 text-xs gap-0.5 text-gray-500 hover:text-red-600 transition-colors"
+          >
+            <span className="flex items-center justify-center h-7"><LogoutIcon /></span>
+            <span className="hidden sm:block">Abmelden</span>
+          </button>
+        )}
       </nav>
 
       <SettingsOverlay isOpen={showSettings} onClose={() => setShowSettings(false)} />
