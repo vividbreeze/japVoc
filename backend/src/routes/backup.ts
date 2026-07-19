@@ -48,6 +48,15 @@ router.post('/import', async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Invalid backup format' });
     }
 
+    // Replace mode: wipe all existing data before importing
+    if (req.body.mode === 'replace') {
+      await prisma.review.deleteMany();
+      await prisma.wordProgress.deleteMany();
+      await prisma.collectionWord.deleteMany();
+      await prisma.collection.deleteMany({ where: { isDefault: false } });
+      await prisma.word.deleteMany();
+    }
+
     // Map exported word IDs → actual DB word IDs
     const wordIdMap = new Map<string, string>();
     let wordsCreated = 0;
