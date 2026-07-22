@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSettingsStore } from '../store/useSettingsStore';
 import { exportBackup, importBackup, importReplaceBackup } from '../api/client';
+import { csvToBackup } from '../utils/csvToBackup';
 import type { Settings } from '../types';
 
 interface Props {
@@ -14,6 +15,8 @@ export default function SettingsOverlay({ isOpen, onClose }: Props) {
   const jpToDE = settings.lernrichtung === 'jp_to_de';
   const fileInputRef = useRef<HTMLInputElement>(null);
   const replaceFileInputRef = useRef<HTMLInputElement>(null);
+  const csvFileInputRef = useRef<HTMLInputElement>(null);
+  const csvReplaceFileInputRef = useRef<HTMLInputElement>(null);
   const [backupStatus, setBackupStatus] = useState<string | null>(null);
 
   const handleExport = async () => {
@@ -63,6 +66,26 @@ export default function SettingsOverlay({ isOpen, onClose }: Props) {
       setBackupStatus('Import fehlgeschlagen. Bitte prüfe die Datei.');
     }
     if (replaceFileInputRef.current) replaceFileInputRef.current.value = '';
+  };
+
+  const handleCsvImport = async (e: React.ChangeEvent<HTMLInputElement>, replace: boolean) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    if (replace && !window.confirm('Alle vorhandenen Vokabeln, Sammlungen und Lernfortschritte werden gelöscht und durch die CSV ersetzt. Fortfahren?')) return;
+    setBackupStatus('CSV wird verarbeitet…');
+    try {
+      const text = await file.text();
+      const data = csvToBackup(text);
+      const result = replace ? await importReplaceBackup(data) : await importBackup(data);
+      setBackupStatus(
+        replace
+          ? `CSV-Ersetzen erfolgreich: ${result.collectionsCreated} Sammlungen, ${result.wordsCreated} Vokabeln importiert.`
+          : `CSV-Import erfolgreich: ${result.collectionsCreated} neue Sammlungen, ${result.wordsCreated} neue Vokabeln importiert.`
+      );
+    } catch (err) {
+      setBackupStatus(`CSV-Import fehlgeschlagen: ${err instanceof Error ? err.message : 'Unbekannter Fehler'}`);
+    }
+    e.target.value = '';
   };
 
   return (
@@ -192,7 +215,7 @@ export default function SettingsOverlay({ isOpen, onClose }: Props) {
               </Section>
 
               {/* Datensicherung */}
-              <Section title="Datensicherung">
+              <Section title="Datensicherung (JSON-Backup)">
                 <div className="space-y-2 mt-2">
                   <button
                     onClick={handleExport}
@@ -210,7 +233,7 @@ export default function SettingsOverlay({ isOpen, onClose }: Props) {
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>
                     </svg>
-                    Backup importieren
+                    JSON hinzufügen
                   </button>
                   <button
                     onClick={() => replaceFileInputRef.current?.click()}
@@ -219,15 +242,45 @@ export default function SettingsOverlay({ isOpen, onClose }: Props) {
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.75"/>
                     </svg>
-                    Alles ersetzen (Vollimport)
+                    JSON – Alles ersetzen
                   </button>
                   <input ref={fileInputRef} type="file" accept=".json" className="hidden" onChange={handleImport} />
                   <input ref={replaceFileInputRef} type="file" accept=".json" className="hidden" onChange={handleReplaceImport} />
-                  {backupStatus && (
-                    <p className="text-xs text-gray-600 bg-gray-50 rounded-lg px-3 py-2 border border-gray-200">{backupStatus}</p>
-                  )}
                 </div>
               </Section>
+
+              {/* CSV-Import */}
+              <Section title="CSV-Import">
+                <p className="text-xs text-gray-500 mb-2">
+                  Spalten: <span className="font-mono">Kategorie, Deutsch, Romaji, Hiragana / Katakana</span> (Komma oder Semikolon als Trennzeichen)
+                </p>
+                <div className="space-y-2">
+                  <button
+                    onClick={() => csvFileInputRef.current?.click()}
+                    className="w-full flex items-center justify-center gap-2 border border-indigo-300 text-indigo-600 hover:bg-indigo-50 text-sm font-semibold py-2.5 rounded-xl transition-colors"
+                  >
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>
+                    </svg>
+                    CSV hinzufügen
+                  </button>
+                  <button
+                    onClick={() => csvReplaceFileInputRef.current?.click()}
+                    className="w-full flex items-center justify-center gap-2 border border-red-300 text-red-600 hover:bg-red-50 text-sm font-semibold py-2.5 rounded-xl transition-colors"
+                  >
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.75"/>
+                    </svg>
+                    CSV – Alles ersetzen
+                  </button>
+                  <input ref={csvFileInputRef} type="file" accept=".csv" className="hidden" onChange={(e) => handleCsvImport(e, false)} />
+                  <input ref={csvReplaceFileInputRef} type="file" accept=".csv" className="hidden" onChange={(e) => handleCsvImport(e, true)} />
+                </div>
+              </Section>
+
+              {backupStatus && (
+                <p className="text-xs text-gray-600 bg-gray-50 rounded-lg px-3 py-2 border border-gray-200">{backupStatus}</p>
+              )}
             </div>
           </motion.div>
         </>
