@@ -19,53 +19,53 @@ router.get('/queue', async (req: Request, res: Response) => {
   try {
     const { collectionId } = req.query as { collectionId?: string };
 
-    const settings = await prisma.settings.findUnique({ where: { id: 'default' } });
-    const newWordsPerDay = settings?.newWordsPerDay ?? 20;
-
-    const today = new Date();
-    today.setHours(23, 59, 59, 999);
-    const todayStart = new Date();
-    todayStart.setHours(0, 0, 0, 0);
-
     const wordFilter: Record<string, unknown> = {};
     if (collectionId) {
       wordFilter.collections = { some: { collectionId } };
     }
 
-    // Due reviews: words with progress where nextReviewDate <= today
-    const dueReviews = await prisma.wordProgress.findMany({
-      where: {
-        nextReviewDate: { lte: today },
-        repetitions: { gt: 0 },
-        word: wordFilter,
-      },
-      include: { word: true },
-      orderBy: { nextReviewDate: 'asc' },
-    });
+    // Fetch all words in the collection
+    const allWords = await prisma.word.findMany({ where: wordFilter });
 
-    // New words: no progress yet (or repetitions = 0)
-    const learnedWordIds = await prisma.wordProgress.findMany({
-      select: { wordId: true },
-      where: { repetitions: { gt: 0 } },
-    });
-    const learnedIds = new Set(learnedWordIds.map((p) => p.wordId));
-
-    const newWordWhere: Record<string, unknown> = { ...wordFilter };
-    if (learnedIds.size > 0) {
-      newWordWhere.NOT = { id: { in: [...learnedIds] } };
+    if (allWords.length === 0) {
+      return res.json({ queue: [], stats: { due: 0, new: 0, total: 0 } });
     }
-    const allWords = await prisma.word.findMany({
-      where: newWordWhere,
-      orderBy: { hiragana: 'asc' },
-      // newWordsPerDay === 0 means unlimited
-      ...(newWordsPerDay > 0 ? { take: newWordsPerDay } : {}),
+
+    // Fetch progress for all these words
+    const wordIds = allWords.map((w) => w.id);
+    const progressRecords = await prisma.wordProgress.findMany({
+      where: { wordId: { in: wordIds } },
+    });
+    const progressMap = new Map(progressRecords.map((p) => [p.wordId, p]));
+
+    const today = new Date();
+    today.setHours(23, 59, 59, 999);
+
+    // Classify each word
+    const newWords: typeof allWords = [];
+    const dueWords: typeof allWords = [];
+    const futureWords: typeof allWords = [];
+
+    for (const word of allWords) {
+      const p = progressMap.get(word.id);
+      if (!p || p.repetitions === 0) {
+        newWords.push(word);
+      } else if (p.nextReviewDate <= today) {
+        dueWords.push(word);
+      } else {
+        futureWords.push(word);
+      }
+    }
+
+    // Sort future words worst-first (lowest easinessFactor = hardest)
+    futureWords.sort((a, b) => {
+      const pa = progressMap.get(a.id)!;
+      const pb = progressMap.get(b.id)!;
+      return pa.easinessFactor - pb.easinessFactor;
     });
 
-    // Combine: due reviews first, then new words — both groups shuffled
-    const dueWords = shuffle(dueReviews.map((r) => r.word));
-    const newWords = shuffle(allWords.filter((w) => !dueWords.some((d) => d.id === w.id)));
-
-    const queue = [...dueWords, ...newWords];
+    // Queue: due (shuffled) → new (shuffled) → future worst-first
+    const queue = [...shuffle(dueWords), ...shuffle(newWords), ...futureWords];
 
     res.json({
       queue,
