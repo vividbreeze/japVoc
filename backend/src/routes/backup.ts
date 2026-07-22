@@ -49,12 +49,14 @@ router.post('/import', async (req: Request, res: Response) => {
     }
 
     // Replace mode: wipe all existing data before importing
-    if (req.body.mode === 'replace') {
+    const replaceMode = req.query.replace === 'true' || req.body.mode === 'replace';
+    if (replaceMode) {
       await prisma.review.deleteMany();
       await prisma.wordProgress.deleteMany();
       await prisma.collectionWord.deleteMany();
       await prisma.collection.deleteMany({ where: { isDefault: false } });
       await prisma.word.deleteMany();
+      console.log('🗑️  Replace mode: wiped all existing data');
     }
 
     // Map exported word IDs → actual DB word IDs

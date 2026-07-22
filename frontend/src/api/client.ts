@@ -109,3 +109,8 @@ export const importBackup = (data: unknown) =>
   api.post<{ success: boolean; wordsCreated: number; collectionsCreated: number; progressRestored: number }>(
     '/backup/import', data
   ).then((r) => r.data);
+
+export const importReplaceBackup = (data: unknown) =>
+  api.post<{ success: boolean; wordsCreated: number; collectionsCreated: number; progressRestored: number }>(
+    '/backup/import?replace=true', data
+  ).then((r) => r.data);

@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSettingsStore } from '../store/useSettingsStore';
-import { exportBackup, importBackup } from '../api/client';
+import { exportBackup, importBackup, importReplaceBackup } from '../api/client';
 import type { Settings } from '../types';
 
 interface Props {
@@ -13,6 +13,7 @@ export default function SettingsOverlay({ isOpen, onClose }: Props) {
   const { settings, update } = useSettingsStore();
   const jpToDE = settings.lernrichtung === 'jp_to_de';
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const replaceFileInputRef = useRef<HTMLInputElement>(null);
   const [backupStatus, setBackupStatus] = useState<string | null>(null);
 
   const handleExport = async () => {
@@ -44,6 +45,24 @@ export default function SettingsOverlay({ isOpen, onClose }: Props) {
       setBackupStatus('Import fehlgeschlagen. Bitte prüfe die Datei.');
     }
     if (fileInputRef.current) fileInputRef.current.value = '';
+  };
+
+  const handleReplaceImport = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    if (!window.confirm('Alle vorhandenen Vokabeln, Sammlungen und Lernfortschritte werden gelöscht und durch den Import ersetzt. Fortfahren?')) return;
+    setBackupStatus('Importiere (Ersetzen)…');
+    try {
+      const text = await file.text();
+      const data = JSON.parse(text);
+      const result = await importReplaceBackup(data);
+      setBackupStatus(
+        `Ersetzen erfolgreich: ${result.collectionsCreated} Sammlungen, ${result.wordsCreated} Vokabeln importiert.`
+      );
+    } catch {
+      setBackupStatus('Import fehlgeschlagen. Bitte prüfe die Datei.');
+    }
+    if (replaceFileInputRef.current) replaceFileInputRef.current.value = '';
   };
 
   return (
@@ -193,7 +212,17 @@ export default function SettingsOverlay({ isOpen, onClose }: Props) {
                     </svg>
                     Backup importieren
                   </button>
+                  <button
+                    onClick={() => replaceFileInputRef.current?.click()}
+                    className="w-full flex items-center justify-center gap-2 border border-red-300 text-red-600 hover:bg-red-50 text-sm font-semibold py-2.5 rounded-xl transition-colors"
+                  >
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.75"/>
+                    </svg>
+                    Alles ersetzen (Vollimport)
+                  </button>
                   <input ref={fileInputRef} type="file" accept=".json" className="hidden" onChange={handleImport} />
+                  <input ref={replaceFileInputRef} type="file" accept=".json" className="hidden" onChange={handleReplaceImport} />
                   {backupStatus && (
                     <p className="text-xs text-gray-600 bg-gray-50 rounded-lg px-3 py-2 border border-gray-200">{backupStatus}</p>
                   )}
